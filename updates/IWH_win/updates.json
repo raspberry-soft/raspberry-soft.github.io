@@ -1,11 +1,11 @@
 {
   "win": {
-    "sums_url": "Indecent-Wife-Hana-0.1.4-win.sums", 
-    "version": "7ea68f9d0430399a2a7feff6baebfcf53c136e41b6b5df804f47bd0c45f64172", 
-    "zsync_url": "Indecent-Wife-Hana-0.1.4-win.zsync", 
-    "json_url": "Indecent-Wife-Hana-0.1.4-win.update.json", 
-    "pretty_version": "0.1.4", 
-    "sums_size": 65256, 
-    "digest": "8a78bfb0b7ed20bec896be884f0e78e17356e1e4978db50b60ca32c4f536a719"
+    "sums_url": "update_test-1.1-win.sums", 
+    "version": "0d29aae483d52270f673e53465be5c2a6627de10f5a92d8d83faf35239984850", 
+    "zsync_url": "update_test-1.1-win.zsync", 
+    "json_url": "update_test-1.1-win.update.json", 
+    "pretty_version": "1.1", 
+    "sums_size": 3240, 
+    "digest": "473ad66e89ae403bc0347c35d24c9f8f3343014f6fb4d9bfeb33322dda7e4967"
   }
 }
