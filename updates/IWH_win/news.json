@@ -1,0 +1,6 @@
+{
+    "version" : 1,
+    "image" : "https://www.domain.com/images/newproject.jpg,
+    "link" : "https://raspberrysoft.itch.io",
+    "text" : "Check out our {a=https://www.domain.com/newproject/}new{/a} project."
+}
