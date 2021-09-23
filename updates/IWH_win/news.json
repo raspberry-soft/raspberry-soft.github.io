@@ -1,6 +1,6 @@
 {
-    "version" : 3,
-    "image" : "https://www.domain.com/images/newproject.jpg",
+    "version" : 4,
+    "image" : "https://patreon.renpy.org/_images/news-1.png",
     "link" : "https://raspberrysoft.itch.io",
     "text" : "Check out our {a=https://raspberrysoft.itch.io}new{/a} project."
 }
