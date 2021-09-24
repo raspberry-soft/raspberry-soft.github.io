@@ -2,5 +2,17 @@
     "version" : 2,
     "image" : "https://raspberry-soft.github.io/updates/IWH/news-banner_iwh.jpg",
     "link" : "https://raspberrysoft.itch.io",
+    "link_homepage" : "https://raspberrysoft.itch.io",
+    "link_patreon" : "https://www.patreon.com/Rhang",
+    "link_twitter" : "https://twitter.com/RaspberrySoft",
+    "link_pixiv" : "https://www.pixiv.net/en/users/55310466",
+    "link_itchio" : "https://raspberrysoft.itch.io",
+    "link_update" : "https://raspberry-soft.com/updates/IWH/updates.json",
+    "link_homepage_exist" : true,
+    "link_patreon_exist" : true,
+    "link_twitter_exist" : true,
+    "link_pixiv_exist" : true,
+    "link_itchio_exist" : true,
+    "link_update_exist" : true,
     "text" : "Check out our {a=https://raspberrysoft.itch.io}new{/a} project."
 }
