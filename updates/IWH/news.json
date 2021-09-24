@@ -9,7 +9,7 @@
     "link_itchio" : "https://raspberrysoft.itch.io",
     "link_update" : "https://raspberry-soft.com/updates/IWH/updates.json",
     "link_homepage_exist" : true,
-    "link_patreon_exist" : false,
+    "link_patreon_exist" : true,
     "link_twitter_exist" : true,
     "link_pixiv_exist" : true,
     "link_itchio_exist" : true,
