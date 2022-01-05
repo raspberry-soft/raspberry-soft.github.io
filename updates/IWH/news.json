@@ -15,5 +15,5 @@
     "link_itchio_exist" : true,
     "link_update_exist" : true,
     "text" : "Check out our {a=https://raspberrysoft.itch.io}new{/a} project.",
-    "debug" : "v2 debugging",
+    "debug" : "v2 debugging"
 }
