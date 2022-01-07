@@ -1,5 +1,5 @@
 {
-    "version" : 3,
+    "version" : 2,
     "image" : "https://raspberry-soft.github.io/updates/IWH/news-banner_iwh.jpg",
     "link" : "https://raspberrysoft.itch.io",
     "link_homepage" : "https://raspberrysoft.itch.io",
@@ -7,7 +7,7 @@
     "link_twitter" : "https://twitter.com/RaspberrySoft",
     "link_pixiv" : "https://www.pixiv.net/en/users/55310466",
     "link_itchio" : "https://raspberrysoft.itch.io",
-    "link_update" : "TBI",
+    "link_update" : "TBI in news.json",
     "link_homepage_exist" : true,
     "link_patreon_exist" : true,
     "link_twitter_exist" : true,
@@ -15,5 +15,5 @@
     "link_itchio_exist" : true,
     "link_update_exist" : false,
     "text" : "Check out our {a=https://raspberrysoft.itch.io}new{/a} project.",
-    "debug" : "v3, 07/01/2022 14:30"
+    "debug" : "v2, 07/01/2022 14:38"
 }
