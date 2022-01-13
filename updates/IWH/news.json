@@ -1,5 +1,5 @@
 {
-    "version" : 3,
+    "version" : 2,
     "image" : "https://raspberry-soft.github.io/updates/IWH/news-banner_iwh.jpg",
     "link" : "https://raspberrysoft.itch.io",
     "link_homepage" : "https://raspberrysoft.itch.io",
@@ -15,5 +15,5 @@
     "link_itchio_exist" : true,
     "link_update_exist" : false,
     "text" : "Check out our {a=https://raspberrysoft.itch.io}new{/a} project.",
-    "debug" : "v3, 12/01/2022 22:26"
+    "debug" : "v2, 12/01/2022 22:48"
 }
