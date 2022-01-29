@@ -1,19 +1,19 @@
 {
-    "version" : 2,
+    "version" : 3,
     "image" : "https://raspberry-soft.github.io/updates/IWH/news-banner_iwh.jpg",
     "link" : "https://raspberrysoft.itch.io",
-    "link_homepage" : "https://raspberrysoft.itch.io",
-    "link_patreon" : "TBI in news.json",
-    "link_twitter" : "https://twitter.com/RaspberrySoft",
-    "link_pixiv" : "TBI in news.json",
-    "link_itchio" : "https://raspberrysoft.itch.io",
-    "link_update" : "TBI in news.json",
     "link_homepage_exist" : true,
-    "link_patreon_exist" : false,
+    "link_homepage" : "https://raspberrysoft.itch.io",
+    "link_patreon_exist" : true,
+    "link_patreon" : "https://www.patreon.com/FallenEros",
     "link_twitter_exist" : true,
+    "link_twitter" : "https://twitter.com/RaspberrySoft",
     "link_pixiv_exist" : false,
+    "link_pixiv" : "TBI in news.json",
     "link_itchio_exist" : true,
+    "link_itchio" : "https://raspberrysoft.itch.io",
     "link_update_exist" : false,
+    "link_update" : "TBI in news.json",
     "text" : "Check out our {a=https://raspberrysoft.itch.io}new{/a} project.",
-    "debug" : "v2, 12/01/2022 22:48"
+    "debug" : "v3, 29/01/2022 07:16"
 }
