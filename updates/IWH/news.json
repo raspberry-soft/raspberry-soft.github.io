@@ -16,5 +16,6 @@
     "link_update_exist" : false,
     "link_update" : "TBI in news.json",
     "IWH_latest_version" : "0.3.0",
+    "IWH_latest_link" : "https://www.patreon.com/posts/62094193",
     "text" : "Check out our {a=https://raspberrysoft.itch.io}new{/a} project."
 }
