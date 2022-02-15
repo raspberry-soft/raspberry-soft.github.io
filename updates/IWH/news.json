@@ -14,7 +14,7 @@
     "link_itchio" : "https://raspberrysoft.itch.io",
     "link_update_exist" : false,
     "link_update" : "TBI in news.json",
-    "game_version" : 300,
+    "IWH_current_version" : 300,
     "text" : "Check out our {a=https://raspberrysoft.itch.io}new{/a} project.",
     "debug" : "v4, 30/01/2022 01:20"
 }
