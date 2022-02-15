@@ -1,5 +1,5 @@
 {
-    "version" : 2,
+    "version" : 3,
     "debug" : "v2, 14/02/2022 23:05",
     "image" : "https://raspberry-soft.github.io/updates/IWH/news-banner_iwh.jpg",
     "link" : "https://raspberrysoft.itch.io",
@@ -15,7 +15,6 @@
     "link_itchio" : "https://raspberrysoft.itch.io",
     "link_update_exist" : false,
     "link_update" : "TBI in news.json",
-    "IWH_latest_version" : "0.3.0",
     "IWH_latest_link" : "https://www.patreon.com/posts/62094193",
     "text" : "Check out our {a=https://raspberrysoft.itch.io}new{/a} project."
 }
