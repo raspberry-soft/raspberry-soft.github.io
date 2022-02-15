@@ -1,5 +1,5 @@
 {
-    "version" : 4,
+    "version" : 2,
     "image" : "https://raspberry-soft.github.io/updates/IWH/news-banner_iwh.jpg",
     "link" : "https://raspberrysoft.itch.io",
     "link_homepage_exist" : true,
@@ -14,6 +14,7 @@
     "link_itchio" : "https://raspberrysoft.itch.io",
     "link_update_exist" : false,
     "link_update" : "TBI in news.json",
+    "game_version" : 300,
     "text" : "Check out our {a=https://raspberrysoft.itch.io}new{/a} project.",
     "debug" : "v4, 30/01/2022 01:20"
 }
