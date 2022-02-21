@@ -18,7 +18,7 @@
     "itchio_url_exist" : true,
     "itchio_url" : "https://raspberrysoft.itch.io/indecent-wife-hana",
     "update_url_exist" : false,
-    "update_url" : "TBI in news.json",
+    "update_url" : "",
     "IWH_latest_version" : "0.3.0",
     "IWH_latest_link" : "https://www.patreon.com/posts/62094193"
 }
