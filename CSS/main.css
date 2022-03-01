@@ -1,4 +1,4 @@
-@charset "shift_jis";
+/* @charset "shift_jis"; */
 
 /* css document */
 
@@ -8,9 +8,9 @@ body {
 	margin: auto;
 	text-align: center;
 	scrollbar-base-color: #ffdddd;
-	scrollbar-arrow-color: #ff80c0;
-	scrollbar-darkshadow-color: #ff80c0;
-	scrollbar-shadow-color: #ff80c0;
+	scrollbar-arrow-color: #e30b5d;
+	scrollbar-darkshadow-color: #e30b5d;
+	scrollbar-shadow-color: #e30b5d;
 background-image : url(../image/base/check.gif);
 background-repeat : repeat;
 }
@@ -36,13 +36,13 @@ p,td {
 
 span {
 	font-weight: bolder;
-	color: #ff80c0;
+	color: #e30b5d;
 }
 
 h1 {
 	font-size: 13px;
 	font-weight: bolder;
-	color: #ff80c0;
+	color: #e30b5d;
 	vertical-align: middle;
 	margin: 50px 15px 0px 0px;
 	float: right;
@@ -105,12 +105,12 @@ background-color : #ffffff;
 /*link*/
 
 a {
-	color: #ff80c0;
+	color: #e30b5d;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #ff80c0;
+	color: #e30b5d;
 	text-decoration: none;
 }
 
@@ -120,7 +120,7 @@ div#maincontents  a {
 }
 
 div#maincontents  a:hover {
-	color: #ff80c0;
+	color: #e30b5d;
 	text-decoration: none;
 }
 
@@ -168,6 +168,8 @@ color : #666666;
 div#main {
 	width: 800px;
 	margin: 0px auto 0px auto;
+	background-color: #ffb9dc;
+
 }
 
 /*headerarea*/
@@ -195,6 +197,8 @@ div#contents {
 	background-image: url(../image/base/baseback.gif);
 	background-repeat: repeat-y;
 	float: left;
+	background-color: #000000;
+
 }
 
 
@@ -204,6 +208,7 @@ div#contents {
 div#subcontents {
 	float: left;
 	width: 250px;
+	background-color: #e30b5d;
 }
 
 div#menu {
@@ -314,7 +319,7 @@ div#footer {
 
 .index {
 	font-weight: bold;
-	color: #ff80c0;
+	color: #e30b5d;
 	background-color: #ffeeee;
 	text-align: center;
 	width: 500px;
