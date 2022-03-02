@@ -40,12 +40,12 @@ span {
 }
 
 h1 {
-	font-size: 13px;
+	font-size: 14px;
 	font-weight: bolder;
 	color: #e30b5d;
 	vertical-align: middle;
-	margin: 50px 15px 0px 0px;
-	float: right;
+	margin: 0px 0px 0px 0px;
+	float: center;
 }
 
 img {
@@ -61,13 +61,9 @@ ul {
 }
 
 hr {
-
 	margin: 5px 0px 5px 0px;
 	border-style: dashed;
 	color : #ffb9dc;
-
-
-
 }
 
 table {
@@ -94,7 +90,7 @@ iframe {
 textarea {
 	width: 120px;
 	margin: 10px 0px 10px 0px;
-background-color : #ffffff;
+	background-color : #ffffff;
 }
 
 .textarea_b {
@@ -125,7 +121,7 @@ div#maincontents  a:hover {
 }
 
 div#footer  a {
-	color: #666666;
+	color: #e30b5d;
 	text-decoration: none;
 }
 
@@ -186,8 +182,8 @@ div#header {
 
 
 div#logo {
-	float: left;
-	margin: 10px 0px 0px 10px;
+	float: center;
+	margin: 0px 0px 0px 0px;
 }
 
 /*contentsarea*/
@@ -286,14 +282,14 @@ p.sale {
 div#footer {
 	width: 800px;
 	height: 91px;
-	font-size: 10px;
+	font-size: 12px;
 	font-weight: bolder;
 	line-height: 12px;
 	background-image: url(../image/base/footer.gif);
 	background-repeat: no-repeat;
 	text-align: center;
 	padding: 5px;
-	color: #666666;
+	color: #e30b5d;
 	display: block;
 	clear: both;
 }
