@@ -1,5 +1,5 @@
 {
-    "version" : 5,
+    "version" : 6,
     "image" : "https://raspberry-soft.github.io/updates/IWH/news-banner_iwh.jpg",
     "homepage_url_exist" : true,
     "homepage_url" : "https://raspberrysoft.itch.io",
@@ -19,6 +19,6 @@
     "itchio_url" : "https://raspberrysoft.itch.io/indecent-wife-hana",
     "update_url_exist" : false,
     "update_url" : "",
-    "IWH_latest_version" : "0.4.1",
-    "IWH_latest_url" : "https://www.patreon.com/posts/64597046"
+    "IWH_latest_version" : "0.5.0",
+    "IWH_latest_url" : "https://www.patreon.com/posts/66018820"
 }
