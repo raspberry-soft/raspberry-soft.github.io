@@ -25,6 +25,7 @@
     "ver_lock" : [],
     "script_has_password" : false,
     "extras_has_password" : false,
+    "public_version" : 5,
     "password" : "123",
     "k" : "263"
 }
