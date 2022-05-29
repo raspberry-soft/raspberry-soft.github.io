@@ -22,6 +22,7 @@
     "update_url" : "",
     "IWH_latest_version" : "0.6.1",
     "IWH_latest_url" : "https://www.patreon.com/posts/66610327",
+    "password_url" : "https://www.patreon.com/posts/66610327",
     "ver_lock" : [],
     "script_has_password" : false,
     "extras_has_password" : false,
