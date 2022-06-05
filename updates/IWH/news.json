@@ -1,5 +1,5 @@
 {
-    "version" : 13,
+    "version" : 14,
     "m" : 3,
     "image" : "https://raspberry-soft.github.io/updates/IWH/news-banner_iwh.jpg",
     "homepage_url_exist" : true,
@@ -26,7 +26,7 @@
     "downgraded_versions" : [],
     "locked_versions" : ["0.7.0"],
     "extras_has_password" : false,
-    "public_version" : 6,
+    "public_version" : 5,
     "password" : "123",
     "k" : "263"
 }
