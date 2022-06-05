@@ -1,5 +1,5 @@
 {
-    "version" : 11,
+    "version" : 12,
     "m" : 3,
     "image" : "https://raspberry-soft.github.io/updates/IWH/news-banner_iwh.jpg",
     "homepage_url_exist" : true,
@@ -24,7 +24,7 @@
     "IWH_latest_url" : "https://www.patreon.com/posts/67353613",
     "password_url" : "https://www.patreon.com/posts/67353613",
     "downgraded_versions" : [],
-    "locked_versions" : [],
+    "locked_versions" : ["0.7.0"],
     "extras_has_password" : false,
     "public_version" : 5,
     "password" : "123",
