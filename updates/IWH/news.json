@@ -24,7 +24,7 @@
     "IWH_latest_url" : "https://www.patreon.com/posts/67353613",
     "password_url" : "https://www.patreon.com/posts/67353613",
     "downgraded_versions" : [],
-    "locked_versions" : ["0.7.0", "0.7.1", "0.8.0"],
+    "locked_versions" : ["0.7.0", "0.7.1", "0.7.2", "0.8.0"],
     "extras_has_password" : true,
     "public_version" : 6,
     "k" : "152"
