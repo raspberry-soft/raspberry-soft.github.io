@@ -27,7 +27,6 @@
     "locked_versions" : ["0.7.0", "0.7.1"],
     "extras_has_password" : true,
     "public_version" : 6,
-    "password" : "456",
     "k" : "152",
-    "version_password" : { 7 : "456", 8 : "1896" }
+    "version_key" : { 7 : "152", 8 : "632" }
 }
