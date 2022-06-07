@@ -28,5 +28,6 @@
     "extras_has_password" : true,
     "public_version" : 6,
     "password" : "456",
-    "k" : "152"
+    "k" : "152",
+    "version_password" : { 7 : "456", 8 : "1896" }
 }
