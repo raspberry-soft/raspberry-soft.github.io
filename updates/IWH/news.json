@@ -1,6 +1,7 @@
 {
     "version" : 19,
     "m" : 3,
+    "password_url" : "https://www.patreon.com/posts/67353613",    
     "image" : "https://raspberry-soft.github.io/updates/IWH/news-banner_iwh.jpg",
     "homepage_url_exist" : true,
     "homepage_url" : "https://raspberrysoft.itch.io",
@@ -22,7 +23,6 @@
     "update_url" : "",
     "IWH_latest_version" : "0.7.1",
     "IWH_latest_url" : "https://www.patreon.com/posts/67353613",
-    "password_url" : "https://www.patreon.com/posts/67353613",
     "password_url_dict" : {
         "7" : "https://www.patreon.com/posts/67353613",
         "8" : "https://www.patreon.com/posts/67404487"
