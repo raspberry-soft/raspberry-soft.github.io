@@ -1,2 +1,7 @@
-init python:
-    print("success!")
+label test:
+    scene bg sky day
+    with fade
+
+    "Test Successful!"
+
+    return
