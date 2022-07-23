@@ -1,5 +1,5 @@
 {
-    "version" : 35,
+    "version" : 36,
     "m" : 3,
     "password_url" : "https://www.patreon.com/posts/67353613",
     "image" : "https://raspberry-soft.github.io/updates/IWH/news-banner_iwh.jpg",
@@ -30,7 +30,8 @@
     },
     "IWH_latest_url" : "https://www.patreon.com/posts/69276078",
     "IWH_latest_version" : "0.10.1",
-    "locked_versions" : ["0.7.0", "0.7.1", "0.7.5", "0.7.5-patreon", "0.7.6", "0.7.6-patreon", "0.8.0", "0.8.0-patreon", "0.8.1", "0.8.1-patreon", "0.9.0", "0.9.0-patreon", "0.9.1", "0.9.1-patreon"],
+    "locked_IDs" : [1],
+    "locked_versions" : ["0.8.0", "0.8.0-patreon", "0.8.1", "0.8.1-patreon", "0.9.0", "0.9.0-patreon", "0.9.1", "0.9.1-patreon"],
     "extras_has_password" : true,
     "public_version" : 7,
     "downgraded_versions" : [],
