@@ -1539,7 +1539,7 @@ label snr_069_chat_on_the_beach:
 
     "There they are!"
 
-    scene bg shore day
+    scene bg beach shore day
     show hana bikini
     with fade
 
@@ -1670,7 +1670,7 @@ label snr_070_menu_check_hana_phone:
 
     play music beauty_flow if_changed
 
-    show bg shore day
+    show bg beach shore day
 
     menu:
 
@@ -1695,7 +1695,7 @@ label snr_071_dont_check_hana_phone:
 
     play music porch_swing_days
 
-    show bg shore day
+    show bg beach shore day
 
     mcn nervous "Of course this is none of my business."
 
@@ -1901,7 +1901,7 @@ label snr_074_beach_topless_chat_A:
 
     play music impact_prelude if_changed
 
-    scene bg shore day
+    scene bg beach shore day
     show katsuo shorts angry
     with fade
 
@@ -1945,7 +1945,7 @@ label snr_072_check_hana_phone:
 
     play music beauty_flow if_changed
 
-    show bg shore day
+    show bg beach shore day
 
     mc nervous "A little peek won't hurt."
 
@@ -2149,7 +2149,7 @@ label snr_075_beach_topless_chat_B:
 
     play music impact_prelude
 
-    scene bg shore day
+    scene bg beach shore day
     with fade
 
     mcn worried "Upon hearing Hana's voice I quickly hid her phone."
@@ -2393,7 +2393,7 @@ label snr_076_yuma_swimsuit_trouble:
 
     play music porch_swing_days
 
-    scene bg shore day
+    scene bg beach shore day
     with longfade
 
     #TODO play sound sfx_sea
@@ -2526,7 +2526,7 @@ label snr_076_yuma_swimsuit_trouble:
 
     "What could be happening...?"
 
-    scene bg shore day
+    scene bg beach shore day
     with fade
 
     mcn worried "Should I take a look...? Maybe they are in trouble..."
@@ -2539,7 +2539,10 @@ label snr_076_yuma_swimsuit_trouble:
 
     "I don't see them. I'm sure they'll be in a place no one can see."
 
-    "Maybe behind these rocks..."
+    scene bg beach rocks day
+    with fade
+
+    mcn worried "Maybe behind these rocks at the distance..."
 
     h "Yuma-chan... Be careful... Ahn!"
 
@@ -2568,26 +2571,186 @@ label snr_077_beach_sex:
 
     play music beauty_flow
 
-    scene cg beach sex closeup
+    scene cg beach sex rub closeup
     with longfade
-
-    h "Sorry, Yuma-chan... Did I hurt you?"
-
-    y "No... I'm fine Oba-chan... But, my... And your..."
-
-    h "Oh, I see... It's dangerous..."
-
-    h "Your cute thing is pressing on my special place..." #TODO yuma big
-
-    y "Ahn! Nghn... Oba-chan..."
 
     mcn shocked "Yuma-kun's penis is rubbing on Hana's bare pussy!"
 
     mcn "What's happening...!?"
 
-    $ renpy.end_replay()
-
     ############################################################################
     ## v0.10 END
     $ end_demo(10)
     ############################################################################
+
+    show cg beach sex rub worried
+    with longdissolve
+
+    h "Sorry, Yuma-chan... Did I hurt you?"
+
+    y "No... I'm fine Oba-chan... But, my... And your..."
+
+    show cg beach sex rub ashamed
+    with cg_transition
+
+    h "Oh, I see... It's dangerous..."
+
+    show cg beach sex rub beaming
+    with cg_transition
+
+    h "Your cute thing is pressing on my special place..." #TODO yuma big
+
+    y "Ahn! Nghn... Oba-chan..."
+
+    show cg beach sex rub pleasure
+    with cg_transition
+
+    h "Anh! {heart} Don't move, sweetie."
+
+    "Yuma-kun's penis is rubbing tighter to Hana's pussy as he squirms."
+
+    y "Sorry, Oba-chan! I can't see what I'm doing."
+
+    show cg beach sex rub enjoying
+    with cg_transition
+
+    h "Ngn! It's Okay, Yuma-chan. It's not like I dislike it..."
+
+    "I noticed Hana's hips started to move while she makes a delighted expression."
+
+    y "Ah! Oba-chan! If you move like that, it might..."
+
+    show cg beach sex rub ashamed
+    with cg_transition
+
+    h "Oh, you are right, sweetie..."
+
+    h "If I'm not careful, your raw penis is going to enter me."
+
+    show cg beach sex rub apologetic
+    with cg_transition
+
+    h "We don't want that, right?"
+
+    mcn "She noticed me!"
+
+    mcn worried "Is she asking me that question!?"
+
+    mcn "There's a chance of Yuma-kun's dick penetrating Hana without a condom!"
+
+    mcn "That's something I haven't considered."
+
+    mcn "It's the ultimate intimacy. The final barrier..."
+
+    mcn "The only thing that stood within completely sharing my wife with another
+    guy was the condom."
+
+    mcn "But now, there isn't one in sight."
+
+    mcn "She must've know this could happen since the beggining!"
+
+    mcn "Is it really up to me!?"
+
+    mcn "If I oppose it, the only way to stop it is to interrupt them."
+
+    y "Is better if I move."
+
+    show cg beach sex rub worried
+    with cg_transition
+
+    h "Yuma-chan, now it's not the time."
+
+    y "I don't want something bad to happen."
+
+    show cg beach sex rub pleasure
+    with cg_transition
+
+    h "Ahn! Wait! Ahn!"
+
+    mcn shocked "What's going on!?"
+
+    mcn "Yuma-kun's penis is pressing too hard against Hana's vaginal entrance."
+
+    mcn "It could enter at any moment!"
+
+    mcn "I need to do something!"
+
+    mcn worried "Or maybe I should stand still... Let everything play out..."
+
+    mcn "No! We haven't talked about it. I already made this mistake before."
+
+    mcn "I have to be careful about these things."
+
+    show cg beach sex rub apologetic
+    with cg_transition
+
+    h "Hmmm... Sweetie, if you keep moving like that, it might..."
+
+    show cg beach sex rub delight
+    with cg_transition
+
+    h "Ahn! Ngn... Hmmmm... Ahhh..."
+
+    mcn shocked "She is not helping by grinding against him like that!"
+
+    mcn "I can't let this happen. But I don't want to interrupt them either."
+
+    mcn worried "I actually want to watch my wife having sex on the beach with Yuma-kun!"
+
+    mcn "If I came out behind the rocks, the mood is over."
+
+    mcn "I know! I'll go back and grab the condom I always carry on my wallet."
+
+    mcn "I can just throw it to her, Yuma-kun wouldn't notice."
+
+    scene bg beach shore day
+    with fade
+
+    "I ran back to our spot and quickly return to the rocks..."
+
+    scene bg beach rocks day
+    with fade
+
+    "While doing so, I questionned myself if this was a good idea..."
+
+    "She wouldn't start without me, right?"
+
+    play music impact_prelude
+
+    play sound sfx_sex_medium
+
+    h "Ahn! Ahn! Yuma-chan! Just like that!"
+
+    "Huh!? It can't be!"
+
+    "I quickly position myself behind the rocks, and..."
+
+    ############################################################################
+    ## v0.11 END
+    $ end_demo(11)
+    ############################################################################
+
+    scene cg beach sex covering alone slight enjoying
+    with longfade
+
+    play music past_sadness
+
+    mcn shocked "!!!"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ##--------------------------------------------------------------------------
+    $ renpy.end_replay()
+    ##--------------------------------------------------------------------------
