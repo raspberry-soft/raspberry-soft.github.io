@@ -831,9 +831,8 @@ label snr_067_beach_trip_planning:
 
     "I'm counting the days to be back and have fun with Hana and Yuma-kun."
 
-    "And I'm not talking about sex. We need a nice family trip."  #TODO steam
-
-    "So we can relax and take a break."
+    "And I'm not talking about sex.
+    We need a nice trip, so we can relax and take a break."
 
     "I'll think about it during the week."
 
@@ -1615,7 +1614,9 @@ label snr_069_chat_on_the_beach:
 
     mcn surprised "Just before Hana finished talking, Yuma-kun went running to the sea."
 
-    mcn nervous "He still is a kid on the inside."  #TODO steam
+    if not STEAM_VER:
+
+        mcn nervous "He still is a kid on the inside."  #TODO steam - censor?
 
     h surprised "Huh? Yuma-chan! Be careful!"
 
@@ -2763,13 +2764,13 @@ label snr_077_beach_sex:
     mcn worried "Hearing my wife utter such things,
     with the addition of the spectacle I'm watching made me hard as a rock."
 
-    mcn "I couldn't help taking off my penis and jerk off."
+    mcn "I couldn't help pulling out my penis and jerking off."
 
     mcn "A feeling of excitement and anxiety flooded my body."
 
     mcn "Is she really having unprotected sex with Yuma-kun!?"
 
-    mcn "While I'm mindlessly masturbating, the only think I could think of
+    mcn "While I'm mindlessly masturbating, the only thing I could think of
     is Hana taking another guy penis raw."
 
     mcn "Yuma-kun feeling every inch of my wife's vagina..."
@@ -2784,7 +2785,7 @@ label snr_077_beach_sex:
 
     mcn "She is doing such lewd things in public."
 
-    mcn "Since when my wife became this bold?"
+    mcn "Since when did my wife become this bold?"
 
     mcn @ nervous "Wait, I'm letting my mind go off... Of course she is not taking him raw."
 
@@ -2813,7 +2814,7 @@ label snr_077_beach_sex:
 
     mcn "Just that thought almost made me cum."
 
-    mcn "I'm way in too deep!"
+    mcn "I'm in way too deep!"
 
     show cg beach sex covering alone enjoying
     with cg_transition
@@ -2928,7 +2929,7 @@ label snr_077_beach_sex:
     show cg beach sex covering alone apologetic
     with cg_transition
 
-    h "Hmmm... It seems your penis still haven't calmed down."
+    h "Hmmm... It seems your penis still hasn't calmed down."
 
     y "I-I'm sorry..."
 
@@ -2938,7 +2939,7 @@ label snr_077_beach_sex:
 
     mcn @ nervous "She knows I'm watching... That's a relief... It means it's only a show..."
 
-    mcn "Then, why she still has her hand covering her pussy?"
+    mcn "Then, why does she still have her hand covering her pussy?"
 
     show cg beach sex covering alone beaming
     with cg_transition
@@ -2965,7 +2966,7 @@ label snr_077_beach_sex:
 
     mcn "I wonder what Hana thinks of it..."
 
-    mcn "Granted, we are far apart from the people, so it shouldn't be a problem..."
+    mcn "Granted, we are far away from the people, so it shouldn't be a problem..."
 
     show cg beach sex covering alone enjoying
     with cg_transition
@@ -3022,7 +3023,7 @@ label snr_077_beach_sex:
     with ejaculation_flash
     play sound sfx_sex_ejaculation
 
-    mcn worried "I couldn't help myself to cum with that."
+    mcn worried "I couldn't help myself from cumming to that."
 
     show cg beach sex covering alone beaming
     with cg_transition
@@ -3064,7 +3065,7 @@ label snr_077_beach_sex:
     mcn "To my utter surprise, an old man showed up while Hana was in
     the middle of having sex with Yuma-kun."
 
-    mcn "How is this possible!? We were so far apart from the crowd.
+    mcn "How is this possible!? We were so far away from the crowd.
     There's no way he could've found us."
 
     mcn "Was he following us!?"
@@ -3106,7 +3107,7 @@ label snr_077_beach_sex:
 
     h "Ahn! Hmmmm.... Nghnnn!"
 
-    mcn "Even though I already came, my penis got hard in response of such event."
+    mcn "Even though I already came, my penis got hard in response to such an event."
 
     y "Haaa... Oba-chan..."
 
@@ -3252,7 +3253,7 @@ label snr_079_confront_the_old_man_A:
     h shy "I know, dear..."
 
     h @ beaming "But I wonder...
-    How would it feel performing such an act in front of an stranger..."
+    How would it feel performing such an act in front of a stranger..."
 
     mc nervous "I wonder that too..."
 
@@ -3267,17 +3268,17 @@ label snr_079_confront_the_old_man_A:
     show yuma swimsuit worried at left
     with dissolve
 
-    y "Everything is Okay?"
+    y "Is everything Okay?"
 
     mc smiling "Yes, Yuma-kun, the creep went away..."
 
-    y "I'm sorry, this is my fault... I didn't even saw him coming..."
+    y "I'm sorry, this is my fault... I didn't even see him coming..."
 
     mc nervous "Don't worry, if we start pointing fingers we won't go anywhere."
 
     y "I guess so..."
 
-    mc beaming "What's more important, we are all Okay and we still have the whole day."
+    mc beaming "What's more important is that we're all okay and we still have the whole day."
 
     h beaming "Yes, let enjoy it."
 
@@ -3335,8 +3336,8 @@ label snr_080_let_the_old_man_watch:
 
     mcn "If he gets frisky, I can easily step in. It's a fragile old guy, even I can take him."
 
-    mcn "But, more important than the threat the man imposes,
-    I cannot allow Hana feel uncomfortable."
+    mcn "But, more important than the threat the man poses,
+    I cannot allow Hana to feel uncomfortable."
 
     mcn "Despite me wanting to see where this is going, I mustn't think with my dick."
 
@@ -3354,9 +3355,9 @@ label snr_080_let_the_old_man_watch:
 
     mcn shocked "Huh!? What does this means!?"
 
-    mcn "Is she telling me she is Okay with this?"
+    mcn "Is she telling me she's okay with this?"
 
-    mcn "Is she really fine about being watched by an stranger while she is having sex?"
+    mcn "Is she really fine about being watched by a stranger while she is having sex?"
 
     mcn "This is way too bold!"
 
@@ -3399,7 +3400,7 @@ label snr_080_let_the_old_man_watch:
 
     "A feeling of regret is invading me... What have I allowed...?"
 
-    "I let my wife's gorgeous naked body being seen by a creep..."
+    "I let my wife's gorgeous naked body be seen by a creep..."
 
     "That guy will forever have the image of Hana in his head..."
 
@@ -3407,14 +3408,14 @@ label snr_080_let_the_old_man_watch:
 
     "Hana's curves, beautiful pale skin, ample bottom and huge breasts..."
 
-    "All seen by an stranger..."
+    "All seen by a stranger..."
 
     "I couldn't help but masturbate with all my might!"
 
     "It had come to this... I'm jerking off behind some rocks while my loving
     wife is having sex with another guy in front of a stranger!"
 
-    "It's out of this world! But, I can't help to feel guilty."
+    "It's out of this world! But, I can't help feeling guilty."
 
     "I just opened a dangerous door..."
 
@@ -3425,7 +3426,7 @@ label snr_080_let_the_old_man_watch:
 
     "She is getting used to being seen..."
 
-    "What could possibly be she thinking?"
+    "What could she possibly be thinking?"
 
     "I wish I could read her mind..."
 
@@ -3465,7 +3466,7 @@ label snr_080_let_the_old_man_watch:
 
     mcn "I realize, the one who gets to see less, is me..."
 
-    mcn "And I can't help to get aroused by it."
+    mcn "And I can't help but getting aroused by it."
 
     show cg beach sex covering stared intense pleasure
     with cg_transition
@@ -3474,7 +3475,7 @@ label snr_080_let_the_old_man_watch:
 
     h "Ahn! Hmmmmm... Yes! Keep going! Ahn!"
 
-    mcn shocked "She has completely let her go!"
+    mcn shocked "She has completely let herself go!"
 
     h "Ngn! I'm close! Hmmmm..."
 
@@ -3559,7 +3560,7 @@ label snr_080_let_the_old_man_watch:
     show ontop beach sex oldman jerk
     with dissolve
 
-    mcn "Did he really took his penis out!?"
+    mcn "Did he really take his penis out!?"
 
     mcn "The old man started to masturbate while watching my wife have sex with Yuma-kun!"
 
@@ -3625,7 +3626,7 @@ label snr_080_let_the_old_man_watch:
 
     mcn "She means those words to Yuma-kun, right?"
 
-    h "Can you describe me what are you looking?"
+    h "Can you describe me what you are looking at?"
 
     y "Ah... I can see your..."
 
@@ -3713,7 +3714,7 @@ label snr_080_let_the_old_man_watch:
 
     h "Ahnnnn!!! Hmmmmm... Nghnnnn...."
 
-    mcn "Hana is climaxing shamely in front of a stranger!"
+    mcn "Hana is climaxing shamelessly in front of a stranger!"
 
     with ejaculation_flash
 
@@ -3859,7 +3860,7 @@ label snr_081_confront_the_old_man_B:
 
     y "Are you Okay, Oba-chan?"
 
-    y "That guy was bothering you?"
+    y "Was that guy bothering you?"
 
     play music porch_swing_days
 
@@ -3971,7 +3972,7 @@ label beach_incident_discussion:
 
         mc "Of course not... I gave you a sign that I was Okay with that."
 
-        h "I know, but I still carry on with that..."
+        h "I know, but I still carried on with that..."
 
         h "I don't want you to think less of me..."
 
@@ -4001,7 +4002,7 @@ label beach_incident_discussion:
 
         h smiling "At the beginning, yes... However..."
 
-        h ashamed "The mishappenings of that day made my heart race in a way it haven't before..."
+        h ashamed "The mishaps of today made my heart race in a way it hasn't before..."
 
         mc nervous "It's thrilling, right...?"
 
@@ -4059,7 +4060,7 @@ label beach_incident_discussion:
 
         h shy "Oh, dear..."
 
-        mc beaming "I think that is best for us if we continue this journey
+        mc beaming "I think that it's best for us if we continue this journey
         taking care of our relationship."
 
         h lusting "Dear... I'm glad you think that..."
@@ -4099,7 +4100,7 @@ label beach_incident_discussion:
 
     mcn "She wouldn't do it, of course..."
 
-    mcn "But, they didn't had a condom on hand..."
+    mcn "But, they didn't have a condom on hand..."
 
     show hana towel
     with dissolve
@@ -4145,7 +4146,7 @@ label beach_incident_discussion:
     h "Hmmmm..."
 
     h ashamed "I can't believe we are discussing about letting another person
-    ejaculte inside me..."
+    ejaculate inside me..."
 
     play sound sfx_heartbeat
 
@@ -4194,7 +4195,7 @@ label snr_084_back_to_work:
 
     "Sadly, all good things must come to an end..."
 
-    "I have to return to Osaka... And there's ton of work waiting for me..."
+    "I have to return to Osaka... And there's a ton of work waiting for me..."
 
     "I said goodbye to Hana and Yuma-kun and took the train."
 
@@ -4320,7 +4321,7 @@ label snr_084_back_to_work:
 
     play sound sfx_sms
 
-    mcn surprised "After that, a photo is sent..."
+    mcn surprised "After that, a photo was sent..."
 
     play sound sfx_heartbeat
 
@@ -4368,7 +4369,7 @@ label snr_085_ass_spread:
     mcn "The thought of my wife preparing dinner wearing a naked apron in the
     same room as someone else was too much!"
 
-    mcn "I couldn't help my self and went to the bathroom."
+    mcn "I couldn't help myself and went to the bathroom."
 
     mcn "After I locked the door, I took my penis out and started jerking off..."
 
@@ -4376,17 +4377,17 @@ label snr_085_ass_spread:
 
     mcn "I'ts making it more thrilling!"
 
-    mcn @ nervous "Who would've thought I will be having that much fun at work?"
+    mcn @ nervous "Who would've thought I would be having that much fun at work?"
 
-    mcn "Is this a glimpse of Hana and Yuma intimacy while I'm away?"
+    mcn "Is this a glimpse of Hana and Yuma's intimacy while I'm away?"
 
     mcn "No... This is her plan... She is trying to make me jealous..."
 
     mcn @ nervous "She knows exactly what I like..."
 
-    mcn "Man, is such a great angle... I can see it all..."
+    mcn "Man, it's such a great angle... I can see it all..."
 
-    mcn "She really have such an incredible ass..."
+    mcn "She really has such an incredible ass..."
 
     mcn "And her pussy is beautiful..."
 
@@ -4394,7 +4395,7 @@ label snr_085_ass_spread:
 
     mcn "Not fair..."
 
-    mcn "I wonder... How does Hana looks with the naked apron outfit..."
+    mcn "I wonder... How does Hana look with the naked apron outfit..."
 
     mcn "I have never seen her using it... Only Yuma-kun had the privilege."
 
@@ -4434,7 +4435,7 @@ label snr_085_ass_spread:
 
     mcn "Don't tell me..."
 
-    mcn "With my hard dick still on my hand, I opened the image with the other..."
+    mcn "With my hard dick still in my hand, I opened the image with the other..."
 
     mcn "And then..."
 
