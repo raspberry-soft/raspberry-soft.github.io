@@ -3,7 +3,7 @@
 ## ▼ Talking to Hana Naked ▼
 ##------------------------------------------------------------------------------
 
-label snr_062_talking_to_hana_naked:
+label snr_064_talking_to_hana_naked:
 
     play music brightly_fancy
 
@@ -150,7 +150,7 @@ label snr_062_talking_to_hana_naked:
     "I can't wait to arrive at the hotel and masturbate."
 
     ##--------------------------------------------------------------------------
-    jump snr_063_love_hotel_videocall
+    jump snr_065_love_hotel_videocall
     ##--------------------------------------------------------------------------
 
 
@@ -160,7 +160,7 @@ label snr_062_talking_to_hana_naked:
 ## ▼ EVENT (Love Hotel Videocall) ▼
 ##------------------------------------------------------------------------------
 
-label snr_063_love_hotel_videocall:
+label snr_065_love_hotel_videocall:
 
     play music past_sadness if_changed
 
@@ -588,7 +588,7 @@ label snr_063_love_hotel_videocall:
     ##--------------------------------------------------------------------------
 
     ##--------------------------------------------------------------------------
-    jump snr_064_second_lending_aftermath
+    jump snr_066_second_lending_aftermath
     ##--------------------------------------------------------------------------
 
 
@@ -598,7 +598,7 @@ label snr_063_love_hotel_videocall:
 ## ▼ Second Lending Aftermath ▼
 ##------------------------------------------------------------------------------
 
-label snr_064_second_lending_aftermath:
+label snr_066_second_lending_aftermath:
 
     play music porch_swing_days
 
@@ -808,7 +808,7 @@ label snr_064_second_lending_aftermath:
     "."
 
     ##--------------------------------------------------------------------------
-    jump snr_065_beach_trip_planning
+    jump snr_067_beach_trip_planning
     ##--------------------------------------------------------------------------
 
 
@@ -818,7 +818,7 @@ label snr_064_second_lending_aftermath:
 ## ▼ Beach Trip Planning ▼
 ##------------------------------------------------------------------------------
 
-label snr_065_beach_trip_planning:
+label snr_067_beach_trip_planning:
 
     play music on_my_way
 
@@ -1060,7 +1060,7 @@ label snr_065_beach_trip_planning:
     h "One... Two..."
 
     ##--------------------------------------------------------------------------
-    jump snr_066_stared_at_the_beach
+    jump snr_068_stared_at_the_beach
     ##--------------------------------------------------------------------------
 
 
@@ -1070,7 +1070,7 @@ label snr_065_beach_trip_planning:
 ## ▼ EVENT (Stared at the Beach) ▼
 ##------------------------------------------------------------------------------
 
-label snr_066_stared_at_the_beach:
+label snr_068_stared_at_the_beach:
 
     play music beauty_flow
 
@@ -1512,7 +1512,7 @@ label snr_066_stared_at_the_beach:
     ##--------------------------------------------------------------------------
 
     ##--------------------------------------------------------------------------
-    jump snr_067_chat_on_the_beach
+    jump snr_069_chat_on_the_beach
     ##--------------------------------------------------------------------------
 
 
@@ -1522,7 +1522,7 @@ label snr_066_stared_at_the_beach:
 ## ▼ Chat on the Beach ▼
 ##------------------------------------------------------------------------------
 
-label snr_067_chat_on_the_beach:
+label snr_069_chat_on_the_beach:
 
     scene bg beach day
     with longfade
@@ -1656,7 +1656,7 @@ label snr_067_chat_on_the_beach:
     Even if there's more, it's none of my business... Right?"
 
     ##--------------------------------------------------------------------------
-    jump snr_068_menu_check_hana_phone
+    jump snr_070_menu_check_hana_phone
     ##--------------------------------------------------------------------------
 
 
@@ -1666,7 +1666,7 @@ label snr_067_chat_on_the_beach:
 ## ▼ MENU (Check Hana's Phone?) ▼
 ##------------------------------------------------------------------------------
 
-label snr_068_menu_check_hana_phone:
+label snr_070_menu_check_hana_phone:
 
     play music beauty_flow if_changed
 
@@ -1676,11 +1676,261 @@ label snr_068_menu_check_hana_phone:
 
         "Don't Check Hana's Phone":
 
-            jump snr_070_dont_check_hana_phone
+            jump snr_071_dont_check_hana_phone
 
         "Check Hana's Phone":
 
-            jump snr_069_check_hana_phone
+            jump snr_072_check_hana_phone
+
+
+
+## "Indecent Wife Hana" Ren'py scenario
+##
+## ▼ Don't Check Hana Phone ▼
+##------------------------------------------------------------------------------
+
+label snr_071_dont_check_hana_phone:
+
+    $ phone_check = False
+
+    play music porch_swing_days
+
+    show bg shore day
+
+    mcn nervous "Of course this is none of my business."
+
+    mcn smiling "It was fun playing with that thought, though."
+
+    mcn nervous "It almost gave me a boner."
+
+    #TODO expand snr_071_dont_check_hana_phone?
+
+    mcn smiling "But it's better not to dwell on jealously so much, that even basic trust
+    is broken."
+
+    mcn beaming "I want to enjoy this play as a couple."
+
+    mcn nervous "Not to mention... I could ruin any surprise Hana has prepared for me."
+
+    mcn worried "Speaking of Hana... I should hurry!"
+
+    ############################################################################
+
+    #TODO scene bg beach sea day
+    # with fade
+
+    mcn "Where are they...? I turn my eyes away for an instant and they are gone."
+
+    mcn smiling "Oh, there they are! On the seashore."
+
+    mcn worried "It looks like they are struggling for some reason."
+
+    h "Yuma-chan, don't run or you'll get hurt."
+
+    y "I'll be Okay, Oba-chan. I just want to feel the sea on my feet."
+
+    mcn nervous "Hana looks like a worrisome mother. I kinda like it."
+
+    mcn surprised "Suddenly, but not surprisingly, Yuma-kun tripped..."
+
+    ##--------------------------------------------------------------------------
+    jump snr_073_hana_beach_accident
+    ##--------------------------------------------------------------------------
+
+
+## "Indecent Wife Hana" Ren'py scenario
+##
+## ▼ EVENT (Hana's Beach Accident) ▼
+##------------------------------------------------------------------------------
+
+label snr_073_hana_beach_accident:
+
+    $ phone_check = False
+
+    play music brightly_fancy
+
+    scene cg beach accident top
+    with longfade
+
+    y "Ah! Oba-chan!"
+
+    h "Yuma-chan! Be careful with my..."
+
+    mcn shocked "As Yuma-kun fell down he tried to grab onto something..."
+
+    mcn "Unluckily, he grabbed onto Hana's bikini top, which came off."
+
+    mcn "The top landed in the sea."
+
+    h "Ahn!"
+
+    mcn "Hana's bare breasts bounced as the top came off."
+
+    mcn "Her big and beautiful breasts shined with the sunlight."
+
+    mcn "Her pink nipples were completely visible."
+
+    mcn "My wife is exposed in public!"
+
+    mcn "I just masturbated to the fantasy of her exhibiting herself to a bunch of guys."
+
+    mcn "I wasn't prepared for the real thing!"
+
+    mcn "There's a huge difference!"
+
+    mcn "Luckily, we are in a remote part of the beach, so there's no one close."
+
+    mcn "However, I see people in the distance, and some of them are starting to notice."
+
+    mcn "This is bad!"
+
+    h "Yuma-chan! Are you Okay?"
+
+    mcn "Hana was still surprised, so she didn't cover her breasts."
+
+    y "Sorry, Oba-chan! I'm gonna get it back!"
+
+    mcn "I'm glad she is worried for Yuma-kun, but, her breasts are out in the open!"
+
+    mcn "Some guys are approaching!"
+
+    h "Dear! Could you pass me a towel?"
+
+    mcn "Said Hana, as she covered her breasts with her hands.
+    Nonetheless, she can't cover them fully due to their size."
+
+    mc "Ah! Yes! I'll bring it!"
+
+    mcn "I ran to our spot. I must hurry, before those weird guys arrive!"
+
+    mcn "My heart is pounding out of my chest!"
+
+    mcn "While I'm running, I imagine what could've happen if Yuma-kun also
+    took off the bottom."
+
+    mcn "Come on, now is not the time!"
+
+    ############################################################################
+
+    play music past_sadness fadein config.fade_music
+
+    show cg beach accident naked
+    with longdissolve
+
+    mcn worried "I picture Hana completely naked on the middle of the beach."
+
+    mcn "Her pale and silky smooth skin completely visible."
+
+    mcn "Hana would try to cover her body, but fail to do so."
+
+    mcn "Her bare pussy exposed for everyone to see."
+
+    mcn "She has the most lovely pussy lips. Part of me, wants everybody to
+    see them."
+
+    mcn "Why do I want strangers to gaze upon my wife's voluptuous naked body?"
+
+    mcn "These weird guys would stare at every nook and cranny of hers."
+
+    mcn "Her breasts, her ass, her pussy. She wouldn't be able to cover them all."
+
+    mcn "Although I love the fantasy, I don't want that to actually happen!"
+
+    mcn "I take the towel and run back."
+
+    mcn "I can't take the image of Hana being naked out of my mind."
+
+    mcn "I finally arrive to an unexpected sight..."
+
+    ############################################################################
+
+    play music impact_prelude
+
+    show cg stared beach topless ashamed
+    with longdissolve
+
+    mcn shocked "{size=+9}Huh!?{/size}"
+
+    mcn "I'm late! Some guys are already around her!"
+
+    mcn "This is dangerous!"
+
+    h "Ehmmm... Dear...?"
+
+    mcn "Hana is clearly umconfortable..."
+
+    mcn "I won't allow this!"
+
+    mcn "I mustered my courage and confront them..."
+
+    mc "Hey! Get away from her! This is not a show!"
+
+    show cg stared beach topless diedhaired
+    with dissolve
+
+    mcn "Most guys did listen and walked away, but one guy doesn't."
+
+    mc "Are you listening, please go away."
+
+    mcn "The guy is stubborn..."
+
+    om "Sorry, I can't leave such a beauty in a situation like this,
+    I'm offering you my help."
+
+    mcn "This guy... He keeps rambling in order to stay here and stare at her."
+
+    mcn "It may be neccessary to use force... I've never done it... But for Hana I will."
+
+    unknown "Hey dude! Are you deaf or what!?"
+
+    mcn "Suddenly, I heard a male voice shouting from the distance."
+
+    ##--------------------------------------------------------------------------
+    $ renpy.end_replay()
+    ##--------------------------------------------------------------------------
+
+    ##--------------------------------------------------------------------------
+    jump snr_074_beach_topless_chat_A
+    ##--------------------------------------------------------------------------
+
+
+
+label snr_074_beach_topless_chat_A:
+
+    $ phone_check = False
+
+    play music impact_prelude if_changed
+
+    scene bg shore day
+    show katsuo shorts angry
+    with fade
+
+    mcn shocked "To my shock it's none other than Katsuo-san...
+    Yuma-kun's angry neighbor."
+
+    mcn "What is he doing here?"
+
+    mcn surprised "Although I'm not happy to see him, thankfully,
+    the guy who was staring Hana is intimidated by him and went away."
+
+    show katsuo smiling at left with move
+    show hana topless at right with dissolve
+
+    h surprised "Huh?"
+
+    h angry "What is this guy doing here?"
+
+    mcn shocked "I realized my wife was topless next to this guy!"
+
+    mcn worried "I quickly covered her with the towel."
+
+    h towel "Thanks, dear."
+
+    k smiling "There's no need to get so worked up... Let me explain."
+
+    ##--------------------------------------------------------------------------
+    jump beach_katsuo_chat
+    ##--------------------------------------------------------------------------
 
 
 
@@ -1689,7 +1939,7 @@ label snr_068_menu_check_hana_phone:
 ## ▼ Check Hana Phone ▼
 ##------------------------------------------------------------------------------
 
-label snr_069_check_hana_phone:
+label snr_072_check_hana_phone:
 
     $ phone_check = True
 
@@ -1889,11 +2139,11 @@ label snr_069_check_hana_phone:
     ##--------------------------------------------------------------------------
 
     ##--------------------------------------------------------------------------
-    jump snr_072_beach_topless_chat_A
+    jump snr_075_beach_topless_chat_B
     ##--------------------------------------------------------------------------
 
 
-label snr_072_beach_topless_chat_A:
+label snr_075_beach_topless_chat_B:
 
     $ phone_check = True
 
@@ -1967,258 +2217,6 @@ label snr_072_beach_topless_chat_A:
     ##--------------------------------------------------------------------------
     jump beach_katsuo_chat
     ##--------------------------------------------------------------------------
-
-
-
-## "Indecent Wife Hana" Ren'py scenario
-##
-## ▼ Don't Check Hana Phone ▼
-##------------------------------------------------------------------------------
-
-label snr_070_dont_check_hana_phone:
-
-    $ phone_check = False
-
-    play music porch_swing_days
-
-    show bg shore day
-
-    mcn nervous "Of course this is none of my business."
-
-    mcn smiling "It was fun playing with that thought, though."
-
-    mcn nervous "It almost gave me a boner."
-
-    #TODO expand snr_070_dont_check_hana_phone?
-
-    mcn smiling "But it's better not to dwell on jealously so much, that even basic trust
-    is broken."
-
-    mcn beaming "I want to enjoy this play as a couple."
-
-    mcn nervous "Not to mention... I could ruin any surprise Hana has prepared for me."
-
-    mcn worried "Speaking of Hana... I should hurry!"
-
-    ############################################################################
-
-    #TODO scene bg beach sea day
-    # with fade
-
-    mcn "Where are they...? I turn my eyes away for an instant and they are gone."
-
-    mcn smiling "Oh, there they are! On the seashore."
-
-    mcn worried "It looks like they are struggling for some reason."
-
-    h "Yuma-chan, don't run or you'll get hurt."
-
-    y "I'll be Okay, Oba-chan. I just want to feel the sea on my feet."
-
-    mcn nervous "Hana looks like a worrisome mother. I kinda like it."
-
-    mcn surprised "Suddenly, but not surprisingly, Yuma-kun tripped..."
-
-    ##--------------------------------------------------------------------------
-    jump snr_071_hana_beach_accident
-    ##--------------------------------------------------------------------------
-
-
-
-## "Indecent Wife Hana" Ren'py scenario
-##
-## ▼ EVENT (Hana's Beach Accident) ▼
-##------------------------------------------------------------------------------
-
-label snr_071_hana_beach_accident:
-
-    $ phone_check = False
-
-    play music brightly_fancy
-
-    scene cg beach accident top
-    with longfade
-
-    y "Ah! Oba-chan!"
-
-    h "Yuma-chan! Be careful with my..."
-
-    mcn shocked "As Yuma-kun fell down he tried to grab onto something..."
-
-    mcn "Unluckily, he grabbed onto Hana's bikini top, which came off."
-
-    mcn "The top landed in the sea."
-
-    h "Ahn!"
-
-    mcn "Hana's bare breasts bounced as the top came off."
-
-    mcn "Her big and beautiful breasts shined with the sunlight."
-
-    mcn "Her pink nipples were completely visible."
-
-    mcn "My wife is exposed in public!"
-
-    mcn "I just masturbated to the fantasy of her exhibiting herself to a bunch of guys."
-
-    mcn "I wasn't prepared for the real thing!"
-
-    mcn "There's a huge difference!"
-
-    mcn "Luckily, we are in a remote part of the beach, so there's no one close."
-
-    mcn "However, I see people in the distance, and some of them are starting to notice."
-
-    mcn "This is bad!"
-
-    h "Yuma-chan! Are you Okay?"
-
-    mcn "Hana was still surprised, so she didn't cover her breasts."
-
-    y "Sorry, Oba-chan! I'm gonna get it back!"
-
-    mcn "I'm glad she is worried for Yuma-kun, but, her breasts are out in the open!"
-
-    mcn "Some guys are approaching!"
-
-    h "Dear! Could you pass me a towel?"
-
-    mcn "Said Hana, as she covered her breasts with her hands.
-    Nonetheless, she can't cover them fully due to their size."
-
-    mc "Ah! Yes! I'll bring it!"
-
-    mcn "I ran to our spot. I must hurry, before those weird guys arrive!"
-
-    mcn "My heart is pounding out of my chest!"
-
-    mcn "While I'm running, I imagine what could've happen if Yuma-kun also
-    took off the bottom."
-
-    mcn "Come on, now is not the time!"
-
-    ############################################################################
-
-    play music past_sadness fadein config.fade_music
-
-    show cg beach accident naked
-    with longdissolve
-
-    mcn worried "I picture Hana completely naked on the middle of the beach."
-
-    mcn "Her pale and silky smooth skin completely visible."
-
-    mcn "Hana would try to cover her body, but fail to do so."
-
-    mcn "Her bare pussy exposed for everyone to see."
-
-    mcn "She has the most lovely pussy lips. Part of me, wants everybody to
-    see them."
-
-    mcn "Why do I want strangers to gaze upon my wife's voluptuous naked body?"
-
-    mcn "These weird guys would stare at every nook and cranny of hers."
-
-    mcn "Her breasts, her ass, her pussy. She wouldn't be able to cover them all."
-
-    mcn "Although I love the fantasy, I don't want that to actually happen!"
-
-    mcn "I take the towel and run back."
-
-    mcn "I can't take the image of Hana being naked out of my mind."
-
-    mcn "I finally arrive to an unexpected sight..."
-
-    ############################################################################
-
-    play music impact_prelude
-
-    show cg stared beach topless ashamed
-    with longdissolve
-
-    mcn shocked "{size=+9}Huh!?{/size}"
-
-    mcn "I'm late! Some guys are already around her!"
-
-    mcn "This is dangerous!"
-
-    h "Ehmmm... Dear...?"
-
-    mcn "Hana is clearly umconfortable..."
-
-    mcn "I won't allow this!"
-
-    mcn "I mustered my courage and confront them..."
-
-    mc "Hey! Get away from her! This is not a show!"
-
-    show cg stared beach topless diedhaired
-    with dissolve
-
-    mcn "Most guys did listen and walked away, but one guy doesn't."
-
-    mc "Are you listening, please go away."
-
-    mcn "The guy is stubborn..."
-
-    om "Sorry, I can't leave such a beauty in a situation like this,
-    I'm offering you my help."
-
-    mcn "This guy... He keeps rambling in order to stay here and stare at her."
-
-    mcn "It may be neccessary to use force... I've never done it... But for Hana I will."
-
-    unknown "Hey dude! Are you deaf or what!?"
-
-    mcn "Suddenly, I heard a male voice shouting from the distance."
-
-    ##--------------------------------------------------------------------------
-    $ renpy.end_replay()
-    ##--------------------------------------------------------------------------
-
-    ##--------------------------------------------------------------------------
-    jump snr_073_beach_topless_chat_B
-    ##--------------------------------------------------------------------------
-
-
-
-label snr_073_beach_topless_chat_B:
-
-    $ phone_check = False
-
-    play music impact_prelude if_changed
-
-    scene bg shore day
-    show katsuo shorts angry
-    with fade
-
-    mcn shocked "To my shock it's none other than Katsuo-san...
-    Yuma-kun's angry neighbor."
-
-    mcn "What is he doing here?"
-
-    mcn surprised "Although I'm not happy to see him, thankfully,
-    the guy who was staring Hana is intimidated by him and went away."
-
-    show katsuo smiling at left with move
-    show hana topless at right with dissolve
-
-    h surprised "Huh?"
-
-    h angry "What is this guy doing here?"
-
-    mcn shocked "I realized my wife was topless next to this guy!"
-
-    mcn worried "I quickly covered her with the towel."
-
-    h towel "Thanks, dear."
-
-    k smiling "There's no need to get so worked up... Let me explain."
-
-    ##--------------------------------------------------------------------------
-    jump beach_katsuo_chat
-    ##--------------------------------------------------------------------------
-
 
 ################################################################################
 ## Shared by beach_topless_chat A & B
@@ -2338,7 +2336,7 @@ label beach_katsuo_chat:
     mcn "Yuma-kun put her bikini top while Hana was covering the whole thing
     with the towel."
 
-    h bikini beaming "That's better!"
+    h bikini -towel beaming "That's better!"
 
     mcn "Things went chaotic really fast."
 
@@ -2381,8 +2379,9 @@ label beach_katsuo_chat:
     "I must protect her with all I've got."
 
     ##--------------------------------------------------------------------------
-    jump snr_074_yuma_swimsuit_trouble
+    jump snr_076_yuma_swimsuit_trouble
     ##--------------------------------------------------------------------------
+
 
 
 ## "Indecent Wife Hana" Ren'py scenario
@@ -2390,7 +2389,7 @@ label beach_katsuo_chat:
 ## ▼ Yuma Swimsuit Trouble ▼
 ##------------------------------------------------------------------------------
 
-label snr_074_yuma_swimsuit_trouble:
+label snr_076_yuma_swimsuit_trouble:
 
     play music porch_swing_days
 
@@ -2552,11 +2551,12 @@ label snr_074_yuma_swimsuit_trouble:
 
     mcn "And then..."
 
-    jump snr_075_beach_sex
+    jump snr_077_beach_sex
 
     ############################################################################
     ############################################################################
     ############################################################################
+
 
 
 ## "Indecent Wife Hana" Ren'py scenario
@@ -2564,7 +2564,7 @@ label snr_074_yuma_swimsuit_trouble:
 ## ▼ EVENT (Beach Sex) ▼
 ##------------------------------------------------------------------------------
 
-label snr_075_beach_sex:
+label snr_077_beach_sex:
 
     play music beauty_flow
 
