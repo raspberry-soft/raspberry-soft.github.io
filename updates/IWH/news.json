@@ -36,7 +36,7 @@
     "test_url" : "https://www.patreon.com/posts/71811932",
     "steam_url" : null,
     "locked_IDs" : [1],
-    "banned_pws" : ["999999"],
+    "banned_pws" : [],
     "switch" : false,
     "locked_versions" : [],
     "extras_has_password" : true,
