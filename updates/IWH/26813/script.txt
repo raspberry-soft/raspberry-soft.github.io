@@ -2327,6 +2327,7 @@ label snr_089_phone_sex:
 label snr_090_menu_call_hana_again:
 
     show bg transfer room night
+    show screen dbg
 
     play music beauty_flow if_changed
 
@@ -2356,6 +2357,7 @@ label snr_091_dont_call_again:
     $ call_again = False
 
     show bg transfer room night
+    show screen dbg
 
     play music beauty_flow if_changed
 
@@ -2492,6 +2494,7 @@ label snr_091_dont_call_again:
 
     ############################################################################
 
+    hide screen dbg
     show cg leak cum
 
     play sound sfx_heartbeat
@@ -2597,6 +2600,8 @@ label snr_091_dont_call_again:
 
 label call_hana_aftermath:
 
+    show screen dbg
+
     mcn worried "When I regained clarity, the idea of it being real faded away quickly..."
 
     mcn "She always teases me, and this can't be the exception,
@@ -2615,6 +2620,8 @@ label call_hana_aftermath:
     mcn "I wonder for how long, it's been hours..."
 
     mcn "I kept masturbating some more... I can't be left behind!"
+
+    hide screen dbg
 
     scene black with fade
 
@@ -2680,6 +2687,8 @@ label snr_092_call_hana_again:
     "I quickly opened it."
 
     ############################################################################
+
+    hide screen dbg
 
     scene cg penetration video condom
     show screenoverlay
@@ -3161,6 +3170,9 @@ label snr_092_call_hana_again:
     "And just like that the video ended..."
 
     scene bg transfer room night
+
+    show screen dbg
+
     with fade
 
     play music beauty_flow
@@ -3244,9 +3256,14 @@ label snr_093_raw_report:
     "I finally head home. I really need to see Hana face."
 
     scene bg transfer room night
+
+    show screen dbg
+
     with fade
 
     "I make a video call with Hana as usual."
+
+    hide screen dbg
 
     scene bg home bedroom night
     show hana at closecenter
@@ -3673,6 +3690,9 @@ label snr_094_fantasying_about_home:
     "I continued working as normal..."
 
     scene bg transfer room night
+
+    show screen dbg
+
     with longfade
 
     play music porch_swing_days
@@ -3694,6 +3714,8 @@ label snr_094_fantasying_about_home:
 
     ". . ."
 
+    hide screen dbg
+
     scene bg sky day
     with longfade
 
@@ -3713,6 +3735,9 @@ label snr_094_fantasying_about_home:
     "I think I'm handling it pretty well."
 
     scene bg transfer room night
+
+    show screen dbg
+
     with fade
 
     play music beauty_flow
@@ -3774,6 +3799,9 @@ label snr_094_fantasying_about_home:
     "I must've come like 5 times..."
 
     scene bg sky night
+
+    hide screen dbg
+
     with fade
 
     "After some hours Hana replied me..."
@@ -3795,6 +3823,9 @@ label snr_094_fantasying_about_home:
     "That was until one morning..."
 
     scene bg transfer room day
+
+    show screen dbg
+
     with longfade
 
     "I was getting ready to work and I texted Hana as usual but got no reply..."
@@ -3804,6 +3835,8 @@ label snr_094_fantasying_about_home:
     mcn worried "Weird... She usually says good morning to me."
 
     "I was late so I didn't thought about it that much..."
+
+    hide screen dbg
 
     scene bg transfer office
     with fade
