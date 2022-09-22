@@ -1,5 +1,5 @@
 {
-    "version" : 48,
+    "version" : 49,
     "m" : 3,
     "password_url" : "https://www.patreon.com/posts/67353613",
     "image" : "https://raspberry-soft.github.io/updates/IWH/news-banner_iwh.jpg",
@@ -33,8 +33,8 @@
     },
     "IWH_latest_url" : "https://www.patreon.com/posts/71811932",
     "IWH_latest_version" : "0.13.0-patreon",
-    "test_version" : null,
-    "test_url" : "https://www.patreon.com/posts/71811932",
+    "test_version" : true,
+    "test_url" : "https://www.patreon.com/posts/72316891",
     "steam_url" : null,
     "locked_IDs" : [1],
     "banned_pws" : ["826852", "426854"],
