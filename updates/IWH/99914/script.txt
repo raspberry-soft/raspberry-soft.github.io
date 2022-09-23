@@ -1,0 +1,2840 @@
+
+
+
+
+
+label snr_078_menu_confront_the_old_man:
+
+    show cg beach sex covering stared noticed
+
+    play music impact_prelude if_changed
+
+    menu:
+
+        "Confront the Old Man":
+
+            jump snr_079_confront_the_old_man_A
+
+        "Let the Old Man Watch":
+
+            jump snr_080_let_the_old_man_watch
+
+
+
+
+
+
+
+
+label snr_079_confront_the_old_man_A:
+
+    $ oldman_watch = False
+
+    show cg beach sex covering stared noticed
+
+    play music impact_prelude if_changed
+
+    mcn worried "I must not allow this!"
+
+    mcn "Hana is not comfortable with this! I need to step up and be a man!"
+
+    mcn "Quickly, and without Yuma-kun noticing, I approached the man."
+
+    scene bg beach rocks day
+    show oldman
+    with fade
+
+    mc worried "Hey! You! What do you think you are doing!?"
+
+    om "Huh? N-nothing... I mean no trouble..."
+
+    mc "Then, you better get out of here quickly!"
+
+    mcn "I said with confidence."
+
+    om "O-of course... I'll get going..."
+
+    mc "Come on, go away!"
+
+    hide oldman
+    with fg_transition
+
+    play music porch_swing_days
+
+    mcn "The old man went away to my relief."
+
+    mcn "I wonder what could've happened if I let him stay..."
+
+    mcn "It's not like I hated the idea of Hana being watched."
+
+    mcn "However, it was dangerous... I cannot put my wife or my relationship
+    at risk just for seeking pleasure..."
+
+    mcn "It's for the better... There are some doors better not opened."
+
+    show hana bikini worried
+    with dissolve
+
+    h "Dear..."
+
+    mc surprised "Honey..."
+
+    mc smiling "Don't worry, I took care of that guy."
+
+    mc worried "Are you Okay?"
+
+    h "Yes... That was unexpected..."
+
+    mc "I know, I'm sorry you had to go through that..."
+
+    h shy "Don't apologize, dear, this is something we both wanted to do..."
+
+    mc "I know, but I initiated it."
+
+    mc "Besides, you always go the extra mile for my sake..."
+
+    h worried "Oh, Dear..."
+
+    h shy "It's not like I hate doing it."
+
+    h smiling "I'm enjoying more and more our little play..."
+
+    h beaming "Not to mention, doing lewd stuff in public is really thrilling."
+
+    h shy "But I'm still embarrassed, so it's better to hold on for a bit..."
+
+    mc smiling "I'm glad you are taking it so well..."
+
+    mc "I don't want to do anything that makes you uncomfortable..."
+
+    h shy "I know, dear..."
+
+    h @ beaming "But I wonder...
+    How would it feel performing such an act in front of a stranger..."
+
+    mc nervous "I wonder that too..."
+
+    h "It was crazy, but we had fun, so it's Okay."
+
+    mc beaming "I guess we can say that..."
+
+    mc worried "By the way, how is Yuma-kun doing?"
+
+    show hana smiling at right
+    with move
+    show yuma swimsuit worried at left
+    with dissolve
+
+    y "Is everything Okay?"
+
+    mc smiling "Yes, Yuma-kun, the creep went away..."
+
+    y "I'm sorry, this is my fault... I didn't even see him coming..."
+
+    mc nervous "Don't worry, if we start pointing fingers we won't go anywhere."
+
+    y "I guess so..."
+
+    mc beaming "What's more important is that we're all okay and we still have the whole day."
+
+    h beaming "Yes, let enjoy it."
+
+    y smiling "Okay, then..."
+
+    ############################################################################
+
+    scene bg beach shore noon
+    with longfade
+
+    "We went back to our spot and continued having a good day."
+
+    show hana bikini at right, noon
+    show yuma swimsuit at left, noon
+    with dissolve
+
+    "Despite all the jealously, seeing those two having fun fills my heart with joy."
+
+    "This is so contradictory, however, it feels right."
+
+    scene bg sky noon
+    with fade
+
+    "We kept enjoying ourselves a few more hours."
+
+    "We had lunch in a restaurant nearby, then, we decided to return home."
+
+    "It was a crazy day, without a doubt. I think I discovered a new twist to my fetish..."
+
+    "But I'm glad I was able to step up and protect Hana.
+    She is my priority at the end of the day."
+
+    ##--------------------------------------------------------------------------
+    jump snr_082_beach_incident_discussion_A
+    ##--------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+label snr_080_let_the_old_man_watch:
+
+    $ oldman_watch = True
+
+    show cg beach sex covering stared noticed
+
+    play music impact_prelude if_changed
+
+    mcn worried "However... My dick is rock hard... So painful it hurts."
+
+    mcn "I mean, what harm can be done if he just watches."
+
+    mcn "If he gets frisky, I can easily step in. It's a fragile old guy, even I can take him."
+
+    mcn "But, more important than the threat the man poses,
+    I cannot allow Hana to feel uncomfortable."
+
+    mcn "Despite me wanting to see where this is going, I mustn't think with my dick."
+
+    mcn nervous "I think I let myself go with the fetish it almost blindsided me."
+
+    mcn surprised "Just when I was about to approach the guy,
+    I noticed something about Hana's expression."
+
+    show cg beach sex covering stared apologetic
+    with cg_transition
+
+    play music beauty_flow
+
+    h ". . ."
+
+    mcn shocked "Huh!? What does this means!?"
+
+    mcn "Is she telling me she's okay with this?"
+
+    mcn "Is she really fine about being watched by a stranger while she is having sex?"
+
+    mcn "This is way too bold!"
+
+    mcn worried "Wait... She may be doing this for my sake..."
+
+    mcn "No, no... I must not push it..."
+
+    mcn "But, I want to see it so badly..."
+
+    show cg beach sex covering stared decided
+    with cg_transition
+
+    h ". . ."
+
+    mcn shocked "She looks so decided..."
+
+    mcn worried "I mean... If she is fine with it..."
+
+    mcn "Then, it's Okay, right?"
+
+    mcn "With a sense of guilt, I nod..."
+
+    show cg beach sex covering stared apologetic
+    with cg_transition
+
+    h ". . ."
+
+    show cg beach sex covering stared slight enjoying
+    with longdissolve
+
+    play music late_night_radio
+
+    h ". . ."
+
+    "She slowly and quietly starts moving her hips..."
+
+    "Is this for real!? My wife is actually having sex in front of a stranger..."
+
+    "And a creepy old man, on top of that that."
+
+    "A feeling of regret is invading me... What have I allowed...?"
+
+    "I let my wife's gorgeous naked body be seen by a creep..."
+
+    "That guy will forever have the image of Hana in his head..."
+
+    "How many times is he going to masturbate with it?"
+
+    "Hana's curves, beautiful pale skin, ample bottom and huge breasts..."
+
+    "All seen by a stranger..."
+
+    "I couldn't help but masturbate with all my might!"
+
+    "It had come to this... I'm jerking off behind some rocks while my loving
+    wife is having sex with another guy in front of a stranger!"
+
+    "It's out of this world! But, I can't help feeling guilty."
+
+    "I just opened a dangerous door..."
+
+    show cg beach sex covering stared slight pleasure
+    with cg_transition
+
+    h "Hmmmm... Ahn..."
+
+    "She is getting used to being seen..."
+
+    "What could she possibly be thinking?"
+
+    "I wish I could read her mind..."
+
+    show cg beach sex covering stared enjoying
+    with cg_transition
+
+    play sound sfx_sex_slow
+
+    h "Ahn... Nghn! Mhmmm..."
+
+    mcn shocked "She is now making sounds..."
+
+    mcn "I bet that guy can see the place where Hana and Yuma-kun are connected!"
+
+    mcn worried "Not even I have a good view... So unfair!"
+
+    h "Hmmmm... Ngn! Ahn! It's Okay, Yuma-chan, you can move quickier..."
+
+    y "Ah... Okay..."
+
+    play sound sfx_sex_medium
+
+    h "Ahhhh... Yes, like that!"
+
+    mcn "It's a full show now..."
+
+    mcn "Are you really Okay with this, honey?"
+
+    show cg beach sex covering stared ashamed
+    with cg_transition
+
+    h "Hmmmm... Ngn! Ahhh..."
+
+    mcn "Her piercing stare is driving me to the edge..."
+
+    mcn "My wife is putting a show for someone else just for my sake..."
+
+    mcn "I realize, the one who gets to see less, is me..."
+
+    mcn "And I can't help but getting aroused by it."
+
+    show cg beach sex covering stared intense pleasure
+    with cg_transition
+
+    play sound sfx_sex_fast
+
+    h "Ahn! Hmmmmm... Yes! Keep going! Ahn!"
+
+    mcn shocked "She has completely let herself go!"
+
+    h "Ngn! I'm close! Hmmmm..."
+
+    mcn "Is she really going to cum while being stared!?"
+
+    y "Ah! Oba-chan! I'm close..."
+
+    play sound sfx_sex_fast
+
+    h "Yes! let it out, sweetie! Me to..."
+
+    mcn "No way! That guy is going to watch my wife having an orgasm!?"
+
+    show cg beach sex covering stared hurting
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation_alt
+
+    h "Cummm....mmmiiiiing!!! Ahhhhnnnn!"
+
+    mcn "It really happened! She is cumming in front of an stranger!"
+
+    mcn "I can't take it, I need to cum so badly!"
+
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    mcn worried "Ahhh! Ngn! Finally! The sweet relief..."
+
+    mcn "But, it's not enough!"
+
+    show cg beach sex covering stared clench
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation_alt
+
+    h "Ahnnnn! Haaaa... Mphmmmm!"
+
+    y "Ahhhh! Ngn!"
+
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    mcn "Ha... Ha... I  can't believe I just came with my wife having sex in front of an old man..."
+
+    mcn "I dislike him... How come he gets to see my sweet wife like that."
+
+    show cg beach sex covering stared enjoying
+    with cg_transition
+
+    h "Haaaa... Haaaa..."
+
+    mcn "Oh, my sweet Hana..."
+
+    show cg beach sex covering stared apologetic
+    with cg_transition
+
+    h "Yuma-chan, can you go another round?"
+
+    y "Ha... I-I guess so..."
+
+    show cg beach sex covering stared beaming
+    with cg_transition
+
+    h "Fu fu, what I'm even asking? Of course you do, you are still hard."
+
+    h "Then, let's go..."
+
+    show cg beach sex covering stared enjoying
+    with cg_transition
+
+    play sound sfx_sex_medium
+
+    h "Hmmm... Ahnnnn..."
+
+    mcn "Despite cumming so much, my dick was still rock hard, so I continued jerking off"
+
+    #TODO play sound sfx_unzip
+
+    mcn shocked "Suddenly, I noticed the guy unzipped his pants!"
+
+    ############################################################################
+
+    show ontop beach sex oldman jerk
+    with dissolve
+
+    mcn "Did he really take his penis out!?"
+
+    mcn "The old man started to masturbate while watching my wife have sex with Yuma-kun!"
+
+    mcn worried "I can't believe this turn of events... A stranger and I are jerking off to Hana!"
+
+    mcn "For some reason, she seems like a goddess in this situation."
+
+    mcn "Everybody here is having pleasure due to Hana."
+
+    mcn "Luckily, the guy did not try anything physical to Hana..."
+
+    mcn "Instead, he is concentrated on Hana's body."
+
+    show cg beach sex covering stared angry pleasure
+    with cg_transition
+
+    play sound sfx_sex_fast
+
+    h "Ahn! yes! Keep going, Yuma-chan! You are doing great!"
+
+    y "Ngn! Thanks! I'm doing my best!"
+
+    mcn @ shocked "She is really going at it! Riding Yuma-kun's dick like there's no tomorrow!"
+
+    mcn @ nervous "She is really putting on a show!"
+
+    h "Hmmmm... Ahn! Ahhhhnnnn... Hmpmmmm..."
+
+    show cg beach sex covering stared apologetic
+    with cg_transition
+
+    h "I bet you have a great view, right, Yuma-chan?"
+
+    y "Huh? I-I..."
+
+    mcn shocked "What is she up to?"
+
+    h "My butt is in full view, right?"
+
+    y "Yes... Oba-chan... I can see it clearly..."
+
+    h "I bet you can see the place where we are connected."
+
+    y "Y-yes..."
+
+    h "Can you use your hand to spread my buttcheeks, so you can have a better view?"
+
+    mcn "Huh!? But, then, the old man could see it more clearly!"
+
+    y "Like this...?"
+
+    show cg beach sex covering stared ashamed pleasure
+    #TODO show blur beach sex spread
+    with cg_transition
+
+    play sound sfx_sex_fast
+
+    h "Ahn! Yes, just like that! Spread it more! Ahnnn... Ahn!"
+
+    y "Ngn... It looks beautiful, Oba-chan..."
+
+    h "Please take a very close look!"
+
+    mcn "She means those words to Yuma-kun, right?"
+
+    h "Can you describe me what you are looking at?"
+
+    y "Ah... I can see your..."
+
+    show cg beach sex covering stared decided
+    with cg_transition
+
+    h "Butthole...?"
+
+    y "Yes..."
+
+    h "And...?"
+
+    y "Your P-pussy..."
+
+    show cg beach sex covering stared beaming
+    with cg_transition
+
+    play sound sfx_sex_fast
+
+    h "Can you see your penis going in and out?"
+
+    y "Yes! Ahn!"
+
+    mcn "That means, that creep is able to see all of it!"
+
+    mcn "My wife's most precious parts, are being exposed like that to a complete stranger!"
+
+    mcn "I'm missing that incredible sight!"
+
+    mcn "Again, I'm the one who is losing here!"
+
+    mcn "Crap, I'm at my limit!"
+
+    h "Let me help you spread it a little bit more."
+
+    mcn "That guy is so fixated on Hana's butt. He can see it all."
+
+    y "Oba-chan! I can't take it!"
+
+    show cg beach sex covering stared apologetic
+    with cg_transition
+
+    h "My, my... The view is that good?"
+
+    y "Yes! I can't hold it!"
+
+    h "Then, let it out while you stare at my most private and delicate parts."
+
+    play sound sfx_sex_fast
+
+    y "Ahn! Ngn! Ahhh!!!"
+
+    show cg beach sex covering stared clench
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation_alt
+
+    h "Ahhhnnn!! Hmmmm... Yuma-chan!"
+
+    y "Sorry, Oba-chan! I can't control myself!"
+
+    play sound sfx_sex_fast
+
+    mcn "He kept thrusting her wildly while cumming!"
+
+    show cg beach sex covering stared pleading
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation_alt
+
+    h "Ahn! Yuma-kun, you are being too rough!"
+
+    play sound sfx_sex_fast
+
+    y "Nghn! Sorry!"
+
+    show cg beach sex covering stared ashamed pleasure
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation_alt
+
+    h "And cumming a lot! Hmmmm..."
+
+    h "It's making me... Cum too..."
+
+    show cg beach sex covering staring clench
+    with ejaculation_flash
+
+    h "Ahnnnn!!! Hmmmmm... Nghnnnn...."
+
+    mcn "Hana is climaxing shamelessly in front of a stranger!"
+
+    with ejaculation_flash
+
+    h "Mphmm! Nghnnnnn! Ahhhhnnnn! Mhmmmm..."
+
+    mcn "The guy started to breath faster and jerking off faster, until he..."
+
+    show ontop cum
+    with dissolve
+
+    mcn "He ejaculated while watching my wife getting pounded!"
+
+    mcn "The shot went straight to her, it seemed it almost hit her."
+
+    mcn "It was so close! Crap! Me too!"
+
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    mcn "My mind is going blank due to the pleasure!"
+
+    mcn "I let another man jerk off to my wife until he came in front of her."
+
+    show ontop jerk
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    mcn "I let it all out! It was out of this world!"
+
+    mcn worried "I ejaculated with a sense of regret for exposing my precious wife like this."
+
+    mcn "This was too much to me, I ended up cumming after them."
+
+    show cg beach sex covering stared beaming
+    with cg_transition
+
+    h "Ha... Ha... You were something else, sweetie..."
+
+    y "I couldn't help it after what you showed me, Oba-chan..."
+
+    show cg beach sex covering staring smiling
+    with cg_transition
+
+    h "I guess you really let everything out now..."
+
+    y "I think so... Yeah..."
+
+    h "You are a tough cookie as always, sweetie."
+
+    show cg beach sex covering stared serious
+    with cg_transition
+
+    h ". . ."
+
+    show cg beach sex covering staring worried
+    with cg_transition
+
+    mcn "Huh?"
+
+    mcn @ nervous "Oh! That's a cue for me..."
+
+    mcn "Quickly, approached the guy."
+
+    ##--------------------------------------------------------------------------
+    $ renpy.end_replay()
+    ##--------------------------------------------------------------------------
+
+    ##--------------------------------------------------------------------------
+    jump snr_081_confront_the_old_man_B
+    ##--------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+label snr_081_confront_the_old_man_B:
+
+    $ oldman_watch = True
+
+    scene bg beach rocks day
+    show oldman
+    with longfade
+
+    play music beauty_flow
+
+    mc worried "Hey! You!"
+
+    om "Huh? Ehrm..."
+
+    mc "I think it's better if you go away!"
+
+    om ". . ."
+
+    om "Was that your wife?"
+
+    mc "Huh? That's none of your business..."
+
+    om "She is truly a beauty."
+
+    mc "Please, go away."
+
+    om "She has a sweet thick body, I couldn't help myself."
+
+    om "If you don't mind, I'd like to keep watching..."
+
+    mc "You are mistaken, we don't want anything to do with you."
+
+    om "Are you sure...? I could help you out..."
+
+    mc "You are out of your mind, go away."
+
+    mcn "I think it was a mistake letting this guy watch."
+
+    show oldman at left with move
+    show hana bikini angry at right
+    with dissolve
+
+    h "What's going on here?"
+
+    mc surprised "Honey! It's better if you don't get near this guy."
+
+    om "Oh my..."
+
+    h "You heard it, show's over, get lost!"
+
+    mcn @ nervous "She can get really scary if she wants."
+
+    om "Oh... I mean..."
+
+    h "Are you deaf or something?"
+
+    om "Alright, alright... I don't want any trouble."
+
+    hide oldman
+    with fg_transition
+
+    mcn "The guy went away quickly."
+
+    show yuma swimsuit worried at left with dissolve
+
+    y "Are you Okay, Oba-chan?"
+
+    y "Was that guy bothering you?"
+
+    play music porch_swing_days
+
+    h beaming "As if!"
+
+    h decided "That puny old man is no match for me! Fu fu."
+
+    mcn nervous "She sure is something else."
+
+    y smiling "Then, I'm glad..."
+
+    h smiling "We cannot let that creep ruin the day for us.
+    Let's enjoy the time we have left here."
+
+    mc worried "Are you sure you are Okay, honey?"
+
+    h "Yes, don't worry, dear..."
+
+    h beaming "It was kind of fun!"
+
+    mc nervous "It sure it was..."
+
+    h decided "Come on boys, let's return to our spot."
+
+    scene bg beach shore noon
+    with longfade
+
+    "We went back and continued enjoying the day."
+
+    "We had lunch in a restaurant nearby, then, we decided to return home."
+
+    scene bg sky noon
+    with fade
+
+    "I do feel bad, though... I was so immersed in my fetish..."
+
+    "I couldn't even properly get rid of that guy. Hana did all the work."
+
+    "This is a warning for me... I'm starting to get down the rabbit hole..."
+
+    "I must be careful!"
+
+    ". . ."
+
+    ##--------------------------------------------------------------------------
+    jump snr_083_beach_incident_discussion_B
+    ##--------------------------------------------------------------------------
+
+
+
+
+
+label snr_082_beach_incident_discussion_A:
+    $ oldman_watch = False
+    jump beach_incident_discussion
+
+label snr_083_beach_incident_discussion_B:
+    $ oldman_watch = True
+    jump beach_incident_discussion
+
+
+
+label beach_incident_discussion:
+
+    scene bg home front night
+    with longfade
+
+    play music on_my_way
+
+    "Back at home."
+
+    "It was a crazy day. We had fun, although things got a little out of hand."
+
+    "I want to discuss it with Hana though..."
+
+    scene bg home bedroom night
+    show hana beaming
+    with fade
+
+    h "There's no place like home."
+
+    h shy "I'm not that young anymore, so long travels can be tiresome."
+
+    mc nervous "Same here..."
+
+    h beaming "Although the reason my back hurts might be other."
+
+    mc "I bet... He he..."
+
+    play music past_sadness
+
+    mc worried "Speaking of that... How do you feel about the whole thing?"
+
+    h pouting "Hmmm..."
+
+    ############################################################################
+    ## Route B
+    ############################################################################
+
+    if oldman_watch:
+
+        h ashamed "I think I overdid it..."
+
+        mc nervous "Why do you think that?"
+
+        h pouting "I mean... I got carried away and had sex in front of a stranger..."
+
+        h worried "You are not mad right...?"
+
+        mc "Of course not... I gave you a sign that I was Okay with that."
+
+        h "I know, but I still carried on with that..."
+
+        h "I don't want you to think less of me..."
+
+        mc worried "Oh, Hana, honey... I would never..."
+
+        mc "I love you so much, and think you are incredible."
+
+        mc smiling "There's no way I would think less of you. On the contrary."
+
+        h shy "Are you sure...?"
+
+        mc "Of course!"
+
+        h smiling "Okay... I believe you."
+
+        h worried "But still, I feel a little guilty..."
+
+        h beaming "I don't know what got into me..."
+
+        h shy "At first, I was horrified by the presence of that man..."
+
+        h "But after the shock... A crazy idea crossed my mind..."
+
+        h "I could perform the ultimate show for you..."
+
+        mc worried "So you did it just for me...?"
+
+        h smiling "At the beginning, yes... However..."
+
+        h ashamed "The mishaps of today made my heart race in a way it hasn't before..."
+
+        mc nervous "It's thrilling, right...?"
+
+        h beaming "Yes! It sure was."
+
+        h shy "That's why I thought it might be a good idea, no matter how crazy it seemed..."
+
+        h worried "But, after Yuma-kun was finished... I felt guilty..."
+
+        mc "I know the feeling..."
+
+        h angry "That's why I wanted that creep to go away quickly..."
+
+        mc worried "I'm sorry you had to go through that."
+
+        h worried "It's not your fault, dear. I decided to do it... For both of us."
+
+        h smiling "And we both enjoyed it, right?"
+
+        mc smiling "Yes."
+
+        h ashamed "But, I still think I overdid it..."
+
+        mc "Let's be more careful the next time."
+
+        h smiling "Yes, dear..."
+
+        h beaming "I'm glad I got that out of my chest..."
+
+        mcn worried "She was really worried about it. She is very good at hiding her feelings."
+
+        mcn "I need to pay more attention..."
+
+    ############################################################################
+    ## Route A  #TODO discuss the first events of the beach
+    ############################################################################
+
+    else:
+
+        h shy "That guy got to see me naked... It was embarrassing for sure..."
+
+        h smiling "But I'm fine about it. It sure made my heart race."
+
+        mc nervous "Mine too!"
+
+        h beaming "I'm sure!"
+
+        h pouting "I bet the idea of me having sex in front of him crossed your mind, am I wrong?"
+
+        mc ". . ."
+
+        mc "I cannot lie..."
+
+        mc smiling "But I didn't want to put you at risk."
+
+        h shy "Oh, dear..."
+
+        mc beaming "I think that it's best for us if we continue this journey
+        taking care of our relationship."
+
+        h lusting "Dear... I'm glad you think that..."
+
+        h smiling "And, you looked very manly defending me from that guy."
+
+        mc nervous "It wasn't much to be honest."
+
+        mcn smiling "It felt good, though."
+
+        h "Let's keep having fun as a couple. I feel it's going to bring us closer."
+
+        mc beaming "I agree..."
+
+        h shy "I love you, dear..."
+
+        mc smiling "I love you too, honey..."
+
+    ############################################################################
+
+    h smiling "Let's take a shower and go to sleep, I'm so tired..."
+
+    mc smiling "Me too..."
+
+    hide hana
+    with fg_transition
+
+    play music beauty_flow
+
+    mcn smiling "After Hana went to the bathroom, I was left alone to reflect on the day..."
+
+    mcn shocked "Then, it hit me! I never talked to Hana about the condom!"
+
+    mcn worried "The whole old man ordeal made me forget about it."
+
+    mcn "For a second I thought she was having sex without a condom."
+
+    mcn "She wouldn't do it, of course..."
+
+    mcn "But, they didn't have a condom on hand..."
+
+    show hana towel
+    with dissolve
+
+    h "Nothing like a good bath!"
+
+    mcn "Should I say something...? I don't want to offend her."
+
+    mcn nervous "Come on... It's obvious it was just to tease me..."
+
+    if oldman_watch:
+
+        mcn worried "Right...?"
+
+        mcn ". . "
+
+        mcn "What am I even thinking...?"
+
+        mcn "I need to top being so paranoid, come on..."
+
+        mcn "Well, with all that happened, my mind is a mess..."
+
+    mcn nervous "A good night sleep will clear my mind."
+
+    h worried "Hmmm... There's still something on your mind."
+
+    mc "Huh?"
+
+    h beaming "I know! Sorry, I forgot about it too..."
+
+    mc nervous "You could tell..."
+
+    h lusting "I bet you were dying to know if Yuma-chan really creampied me, am I right?"
+
+    mc "Busted..."
+
+    mc "But don't worry, honey. I know you were teasing me..."
+
+    h "But deep inside... You wanted it..."
+
+    mc "I can't say I didn't..."
+
+    h "Hmmmm..."
+
+    h ashamed "I can't believe we are discussing about letting another person
+    ejaculate inside me..."
+
+    play sound sfx_heartbeat
+
+    mc worried "If you put it that bluntly..."
+
+    h "I have to think about it... I'm not sure if I'm ready yet..."
+
+    mc surprised "Oh! Please don't push yourself more."
+
+    play music porch_swing_days
+
+    h smiling "I know, dear. Let's keep it family friendly for now..."
+
+    mc nervous "he he... Yeah, let's do that..."
+
+    h "Fu fu..."
+
+    scene bg sky night
+    with fade
+
+    "With that out of the way, we immediately fell asleep."
+
+    "It was a day full of thrills, my heart is still racing."
+
+    "I'm excited about the future."
+
+    "But I must be careful."
+
+    ". . ."
+
+    ". ."
+
+    "."
+
+    ##--------------------------------------------------------------------------
+    jump snr_084_back_to_work
+    ##--------------------------------------------------------------------------
+
+
+label snr_084_back_to_work:
+
+    scene bg sky day
+    with longfade
+
+    play music on_my_way
+
+    "Sadly, all good things must come to an end..."
+
+    "I have to return to Osaka... And there's a ton of work waiting for me..."
+
+    "I said goodbye to Hana and Yuma-kun and took the train."
+
+    scene bg transfer office
+    with longfade
+
+    "Back to the grind..."
+
+    "The good thing is I'm all fired up."
+
+    "Experiencing such thrills with Hana had revitalized me."
+
+    scene bg transfer room night
+    with longfade
+
+    "Alone again... I miss the weekend... I miss Hana...
+    And hell, I even miss clumsy Yuma-kun."
+
+    "It's like we are a big family now..."
+
+    "Sharing your wife can bring you closer... He he...
+    It sounds silly, but it's true."
+
+    scene bg sky night
+    with fade
+
+    "After I called Hana I went to sleep."
+
+    "I'm wondering if we should take the next step."
+
+    play sound sfx_heartbeat
+
+    "Gulp... That means... Doing it raw..."
+
+    "No, no... Hana is not ready... Nor am I..."
+
+    "I feel asleep with conflicting thoughts on my mind."
+
+    scene bg sky day
+    with longfade
+
+    "Some days passed and the amount of work started to take a toll on me again."
+
+    "I told Hana all about it on a video call... I really need her support..."
+
+    scene bg home bedroom night
+    show hana worried at closecenter
+    show screenoverlay
+    with fade
+
+    h "Oh, dear... Please don't push yourself that hard..."
+
+    mc nervous "I have no other choice... A lot of people depend on me..."
+
+    h "I know, but your health is more important..."
+
+    mc worried "You are right... But there's nothing I can do about it..."
+
+    h smiling "Why don't you come for the weekend again, we can have tons of fun again."
+
+    mc nervous "I wish, but it's impossible... Taking that weekend off was a feat."
+
+    h pouting "Hmmm..."
+
+    h beaming "Then, leave it all to me..."
+
+    mc surprised "Huh?"
+
+    h "I know exactly how to cheer you up!"
+
+    mc nervous "You mean..."
+
+    h decided "If you let me handle it, you won't regret it..."
+
+    mc beaming "I'm sure I won't... Then, I leave it up to you."
+
+    mcn "I know she is trying her best for me."
+
+    mcn "And it's exciting too... What is she up to this time...?"
+
+    h "However... I'm not going to tell you what it is."
+
+    mc worried "Huh?"
+
+    h "Just keep doing your stuff, I'll let you know."
+
+    mc "I don't get it."
+
+    h beaming "Just wait..."
+
+    mc beaming "Sounds fun..."
+
+    scene bg sky day
+    with fade
+
+    "I'm really excited now..."
+
+    "However, a couple days passed and Hana never touched the subject again."
+
+    "We kept talking about the usual everyday stuff."
+
+    scene bg transfer office
+    with longfade
+
+    "And, when I least expected it, I received a text during work."
+
+    play sound sfx_sms
+
+    mcn worried "It's a text from Hana...
+    She usually doesn't text at this hour because she is making dinner."
+
+    "I quickly check my phone. And a text reads:"
+
+    h "'What are you doing? I'm preparing dinner.'"
+
+    mc smiling "Oh! As expected. I know her routine very well."
+
+    mc "'Checking some company e-mails. I bet you are making a delicious dish.'"
+
+    play sound sfx_sms
+
+    h "'Yes. It looks incredible. Want to take a look?'"
+
+    play sound sfx_sms
+
+    mcn surprised "After that, a photo was sent..."
+
+    play sound sfx_heartbeat
+
+    "I quickly opened it, and..."
+
+    ##--------------------------------------------------------------------------
+    jump snr_085_ass_spread
+    ##--------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+label snr_085_ass_spread:
+
+    scene cg ass spread
+    with longfade
+
+    play music late_night_radio
+
+    mcn shocked "{size=+9}!?{/size}"
+
+    mcn "It's a picture of Hana's bare ass!"
+
+    mcn "And that's a hand... Yuma-kun is grabbing Hana's ass."
+
+    mcn "He is even spreading it!"
+
+    mcn "You can see her pussy from behind... Even the vaginal entrance is visible!"
+
+    mcn "This means, Yuma-kun was the one who took the picture."
+
+    mcn worried "Wait a moment..."
+
+    mcn "I she wearing an apron?"
+
+    mcn shocked "Indeed! She is wearing a naked apron in front of Yuma-kun
+    while I'm not in the house!"
+
+    mcn worried "She actually is in the kitchen... So it means she is really making dinner?"
+
+    mcn "The thought of my wife preparing dinner wearing a naked apron in the
+    same room as someone else was too much!"
+
+    mcn "I couldn't help myself and went to the bathroom."
+
+    mcn "After I locked the door, I took my penis out and started jerking off..."
+
+    mcn "I can't believe I'm doing this at work..."
+
+    mcn "I'ts making it more thrilling!"
+
+    mcn @ nervous "Who would've thought I would be having that much fun at work?"
+
+    mcn "Is this a glimpse of Hana and Yuma's intimacy while I'm away?"
+
+    mcn "No... This is her plan... She is trying to make me jealous..."
+
+    mcn @ nervous "She knows exactly what I like..."
+
+    mcn "Man, it's such a great angle... I can see it all..."
+
+    mcn "She really has such an incredible ass..."
+
+    mcn "And her pussy is beautiful..."
+
+    mcn "Yuma-kun is looking at it more closely..."
+
+    mcn "Not fair..."
+
+    mcn "I wonder... How does Hana look with the naked apron outfit..."
+
+    mcn "I have never seen her using it... Only Yuma-kun had the privilege."
+
+    mcn "I bet she looks so sexy... Her boobs almost getting out... Her ass in full view..."
+
+    mcn "All of that while she does the chores around the house..."
+
+    mcn "Come on, Yuma-kun is so lucky!"
+
+    mcn "I wonder if Yuma-kun is naked too... They could be living their day to day naked..."
+
+    mcn "Maybe even having sex like that...?"
+
+    mcn "My mind is wandering to strange scenarios... Crap!"
+
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    mcn "I couldn't hold it any longer..."
+
+    mcn "I ended up cumming in the workplace's bathroom."
+
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    mcn "Haaaa... It was a big load..."
+
+    mcn "It felt so good... What am I even doing...?"
+
+    play sound sfx_sms
+
+    mcn shocked "Another message...?"
+
+    h "'We are done eating. I'm washing the dishes now.'"
+
+    mcn worried "There's a photo attached..."
+
+    mcn "Don't tell me..."
+
+    mcn "With my hard dick still in my hand, I opened the image with the other..."
+
+    mcn "And then..."
+
+    ##--------------------------------------------------------------------------
+    $ renpy.end_replay()
+    ##--------------------------------------------------------------------------
+
+    ##--------------------------------------------------------------------------
+    jump snr_086_washing_the_dishes
+    ##--------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+label snr_086_washing_the_dishes:
+
+    scene cg washing dishes rub
+    with longfade
+
+    play music beauty_flow
+
+    mcn shocked "{size=+9}Really!?{/size}"
+
+    mcn "It's a picture of Yuma-kun's penis pressing against Hana's ass!"
+
+    mcn "And he is not using a condom!"
+
+    mcn "She is still using the apron! Is she really washing the dishes?"
+
+    mcn "This is way too much!"
+
+    ############################################################################
+    ## v0.11 END
+    $ end_demo(11)
+    ############################################################################
+
+    mcn "Yuma-kun's glans is touching Hana's silky smooth ass."
+
+    mcn "It's even digging into her tender butthole."
+
+    mcn worried "I wonder which other parts his penis was pressed against..."
+
+    mcn "Maybe he rubbed it on her buttcheeks, even putting it between them..."
+
+    mcn "All of that just for his delight."
+
+    mcn "But there's something I can't take off my mind..."
+
+    mcn "For the second time... There's no condom in sight."
+
+    mcn "I thought last time was just a tease... But seeing it now makes my mind go wild."
+
+    mcn "I've come to accept a scenario where Yuma-kun penetrates Hana raw."
+
+    mcn "The whole idea still pains me..."
+
+    mcn "But I learned a lot about myself lately... I... No... We are enjoying this..."
+
+    mcn "So, it should be no problem, right?"
+
+    mcn "Yeah... It's only natural at this point."
+
+    mcn "I can't believe I'm actually wanting to see it."
+
+    mcn "I know we haven't discussed it yet, so there's no chance it could happen..."
+
+    mcn "Just imagining it..."
+
+    play sound sfx_sms
+
+    h "'I hope you don't mind if Yuma-chan helps me with the dishes.'"
+
+    mc nervous "'I'm glad he can help you...'"
+
+    play sound sfx_sms
+
+    h "'He means well, but can be a little distracting...'"
+
+    mcn surprised "A new photo is attached..."
+
+    mcn worried "I open it fearing the worst, and..."
+
+    ############################################################################
+
+    scene cg washing dishes penetration
+    with longfade
+
+    mcn shocked "{size=+9}!!!{/size}"
+
+    mcn "It's a picture of Hana being penetrated by Yuma-kun while she is
+    leaning into the sink."
+
+    mcn "It's the first time I've seen Yuma-kun's point of view..."
+
+    mcn worried "That's what I've been used to see...
+    However, it looks way sexier for some reason."
+
+    mcn shocked "Again, I'm unable to see if they are using a condom, or not..."
+
+    mcn worried "The teasing is killing me!"
+
+    mcn "On top of that, I'm torn between actually seeing it,
+    and not wanting her to do it without talking it out first!"
+
+    mcn "This is supposed to be the fourth time they are having sex..."
+
+    mcn "And in our kitchen, out of all places... Where she prepares my dinner..."
+
+    mcn "Yuma-kun is having sex with my wife in my house while I'm jerking off in the bathroom."
+
+    mcn "I can't believe it ended up like this."
+
+    mcn "She said she was doing this to cheer me up, though."
+
+    mcn "She is the kind of wife to have sex with someone else for her husband's sake."
+
+    mcn "But I bet she is enjoying it too..."
+
+    mcn "That's painful, but its a relief at the same time."
+
+    mcn "I want her to be happy too. I certainly am."
+
+    mcn "Man, he really is pounding her."
+
+    mcn "He sure has gotten better at sex."
+
+    mcn "Sigh... This photo isn't telling me much!"
+
+    mcn "Yuma-kun's whole penis is deep inside Hana's insides so I can't tell if he's going in raw!"
+
+    mcn "I kept stroking my penis faster and faster."
+
+    mcn "I'm going to cum if I keep imagining Yuma-kun having bareback sex with Hana."
+
+    mcn "I can't take it anymore!"
+
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    mc "Ngn! Hmmm!"
+
+    mcn "I almost made a sound. No one is here, thankfully."
+
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    mcn "It feels so weird cumming in the office's bathroom."
+
+    mcn "No one knows I'm into this kind of stuff."
+
+    mcn "It felt great... But I still want more..."
+
+    mcn "While I was catching my breath, Hana texted me again."
+
+    h "'What do you think?'"
+
+    mc nervous "'By any chance you have anymore photos of Yuma-kun helping you out?'"
+
+    "She took a little while to respond."
+
+    play sound sfx_sms
+
+    h "'Sorry, I don't have anymore to show you.'"
+
+    play sound sfx_sms
+
+    h "'Just use your imagination. {emoji}😉{/emoji}'"
+
+    mc "'Not fair...'"
+
+    ". . ."
+
+    h "'Fine, one last one.'"
+
+    mcn surprised "She agreed."
+
+    play sound sfx_sms
+
+    h "'Please don't get the wrong idea. {emoji}😇{/emoji}'"
+
+    mcn nervous "I don't have a good feeling..."
+
+    ############################################################################
+
+    scene cg washing dishes cum
+    with longfade
+
+    mcn shocked "{size=+9}Huh!?{/size}"
+
+    mcn "That's... Yuma-kun's semen of Hana's back..."
+
+    mcn "And he isn't wearing a condom..."
+
+    mcn "It really looks like they had raw sex..."
+
+    mcn "My chest started to hurt and my penis got as hard as a rock instantly."
+
+    mcn "I had no choice but to masturbate..."
+
+    mcn "However, a sense of regret was creeping on me..."
+
+    mcn "For a second, I thought of Hana doing it raw while I was here powerless."
+
+    mcn "My sweet and precious wife having unprotected sex without my consent..."
+
+    mcn "It hurts, but it feels really good..."
+
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    mcn "I came so hard!"
+
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    mcn "That was quick! It was too much for me to handle!"
+
+    mcn "Nonetheless, after I regained my senses, the regret disappeared as I rationalized it."
+
+    mcn nervous "Of course she is teasing me..."
+
+    mcn worried "But it felt real for a split second... Man, that was one hell of a second."
+
+    mcn "Now I really want her to do it..."
+
+    mcn smiling "I must remember to talk with Hana properly... I'm not going to make that mistake again."
+
+    mc "'I'll never think ill of you, honey. I love you.'"
+
+    h "'I know, dear. I love you too. Hope it was fun.'"
+
+    mcn nervous "It sure was thrilling."
+
+    #TODO play sound sfx_footsteps
+
+    mcn surprised "I heard someone entering the bathroom. I have to leave."
+
+    ". . ."
+
+    ##--------------------------------------------------------------------------
+    $ renpy.end_replay()
+    ##--------------------------------------------------------------------------
+
+    ##--------------------------------------------------------------------------
+    jump snr_087_planning_raw_sex
+    ##--------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+label snr_087_planning_raw_sex:
+
+    play music porch_swing_days
+
+    scene bg sky night
+    with longfade
+
+    mcn nervous "The beach incident and the pics Hana sent me really pushed the envelope."
+
+    mcn "Imagining them having bareback sex ignited a flame in me."
+
+    mcn smiling "I think I'm ready for that."
+
+    mcn worried "I wonder if she is..."
+
+    mcn nervous "I don't think she's gonna oppose, though."
+
+    scene bg transfer room night
+    with fade
+
+    "I decided to talk to Hana about it the same night."
+
+    "Being honest, I was getting impatient."
+
+    "Maybe I should be more careful and wait until I'm back at home."
+
+    "But my workload is getting heavier and heavier.
+    I need to settle things as soon as possible."
+
+    scene bg home bedroom night
+    show hana at closecenter
+    show screenoverlay
+    with fade
+
+    h "Hi, dear. It's nice seeing you again."
+
+    mc smiling "You look radiant as always, honey."
+
+    h shy "Oh, dear..."
+
+    h beaming "I'm sorry about the timing of my messages,
+    but I thought you may need a little break. You work too hard."
+
+    mc nervous "It was thrilling doing that in the office. My heart was racing."
+
+    h shy "I guess it's fun risking getting caught."
+
+    mc "I'm feeling you are getting more into it."
+
+    h smiling "Hmmm... It could be..."
+
+    h beaming "Lately, I've been doing very daring stunts. Fu fu."
+
+    mc "We've been having fun..."
+
+    h smiling "As long as it's with you, everything is fun."
+
+    mc surprised "Honey..."
+
+    mc smiling "Same here!"
+
+    mc nervous "Now that we're on the subject... There's something we need to talk..."
+
+    h lusting "Hmmm...? I think I have an idea..."
+
+    mc "You know me..."
+
+    h beaming "It's about the condom, right?"
+
+    mc ". . ."
+
+    h beaming "Maybe I went too far... Fu, fu"
+
+    mc "I'm not complaining..."
+
+    h pouting "I mean, it's not my fault there were no condoms on the beach..."
+
+    mc shocked "Huh?"
+
+    h shy "I'm kidding. Sorry, sorry..."
+
+    mc nervous "It's not fair..."
+
+    h lusting "But it seems you don't oppose to the idea..."
+
+    mc "Ehrm..."
+
+    h "Am I wrong?"
+
+    mc worried "I-I think I'm ready.... What do you think...?"
+
+    h worried "Hmmm... Let me think..."
+
+    mc "Don't pressure yourself... If you don't w-"
+
+    h decided "I'm kidding. I'm down!"
+
+    mcn nervous "Hana interrupted me, It seems she is very enthusiastic about it... That excites me."
+
+    mc "O-okay then..."
+
+    h smiling "We are gonna wait until you are home, right?"
+
+    mc worried ". . ."
+
+    mc "I don't know if I can make time for that for the moment..."
+
+    h "It's Okay... It can wait."
+
+    mc ". . ."
+
+    h shy "Unless..."
+
+    h "Hmmm... Are you that impatient?"
+
+    mc nervous "Well..."
+
+    h pouting "I get it, I get it... Geez."
+
+    h smiling "I can think of something."
+
+    mc "Think of something...?"
+
+    h decided "Leave it to me, dear"
+
+    mc smiling "Oh, you mean you are gonna talk to Yuma-kun about it."
+
+    h ashamed "I mean, yes... But also..."
+
+    mcn worried "Huh?"
+
+    h beaming "Don't worry about it. I guarantee you are going to enjoy it."
+
+    mcn nervous "She is keeping me in the dark as always. Can't say I'm mad."
+
+    h "And don't worry, dear. I'll be careful, the only child I want to have is yours."
+
+    #TODO play music funny??
+
+    mc shocked "Huh!? W-what do you mean...?"
+
+    h decided "As I said... Leave it to me."
+
+    mcn worried "I guess she means he is going to cum outside. That's a relief."
+
+    mcn "I want them to have sex without a condom.
+    But cumming inside is out of the question."
+
+    mc nervous "I guess we are on the same page..."
+
+    h smiling "It's settled, then. Fu, fu."
+
+    mc "Yeah..."
+
+    ############################################################################
+    ############################################################################
+    ############################################################################
+
+    # mc smiling "By the way. How was your day?"
+    #
+    # h worried "Hmmm... As usual..."
+    #
+    # mc worried "Is something bothering you?"
+    #
+    # h ". . ."
+    #
+    # h "I hope you could get a break soon and visit us. I miss you, dear."
+    #
+    # mc surprised "I miss you too. But at least during these 2 weeks it will be impossible."  #TODO time he is away from home.
+    #
+    # h "I understand..."
+    #
+    # mcn "She is so comprehensive... I wish I could do more."
+    #
+    # mc "Are you feeling lonely...?"
+    #
+    # h shy "Well, Yuma-chan keeps me company, but... Of course I prefer if you were here."
+    #
+    # mc "I'm sorry..."
+    #
+    # h beaming "Don't worry too much, you already have a lot on your plate."
+    #
+    # mc "I guess but still..."
+    #
+    # h smiling "I'm fine, dear. I had fun in the last couple of months." #TODO time he is away from home.
+    #
+    # mc nervous "Now that I think about, in all this time, 'it' only happened four times."
+    #
+    # mcn "I feel I'm more comfortable talking these things to her."
+    #
+    # h ashamed "Hmmm... Let me count..."
+    #
+    # mc nervous "He, he..."
+    #
+    # h beaming "Yes, four times. Although I trained him in other ways."
+    #
+    # mc "Of course..."
+    #
+    # mcn worried "I sense she is feeling alone in the house,
+    # despite Yuma-kun being there and helping her out."
+    #
+    # mcn nervous "Part of me is jealous about those two being all alone while I'm away,
+    # but it's arousing at the same time."
+    #
+    # mcn worried "Hana goes through so much for my sake...
+    # I should reciprocate in some way..."
+    #
+    # mcn "Now that we are stepping up our play...
+    # I'm feeling more comfortable about Hana sleeping with Yuma-kun."
+    #
+    # mcn "I think it's time..."
+    #
+    # mcn "With some hesitation, I decided to let Hana have even more control over the situation..."
+    #
+    # mc "Hana, honey... Would it be better if Yuma-kun could... You know... Keep you more company?"
+    #
+    # h worried "...?"
+    #
+    # h shy "Are you sure...?"
+    #
+    # mc nervous "I want you to have fun too. Plus, you said you were gonna surprise me, right?
+    # That should make it easier."
+    #
+    # h smiling "I guess so..."
+    #
+    # h shy "If you are fine by it, then I'll have a little fun on my own..."
+    #
+    # h smiling "Of course if you want me to stop, just say it so.
+    # This is for your enjoyment too."
+    #
+    # mc smiling "Okay, honey... Don't worry about me... I'll enjoy it."
+    #
+    # h beaming "I bet."
+    #
+    # mc beaming "He, he. You know me..."
+
+    ############################################################################
+    ############################################################################
+    ############################################################################
+
+    scene bg sky day
+    with fade
+
+    mcn "After we discussed what a few months ago I would've considered impossible,
+    we kept chatting as if nothing happened."
+
+    mcn "I feel a mix of regret and excitement. More of the latter."
+
+    mcn ". . ."
+
+    ##--------------------------------------------------------------------------
+    jump snr_088_imagining_raw_sex
+    ##--------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+label snr_088_imagining_raw_sex:
+
+    scene bg transfer office
+    with longfade
+
+    play music on_my_way
+
+    "A couple of days passed as usual."
+
+    "Working late into the night each day,
+    and returning to the apartment to chat with Hana before going to sleep."
+
+    "Knowing something incredible could happen anytime, my days became exciting..."
+
+    "Hana is going to have unprotected sex with Yuma-kun."
+
+    "I can't believe we are doing that..."
+
+    "Part of me is regretting it.
+    But, since we've been pushing the boundaries lately, I'm feeling courageous."
+
+    "While I was immersed in my thoughts, it finally happened."
+
+    play sound sfx_sms
+
+    h "'Today, 10 PM.'"
+
+    play sound sfx_heartbeat
+
+    play music impact_prelude
+
+    mcn surprised "Huh?"
+
+    mcn "I received a short text from Hana. I responded quickly."
+
+    mc nervous "'So, it will happen today...? I mean... Doing it unprotected.'"
+
+    mcn worried "I received no response..."
+
+    mcn "She is keeping me in the dark again."
+
+    mcn "It suddenly hit me in the face..."
+
+    mcn "My dear wife is going to have unprotected sex tonight."
+
+    mcn "I agreed to it. She must be prepared to do so today..."
+
+    mcn "I'm guessing Yuma-kun is onboard too... Well, of course..."
+
+    mcn "I know I can cancel it anytime but at this point... I'm not gonna..."
+
+    mcn "I decided I was going to face it and so I will."
+
+    mcn "Now I feel more regret than before. It's normal I guess..."
+
+    mcn "My heart is beating faster..."
+
+    scene bg sky night
+    with fade
+
+    "I tried to finish work early so I could be at the apartment on time."
+
+    scene bg transfer room night
+    with fade
+
+    "I made it on time. Now I wait."
+
+    "I checked the time impatiently."
+
+    "Finally, 10 PM."
+
+    play sound sfx_sms
+
+    h "'I'm about to start, dear.'"
+
+    play sound sfx_heartbeat
+
+    mcn "It's happening... For real."
+
+    mcn "This is the last chance to stop it."
+
+    mcn ". . ."
+
+    mcn "I'm gonna let it happen."
+
+    mcn "The anticipation is killing me."
+
+    mcn "Not to mention my dick is getting hard."
+
+    mcn "I guess I'm not nervous down there..."
+
+    mc "'It's okay, honey. Have fun.'"
+
+    mcn "I responded."
+
+    mcn "It was thrilling wishing my wife to have fun while having sex with another guy."
+
+    mcn "I got no response, again."
+
+    mcn "Does it mean they already started? That quick?"
+
+    mcn "Maybe she was already naked and waiting for my confirmation to start."  #TODO Hana POV she was not wauiting confirmation
+
+    mcn "So many possibilities..."
+
+    mcn "I'm helpless here and so far away..."
+
+    mcn "I wonder how she's gonna surprise me."
+
+    mcn "Is she going to send a picture again...?"
+
+    mcn "Maybe a video...?"
+
+    mcn "I started jerking off to the various possibilities."
+
+    mcn "I inevitably came."
+
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    mcn "However, it's not enough... My penis was still hard. I continue jerking off."
+
+    mcn "My wife is having unprotected sex right now!"
+
+    mcn "Another guy's penis is in direct contact with her vagina."
+
+    mcn "Feeling every inch and fold of her insides..."
+
+    mcn "Not to mention the warmth through the contact of their genitals."
+
+    mcn "I got jealous thinking about it, which pushed me over the edge..."
+
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    mcn "I came again, I can't stop. I'm so aroused right now."
+
+    mcn "An hour passed while I was masturbating... Still no signs of Hana."
+
+    mcn "She is taking her time. Maybe they didn't do it raw the first time."
+
+    mcn "I know Yuma-kun lasts long, but he must have came by now, right?"
+
+    scene black
+    with fade
+
+    mcn "It's 1 AM. now."
+
+    scene bg transfer room night
+    with fade
+
+    mcn "Still nothing..."
+
+    mcn "Maybe she is gonna send me a video afterwards..."
+
+    mcn "I can't wait..."
+
+    mcn "I came so many times, I lost sight of the time."
+
+    scene black
+    with fade
+
+    mcn "3 AM..."
+
+    scene bg transfer room night
+    with fade
+
+    mcn "No signs of her..."
+
+    mcn "Are they doing it until morning!?"
+
+    mcn "It seems to be the case..."
+
+    mcn "I feel kinda left out..."
+
+    mcn "I wish she'd send me at least a photo until now..."
+
+    mcn "Is there a bigger surprise...?"
+
+    mcn ". . ."
+
+    mcn "I'm realizing my wife is having bareback sex with someone else while not contacting me at all."
+
+    mcn "It got me a little anxious..."
+
+    mcn "Was it a good idea to let them have unprotected sex...?"
+
+    mcn "I mean it is a big step."
+
+    mcn "It was the last barrier between them."
+
+    mcn "Real sex this time..."
+
+    mcn "The more I think about it, the bigger the regret..."
+
+    mcn "I can't take it anymore! I need to know what's happening."
+
+    mcn "Should I text her...? I don't want to come across as suspicious."
+
+    mcn "A little message won't harm."
+
+    mc "'How did it go, honey?'"
+
+    mcn "No response..."
+
+    mcn "I'm sure they are really going at it, and didn't notice it."
+
+    mcn "But I'm getting impatient..."
+
+    mcn "I reluctantly send another message..."
+
+    mcn ". . ."
+
+    mcn "Nothing..."
+
+    mcn "Are they really doing it so loud they didn't hear it."
+
+    mcn "Knowing them, it could be the case..."
+
+    mcn "She could be asleep or showering."
+
+    mcn "Don't tell me they are doing it in the bathroom too...?"
+
+    mcn "Are they doing it all around the house!? It has never occurred to me..."
+
+    mcn "Calm down. Think about it. How much time has passed since they started doing it."
+
+    mcn "More than 5 hours..."
+
+    mcn "He definitely came more than once..."
+
+    mcn "Outside hopefully..."
+
+    mcn "Hana said it so..."
+
+    play sound sfx_heartbeat
+
+    mcn "But, what if... Yuma-kun came inside by accident..."
+
+    mcn "I mean... It's the first time he is doing it raw..."
+
+    mcn "Crap!"
+
+    mcn "It's definitely a possibility. Why I didn't think about that."
+
+    mcn "Is that the reason she isn't responding!?"
+
+    mcn "A picture of Hana cleaning Yuma-kun's semen out of her vagina crossed my mind."
+
+    mcn "I can't take it! I have to call them!"
+
+    mcn "I quickly grab the phone and call Hana's phone."
+
+    scene black
+    with fade
+
+    #TODO play sound sfx_ring
+
+    mcn "Come on. Pick it up."
+
+    #TODO play sound sfx_ring
+
+    mcn ". . ."
+
+    mcn "After what seemed hours to me, she finally picked the phone..."
+
+    ##--------------------------------------------------------------------------
+    jump snr_089_phone_sex
+    ##--------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+label snr_089_phone_sex:
+
+    scene bg transfer room night
+    with longfade
+
+    play music past_sadness
+
+    show fantasy first sex expressions   # TODO replace
+    with fg_transition
+
+    h "...Yes, hello?"
+
+    mc worried "H-Hana...?"
+
+    play sound sfx_sex_medium
+
+    h "Haaa... Yes, it's me, dear... Ngn..."
+
+    mcn "I hear Hana's moaning and wet sounds..."
+
+    mcn "I get an idea of what's happening..."
+
+    mc "Are you... Doing it?"
+
+    # TODO show blur
+
+    h "Yes... {music} I'm having...
+    S-sex with Yuma-chan as we speak the way you agreed..."
+
+    mc "You mean..."
+
+    play sound sfx_heartbeat
+
+    h "Yeah, raw. {heart}"
+
+    mcn "I already knew the answer but still it shocked me hearing those
+    words came out of Hana's sweet mouth."
+
+    mcn "Not to mention, I'm actually hearing her have sex on the phone."
+
+    mcn "It's the first time I'm talking directly to her while she is having sex with Yuma-kun."
+
+    mc "So you are doing it raw..."
+
+    h "Yeah... Ngn... That's what we agreed, right?"
+
+    h "We had unprotected sex and came together many times..."
+
+    mc shocked "By that you mean...?"
+
+    h "What happened? Are you worried he came inside me?"
+
+    mc worried "I-I... No... I mean..."
+
+    h "You are so easy to read..."
+
+    mc "I'm sorry... I know you said it won't happen... But..."
+
+    h "Hmmm...? What's your excuse...?"
+
+    mc @ nervous "I was worried he may accidentally come..."
+
+    h "I see... I get it..."
+
+    h "He really was eager to do it raw. And very sensitive too."
+
+    h "I was afraid he might come just by putting it in..."
+
+    h "You know, a happy accident."
+
+    play sound sfx_heartbeat
+
+    mc @ shocked "'Happy accident'?"
+
+    h "Fu, fu. Forget about it... Ahn!"
+
+    h "I had lots of raw sex with Yuma-chan just like you wanted."
+
+    y "Nhgn! Oba-chan! I'm gonna..."
+
+    h "Ahhn.. Are you cumming again, sweetie?"
+
+    y "Sorry, it just feels so good..."
+
+    h "Huuuh? While your Oji-san is listening? How shameless... {music}"
+
+    y "S-sorry... You are moving too much Oba-chan..."
+
+    mcn "So, she's instigating him."
+
+    h "Dear, you don't mind Yuma-kun cumming while we are on the phone, right?"
+
+    mc @ nervous "...No. I don't mind."
+
+    h "Then, it's okay, sweetie. If you want to cum, do it anywhere you want. {heart}"
+
+    mc shocked "Anywhere!?"
+
+    h "Is it thrilling? Where he could cum? Like a russian roulette."
+
+    mc worried "Yeah... Ngn!"
+
+    mcn "My voice cracked while jerking off..."
+
+    play sound sfx_sex_fast
+
+    h "Ahhhn! Ahn! Ahn! Ngn! Yuma-chaaaan! It feels so gooood!"
+
+    mc @ surprised "!? Hana...?"
+
+    h "He is pumping me very hard, as he always does when he is about to cum."
+
+    mc "I see..."
+
+    y "Oba-chaaan!"
+
+    play sound sfx_sex_fast
+
+    h "Ahhh! Yuma-chan! Hmmmm... Ahn! I'm cumming.... Hmmmm! I'm cumming!"
+
+    y "Oba-chan! Me too!"
+
+    h "Yes! please cum! Do it with me!"
+
+    y "Ahhh! Ngn!"
+
+    h "Hmphmmm! Ahhhhnn! Cummiiiiiiing!"
+
+    y "Ahhhhn! Ahhhh!"
+
+    mc "Where did he cum?"
+
+    h "Ha... Haaa... Ha..."
+
+    mc "Hana...?"
+
+    h "Haaa... Ha..."
+
+    h "That felt incredible, Yuma-chan..."
+
+    mc @ nervous "Honey, I'm, dying here..."
+
+    h "I'm sorry..."
+
+    mcn "What is she sorry about...?"
+
+    h "I bet you are jerking off at the idea of Yuma-chan cumming inside... Am I right? Fu, fu."
+
+    mcn "My silence gave me away..."
+
+    h "Then, I think you'd enjoy more not knowing..."
+
+    mc shocked "Huh? What do you mean? Where did he come?"
+
+    play music beauty_flow
+
+    h "I'm going to hang up, dear... Yuma-chan's erection is not going to take care itself."
+
+    mc "H-Hana...?"
+
+    h "I'll talk to you tomorrow... Good night, dear."
+
+    hide fantasy
+    with dissolve
+
+    mcn worried "The call ended..."
+
+    "I was left alone in what seemed like an empty room..."
+
+    "My heart is hurting..."
+
+    "And my penis is so hard it hurts!"
+
+    "I was feeling an intense mixture of pain and arousal."
+
+    mc "Hana..."
+
+    "I had no other choice than to stroke my hard and sensitive penis like there was no tomorrow."
+
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    "I came in an instant."
+
+    "Right now, Hana is having raw sex with Yuma-kun while I'm jerking off all alone in this room."
+
+    "I grabbed my penis again, and in no time..."
+
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    "I can't believe how excited I am..."
+
+    "The painful feeling of not knowing if he came inside or not..."
+
+    "Did he cum on her breasts... Her belly... Her butt... Or... Gulp*"
+
+    "I can't take it anymore..."
+
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    "I came a lot."
+
+    "But I still am erect..."
+
+    "I came two times more, while thinking about where Yuma-kun might've come..."
+
+    "I am exhausted..."
+
+    "But I can't get this feeling out of my head... I need to know..."
+
+    "Two hours passed since she hung up... It's 5 in the morning..."
+
+    "I don't want to be a nuisance, but being kept in the dark is killing me."
+
+    "I bet it's just to tease me... But she's really playing her part right!"
+
+    "Should I call her again...?"
+
+    ##--------------------------------------------------------------------------
+    $ renpy.end_replay()
+    ##--------------------------------------------------------------------------
+
+    ##--------------------------------------------------------------------------
+    jump snr_090_menu_call_hana_again
+    ##--------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+label snr_090_menu_call_hana_again:
+
+    show bg transfer room night
+
+    play music beauty_flow if_changed
+
+    $ choice_condition = CURRENT_VERSION >= (0, 13, 0)
+    if choice_condition:
+        $ choice = "Don't Call Hana"
+    else:
+        $ choice = "Don't Call (Not Yet Available)"
+
+    menu:
+
+        "[choice]" if choice_condition:
+
+            jump snr_091_dont_call_again
+
+        "Call Hana Again":
+
+            jump snr_092_call_hana_again
+
+
+################################################################################
+################################################################################
+################################################################################
+
+label snr_091_dont_call_again:
+
+    show bg transfer room night
+
+    play music beauty_flow if_changed
+
+    mcn "I've decided not to call. I don't want to be a nuisance."
+
+    mcn "I could mess with their atmosphere and come as pushy."
+
+    mcn "I'll let it play... Patiently waiting..."
+
+    mcn "I can't believe I'm enjoying more and more being kept in the dark."
+
+    mcn "What could they been doing now?"
+
+    mcn "Has Yuma-kun already penetrated her raw?"
+
+    mcn "My sweet wife is having unprotected sex  with another guy in this very moment!"
+
+    mcn "This feels unreal."
+
+    mcn "Yuma-kun's bare glans touching my wife's delicate pussy lips..."
+
+    mcn "Then pushing it through the vaginal entrance..."
+
+    mcn "Hana would be aroused so her pussy is very wet letting Yuma-kun's penis
+    enter in one thrust..."
+
+    mcn "And just like that he is in..."
+
+    mcn "Feeling every inch and fold of Hana's pussy..."
+
+    mcn "A privilege only I had until now..."
+
+    mcn "Now it's gone..."
+
+    mcn "The last milestone... I've lost it..."
+
+    mcn "So much regret mixed with excitement goes through my body..."
+
+    mcn "I masturbate frenetically to this feeling, while trying to memorize it..."
+
+    mcn "In no time I succumbed to this new level of pleasure..."
+
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    mcn "I came with such force, it ended up on my desk..."
+
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    mcn "My mind when blank while I was cumming..."
+
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    mc "Ha... Ha..."
+
+    mcn "It's no use... I'm still hard as a rock."
+
+    mcn "How could not I be? My wife is having bareback sex with someone else right now!"
+
+    mcn "All I can do is jerk off far away from her..."
+
+    mcn "With a second of clarity, I realized he could came inside by accident."
+
+    mcn "I know Hana wouldn't let him do that on purpose,
+    but it's his first time going in raw... Anything could happen!"
+
+    mcn "I start to panic."
+
+    mcn "I shouldn't call asking for that though...
+    I don't want her to think I'm being distrustful."
+
+    mcn "Cumming inside was off limits. I need to be confident she can take care of that."
+
+    mcn "I know she is capable of handle that... But then why I'm so paranoid?"
+
+    mcn "Accidents happen! That's why!"
+
+    mcn "He could already came inside while I was having this inner discussion!"
+
+    # TODO show blur
+
+    mcn "His semen could be oozing out of my wife's vagina while I'm jerking off!"
+
+    mcn "Just the thought of it... Man!"
+
+    mcn "I couldn't resist the urge to picture it."
+
+    mcn "Another guy's semen leaking out of my precious Hana..."
+
+    mcn "My heart can't take it!"
+
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    mcn "Again! So quick!"
+
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    mcn "I came with all my might again! Just the thought of it makes me reach my limit!"
+
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    mcn "It was out of this world..."
+
+    mcn "Still hard... It's like I'm young again."
+
+    show black with fade
+
+    "I've lost count how many times I came..."
+
+    "I don't even know what time is it... It must've been hours..."
+
+    "Suddenly, I receive a text from Hana..."
+
+    hide black with fade
+
+    play sound sfx_heartbeat
+
+    mcn "What could it be...? I think I know."
+
+    mcn "My heart is not prepared, however, my dick is..."
+
+    mcn "I take a breath before opening the message and..."
+
+    show cg leak cum
+
+    play sound sfx_heartbeat
+
+    mcn shocked "Just like I thought... My heart skipped a beat..."
+
+    mcn "A picture of Yuma-kun's penis covered in his semen while Hana is
+    standing up was shown to me..."
+
+    mcn "Hana's pussy is not visible, however, I can see semen leaking from above..."
+
+    mcn "I cannot tell for sure if the semen is coming out of her pussy..."
+
+    mcn "What does this means!? This is killing me!"
+
+    ##--------------------------------------------------------------------------
+    $ renpy.end_replay()
+    ##--------------------------------------------------------------------------
+
+    ############################################################################
+    ## v0.13 END
+    $ end_demo(13)
+    ############################################################################
+
+
+################################################################################
+################################################################################
+################################################################################
+
+label snr_092_call_hana_again:
+
+    show bg transfer room night
+
+    play music beauty_flow if_changed
+
+    "I decided to call her again."
+
+    "I won't be able to sleep like this!"
+
+    "I know I shouldn't but..."
+
+    "Maybe she expects me to do it..."
+
+    "After all of that, how couldn't I!?"
+
+    "I picked up the phone and ring her..."
+
+    "No response..."
+
+    "Is she still having sex with him?"
+
+    "The amount of stamina he has is unbelievable."
+
+    "I hesistantly call her again..."
+
+    "Nothing..."
+
+    "I'm getting impatient... Am I being a nuisance?"
+
+    "After a few minutes, I recieved a message."
+
+    play sound sfx_sms
+
+    "It's a video! No words from Hana."
+
+    "I quickly opened it."
+
+    ############################################################################
+
+    scene cg penetration video condom
+    show screenoverlay
+    with longfade
+
+    play music late_night_radio
+
+    mc shocked "{size=+9}!!!{/size}"
+
+    hide screenoverlay
+    with dissolve
+
+    mcn "To my shock is a video where I can clearly see Yuma-kun's penis
+    penetrating Hana's pussy."
+
+    mcn "I've never seen it this close!"
+
+    mcn "Her pretty pink pussy is in full view."
+
+    mcn "You can even see her clitoris..."
+
+    mcn "Yuma-kun's penis is clearly inside of it..."
+
+    mcn worried "He has a condom on... What does it mean?"
+
+    mcn "For a second I thought it may be an old video, but there's no chance of that."
+
+    mcn "The sight of my wife's most private and delicate part being defiled
+    by another guy's penis made my penis rock hard."
+
+    play sound sfx_sex_slow #TODO different wet sounds
+
+    mcn "I can clearly hear all the sounds her pussy is making by recieving his penis."
+
+    h "Are you getting it all, sweetie...?"
+
+    y "Y-Yes, Oba-chan."
+
+    mcn shocked "Of course, he is filming it..."
+
+    mcn "Another guy is using my wife's phone to film her pussy being penetrated by him."
+
+    mcn worried "My heart can't take it."
+
+    h "Great! Make sure to capture everything."
+
+    h "You can move faster now, sweetie."
+
+    play sound sfx_sex_medium
+
+    mcn "Yuma-kun's penis started going in and out of Hana's vagina at a faster pace."
+
+    h "Hmmm... Ahn... Just like that..."
+
+    mcn "His hips were moving faster and faster."
+
+    h "Ahhhnnn.. Hmmmm... Yes..."
+
+    mcn "I kept masturbating while Hana's vagina distorted when recieving his penis."
+
+    mcn "After a while Yuma-kun was ready to come."
+
+    y "Nghn! Oba-chan!"
+
+    h "It's okay, sweetie... Let it all out inside the condom..."
+
+    # with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    y "Ahhh... Ngn!"
+
+    h "Hmmmm... Ahhhhnn... I can feel it filling me up..."
+
+    y "Ahhh..."
+
+    h "You came a lot as always."
+
+    h "Now, let's change it, sweetie."
+
+    mcn @ surprised "Yuma-kun pulled his penis off of Hana and took out the condom."
+
+    show black
+    with fade
+
+    mcn "The camera went black. Probably the phone is face down on the bed."
+
+    h "It's all dirty... Let me clean it up before you put it in again."
+
+    h "Ahn... Slurp... Hmmm... Shlup... Hmmm..."
+
+    y "Ahhh, Oba-chan! I just came, it's sensitive..."
+
+    h "Just a little bit... Slurp... There we go..."
+
+    h "Hmmm... We ran out of condoms again..."
+
+    h "I think it's time, Yuma-chan."
+
+    y "Time for what?"
+
+    play music impact_prelude
+
+    h "You get to put it in without the condom."
+
+    y "Ah! Yes!"
+
+    h "Don't forget to record it."
+
+    y "Are you going to show it to Oji-san?"
+
+    h "Hmmm... We'll see..."
+
+    mcn @ surprised "I hear the phone being picked up again."
+
+    play sound sfx_heartbeat
+
+    mcn "This means I'm going to see it being put in raw!"
+
+    mcn "My heart is racing!"
+
+    ############################################################################
+
+    show cg penetration video out
+    hide black
+    with fade
+
+    play sound sfx_heartbeat
+
+    mcn shocked "{size=+9}!!!{/size}"
+
+    mcn "I can see Yuma's erect penis without the condom!"
+
+    mcn "It's pressed against Hana's naked pussy."
+
+    mcn "So it's finally going to happen..."
+
+    mcn "He is going to penetrate my wife's raw..."
+
+    mcn nervous "Or probably he already did because I'm watching a recorded video..."
+
+    mcn "Their taking their time... Maybe she's teasing me again..."
+
+    mcn "Perhaps they are not actually going to do it... They are just playing..."
+
+    mcn "For a second I was relieved by that thought."
+
+    mcn worried "Having sex without a condom is just way too much for my heart to take."
+
+    mcn "I guess Hana knew that deep inside and is just a tease..."
+
+    show black with fade
+
+    mcn "The screen went black for a second."
+
+    mcn @ nervous "So that was it... Just a tease..."
+
+    h "Don't drop the phone sweetie... We need to capture this moment..."
+
+    y "Sorry, Oba-chan... I..."
+
+    h "There's no need to be nervous sweetie... Look, I'll do it myself."
+
+    h "Don't forget to capture it..."
+
+    y "Yes! Ah! Oba-chan!"
+
+    h "Fu fu"
+
+    mcn shocked "What was shown in the screen took me off guard..."
+
+    ############################################################################
+    ## v0.12 END
+    $ end_demo(12)
+    ############################################################################
+
+    hide black
+    show cg penetration video raw
+    with fade
+
+    h "Ahn! {heart} There you go..."
+
+    mcn shocked "She just put his penis inside of her!"
+
+    mcn "Yuma-kun actually penetrated my wife's pussy raw!"
+
+    mcn "And it's all recorded on video!"
+
+    mcn "I can't believe what I'm seeing! Its so close!"
+
+    mcn "This is Yuma-kun's view! He always gets to see every inch of Hana."
+
+    mcn "Every part of my sweet wife's is being taking away from me..."
+
+    mcn "The only thing that used to separate Yuma-kun and I was the use of a condom..."
+
+    mcn "And now it's gone!"
+
+    mcn "Now he officially has tasted every inch of my Hana..."
+
+    mcn "A feeling of loneliness invaded me, however,
+    my penis was the hardest it has ever been! It's painful."
+
+    mcn "I couldn't help to masturbate with the video of my wife's being
+    penetrated raw by another guy..."
+
+    mcn "I'm not even in the same city as them!"
+
+    mcn "All because I've let my libido get the best of me!"
+
+    mcn "Regret and excitement are fighting inside me."
+
+    mcn "It's the mixture thats getting me that high!"
+
+    mcn "I can't anymore..."
+
+    play sound sfx_sex_ejaculation
+    with ejaculation_flash
+
+    mcn "I came in an instant... That was way too much for me to handle"
+
+    play sound sfx_sex_ejaculation
+    with ejaculation_flash
+
+    mcn "I came so hard and so much is unreal..."
+
+    mcn "It was without a doubt the greatest pleasure I've ever had..."
+
+    mcn "But my erection didn't subside... This is just the beginning..."
+
+    h "Hmmm... I can feel every inch of your penis much better now, sweetie..." #TODO yuma big
+
+    y "Ahh... It feels incredible..."
+
+    h "Indeed... Putting in without the condom feels so much better..."
+
+    h "You can now feel every fold of my vagina..."
+
+    y "It's so warm and slimy..."
+
+    h "It's because I was expecting it so much it became like this..."
+
+    y "Ah... Oba-chan, I can't take it anymore. I want to move!"
+
+    h "You are getting more impatient than usual, sweetie... But being honest... Me too..."
+
+    h "Move how much you like... Make me feel good with your bare penis..."
+
+    h "Just be careful and try not to cum inside. {music}"
+
+    play sound sfx_sex_medium
+
+    y "Yes! Nghn! Ngn!"
+
+    mcn "Hearing Hana talk to him like that, made my heart race..."
+
+    h "Ahhh... Yuma-chan! Ahhnnn! I love this!"
+
+    y "Ngn! Ahhh!"
+
+    mcn "I can clearly see Yuma-kun's penis going in and out of her with increasing speed."
+
+    mcn "I try to match his movements."
+
+    #TODO play sound wet
+
+    mcn "I can hear so many squelching sounds. She is so wet."
+
+    mcn "I can't believe my wife is having such pleasant bareback sex with
+    someone other than her husband..."
+
+
+    ##--------------------------------------------------------------------------
+    $ renpy.end_replay()
+    ##--------------------------------------------------------------------------
+
+    ############################################################################
+    ## v0.13 END
+    $ end_demo(13)
+    ############################################################################
+
+
+    # h "Apologize to your Oji-san, not me. You came inside his wife."
+    #
+    # y "S-sorry... O-oji-san..."
+    #
+    # h "Say it properly, sweetie."
+    #
+    # y "S-orry, Oji-san... For cumming inside Oba-chan..."
