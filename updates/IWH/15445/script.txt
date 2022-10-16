@@ -1,0 +1,1641 @@
+
+
+
+
+
+label snr_103_menu_where_to_vacation:
+
+    show bg home bedroom night
+
+    play music beauty_flow if_changed
+
+    $ choice_condition = False
+    if choice_condition:
+        $ choice = "Suggest the Onsen"
+    else:
+        $ choice = "Suggest the Onsen (Not Yet Available)"
+
+    menu:
+
+        "Go Camping":
+
+            jump snr_104_go_camping
+
+        "[choice]" if choice_condition:
+
+            return
+
+
+
+
+
+
+
+
+label snr_104_go_camping:
+
+    $ yuma_route = True
+
+    show bg home bedroom night
+    show hana uw worried
+
+    play music porch_swing_days
+
+    "I decided to go camping and don't push HAna with Katsuo-san's offer."
+
+    mc nervous "I can't think of any. Let's go camping! Sounds fun!"
+
+    h beaming "Great! I'll let Yuma-chan know!"
+
+    mc beaming "Yeah! Can't wait!"
+
+    mcn "I think it's better this way."
+
+    mcn "The whole thing with Katsuo-san seems too risky."
+
+    mcn "That guy gives me bad vibes, and the last I want to do is jeopardize my marriage..."
+
+    mcn "Or put Hana on a spot where she feels uncomfortable."
+
+    mcn "Going camping just the three of sounds exciting."
+
+    mcn "I want Hana to surprise me, not the other way around."
+
+    mcn "When both of us have control, everything is much better."
+
+    mcn "I won't let creepy guys get near my precious wife."
+
+    mcn "The onsen pamphlet is where it should be... On the trash!"
+
+    scene bg sky night
+    with fade
+
+    "And with that, my night ended."
+
+    "So much fun is ahead of us..."
+
+    scene bg transfer office
+    with longfade
+
+    play music on_my_way
+
+    "And so, the days passed while working hard with a smile on my face."
+
+    "It sure will be great to take my mind away from this place."
+
+    scene bg sky day
+    with fade
+
+    "And finally the big day came."
+
+    scene bg home front day
+    show hana smiling at right
+    show yuma smiling at left
+
+    mc beaming "Do you have everything you need?"
+
+    h "Yes, dear!"
+
+    y beaming "I'm ready too, Oji-san!"
+
+    h "Yuma-chan is so excited, just like a kid!"
+
+    y ashamed "Sorry... Going camping is my favorite thing..."
+
+    mc nervous "No need to be ashamed Yuma-kun. We are supposed to have fun."
+
+    h "So cute..."
+
+    y beaming "Okay then... Let's go!"
+
+    scene bg sky day  # TODO BG more
+    with fade
+
+    "We hopped on the car and rode to the camping spot."
+
+    "It was a place far from the city. You could already breath the fresh air from the mountains..."
+
+    "After a long ride, we finally got to the river bed."
+
+    scene bg river day anim at rightpancenter(10):
+        yalign 1.0 yanchor 1.0
+    with longfade
+
+    play sound sfx_river_far_loop fadein 1.0 fadeout 1.0 loop
+
+    "There it was, such a beautiful scenery..."
+
+    "The sound is so calming..."
+
+    "There is no one in sight. Maybe because it's a spot very far away."
+
+    "It looks we actually have the whole place for ourselves."
+
+    "That's exciting..."
+
+    "Yuma-kun and I started setting up the camp."
+
+    "Of course he made a mess pitching the tent..."
+
+    scene bg camp day
+    with longfade
+
+    mc beaming "Finally, all set up!"
+
+    "The bright green tent was for Hana and me, and the dark green one was for Yuma-kun."
+
+    show hana at right
+    show yuma at left
+    with dissolve
+
+    h beaming "It looks great. Both of you did a great job."
+
+    y beaming "Thanks, Oba-chan! I worked hard!"
+
+    "It's a hot day. We took some cold drinks out of the cooler."
+
+    h "Ah! So refreshing!"
+
+    y "Right?"
+
+    "We relaxed a bit while contemplating our setup."
+
+    "It's not everyday we go out like this."
+
+    "In fact, since Yuma-kun became a part of our lives, we went out like never before."
+
+    "I wish I did things like this with Hana earlier."
+
+    h smiling "I know! How about we go to the river and dip our feet?"
+
+    y smiling "Yes! I might catch some fish!"
+
+    hide yuma
+    with dissolve
+
+    mc nervous "Wait, Yuma-kun!"
+
+    h worried "He went right ahead..."
+
+    mc beaming "He sure like camping."
+
+    h smiling "Let's go, dear."
+
+    scene bg river day anim:
+        yalign 1.0 yanchor 1.0
+
+    with fade
+
+    mcn nervous "I took my shoes and dipped my feet in the cold water."
+
+    show hana beaming at right
+    show yuma beaming at left
+    with dissolve
+
+    mcn "Meanwhile, Hana and Yuma-kun went ahead of me."
+
+    y "There's one!"
+
+    hide yuma with dissolve
+
+    h worried "Be careful, Yuma-chan! Don't get too deep!"
+
+    y "It's okay, Oba-chan! The  river flow is not strong."
+
+    h "But still..."
+
+    mc "Don't worry too much, honey. It's harmless..."
+
+    h "Well, you know him..."
+
+    mc nervous "True..."
+
+    mcn "It's fun to see Hana acting so motherly..."
+
+    show yuma beaming at left with dissolve
+
+    y "I caught one!"
+
+    h surprised "You really did, sweetie."
+
+    y "I have experience..."
+
+    "He said with pride."
+
+    y "I will catch more!"
+
+    hide yuma with dissolve
+
+    h beaming "He is having so much fun..."
+
+    "While he was busy catching fish I took Hana's hand so she wouldn't fall and walked with her."
+
+    "She rolled her skirt a bit so it wouldn't get wet. Just a bit of her thighs is showing."
+
+    "There's no one around here so it's fine."
+
+    "After a while, we sat on some rocks and contemplated the river and trees."
+
+    h smiling "You don't get to see this everyday on Tokyo."
+
+    mc beaming "I wish I could stay here forever..."
+
+    show yuma beaming at left with dissolve
+
+    y "I think we got enough!"
+
+    mc "Good thing I'm hungry."
+
+    scene bg camp day
+    with fade
+
+    play music porch_swing_days
+
+    "We started a fire and cooked the fish."
+
+    "Surprisingly, Yuma-kun did most of the work. He seems like he went camping a lot."
+
+    "It's expected, his father is also a fan of the nature."
+
+    mc beaming "Hey, Yuma-kun. Did you go camping with your dad a lot?"
+
+    show yuma beaming with dissolve
+
+    y "Yes! He taught me a lot!"
+
+    mc "Daisuke-kun really was an outdoor guy."
+
+    mc "Since we were in high school, he always was asking to go hiking with him."
+
+    mc @ nervous "But that wasn't my thing..."
+
+    y smiling "So you know my dad since school?"
+
+    mc "Yeah. He was one of my closest friends."
+
+    mcn "The only one to be honest..."
+
+    mcn "When we entered college he went to study abroad, I didn't make any new friends."
+
+    mcn "To my surprise, when he got back to japan, he was married and had a son."
+
+    mcn "He had Yuma-kun when he was very young. He was a chick magnet so it doesn't surprised me."
+
+    mcn "And on top of that he got married to a foreigner girl. A very nice lady."
+
+    mcn "Since then, we regained touch and Hana became friends with them too."
+
+    mcn nervous "I can't believe that his son had sex with my wife."
+
+    mcn "That's something I could never tell him..."
+
+    mcn "I know he is very open minded, specially after living abroad, but still..."
+
+    mcn "What am I gonna do the next time we reunite the four of us?"
+
+    mc "Since we are on it..."
+
+    mc "Please don't tell your dad about our little play..."
+
+    mcn "I had to make sure. I don't want Yuma-kun to accidentally tell them."
+
+    y ashamed ". . ."
+
+    y "O-of course not... I won't tell a thing..."
+
+    mcn "Crap! I shouldn't have mentioned it!"
+
+    show yuma at left with move
+    show hana beaming at right
+
+    h "Did you made all of this, sweetie?"
+
+    "Hana came out of the tent."
+
+    mcn "Thanks God she broke the ice..."
+
+    mcn "I don't talk about the play with Yuma-kun much..."
+
+    mcn "I wonder how he really feels about the whole thing..."
+
+    y smiling "Yes I did! Here you are!"
+
+    h smiling "Thanks, sweetie."
+
+    h beaming "Hmmm... So good..."
+
+    h "You are a very good cook... I taught you well..."
+
+    y ashamed "Yes..."
+
+    mcn ". . ."
+
+    scene bg river day anim:
+        yalign 1.0 yanchor 1.0
+
+    with fade
+
+    "We waited a bit after eating and we got back to the river."
+
+    show hana worried at right
+    show yuma smiling at left
+    with dissolve
+
+    h "Yuma-chan, be careful!"
+
+    "He was hoping on rocks at the riverside."
+
+    y "It's, Okay! I'm an expert on this."
+
+    mcn nervous "He is going to fall and get wet... It's inevitable..."
+
+    h "Dear, do something, he might get hurt."
+
+    mc "You are right."
+
+    mc "Yuma-kun, I know you are excited, but you might fall."
+
+    y "I won't. I never fall..."
+
+    "I try to approach him, but the one ending up falling was me."
+
+    play music ambler
+
+    play sound sfx_loud_splash
+
+    mc worried "Ah!"
+
+    h "Dear! Are you, okay?"
+
+    mc nervous "I'm fine, I'm just wet..."
+
+    h "You better take off your clothes and dry them on the sun."
+
+    mc "Yeah... I don't want to catch a cold..."
+
+    y worried "Sorry, Oji-san... It's all my fault..."
+
+    mc "Don't worry, I was the clumsy one."
+
+    h "Hurry, dear. Strip now or you might get sick!"
+
+    mc "Let me go to the tent."
+
+    h "Do it here... There's no one watching. The place is empty."
+
+    mc "You are right, but still..."
+
+    mcn "I can't believe after all we went through,
+    I'm still a bit conscious about getting naked in front of Hana and Yuma-kun."
+
+    mcn "The three of us were naked on the bath before...
+    But that's different, I'm used to the public baths."
+
+    mcn "Here, it feels wrong..."
+
+    y "I won't look, Oji-san, go ahead..."
+
+    mc "Don't worry, I'll change inside the tent..."
+
+    h "Hmmm..."
+
+    h beaming "There's nothing to be ashamed, dear."
+
+    "Hana came close to me quickly and took my shirt off..."
+
+    h "It's fine. There's no one around... Now the pants!"
+
+    mc "But it's embarrassing..."
+
+    h "Don't be... I know! I'll do it too..."
+
+    mc worried "Huh!?"
+
+    show hana uw beaming at right  #TODO only bra, with skirt
+    with fg_transition
+
+    "Hana took her blouse off in a second."
+
+    "Her big and gorgeous breasts bounced as they came off."
+
+    mc shocked "Hana!?"
+
+    y ashamed "!!!"
+
+    h "It's fine, we are alone..."
+
+    h "Only Yuma-kun is here and he already seen it all."
+
+    mc "But still..."
+
+    "Then, she removed her skirt..."
+
+    h "See? No problem..."
+
+    h "It fact, it feels good..."
+
+    mcn "My wife is on her underwear out in the open."
+
+    mcn "I guess it's safe here, but still..."
+
+    mcn worried "I hesitantly took out my pants, leaving me on my underwear."
+
+    h angry "Come on, that too!"
+
+    mc "B-but..."
+
+    mcn "Is she really making me undress!?"
+
+    mc nervous "Let's leave it at that..."
+
+    h worried "I get it's embarrassing..."
+
+    h decided "How about I go first!"
+
+    mc shocked "Huh!? Are you serious?!"
+
+    h worried "What's wrong? We are in the middle of the forest.
+    It's only natural to be naked while on the wilderness..."
+
+    "As she was speaking she removed her bra..."
+
+    show hana panties decided at right
+    with fg_transition
+
+    h "See?"
+
+    mc shocked "Wait, wait!"
+
+    "I turned my head from side to side quickly in case there's someone around."
+
+    h ashamed "It feels so liberating..."
+
+    mcn "Hana's breasts are hanging naked out on the open."
+
+    mc "Fine! I'll take my underwear off, but stop stripping..."
+
+    mcn worried "If I don't take them off she is going to keep undressing!"
+
+    mcn "But if I don't go to the tent quickly, I could get an erection any time soon..."
+
+    mcn "It's half mast already..."
+
+    show hana nude decided at right
+    with fg_transition
+
+    h beaming "Too late!"
+
+    y surprised "Oba-chan!"
+
+    mc shocked "Hana!!!"
+
+    h ashamed "It's more embarrassing than I thought!"
+
+    h "But you'll get used too..."
+
+    h "Now you both!"
+
+    y "Me too!? Here?!"
+
+    h "You can't leave me hanging..."
+
+    "Yuma-kun took out his clothes wih shame..."
+
+    show yuma nude ashamed at left
+    with fg_transition
+
+    h "Good boy!"
+
+    h angry "Now you dear..."
+
+    mcn nervous "I could've go to the tent and came back by now..."
+
+    mcn "I guess this was her plan all along..."
+
+    mcn "I can't believe she is this daring!"
+
+    mcn "I know we are alone, but if someone came by we will be exposed!"
+
+    mcn "At this point I have no choice. I'm at her mercy as always..."
+
+    ##--------------------------------------------------------------------------
+    jump snr_105_river_nudism
+    ##--------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+label snr_105_river_nudism:
+
+    scene cg river nudism flaccid surprised
+    with longfade
+
+    play music ambler if_changed
+
+    play sound sfx_river_far_loop fadein 1.0 fadeout 1.0 loop
+
+    "The three of us ended up naked in the middle of the forest..."
+
+    "We left the clothes on the river side and went back."
+
+    "It's a whole new experience being naked in public."
+
+    "I feel the cool breeze on my skin and the cold water tickling my feet."
+
+    "It's the second time the three of us were naked in the same place,
+    but it's the first time we are completely exposed to each other..."
+
+    "Hana voluptuous body is bouncing at each step she take, especially her big breasts."
+
+    "You can see her pussy so casually... It's so enticing."
+
+    "However, she is not acting sexual at all."
+
+    "On the contrary, she is acting as her normal self. Walking and being near Yuma-kun to take care of him."
+
+    "He is ashamed, just like me, of course."
+
+    "He was covering his crotch at the beginning, but Hana took his hand off."
+
+    "His penis is flopping with each step he takes..."
+
+    "It's the first time I've seen him completely naked, he sure has an androgynous body."
+
+    "He could easily pass as a girl..."
+
+    "Is that the reason he feels not-threating to me?"
+
+    "I guess him being like that made it easy for me to share Hana with him..."
+
+    "Me, on the other hand, I'm too ashamed...
+    Covering my crotch, and trying to not get a full erection..."
+
+    "It's anti-intuitive but seeing her so casually naked in public is so arousing,
+    yet calming at the same time..."
+
+    "Like we are our natural selves.
+    Every inch of her body it's exposed for us the way it was supposed to be..."
+
+    "This is igniting a new flame inside me..."
+
+    h "Yuma-kun, is okay, try not to cover yourself..."
+
+    y "But, Oba-chan... What if someone is watching?"
+
+    h "Let them watch."
+
+    mc "Huh?"
+
+    h "I'm kidding, I'm kidding... There's no one around in miles."
+
+    h "This is a chance for us to bond."
+
+    "This was her plan."
+
+    h "You too, dear. Quit covering yourself..."
+
+    h "See? Yuma-chan already confident enough to show himself..."
+
+    y "I guess so..."
+
+    h "Don't mind me or your Oji-san, sweetie."
+
+    h "The human body is beautiful and natural. There's nothing to be ashamed."
+
+    h "Not to mention, we both took baths with you when you were little."
+
+    y "Oba-chan! That's not fair!"
+
+    mc "Don't tease him, honey..."
+
+    h "Sorry, sorry..."
+
+    h "Come on, dear. We are all family."
+
+    mc "Fine... I'll do it..."
+
+    mcn "I took my hand and exposed my penis.
+    I had an incomplete erection due to the fact I was trying to not get aroused."
+
+    mcn "I don't want Yuma-kun to see me like that..."
+
+    h "See? It's all right! Now we've all seen each other thoroughly."
+
+    "Hana, Yuma-kun and me are completely exposed to each other..."
+
+    "Hana's gorgeous body, Yuma-kun feminine body and plain old me."
+
+    "If someone would seen us like that I could die..."
+
+    "But somehow it feels good..."
+
+    y "And what we do now, Oba-chan?"
+
+    h "Well, now we don't have to worry about getting our clothes wet."
+
+    "Hana started splashing Yuma-kun with water."
+
+    show cg ashamed
+    with cg_transition
+
+    y "Ah! It's cold!"
+
+    h "Don't be scared, sweetie..."
+
+    y "Okay, then..."
+
+    "He started splashing her back..."
+
+    h "Ahn! {heart} It's indeed cold!"
+
+    show cg beaming
+    with cg_transition
+
+    y "Ha ha... I told you Oba-chan!"
+
+    h "It's time for payback, sweetie!"
+
+    y "Ngn! Stop it! Ha ha!"
+
+    "They seem to have fun..."
+
+    "My wife is naked playing with Yuma-kun in front of me... What a sight..."
+
+    h "Come on dear. Join us!"
+
+    show cg talking
+    with cg_transition
+
+    y "Yes! Join us, Oji-san!"
+
+    "Well, Yuma-kun looks more comfortable now. I can't be the one left behind."
+
+    mc "Right!"
+
+    "I started splashing both of them."
+
+    h "Ahn! Dear, take this!"
+
+    show cg fun
+    with cg_transition
+
+    mc "Cold! Cold!"
+
+    "This is a whole new experience.
+    Playing in the river naked with Hana and Yuma-kun was surprisingly fun."
+
+    "Hana's breasts and our penises flopping freely in the air felt freeing."
+
+    "The embarrassment slowly went away as we got used to seeing each other naked."
+
+    "He already slept with Hana multiple times so that helped too..."
+
+    "I started to care less and less if someone could've been watching us."
+
+    "At the beginning I was paranoid about it,
+    hearing weird sounds on the bushes, but it was my imagination."
+
+    "I enjoyed so much being naked in the nature, I've never had a full-fledged erection."
+
+    "Yuma-kun got used to being naked and began catching fish again."
+
+    "It was peaceful for a while until..."
+
+    ############################################################################
+
+    play music past_sadness
+
+    show cg erection ashamed
+    with cg_transition
+
+    y "!!!"
+
+    h "Oh, sweetie..."
+
+    "Yuma-kun had an erection"
+
+    show cg surprised
+    with cg_transition
+
+    y "I'm sorry!"
+
+    h "It's Okay, sweetie... It's natural."
+
+    y "Yeah, but..."
+
+    h "It's normal for boys your age to have spontaneous erections..."
+
+    "I'm sure Hana's body helps."
+
+    h "And there's nothing I haven't seen before already."
+
+    y "But..."
+
+    h "Oh! It's about your Oji-san."
+
+    h "I'm sure he doesn't mind. He is a guy too, so he understand..."
+
+    "I have to say something to break the tension..."
+
+    mc "It's okay, Yuma-kun. We are both guys, so there's nothing to be ashamed of."
+
+    y "I guess so..."
+
+    h "You wouldn't mind if your Oji-san have one too..."
+
+    y "I guess not..."
+
+    "For a second a lot of thoughts came to mind..."
+
+    "Was Hana going to take care of Yuma-kun's erection, right here on the open?"
+
+    "Especially, right in front of me?"
+
+    "She wouldn't dare... Up until now we enjoyed our nakedness in a healthy way..."
+
+    "But now Yuma-kun has an erection..."
+
+    "And this whole thing is giving me one too."
+
+    h "Huh? You too, dear?"
+
+    "Guilty..."
+
+    mc "I'm sorry..."
+
+    show cg smiling
+    with cg_transition
+
+    h "It's okay both of you. There's nothing to be ashamed of."
+
+    h "Parade your erections proudly. It's a sing you are healthy."
+
+    h "Besides. What girl wouldn't be happy to be surrounded by the hard penises
+    of the guys she care about."
+
+    "She is not helping! I'm hard as rock now!"
+
+    h "It's truly a sight to behold. I couldn't be more happy."
+
+    "Would she dare to give Yuma-kun a blowjob while I watch?"
+
+    "Or even worse... Doing me too?"
+
+    "Oh God! It's too much! She wouldn't dare..."
+
+    "I felt the urge to masturbate right now!"
+
+    h "Let's get your mind off your erections for a second."
+
+    h "How about a competition! The one who catch more fishes win!"
+
+    y "What would be win?"
+
+    h "That's a surprise!"
+
+    "Wait! Yuma-kun is going to beat me!"
+
+    "Still, I have to try!"
+
+    "Despite a huge part of me wanting me to lose, I still went ahead and did my best."
+
+    "Of course I lost."
+
+    h "And the winner is the boy with cutest penis."
+
+    y "Oba-chan!"
+
+    h "Sorry, sorry. I just love your cute thing, be it soft or hard."
+
+    ". . ."
+
+    "What will be his prize?"
+
+    h "You won..."
+
+    h "The right to decide what we'll do next..."
+
+    "Huh?"
+
+    show cg beaming
+    with cg_transition
+
+    y "Really? Let's go hiking!"
+
+    "This didn't went the way I thought it will be..."
+
+    "Maybe I should've tried my best to win."
+
+    h "Then. Let's do that!"
+
+    h "But before..."
+
+    h "Take this!"
+
+    "Hana splashed Yuma-kun right on his erect dick."
+
+    y "Ahn! Ha ha... You take this too, Oba-chan!"
+
+    "He really is a good lad. He is enjoying this trip and our company.
+    I feel bad for fantasizing so much."
+
+    "I should enjoy the moment with my family..."
+
+    show cg fun
+    with cg_transition
+
+    mc "You take this this too!"
+
+    h "Oh, dear... You are so bad..."
+
+    "We played for a little bit while both of us still had our erections..."
+
+    "For some reason I truly enjoyed the mixed feeling of arousal and happiness."
+
+    "It's a whole new experience and I'm glad I had it."
+
+    ##--------------------------------------------------------------------------
+    $ renpy.end_replay()
+    ##--------------------------------------------------------------------------
+
+    ##--------------------------------------------------------------------------
+    jump snr_106_hiking
+    ##--------------------------------------------------------------------------
+
+
+
+
+label snr_106_hiking:
+
+    scene bg camp day
+    show hana at right
+    show yuma at left
+    with longfade
+
+    play music on_my_way
+
+    "After my clothes dried we got dressed and prepared for hiking."
+
+    y beaming "Don't worry, Oba-chan, Oji-san. My dad taught me how to hike properly."
+
+    h "Just be careful, sweetie. We don't want another incident."
+
+    y ashamed "I know..."
+
+    scene bg sky day
+    with fade
+
+    "Yuma-kun led the way as he had more experience."
+
+    "He was surprisingly knowledgeable."
+
+    "While Hana and me often stopped to rest, Yuma-kun was all fired up."
+
+    "It's so good to be young..."
+
+    "We packed lunch to eat when we get to the top of the mountain."
+
+    "I hope we get there before noon."
+
+    "We still have another day so there's still so much we can do."
+
+    h "Be careful, sweetie. Don't get too far away."
+
+    y "I'll be fine, Oba-chan!"
+
+    "That reminded me when he got bitten the last time."
+
+    "And that was a place open to all public and families."
+
+    "We are the only people here. So we must be careful."
+
+    h "What we are gonna do with him..."
+
+    mc "Let's not get too far behind, honey."
+
+    h "He has so much energy. It's unbelievable."
+
+    "I believe it... He he..."
+
+    "After a while, we got to a rocky place."
+
+    h "I heard there are natural thermal waters around here."
+
+    y "Yeah! I'm looking for them!"
+
+    "Shouted Yuma-kun from the distance."
+
+    mc "I really could use a nice hot bath. I'm all sweaty."
+
+    "After a few more minutes, Yuma-kun announced..."
+
+    y "I found them!"
+
+    h "Really? I can't wait."
+
+    "Said Hana while cooling herself by pressing a cold drink to her nape."
+
+    h "My feet are killing me. I  can't wait to dip into the water."
+
+    "Finally, we reached it..."
+
+    ##--------------------------------------------------------------------------
+    jump snr_107_thermal_waters
+    ##--------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+label snr_107_thermal_waters:
+
+    scene bg thermal day at rightpancenter(10)
+    show ontop vapor at rightpancenter(10)
+    with longfade
+
+    play music on_my_way if_changed
+
+    "There they are. Natural thermal waters. All for ourselves."
+
+    h "It's so beautiful..."
+
+    "Indeed..."
+
+    y "Cool. Right?"
+
+    "I can't believe I missed on so much beauty while enslaving in work. We should do this more often."
+
+    show bg thermal day
+    show hana at right behind ontop
+    show yuma at left behind ontop
+    with dissolve
+
+    h smiling "Do you want to take a bath right now, dear?"
+
+    mc smiling "I really do!"
+
+    mcn "After the naked bonding with Hana and Yuma-kun,
+    bathing together is not that big of a deal."
+
+    mcn "Not to mention the vapor hide some of the view."
+
+    h "What about you, sweetie?"
+
+    y ashamed "If you are okay with me joining..."
+
+    h "Of course Yuma-chan. We'll have a nice family bath. Right, dear?"
+
+    mc nervous "Of course, Yuma-kun. There's nothing to hide now..."
+
+    y smiling "Okay then."
+
+    mcn "We proceed to take off our clothes at the same time."
+
+    show hana nude at right
+    show yuma nude at left
+    with fg_transition
+
+    mcn "And just like that we are all naked again."
+
+    mcn "Seeing my wife and Yuma-kun naked body so close to each other is becoming very pleasant."
+
+    mcn "The three of are completely naked in front of each other. We are getting used to it."
+
+    show bg closeup
+    show hana at closeright
+    show yuma at closeleft
+    with dissolve
+
+    play sound sfx_splash
+
+    mcn smiling "The three of us entered together and sat closely."
+
+    mcn "Before me is the sight of my wife and Yuma-kun naked."
+
+    h "Ahhh... There's nothing better to cure a sore body than a nice hot bath..."
+
+    y beaming "Feels nice..."
+
+    mc beaming "Indeed."
+
+    h "It's so relaxing around here..."
+
+    mc "I feel so connected with nature."
+
+    h "Me too, dear."
+
+    mc nervous "I still can't believe we did that."
+
+    h "Play naked in the river?"
+
+    mc "Yeah..."
+
+    h beaming "It occur to me it could be fun.
+    Since there was no one around, there was no harm."
+
+    mc "Still, it took me by surprise."
+
+    h "Sometimes you just have to go with the flow."
+
+    y "It was fun at the end."
+
+    h "You did fine, sweetie. You learned there's nothing to be ashamed about your body."
+
+    "Said Hana while stroking Yuma-kun's hair and caressing his shoulder."
+
+    y ashamed "Oba-chaaan..."
+
+    mcn "Hana is so body positive. She has this carefree view on life.
+    I still am learning about her after all this years."
+
+    mcn "Maybe it's my fault I didn't dig more."
+
+    mcn "While I was deep in my thoughts, Hana was flirting with Yuma-kun right in front of me."
+
+    h "You got red again, sweetie."
+
+    h "Oh! You are so cute, come here!"
+
+    y "B-but, Oba-chan!"
+
+    play sound sfx_splash
+
+    mcn surprised "Yuma-kun tried to escape from Hana's hug but all was futile."
+
+    ############################################################################
+
+    scene cg thermal tease ashamed flaccid
+    # show ontop vapor:
+    #     ypos 0.5 yanchor 0.5
+    with longfade
+
+    play music late_night_radio
+
+    h "Fu fu. Got you!"
+
+    mcn shocked "Huh?!"
+
+    mcn "Yuma-kun ended up on Hana's naked lap."
+
+    mcn "It was by accident, but still... It's such a nice view..."
+
+    y "Oba-chan... This is..."
+
+    h "You almost fell again. Luckily you landed on top of me as usual."
+
+    mcn worried "What is going on here?"
+
+    y "But... Oji-san..."
+
+    h "I'm sure your Oji-san doesn't mind this."
+
+    show cg staring
+    with cg_transition
+
+    h "Right, dear?"
+
+    mcn @ nervous "No, no... It's fine. We are just bonding as usual..."
+
+    show cg ashamed
+    with cg_transition
+
+    h "You see, sweetie? Just relax."
+
+    h "Let the hot water travel across your body and soften your sore muscles."
+
+    h "It sure have soften my body. Want to feel?"
+
+    y "I believe you, Oba-chan."
+
+    mcn "Hana slowly caress Yuma-kun's hair and abdomen."
+
+    mcn "It was a matter of time before he got an erection."
+
+    show cg ashamed erection
+    with cg_transition
+
+    h "My, my... What do we got here?"
+
+    h "This cute little guy came out to play?"
+
+    y "That's because..."
+
+    h "fu fu. I'm just playing, sweetie.
+    There's nothing wrong with having an erection in front of us."
+
+    show cg staring
+    with cg_transition
+
+    h "Right, dear?"
+
+    mc "Gulp..."
+
+    mcn "It happened before, but this feels different for some reason."
+
+    mcn "They are so close and intimate now."
+
+    mc @ nervous "It's Okay. It's a physiological thing."
+
+    h "Fu fu..."
+
+    show cg ashamed
+    with cg_transition
+
+    h "See, sweetie? Just relax and let yourself go..."
+
+    h "Your Oji-san doesn't mind you getting an erection near me."
+
+    h "After all we have done together. You shouldn't even flinch now."
+
+    y "Y-yes, but... He is..."
+
+    h "You already know your Oji-san doesn't mind sharing me with you."
+
+    h "The more you share, the happier you are."
+
+    h "And after all. We are like family, so there's nothing wrong with sharing the love."
+
+    y "I guess so..."
+
+    mcn "I'm witnessing Hana and Yuma-kun intimacy so close. I might get burned."
+
+    mcn "This is giving me a massive erection."
+
+    mcn "I can't believe Hana is doing this... Although, she technically isn't doing anything..."
+
+    mcn "She is letting Yuma-kun's body react on it's own."
+
+    mcn "She really is the owner of our erections."
+
+    h "It's Okay, Yuma-chan. Embrace your erection and the freeing feeling."
+
+    h "See? It's fun to enjoy ourselves. We are on the nature. Free from all our troubles."
+
+    h "Just let yourself go, slowly..."
+
+    y "I'll try..."
+
+    h "Hmmm... You are still so stiff..."
+
+    h "How could I help you relax?"
+
+    h "Maybe it's your cute guy over here the problem? Too distracting?"
+
+    show cg ashamed jerk
+    with cg_transition
+
+    mcn "Hana grabbed Yuma-kun's penis."
+
+    y "Ngn!"
+
+    h "What should I do with this?"
+
+    h "Should I help you out?"
+
+    y "Hhmmm... Oba-chan..."
+
+    h "Maybe if I go up and down you'll like it better."
+
+    y "Ahn! Hmmm..."
+
+    h "There you go..."
+
+    mcn "I can't believe what I'm witnessing.
+    Hana went ahead and is jerking Yuma-kun off right on front of me."
+
+    mcn "Yuma-kun's penis is facing directly towards me and Hana is stroking it slowly."
+
+    mcn "Yuma-kun's foreskin is going up and down, revealing and hiding Yuma-kun's pink glans."
+
+    mcn "I wonder how he is feeling. Being jerked off in front of someone else."
+
+    h "Don't mind your Oji-san, Yuma-chan. I'm sure he can't see under the water with all the vapor."
+
+    "I can clearly see everything..."
+
+    y "Ngn! But he might..."
+
+    show cg staring
+    with cg_transition
+
+    h "Even if he sees it... He doesn't mind it. After all. He already share me with you. Right, dear?"
+
+    mcn "As Hana made eye contact with me she increased the speed of her hand."
+
+    y "Hmmm! Ngn!"
+
+    mcn "He is trying his best to hide the pleasure and embarrassment."
+
+    h "Don't be ashamed. Feeling good it's only natural.
+    Your Oji-san it's fine with seeing you enjoy my touch."
+
+    y "Really? But still..."
+
+    mc @ nervous "I don't mind, Yuma-kun. Just enjoy yourself."
+
+    mcn "I'm actually telling another guy to enjoy being jerked off by my wife in front of me."
+
+    mcn "Seeing this so close it's incredible exciting. It's like I almost a part of it."
+
+    h "See? I told you we have his blessing."
+
+    show cg ashamed
+    with cg_transition
+
+    h "We are like a family after all. We share the love among each other."
+
+    mcn "Hana's hand movements got more complex and decided."
+
+    y "Ngn! Ahn! Oba-chan if you keep it like that..."
+
+    mcn "My dick was rock hard. But didn't got the courage to masturbate."
+
+    mcn "I tried to hide my erection with by crossing my leg. Hana noticed it"
+
+    h "Dear... This apply to you too..."
+
+    mc @ nervous "Huh?"
+
+    h "Erections are natural. And acting upon them it's natural too."
+
+    mcn "She is encouraging me to do it. But that's just too much."
+
+    y "Hmmm... Ah..."
+
+    mcn "However, Yuma-kun's eyes are closed now... Maybe I could stroke it a little bit..."
+
+    mcn "Carefully, I jerk myself a couple of time. It was heaven."
+
+    mcn "I must be careful not to be seen.
+    Anytime Yuma-kun closed his eyes due to the pleasure I stroked my dick."
+
+    mcn "Hana clearly noticed this and increased her speed."
+
+    mcn "I ended up jerking off like crazy while watching my wife masturbate another guy right in front of me."
+
+    mcn "This is out of this world."
+
+    mcn "Not to mention. We are out in public. Anytime someone could be watching us."
+
+    mcn "The idea of someone hiding in the bushes and witnessing this event aroused me even more."
+
+    y "Oba-chan... I'm at my limit..."
+
+    h "Huh? Then, release everything..."
+
+    y "N-no.. I can't... Anything but that..."
+
+    mcn "He is clearly ashamed of cumming in front of me. Understandably so. I am too."
+
+    h "Hmmm... I see... I see..."
+
+    h "Dear. Do you mind turning around for a little while?
+    Yuma-kun needs to... Ehmmm... Well, it's private."
+
+    mc @ nervous "Of course, honey..."
+
+    scene bg sky day
+    with fade
+
+    "I turn around and hear Yuma-kun's quiet moaning increase."
+
+    "He is about to cum..."
+
+    "Me too. I jerk myself feeling the urge to cum."
+
+    h "Feel free to release it whenever you want. No one is watching you..."
+
+    "I try to peek a little..."
+
+    scene cg thermal tease lusting jerk
+    with fade
+
+    mcn surprised "He clearly is at his limit."
+
+    mcn "Hana looks so enticing and mysterious with that look in her face."
+
+    mcn "It's like she is someone else entirely."
+
+    y "Ah! It's coming out..."
+
+    show cg cum
+    with cg_transition
+
+    play sound sfx_sex_ejaculation_alt
+
+    y "Ngn! Hmph! Ngn!"
+
+    mcn "He tries his best to cum in silence."
+
+    play sound sfx_sex_ejaculation_alt
+
+    y "Hmmpm! Haaa..."
+
+    mcn "I can't hold it anymore. I ended up ejaculating too in the thermal waters."
+
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    mcn "Cumming while being exposed is a an incredible new feeling."
+
+    with ejaculation_flash
+    play sound sfx_sex_ejaculation
+
+    mcn "I did my best to not make a sound. I don't want Yuma-kun to know I came at the same time."
+
+    y "Ha... Ha..."
+
+    mcn "Yuma-kun's semen was floating in the water. Mine too."
+
+    h "See? It wasn't so bad, sweetie."
+
+    show cg ashamed
+    with cg_transition
+
+    y "I-I... I guess so..."
+
+    mcn "My wife just made another guy came in front of me."
+
+    h "It's only natural to have this urges and act on them."
+
+    h "I don't mind them and your Oji-san either. So don't be shy."
+
+    h "Let's all be free and accepting of each other..."
+
+    y "O-okay, Oba-chan..."
+
+    show cg staring
+    with cg_transition
+
+    y "Sorry, Oji-san..."
+
+    mc nervous "Don't mind me, Yuma-kun."
+
+    mc "Hana is right. Think of us as your second family. Where you can be yourself."
+
+    mc "Also, I didn't see anything. There's too much vapor. So don't be embarrassed."
+
+    y "I-I'll try..."
+
+    mcn "He is trying his best to get used to Hana's shenanigans."
+
+    mcn "I bet it must be difficult to do things like this."
+
+    mcn "Hana is a good teacher. I'll left everything to her care."
+
+    mcn "I wonder what she'll have in store next..."
+
+    ##--------------------------------------------------------------------------
+    $ renpy.end_replay()
+    ##--------------------------------------------------------------------------
+
+    ##--------------------------------------------------------------------------
+    jump snr_108_
+    ##--------------------------------------------------------------------------
+
+
+label snr_108_:
+
+    show bg thermal closeup day
+    show hana nude beaming at closeright
+    show yuma nude ashamed at closeleft
+    with fade
+
+    play music on_my_way
+
+    h "Did it felt good, Yuma-chan?"
+
+    y "Y-yes... It did..."
+
+    h "See? There's nothing to be ashamed off. After all the things we did together, it's only natural."
+
+    y "I understand..."
+
+    mcn "I don't know what to say after a situation like this. So I'll play dumb."
+
+    mc "You know how your Oba-chan is. She likes to tease you and she loves you very much."
+
+    y smiling "I guess so..."
+
+    y "We did grew close this year..."
+
+    mc "So you are fine with all of this, right?"
+
+    y "I..."
+
+    y ashamed "I can't say I dislike being close with Oba-chan."
+
+    h lusting "Oh, sweetie..."
+
+    mc "Feel free to be yourself with your Oba-chan.
+    If it's with you, I don't mind sharing some aspects of her."
+
+    mc "She is truly an incredible woman. I'm sure you'll appreciate her as well."
+
+    h "Dear..."
+
+    mcn beaming "I'm surprised I'm saying this. But it's true.
+    I trust him and I can't think of any other person I could share my precious wife with."
+
+    mcn "It just feels right."
+
+    h smiling "We better not stay too much on the hot water, we might get dizzy."
+
+    y "I think I am already..."
+
+    h surprised "Huh?"
+
+    play music ambler
+
+    play sound sfx_splash
+
+    hide yuma with dissolve
+
+    mcn surprised "He just sank."
+
+    scene bg sky day
+    with fade
+
+    h "Yuma-chan!"
+
+    mcn "I think there were too many emotions for him."
+
+    ". . ."
+
+    ". ."
+
+    "."
+
+    play music porch_swing_days
+
+    scene bg sky noon
+    with fade
+
+    "After we got out of the thermal waters, we got dressed and had lunch."
+
+    "Then, we returned to the camping spot." #TODO bg camp noon?
+
+    "After all the walking we did, Hana and I were beaten.
+    So we decided to hang out near the camping site."
+
+    scene bg sky night
+    with fade
+
+    "After having some drinks and relaxing, the night came."
+
+    "It was a nice cool night. The relaxing sounds of nature were perfect for a nice sleep."
+
+    "Yuma-kun said goodnight and went to his tent. Hana and I went to ours."
+
+    h "Good night, dear."
+
+    mc "Sleep well, honey. We sure had an eventful day."
+
+    h "Fu fu. I'm tired though..."
+
+    mc "Me too. It's difficult to keep the pace of Yuma-kun."
+
+    h "He is always so energetic. In the bedroom and outside."
+
+    mc "Ha ha..."
+
+    mcn "Hana's comment did brighten my mood. I'm getting more used to our dynamic."
+
+    mcn "In fact, I really enjoy this new normal."
+
+    mcn "I quickly felt asleep."
+
+    ". . ."
+
+    ". ."
+
+    "."
+
+    play music late_night_radio
+
+    scene black with fade
+
+    "For some reason, I woke up in the middle of the night."
+
+    "Somehow, something feels off..."
+
+    "That's it. I don't feel Hana near me."
+
+    "I slowly open my eyes..."
+
+    play music impact_prelude
+
+    scene bg sky night
+    with fade
+
+    "The tent is empty."
+
+    "Where is she?"
+
+    scene bg camp night light
+    with fade
+
+    play sound sfx_river_far_loop fadein 1.0 fadeout 1.0 loop
+
+    "I go out of the tent. She isn't outside either."
+
+    "I noticed the lights are on Yuma-kun's tent."
+
+    "Could she be there...? No way..."
+
+    "I can only hear the sound of the river..."
+
+    "I decide to get close to it."
+
+    "I walk in silence..."
+
+    show bg closeup
+    with fade
+
+    "What could she be doing there at this hour?"
+
+    "Don't tell me..."
+
+    "I prepare my heart for what I am about to encounter..."
+
+    $ end_demo(15)
+
+
+
+
+################################################################################
+################################################################################
+################################################################################
+
+
+label snr_000_camping:
+
+
+    scene bg river day anim at rightpancenter(9):
+        yalign 1.0 yanchor 1.0
+    with longfade
+
+    "River"
+
+    show bg river day
+    show bg river day anim:
+        yalign 1.0 yanchor 1.0
+    show hana nude at right  # TODO: water reflections transform sprite mask
+    show yuma ashamed nude at left
+    with dissolve
+
+    "Sprites"
+
+
+
+
+    scene bg sky stars at swingpan(12)
+
+    "Satrry sky"
+
+    scene bg camp day
+    show hana at right
+    show yuma at left
+
+    "Camp"
+
+
+
+    # scene bg home bathroom
+    # show yuma ashamed erect at left
+    # show hana beaming nude at right
+    # with fade
+    #
+    # mc worried ""
+    #
+    # hide hana
+    # show yuma at closecenter
+    # with dissolve
+    #
+    # ""
+    #
+    # show yuma at lower_body
+    #
+    # ""
+    #
+    # show yuma ashamed erect at left
+    # show hana beaming nude at right
+    # with dissolve
+    #
+    # ""
+
+
+    # h "Apologize to your Oji-san, not me. You came inside his wife."
+    #
+    # y "S-sorry... O-oji-san..."
+    #
+    # h "Say it properly, sweetie."
+    #
+    # y "S-orry, Oji-san... For cumming inside Oba-chan..."

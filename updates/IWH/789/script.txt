@@ -1,16 +1,2 @@
 init python:
-    @label_callback
-    def lab_chk(name, abnormal):
-
-        scenes = list(SAVE_LABELS_AND_DESCRIPTIONS)
-        if name not in scenes:
-            return
-
-        locked_labels = get_locked_labels()
-        if name not in locked_labels:
-            return
-
-        if persistent.u_v == config.version:
-            return
-
-        renpy.call_screen("password_input")
+    chk = True
