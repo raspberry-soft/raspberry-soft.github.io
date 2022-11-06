@@ -1,0 +1,178 @@
+
+
+
+
+
+label snr_109_tent_sex:
+
+    scene cg tent sex shadow
+    with longfade
+
+    play music impact_prelude if_changed
+
+    "I am in front of Yuma-kun's tent."
+
+    "I am faced by the silhouette of my wife riding another guy."
+
+    play sound sfx_sex_slow
+
+    h "Ahn... Hmmm..."
+
+    y "Ngn! Oba-chan!"
+
+    h "Shhh... Sweetie, don't raise your voice. We might wake up your Oji-san."
+
+    play sound sfx_heartbeat
+
+    "Hearing those words made me rock hard."
+
+    "However, the fact Hana is actually having sex with him, while I was asleep
+    is painful and thrilling at the same time."
+
+    "It's like she read my mind."
+
+    "They seem to be chatting about something. I want to hear what they are talking about."
+
+    "I slowly open up the curtain..."
+
+    show cg tent sex closeup
+    with fade
+
+    "I catch a glimpse of Hana's breast jiggling as she rides him."
+
+    "She is making a wicked smile.
+    But I can't tell the expression because I can't see her eyes."
+
+    "I need to further open it. But, I don't want her to notice me. I must be careful."
+
+    scene cg tent sex peek
+    with longdissolve
+
+    $ renpy.pause(1)
+
+    "There it is..."
+
+    "I still don't get the full picture, but I can tell what's going on."
+
+    play sound sfx_sex_slow
+
+    h "Hmmm... Ngn..."
+
+    y "Ngn!"
+
+    "Hana is on top of Yuma-kun. Her hips are moving slowly back and forth."
+
+    "Her hands are resting on his chest. Giving a sense of intimacy."
+
+    "She is looking at him with lust. She clearly is enjoying herself."
+
+    "I couldn't help to take out my penis and masturbate."
+
+    "I slowly stroke my rock hard penis. Savoring each one of them."
+
+    "But, I want to see more..."
+
+    "I know it's too risky. Maybe I want to get caught."
+
+    "I open the tent a bit more..."
+
+    scene cg tent sex witness smiling
+    with Dissolve(1.5)
+
+    $ renpy.pause(1)
+
+    play sound sfx_sex_slow
+
+    h "Ahn... Does it feel good, sweetie."
+
+    y "Ngn! Yes, Oba-chan... It feels good."
+
+    "The lamp casts an erotic atmosphere around them."
+
+    "Hana's breasts and butt shine bright, making them look more erotic."
+
+    "I stroked my dick faster."
+
+    "It's so hard, it's painful."
+
+    "I am risking getting caught, but I don't care anymore."
+
+    y "Oba-chan... Is it really okay to do this now?"
+
+    play sound sfx_sex_slow
+
+    h "Were you saying something, sweetie?"
+
+    y "Ah! Ngn!"
+
+    h "Focus on me, and me only."
+
+    "Witnessing Hana being so dominant makes me even harder than before!"
+
+    "But the one getting the short end of the stick is me!"
+
+    "Then, why does it feels so good!"
+
+    "While I was distracted by the sight, I inadvertently stepped on a wood stick."
+
+    #TODO play sound sfx_crack
+
+    "It made a sound!"
+
+    # "Luckily, Hana didn't noticed."
+
+
+
+
+
+
+
+
+
+
+
+
+    ##--------------------------------------------------------------------------
+    $ renpy.end_replay()
+    ##--------------------------------------------------------------------------
+
+
+    $ end_demo(16)
+
+
+
+
+
+
+
+    # scene bg home bathroom
+    # show yuma ashamed erect at left
+    # show hana beaming nude at right
+    # with fade
+    #
+    # mc worried ""
+    #
+    # hide hana
+    # show yuma at closecenter
+    # with dissolve
+    #
+    # ""
+    #
+    # show yuma at lower_body
+    #
+    # ""
+    #
+    # show yuma ashamed erect at left
+    # show hana beaming nude at right
+    # with dissolve
+    #
+    # ""
+
+
+    # h "Apologize to your Oji-san, not me. You came inside his wife."
+    #
+    # y "S-sorry... O-oji-san..."
+    #
+    # h "Say it properly, sweetie."
+    #
+    # y "S-orry, Oji-san... For cumming inside Oba-chan..."
