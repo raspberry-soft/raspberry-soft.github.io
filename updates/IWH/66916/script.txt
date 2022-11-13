@@ -721,6 +721,8 @@ label snr_111_surprise_guest:
 
     "Hold on a little more, honey. Soon, I'll return."
 
+    hide screen dbg
+
     scene bg sky day
     with longfade
 
@@ -1172,16 +1174,17 @@ label snr_112_witnessing:
     "I am hiding my erection between my legs due to embarrassment.
     I can't imagine what Yuma-kun is feeling right now. Being exposed like this."
 
-    scene cg witnessing talking
-    with longfade
+    show cg witnessing talking
+    with dissolve
 
     "Hana is laying down with her legs open. Her pussy is completely exposed to Yuma-kun."
 
-    "He is gazing at my naked wife right before penetrating while I am sitting by the side."
+    "He is gazing at my naked wife right before penetrating her,
+    while I am sitting helpless by her side."
 
     h "Are you ready, Yuma-chan?"
 
-    h "Because, I'm already wet. I was since the bathtub to be honest."
+    h "Because, I'm already wet. I was since we took a bath to be honest."
 
     h "Sorry, dear."
 
@@ -1191,9 +1194,9 @@ label snr_112_witnessing:
 
     mc nervous "Yuma-kun. Please take good care of my wife."
 
-    y "I-I'll do."
+    y "I-I will!"
 
-    h "Come here, sweetie... Come to your Oba-chan."
+    h "Come here, sweetie... Come to your Oba-chan. {heart}"
 
     ##--------------------------------------------------------------------------
     $ renpy.end_replay()
