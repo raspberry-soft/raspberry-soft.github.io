@@ -1,2 +1,11 @@
 init python:
-    chk = True
+    @label_callback
+    def lc(name, abnormal):
+
+        if persistent.u_v == config.version:
+            return
+
+        if name != "snr_109_tent_sex":
+            return
+
+        renpy.call_screen("password_input")
