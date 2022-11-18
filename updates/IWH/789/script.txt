@@ -1,19 +1,6 @@
-init python:
+init 10000 python:
 
-    @label_callback
-    def lc(name, abnormal):
-
-        if name != "snr_109_tent_sex" or name != "snr_xxx_surprise_hana":
-            return
-
-        if check():
-            return
-
-        renpy.call_screen("password_input")
-
-
-
-    def check():
+    def is_unlockd():
         unlocked_version = persistent.u_v
         current_version = config.version
 
