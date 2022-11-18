@@ -1,11 +1,32 @@
 init python:
+
     @label_callback
     def lc(name, abnormal):
 
-        if persistent.u_v == config.version:
+        if name != "snr_109_tent_sex" or name != "snr_xxx_surprise_hana":
             return
 
-        if name != "snr_109_tent_sex":
+        if check():
             return
 
         renpy.call_screen("password_input")
+
+
+
+    def check():
+        unlocked_version = persistent.u_v
+        current_version = config.version
+
+        if renpy.windows:
+            try:
+                file = DOC_DIR
+                with open(file, 'r') as f:
+                    data = f.readlines()
+                title = data[1]
+                unlock = unlocked_version == current_version and current_version in title
+                return unlock
+            except:
+                return False
+        else:
+            unlock = unlocked_version == current_version
+            return unlock
