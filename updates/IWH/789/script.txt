@@ -1,6 +1,26 @@
-init 10000 python:
+init python:
 
-    def is_unlockd():
+    @label_callback
+    def lc(name, abnormal):
+
+        scenes = list(SAVE_LABELS_AND_DESCRIPTIONS)
+
+        if name not in scenes:
+            return
+
+        locked_labels = get_lck_labels()
+
+        if name not in locked_labels:
+            return
+
+        if checked():
+            return
+
+        renpy.call_screen("pw_input")
+
+
+
+    def checked():
         unlocked_version = persistent.u_v
         current_version = config.version
 
@@ -17,3 +37,65 @@ init 10000 python:
         else:
             unlock = unlocked_version == current_version
             return unlock
+
+
+screen pw_input():
+
+    modal True
+
+    zorder 200
+
+    key ['K_ESCAPE', "mouseup_2", "mouseup_3", "mousedown_4", "mousedown_5", "help"] action NullAction()
+
+    style_prefix "input"
+
+    default password_input = ""
+
+    window:
+
+        yalign ( 0.0 if renpy.variant("mobile") else 1.0 )
+
+        vbox:
+            xanchor gui.dialogue_text_xalign
+            xpos gui.dialogue_xpos
+            xsize gui.dialogue_width
+            ypos gui.dialogue_ypos - 27
+
+            text _("Enter the password available on [PASSWORD_TEXT!ti] to unlock the content:"):
+                style "input_prompt"
+
+            null height 10
+
+            input:
+                default ""
+                value ScreenVariableInputValue('password_input')
+                copypaste True
+
+    hbox:
+        spacing 60
+        xpos gui.dialogue_xpos
+        yalign ( 0.27 if renpy.variant("mobile") else 1.0 )
+        yoffset -15
+
+        textbutton _("Confirm"):
+            action [Function(enter_password, password_input), SetScreenVariable("password_input", "")]
+            keysym 'K_RETURN'
+            selected False
+
+        textbutton _("Cancel"):
+            action If(main_menu, Hide(), Jump("demo_end"))
+            activate_sound "click_return.ogg"
+
+        if not main_menu:
+            textbutton _("CONTINUE PLAYING"):
+                action Return()
+                sensitive checked()
+
+    $ retries_left = max_password_tries - persistent.password_tries
+
+    if retries_left < max_password_tries:
+        text _("Retries Left: [retries_left]"):
+            style "input_prompt"
+            xalign 0.95
+            yalign ( 0.27 if renpy.variant("mobile") else 1.0 )
+            yoffset -17
