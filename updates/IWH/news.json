@@ -38,6 +38,7 @@
     "test_version" : null,
     "test_url" : "https://www.patreon.com/posts/74026635",
     "steam_url" : null,
+    "wishlist_goal" : null,
     "locked_IDs" : [1],
     "banned_pws" : [],
     "switch" : false,
