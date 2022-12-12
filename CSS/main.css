@@ -11,8 +11,9 @@ body {
 	scrollbar-arrow-color: #e30b5d;
 	scrollbar-darkshadow-color: #e30b5d;
 	scrollbar-shadow-color: #e30b5d;
-background-image : url(../image/base/check.gif);
-background-repeat : repeat;
+	background-image : url(../image/base/check.gif);
+	background-repeat : repeat;
+	background-color : #430e24;
 }
 
 body>* {
