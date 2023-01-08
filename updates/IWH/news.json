@@ -40,6 +40,7 @@
     "test_version" : null,
     "test_url" : "https://www.patreon.com/posts/74026635",
     "steam_url" : "https://store.steampowered.com/app/2232830/?utm_source=game&utm_campaign=v17",
+    "dlsite_url" : null,
     "wishlist_goal" : null,
     "current_wishlists" : null,
     "locked_IDs" : [1],
