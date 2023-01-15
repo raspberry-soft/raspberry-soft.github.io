@@ -1,5 +1,5 @@
 {
-    "version" : 58,
+    "version" : 59,
     "m" : 3,
     "password_url" : "https://www.patreon.com/posts/67353613",
     "image" : "https://raspberry-soft.github.io/updates/IWH/news-banner_iwh.jpg",
@@ -41,8 +41,8 @@
     "test_url" : "https://www.patreon.com/posts/77243254",
     "steam_url" : "https://store.steampowered.com/app/2232830/?utm_source=game&utm_campaign=v18",
     "dlsite_url" : "https://www.dlsite.com/maniax/announce/=/product_id/RJ01011883.html",
-    "wishlist_goal" : null,
-    "current_wishlists" : null,
+    "wishlist_goal" : 3000,
+    "current_wishlists" : 800,
     "locked_IDs" : [1],
     "banned_pws" : [],
     "switch" : false,
