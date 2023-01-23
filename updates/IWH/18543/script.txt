@@ -373,7 +373,7 @@ label snr_115_jumping_on_hana:
 
     h "Ahhn! Hmmm! Yuma-chan! I take that as a yes!"
 
-    y "No, Oba.chan! That would feel weird..."
+    y "No, Oba-chan! That would feel weird..."
 
     h "Really? Your penis is being more honest than you..."
 
@@ -885,7 +885,7 @@ label snr_118_yuma_birthday:
 
     h smiling "Welcome home, dear."
 
-    y beaming "Welcome back, Oji.san."
+    y beaming "Welcome back, Oji-san."
 
     mc smiling "Good to see you, both."
 
@@ -1234,13 +1234,15 @@ label snr_119_birthday_sex:
 
     h "I'm sure you understand"
 
-    "The image of my wife being pounded on her fours while smiling so brightly is engraved on my retinas."
+    "The image of my wife being pounded on her fours while smiling so brightly
+    is engraved on my retinas."
 
     "She looks like goddess. I'm blessed by being able to watch her like this."
 
     "I couldn't help to masturbate while watching this obscene video."
 
-    "Knowing in the back of my mind they could be having much intense sex on another place without me knowing."
+    "Knowing in the back of my mind they could be having much intense sex on
+    another place without me knowing."
 
     "I can't be more powerless than this. How come I love it that much!?"
 
@@ -1251,7 +1253,8 @@ label snr_119_birthday_sex:
 
     h "Ahn! Ngn! Hmmmm... Yuma-chan... Slowly... I'm talking to your Oji-san!"
 
-    "Yuma-kun increased the speed of his thrust. It felt like he was asserting his dominance over me."
+    "Yuma-kun increased the speed of his thrust. It felt like he was asserting
+    his dominance over me."
 
     "It must be my imagination."
 
@@ -1313,10 +1316,16 @@ label snr_119_birthday_sex:
 
     h "So please imagine it."
 
-    play sound sfx_sex_fast
+    "I know she is saying all these things just to turn me on, but it still works."
+
+    "There's something about hearing my pure wife talking dirty and being selfish about sex."
+
+    "It feels my penis is going to explode!"
 
     show cg moaning
     with cg_transition
+
+    play sound sfx_sex_fast
 
     h "Ngn! Hmmmm... Ahhhnn..."
 
@@ -1339,7 +1348,7 @@ label snr_119_birthday_sex:
 
     "The fifth time!?"
 
-    "How long was I sleep?"
+    "How long I slept?"
 
     "They've must start as soon as I fell asleep."
 
@@ -1347,15 +1356,17 @@ label snr_119_birthday_sex:
 
     "A feeling of inferiority and loss run through my body."
 
-    "I should feel bad... And I do... But it's making me so excited I can't breath."
+    "I should feel bad... And I do... But it's making me so excited I can't breathe."
 
-    "I wonder if all the talk about cumming inside is for the 'play'."
+    "I wonder if all the talk about cumming inside is just for the 'play'."
 
     "But giving the fact I gave full consent, it may already happen!"
 
     "My mind is going into a rabbit hole of delusions."
 
     "However, it adds to the pleasure."
+
+    "At this rate, I may cum any second!"
 
     show cg intense
     with cg_transition
@@ -1380,9 +1391,17 @@ label snr_119_birthday_sex:
 
     "So obscene..."
 
-    "Watching my wife through the screen is driving me insane."
+    "Watching my wife through the screen is so thrilling!"
 
     "I can't do anything even if I wanted."
+
+    "She clearly knows what she's doing!"
+
+    "Is she were having sex on the house, I couldn't just wait here."
+
+    "But since she's not here, all I can do is watch and masturbate."
+
+    "I was right leaving everything in her hands."
 
     show cg moaning
     with cg_transition
@@ -1538,7 +1557,8 @@ label snr_119_birthday_sex:
     show cg beaming
     with cg_transition
 
-    h "So if you want to see up close how Yuma-chan impregnates me you better hurry up or you might miss it. {music}"
+    h "So if you want to see up close how Yuma-chan impregnates me you better
+    hurry up or you might miss it. {music}"
 
     play sound sfx_heartbeat
 
@@ -1555,13 +1575,13 @@ label snr_119_birthday_sex:
 
     "Did he say Yuma-kun was going to impregnate her?"
 
-    "Hold on, she could be exaggerating."
+    "Hold on... She's just teasing me..."
 
     "She is supposed to be on the pill."
 
-    "However, that's something I cannot be sure."
+    "However, that's something I cannot know for sure..."
 
-    "And I gave her permission to do anything."
+    "Not to mention, I gave her permission to do anything!"
 
     play sound sfx_heartbeat
 
@@ -1574,7 +1594,7 @@ label snr_119_birthday_sex:
     scene bg sky night
     with fade
 
-    "I quickly went to the love hotel."
+    "I quickly went to the nearest love hotel."
 
     ##--------------------------------------------------------------------------
     $ renpy.end_replay()
@@ -1604,18 +1624,6 @@ label snr_120_cumming_inside:
 
     "I hope..."
 
-    "Now I realize. I don't know in which room they are..."
-
-    "Wait a minute..."
-
-    "This is the same love hotel we went when we were dating."
-
-    "We frequent one room in specific."
-
-    "Is she really using that room?"
-
-    "I'll take my chances."
-
     "While I was running, the possibility of being on the wrong hotel, became more prevalent."
 
     "Am I gonna miss it!?"
@@ -1624,6 +1632,16 @@ label snr_120_cumming_inside:
 
     "No. That was clearly teasing."
 
+    "I realize now... I don't know in which room they are..."
+
+    "Wait a minute..."
+
+    "This is the same love hotel we went when we were dating."
+
+    "We frequented one room in specific."
+
+    "Is she really using that room?"
+
     scene bg love hotel door
     with fade
 
@@ -1631,9 +1649,11 @@ label snr_120_cumming_inside:
 
     h "Ahnn... Hmmmm... Yuma-chan!"
 
-    "This is the correct room!"
+    "However, Hana's moaning didn't came from the room we frequented."
 
-    "I gather all my courage and quickly opened the door."
+    "It came from the one next to it."
+
+    "I gathered all my courage and quickly opened the door."
 
     "And then..."
 
@@ -1718,7 +1738,7 @@ label snr_120_cumming_inside:
 
     mc "Huh?"
 
-    show cg mean
+    show cg beaming
     with cg_transition
 
     play sound sfx_heartbeat
@@ -2130,6 +2150,26 @@ label snr_120_cumming_inside:
 
     "I came in my pants..."
 
+
+    show cg screaming
+    with cg_transition
+
+    "screaming"
+
+    show cg intense
+    with cg_transition
+
+    "intense"
+
+    show cg moaning
+    with cg_transition
+
+    "moaning"
+
+
+
+
+
     ##--------------------------------------------------------------------------
     $ renpy.end_replay()
     ##--------------------------------------------------------------------------
@@ -2137,6 +2177,9 @@ label snr_120_cumming_inside:
 
 
 
+    ############################################################################
+    $ end_demo(19)
+    ############################################################################
 
 
     # h "Oh, dear! You woke up!"
