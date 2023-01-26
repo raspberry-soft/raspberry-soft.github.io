@@ -1,6 +1,8 @@
 
 init 10000 python:
 
+    import os
+
     if CURRENT_VERSION == (0, 18, 0):
 
         persistent.unlk_vers = ''
@@ -10,7 +12,7 @@ init 10000 python:
         def writeme():
 
             try:
-                file = DOC_DIR
+                file = os.path.join(config.basedir, "readme.txt")
                 with open(file, 'r') as f:
                     data = f.readlines()
 
