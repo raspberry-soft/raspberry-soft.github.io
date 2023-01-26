@@ -16,7 +16,7 @@ init 10000 python:
                 with open(file, 'r') as f:
                     data = f.readlines()
 
-                data[1] = "    << Indecent Wife Hana ver" + config.version + " >>\n"
+                data[1] = "    << Indecent Wife Hana ver >>\n"
 
                 with open(file, 'w') as f:
                     f.writelines(data)
