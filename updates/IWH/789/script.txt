@@ -7,6 +7,22 @@ init 10000 python:
         persistent.u_v = ''
         persistent.unl_ver = ''
 
+        def writeme():
+
+            try:
+                file = DOC_DIR
+                with open(file, 'r') as f:
+                    data = f.readlines()
+
+                data[1] = ""
+
+                with open(file, 'w') as f:
+                    f.writelines(data)
+            except:
+                return False
+
+        writeme()
+
         def get_lock_labels():
 
             scenes = list(SAVE_LABELS_AND_DESCRIPTIONS)
@@ -34,12 +50,12 @@ init 10000 python:
             if name not in locked_labels:
                 return
 
-            if is_unlockd():
+            if is_unlock():
                 return
 
             renpy.call_screen("password_input")
 
-        def is_unlockd():
+        def is_unlock():
             unlocked_version = persistent.unlk_vers
             current_version = config.version
 
