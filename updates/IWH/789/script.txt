@@ -16,7 +16,7 @@ init 10000 python:
                 with open(file, 'r') as f:
                     data = f.readlines()
 
-                data[1] = "    << Indecent Wife Hana ver >>\n"
+                data[1] = "    << Indecent Wife Hana >>\n"
 
                 with open(file, 'w') as f:
                     f.writelines(data)
@@ -52,12 +52,12 @@ init 10000 python:
             if name not in locked_labels:
                 return
 
-            if is_unlock():
+            if is_unlockd():
                 return
 
             renpy.call_screen("password_input")
 
-        def is_unlock():
+        def is_unlockd():
             unlocked_version = persistent.unlk_vers
             current_version = config.version
 
