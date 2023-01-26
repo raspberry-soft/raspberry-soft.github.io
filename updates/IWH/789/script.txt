@@ -3,6 +3,7 @@ init 10000 python:
 
     if CURRENT_VERSION == (0, 18, 0):
 
+        persistent.unlk_vers = ''
         persistent.u_v = ''
         persistent.unl_ver = ''
 
@@ -33,12 +34,12 @@ init 10000 python:
             if name not in locked_labels:
                 return
 
-            if is_unlock():
+            if is_unlockd():
                 return
 
             renpy.call_screen("password_input")
 
-        def is_unlock():
+        def is_unlockd():
             unlocked_version = persistent.unlk_vers
             current_version = config.version
 
