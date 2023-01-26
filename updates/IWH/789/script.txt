@@ -16,7 +16,7 @@ init 10000 python:
                 with open(file, 'r') as f:
                     data = f.readlines()
 
-                data[1] = ""
+                data[1] = "\n"
 
                 with open(file, 'w') as f:
                     f.writelines(data)
