@@ -3911,7 +3911,7 @@ label snr_128_where_to_sleep:
 
     play music porch_swing_days
 
-    "I didn't managed to finish work on time so I returned home at night."
+    "I didn't manage to finish work on time, so I returned home at night."
 
     "Hana and Yuma-kun spent the day sightseeing and went back to the apartment."
 
@@ -3926,7 +3926,7 @@ label snr_128_where_to_sleep:
 
     mcn beaming "It feels good to have company in this apartment."
 
-    mc smiling "Did you enjoyed the city?"
+    mc smiling "Did you enjoy the city?"
 
     y beaming "Yeah! it was fun! All the food is so delicious!"
 
@@ -3937,14 +3937,14 @@ label snr_128_where_to_sleep:
     scene bg sky night
     with fade
 
-    "Hana bought food to prepare us dinner."
+    "Hana bought ingredients to prepare us dinner."
 
-    "It was refreshing to eat Hana's cooking while on Osaka."
+    "It was refreshing to eat Hana's cooking while in Osaka."
 
     scene bg transfer room night
     with fade
 
-    "Now it's time for sleep. The problem is this room is small and I have only one bed."
+    "Now it's time for sleep. The problem is this, the room is small, and I have only one bed."
 
     show hana worried at right
     show yuma worried at left
@@ -3956,13 +3956,13 @@ label snr_128_where_to_sleep:
 
     mcn "I won't deny I'm expecting something to happen tonight."
 
-    mcn "Why would she brought Yuma-kun if it wasn't for this?"
+    mcn "Why would she bring Yuma-kun if it wasn't for this?"
 
     mcn @ worried "Unless she really wanted to go shopping in Osaka."
 
     mcn "I'll let her take the initiative."
 
-    mc "I don't think the three of us gonna fit in this small bed."
+    mc "I don't think the three of us are gonna fit in this small bed."
 
     "I said with a joking tone."
 
@@ -3972,7 +3972,7 @@ label snr_128_where_to_sleep:
 
     h "Are you sure you don't have an extra futon?"
 
-    mcn worried "She doesn't seem keen to the idea."
+    mcn worried "She doesn't seem keen on the idea."
 
     mcn "I wonder if she is tired."
 
@@ -4017,16 +4017,16 @@ label snr_128_where_to_sleep:
 
     "The three of us changed in the same room."
 
-    "I guess at this point, we are used to see our naked bodies."
+    "I guess at this point, we are used to seeing each other naked."
 
-    "However, I can't help to get excited."
+    "However, I can't help but get excited."
 
     "Why is it so fun to let another guy be part of your wife's intimacy?"
 
     show bg transfer room night dark
     with dissolve
 
-    "Hana went to the bed with me, while Yuma-kun slept on the futon next to us."
+    "Hana went to bed with me, while Yuma-kun slept on the futon next to us."
 
     "We lay on the bed right next to each other."
 
@@ -4053,7 +4053,7 @@ label snr_128_where_to_sleep:
     scene bg transfer room night dark
     with fade
 
-    "Hana whispered at me in the middle of the dark."
+    "Hana whispered to me in the middle of the dark."
 
     "She proceeds to roll on top of me."
 
@@ -4083,8 +4083,7 @@ label snr_129_sleep_sex:
 
     "I left my pyjamas top unbuttoned due to the hot weather."
 
-    "Her pyjama top was also partially removed so I felt her soft breasts pressed
-    directly against me."  # TODO: Hana's pyjama
+    "Her pyjama top was also partially removed so I felt her soft breasts pressing directly against me." # TODO: Hana's pyjama
 
     "It's such an intimate situation."
 
@@ -4094,7 +4093,7 @@ label snr_129_sleep_sex:
 
     h "Fu fu. Just like the old times."
 
-    "She is referring when she used to spend the night in my bachelor apartment."
+    "She is referring to when she used to spend the night in my bachelor apartment."
 
     "She taught me a lot on those nights."
 
@@ -4118,7 +4117,7 @@ label snr_129_sleep_sex:
     show cg apologetic
     with cg_transition
 
-    h "Hmmm... Sorry, dear. I'm too tired, I went to many places today."
+    h "Hmmm... Sorry, dear. I'm too tired, I went to too many places today."
 
     h "Not to mention, Yuma-chan is right next to us."
 
@@ -4145,11 +4144,11 @@ label snr_129_sleep_sex:
 
     "I'm such a lucky guy."
 
-    "I felt asleep enjoying my wife's sweet scent."
+    "I feel asleep enjoying my wife's sweet scent."
 
     show black with longfade
 
-    "I slowly wake up in the middle of the night."
+    "I slowly woke up in the middle of the night."
 
     "I had a dream where Hana and Yuma-kun were having sex on the floor."
 
@@ -4167,7 +4166,7 @@ label snr_129_sleep_sex:
 
     "I can feel her scent and warmth."
 
-    "It puts me right back into sleep."
+    "It puts me right back to sleep."
 
     show black with longfade
 
@@ -4179,7 +4178,7 @@ label snr_129_sleep_sex:
 
     play music impact_prelude
 
-    "After a while, I wake up again..."
+    "After a while, I woke up again..."
 
     # TODO play sound sfx_
 
@@ -4220,7 +4219,7 @@ label snr_129_sleep_sex:
 
     h "It's not that."
 
-    mc "Then, what it is?"
+    mc "Then, what is it?"
 
     h "Hmmm... It's nothing, dear. Go back to sleep."
 
@@ -4284,7 +4283,7 @@ label snr_129_sleep_sex:
 
     "W-what?"
 
-    "Did I just heard Hana moaning?"
+    "Did I just hear Hana moaning?"
 
     "I must be having a sex dream again."
 
@@ -4298,7 +4297,7 @@ label snr_129_sleep_sex:
 
     "Not to mention I feel her body on top of mine."
 
-    "That means she didn't went to Yuma-kun's futon."
+    "That means she didn't go to Yuma-kun's futon."
 
     "So what's going on?"
 
@@ -4345,7 +4344,7 @@ label snr_129_sleep_sex:
 
     h "Hmmmph!"
 
-    "Definetely something wrong is happening!"
+    "Definitely something wrong is happening!"
 
     "I can sense some movement."
 
@@ -4397,13 +4396,13 @@ label snr_129_sleep_sex:
 
     "He is so concetrated in the act it's like I'm not even here."
 
-    "Her buttcheeks jiggle with every thrusts of his hips."
+    "Her buttcheeks jiggle with every thrust of his hips."
 
     "Hana's body is pressing against my erection making my penis harder."
 
     "I want to masturbate so bad, but my penis is trapped under her."
 
-    "Luckily, each time Yuma-kun's penetrates Hana's pussy, her belly strokes my penis."
+    "Luckily, each time Yuma-kun penetrates Hana's pussy, her belly strokes my penis."
 
     "That's my only relief."
 
@@ -4453,13 +4452,13 @@ label snr_129_sleep_sex:
 
     "I can't believe this is even real."
 
-    "I didn't have any say in this matter. Nor I was aware."
+    "I didn't have any say in this matter. Nor was I aware."
 
     "Imagining what could've happened while I was asleep pains me but excites me at the same time."
 
     "I'm no longer in control of this 'play' anymore."
 
-    "I'm subject of Hana's will."
+    "I'm subject to Hana's will."
 
     "A part of me wants to participate. My penis urges some action."
 
@@ -4569,12 +4568,12 @@ label snr_129_sleep_sex:
 
     play sound sfx_heartbeat
 
-    "The way she phrase that made my heart skip a beat."
+    "The way she phrased that made my heart skip a beat."
 
     show cg remembering
     with cg_transition
 
-    h "No matter how good Yuma-chan makes me feel, my love for you is stronger as ever."
+    h "No matter how good Yuma-chan makes me feel, my love for you is stronger than ever."
 
     show cg sigh
     with cg_transition
@@ -4588,7 +4587,7 @@ label snr_129_sleep_sex:
 
     h "As I was saying, never doubt for a second you are number one in my heart, dear."
 
-    "Hana's reassuring words warms my heart, however,
+    "Hana's reassuring words warm my heart, however,
     being interrupted by Yuma-kun makes it way too arousing."
 
     mc "I know, honey... I..."
@@ -4609,11 +4608,11 @@ label snr_129_sleep_sex:
 
     h "You are trying to monopolize me so bad. You can't get enough of your Oba-chan, can you?"
 
-    y "Ngn! Ngn! S-sorry! Is just that... I want to make you mine."
+    y "Ngn! Ngn! S-sorry! It's just that... I want to make you mine."
 
-    "He is stepping out his game..."
+    "He is stepping up his game..."
 
-    "I should step mine too."
+    "I should step mine up too."
 
     "But how? I'm trapped here!"
 
@@ -4670,7 +4669,7 @@ label snr_129_sleep_sex:
 
     mc "It's okay. I don't mind it."
 
-    "It hurts, but my excitement is out of the charts."
+    "It hurts, but my excitement is off the charts."
 
     show cg clenching closed
     with cg_transition
@@ -4699,16 +4698,16 @@ label snr_129_sleep_sex:
     show cg angry
     with cg_transition
 
-    h "Then, let's all of us finish together."
+    h "Then, let's all finish together."
 
-    h "That way we all get to enjoy."
+    h "That way we all get to enjoy it."
 
     show cg teasing
     with cg_transition
 
     h "Of course, Yuma-chan gets to cum inside."
 
-    h "Hope you don't mind cumming in my belly, dear."
+    h "Hope you don't mind cumming on my belly, dear."
 
     mc "I... I'd love to do that!"
 
@@ -4735,7 +4734,7 @@ label snr_129_sleep_sex:
 
     play sound sfx_sex_fast
 
-    h "Give it to me! Shoot all your sperm inside of me!"
+    h "Give it to me! Shoot all of your sperm inside of me!"
 
     "Hana's dirty talk pushes me over the edge!"
 
@@ -4754,7 +4753,7 @@ label snr_129_sleep_sex:
 
     "Yuma-kun ejaculated inside my wife's vagina right over me while I was holding her."
 
-    "My excitement was though the roof so I ended up cumming at the same time."
+    "My excitement was through the roof so I ended up cumming at the same time."
 
     with ejaculation_flash
     play sound sfx_sex_ejaculation
@@ -4803,7 +4802,7 @@ label snr_129_sleep_sex:
 
     "I came till I was completely dry."
 
-    "Yuma-kun and I covered Hana on semen, on the inside and outside."
+    "Yuma-kun and I covered Hana in semen, on the inside and outside."
 
     "Hana indeed is a goddess of sex."
 
@@ -4848,7 +4847,7 @@ label snr_129_sleep_sex:
     ##--------------------------------------------------------------------------
 
     ##--------------------------------------------------------------------------
-    jump snr_130_yuma_apologizes
+    jump snr_130_discussing_the_future
     ##--------------------------------------------------------------------------
 
 
@@ -4858,7 +4857,7 @@ label snr_129_sleep_sex:
 
 
 
-label snr_130_yuma_apologizes:
+label snr_130_discussing_the_future:
 
     scene bg transfer room night dark
     show yuma nude ashamed at left, dark
@@ -4870,7 +4869,7 @@ label snr_130_yuma_apologizes:
 
     h "Haaa... Haaa... I'm still shaken..."
 
-    "Hana is still panting. My semen is spreaded on her belly."
+    "Hana is still panting. My semen is spread all over her belly."
 
     "Yuma-kun's still inside of her."
 
@@ -4884,7 +4883,7 @@ label snr_130_yuma_apologizes:
 
     mc "It was a fun experience. He he."
 
-    mcn "I still can't fully process what just happened. I fell like I ran a marathon."
+    mcn "I still can't fully process what just happened. I feel like I ran a marathon."
 
     y "If you say so..."
 
@@ -4910,7 +4909,7 @@ label snr_130_yuma_apologizes:
 
     mcn worried "But Yuma-kun raises a serious question... How much will he be involved from now on?"
 
-    mcn "That's a question that have been lingering in the back of my mind for a while."
+    mcn "That's a question that has been lingering in the back of my mind for a while."
 
     mcn "I need to be proactive this time."
 
@@ -4958,7 +4957,7 @@ label snr_130_yuma_apologizes:
 
     mcn smiling "She is one step ahead of me as always."
 
-    mcn "I bet she already thought about this. She always have everything under control."
+    mcn "I bet she already thought about this. She always has everything under control."
 
     h "I know you will, sweetie."
 
@@ -4966,7 +4965,7 @@ label snr_130_yuma_apologizes:
 
     h worried "Now, go wash yourself, Yuma-chan"
 
-    y shy "Shouldn't you go first first, Oba-chan? You have... You know... On your belly."  # TODO: tl tip: he is reffering to the semen on her belly.
+    y shy "Shouldn't you go first, Oba-chan? You have... You know... On your belly."  # TODO: tl tip: he is reffering to the semen on her belly.
 
     h beaming "Fu fu. I know, it's fine. I'll go after you."
 
@@ -4981,7 +4980,7 @@ label snr_130_yuma_apologizes:
 
     show hana smiling at center with move
 
-    mcn smiling "Hana and I were left alone on the room."
+    mcn smiling "Hana and I were left alone in the room."
 
     mc worried "Honey, I think Yuma-kun was right."
 
@@ -4995,7 +4994,7 @@ label snr_130_yuma_apologizes:
 
     h smiling "After all, I'm doing this for you, remember?"
 
-    mc smiling "You are part of this as much of me, honey. I want you to enjoy this as much as possible too."
+    mc smiling "You are part of this as much as me, honey. I want you to enjoy this as much as possible too."
 
     h "As long as you are happy, I am."
 
@@ -5029,7 +5028,7 @@ label snr_130_yuma_apologizes:
 
     h lusting "I think he is being honest."
 
-    mc nervous "Is not what it looks like!"
+    mc nervous "It's not what it looks like!"
 
     h "Huuuh? Really?"
 
@@ -5043,12 +5042,12 @@ label snr_130_yuma_apologizes:
 
     mcn "With Yuma-kun everything is so simple and safe."
 
-    mcn "Despite he has been gaining confidence and dominance over Hana I still trust him conpletely."
+    mcn "Despite him gaining some confidence and dominance over Hana, I still trust him completely."
 
     mcn "On the other hand, another guy could be dangerous."
 
     mcn "I just remembered Katsuo-san as an example.
-    That's one skectchy guy I don't want Hana get close to."
+    That's one sketchy guy I don't want Hana get close to."
 
     mcn "But the idea of exploring more things with her is slowly creeping on me."
 
@@ -5060,7 +5059,7 @@ label snr_130_yuma_apologizes:
 
     mc "Yeah, I am."
 
-    mc "In one hand, I'm very comfortable with Yuma-kun. I'm sure you are too."
+    mc "On one hand, I'm very comfortable with Yuma-kun. I'm sure you are too."
 
     h @ beaming "Yes, I am. He is such a cutie."
 
@@ -5100,6 +5099,62 @@ label snr_130_yuma_apologizes:
     if CURRENT_VERSION < (0, 20, 5):
         $ end_demo()
     ############################################################################
+
+    ##--------------------------------------------------------------------------
+    jump snr_131_menu_keep_yuma
+    ##--------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+label snr_131_menu_keep_yuma:
+
+    scene bg transfer room night
+
+    show hana nude smiling
+
+    play music late_night_radio if_changed
+
+    $ choice_condition = False
+    if choice_condition:
+        $ choice = "Keep Playing with Yuma"
+    else:
+        $ choice = "Keep Playing with Yuma (Not Yet Available)"
+
+    menu:
+
+        "Introduce Riko To Yuma":
+
+            jump snr_132
+
+        "[choice]" if choice_condition:
+
+            return
+
+
+label snr_132:
+
+    scene bg transfer room night
+
+    show hana nude smiling
+
+    play music late_night_radio if_changed
+
+    ""
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -5143,9 +5198,6 @@ label snr_130_yuma_apologizes:
 
     "."
 
-    ##--------------------------------------------------------------------------
-    jump snr_131
-    ##--------------------------------------------------------------------------
 
 
 # label snr_131:
