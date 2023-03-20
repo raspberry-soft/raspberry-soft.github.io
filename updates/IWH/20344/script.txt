@@ -4053,7 +4053,7 @@ label snr_128_where_to_sleep:
     scene bg transfer room night dark
     with fade
 
-    "Hana whispered at me in the middle of the dark."  #TODO bug: infitine loop?
+    "Hana whispered to me in the middle of the dark."
 
     "She proceeds to roll on top of me."
 
@@ -4456,15 +4456,9 @@ label snr_129_sleep_sex:
 
     "Imagining what could've happened while I was asleep pains me but excites me at the same time."
 
-    "Was this planned? Is she teasing me? Or everything really got out of control?"
-
-    "I'm no longer in charge of this 'play' anymore."
+    "I'm no longer in control of this 'play' anymore."
 
     "I'm subject to Hana's will."
-
-    "That's exactly what I wanted. That's what I told her."
-
-    "Was I right on doing that?"
 
     "A part of me wants to participate. My penis urges some action."
 
@@ -4875,25 +4869,11 @@ label snr_130_discussing_the_future:
 
     h "Haaa... Haaa... I'm still shaken..."
 
-    mcn worried "Hana is still panting. My semen is spread all over her belly."
+    "Hana is still panting. My semen is spread all over her belly."
 
-    mcn "Yuma-kun's still inside of her."
-
-    mcn "I still can't fully process what just happened. I feel like I ran a marathon."
-
-    mcn "Things got dark pretty quick. I'm ashamed I ended up loving it."
-
-    mcn "If it weren't for my blind trust to Hana, I'll be panicking right now."
-
-    mcn "However, I feel we are getting into really dangerous territory."
-
-    mcn "This opened my eyes."
-
-    mcn "I'm conflicted if I should regain control or enjoy losing it more and more."
+    "Yuma-kun's still inside of her."
 
     y "S-sorry, Oba-chan, Oji-san... I think I over did it."
-
-    hide screen dbg
 
     mc nervous "It's okay. It was unexpected though."
 
@@ -4901,19 +4881,9 @@ label snr_130_discussing_the_future:
 
     h worried "I'm not mad, Yuma-chan. Nor is your Oji-san."
 
-    h beaming "In fact, I already expected this to happen. Fu fu."
+    mc "It was a fun experience. He he."
 
-    mc "I figured..."
-
-    mcn "Hana is always one step ahead everybody else."
-
-    mcn "She sure knows how to make me jealous and horny at the same time."
-
-    mcn "And she went hard this time!"
-
-    h shy "I also expected your Oji-san loving it."
-
-    mc "It was a fun experience indeed. He he."
+    mcn "I still can't fully process what just happened. I feel like I ran a marathon."
 
     y "If you say so..."
 
@@ -5068,27 +5038,18 @@ label snr_130_discussing_the_future:
 
     mcn worried "Is she really open to being with another guy?"
 
-    mcn "Just the idea makes my heart race."
+    mcn "I don't even know if I'm prepared to have that discussion yet."
 
     mcn "With Yuma-kun everything is so simple and safe."
 
     mcn "Despite him gaining some confidence and dominance over Hana, I still trust him completely."
-
-    mcn "Losing Hana to him is no longer on my mind."
 
     mcn "On the other hand, another guy could be dangerous."
 
     mcn "I just remembered Katsuo-san as an example.
     That's one sketchy guy I don't want Hana get close to."
 
-    mcn "However, I trust her. And the idea of losing control and get completely
-    dominated by Hana is exciting."
-
-    mcn "What kind of twisted games is she going to come up with?"
-
-    mcn "Would I even have a say on who the other guy would be? Or even more than one guy?"
-
-    mcn "The idea of exploring more things with her is slowly creeping on me."
+    mcn "But the idea of exploring more things with her is slowly creeping on me."
 
     mcn "If we were to do that, I'd like Yuma-kun to have a girlfriend of his own."
 
@@ -5096,7 +5057,7 @@ label snr_130_discussing_the_future:
 
     h "You are conflicted, am I right?"
 
-    mc "Yes, I am."
+    mc "Yeah, I am."
 
     mc "On one hand, I'm very comfortable with Yuma-kun. I'm sure you are too."
 
@@ -5106,9 +5067,9 @@ label snr_130_discussing_the_future:
 
     mc "But on the other hand, I fear it could be dangerous too. He has to live his own sex life."
 
-    h sad "It's always difficult to see them leave the nest."  # TODO: tl tip: she means for 'the child to leave the parents when gorwn up'
+    h sad "It's always difficult to see them leave the nest."
 
-    h "So that will be the end of the 'play'."
+    h "So that will be the end of the 'play'"
 
     mc "Well, I don't know about that yet..."
 
@@ -5118,15 +5079,7 @@ label snr_130_discussing_the_future:
 
     h surprised "Really?"
 
-    mc nervous "Don't get any weird ideas yet!"
-
-    mc smiling "But I really enjoy losing control and being the subject of your will."
-
-    mcn "I'm coming clean."
-
-    h "I see..."
-
-    h beaming "I figured that out a long time ago."
+    mc nervous "Don't get ideas. I'm not that sure!"
 
     h smiling "I don't care what we do as long as we are together."
 
@@ -5136,22 +5089,16 @@ label snr_130_discussing_the_future:
 
     mcn "Talking to her always reassures me."
 
-    mcn "Although it seems she is in control all the time,
-    she is leaving the most important decision up to me."
-
     mcn worried "Should I continue including Yuma-kun further?"
-
-    mcn "Bonding the three of us."
 
     mcn "Or should I set him up with Riko-chan?"
 
-    mcn "Leaving us to further explore the fetish."
-
-    mcn "If Yuma-kun stays I'll try to regain control of the 'play'."
-
-    mcn "Or should we move on and let her take the reins of our future sex life?"
-
     mcn "I have to make a choice. What should I do?"
+
+    ############################################################################
+    if CURRENT_VERSION < (0, 20, 5):
+        $ end_demo()
+    ############################################################################
 
     ##--------------------------------------------------------------------------
     jump snr_131_menu_keep_yuma
@@ -5182,20 +5129,14 @@ label snr_131_menu_keep_yuma:
 
         "Introduce Riko To Yuma":
 
-            jump snr_132_stop_the_play
+            jump snr_132
 
         "[choice]" if choice_condition:
 
             return
 
 
-
-
-
-
-
-
-label snr_132_stop_the_play:
+label snr_132:
 
     scene bg transfer room night
 
@@ -5203,170 +5144,46 @@ label snr_132_stop_the_play:
 
     play music late_night_radio if_changed
 
-    mcn smiling "I decided to introduce Riko-chan to Yuma-kun."
+    ""
 
-    mcn "It's for the best."
 
-    mcn "That way I'll avoid the dangers of letting him get too deep into our relationship."
 
-    mcn "And the chance of further exploring the 'Sharing Play'."
 
-    mcn "Not to mention he needs to have a real girlfriend that could love him and eventually marry him."
 
-    mcn "I'm sure Hana cares a lot about him, but there's no future there."
 
-    mcn @ nervous "I'm a bit dissapointed though. The 'Play' was a lot of fun."
 
-    mcn "But all good things must come to an end."
 
-    mcn "That way we can part ways in good standing."
 
-    mcn nervous "We are lucky enough this didn't affect our relationship."
 
-    mcn "On the other hand, I'm looking forward to my future with Hana."
 
-    mcn "This opens so many possibilities."
 
-    mcn "Although I'm not ready to seek for another partner for her right now,
-    the future sure is exciting."
 
-    play music beauty_flow
 
-    mcn worried "However, I don't know how Hana is going to take this."
 
-    mcn "I'm sure she grew attached to him during this time."
 
-    mcn "But I must be confident. She told me she is fine with any decision I make."
 
-    mc smiling "I think it's time for Yuma-kun to leave the nest."
+    # h worried "But I wouldn't be comfortable leaving Yuma-chan alone just like that."
+    #
+    # mc "I know, I know..."
+    #
+    # mc "Hmmm... However... I think I might know someone to set him up to."
 
-    h worried "Oh..."
 
-    h ". . ."
 
-    mcn worried "Hana's brief pause seemed like an eternity."
 
-    play music porch_swing_days
 
-    h smiling "I understand."
 
-    h "It's for the best."
-
-    mc "Are you okay with that?"
-
-    h shy "Of course I'm gonna miss him."
-
-    h "We had so many memories together."
-
-    h smiling "But this is expected."
-
-    h "We all had our fun with this, and it's time to move on."
-
-    mcn smiling "She is taking this very well. I'm glad."
-
-    mc nervous "It was a good run. I'm gonna miss it too."
-
-    h shy "Are you sure you are only doing it due to fear of losing me?"
-
-    mc "No, no."
-
-    h "Really?"
-
-    mc "Well... In part."
-
-    mc worried "I fear getting more and more aroused each time you do dark stuff."
-
-    h "Dark stuff? You mean, like Yuma-chan getting into our bed and having sex with me while you sleep?"
-
-    play sound sfx_heartbeat
-
-    h @ beaming "Because I still have a couple of ideas."
-
-    mc nervous "I know it's kind of messed up, but it was an incredible experience."
-
-    mc worried "I fear getting addicted to it and jeopardize out marriage."
-
-    h smiling "I get it."
-
-    h "No matter what we do, our marriage is sacred and safe."
-
-    mc smiling "Thanks for being reassuring."
-
-    mc nervous "But now I'm kind of curious what your ideas were."
-
-    h beaming "Fu fu. I suspected it."
-
-    h "But it's better to leave it at that. They could be too much for you too handle."
-
-    mcn "That's unfair. Now I'm curious!"
-
-    mcn "But no! It's better to end the game while I'm ahead."  #TODO: tl tip: he means to end the sharing while everything is still okay with the relationship.
-
-    h smiling "Nonetheless, we did a lot of things, so I'm fine with ending it."
-
-    h beaming "He's now very good at sex so he'll be fine."
-
-    mc nervous "I guess so..."
-
-    play music beauty_flow
-
-    h worried "Although..."
-
-    h "I'm worried that's the only thing he is good at."
-
-    mc worried "What do you mean?"
-
-    h "I only trained him at sex. But he never went on a real date with a girl."
-
-    h shy "He came along whenever I did the groceries or an errand but that's different."
-
-    mc nervous "You are right... He could ruin his first date and never get to the sex."
-
-    mc worried "Do you have anything in mind?"
-
-    h "Hmmm... Though question."
-
-    h beaming "I know! How about I teach him how to take a girl to a first date."
-
-    mc surprised "A date?"
-
-    h smiling "I'll take Yuma-chan to the movies or something and teach him how to behave."
-
-    h "It will be just like going out as usual, except I'll focus on teaching him what to do and what not to do."
-
-    mcn "It's not a bad idea..."
-
-    mcn "Hana and Yuma-kun already went out alone, so it's not out of the oridinary."
-
-    play music porch_swing_days
-
-    mc smiling "I think it's a good idea."
-
-    h "I'm glad you like the idea."
-
-    mc "You do that and I'll be in charge of setting him up with someone."
-
-    h worried "Setting him up?"
-
-    mc "There's this girl at work who I think will be a good match."
-
-    h "Really?"
-
-    mc "She seems nice and easy going. Just like Yuma-kun."
-
-    h "Hmmm... Are you sure she's not a bad girl?"
-
-    h "You know, girls these days can be dangerous. I worry about him."
-
-    mc nervous "She is inoffensive. Don't worry."
-
-    h smiling "Okay, I trust you."
-
-    mcn "I don't know how to bring it up though."
-
-    h decided "We have a mission, then."
-
-    mc "I guess so."
+    # h "How about you think about it for a while."
+    #
+    # h "Let's not this take your mind away from work. Remember?"
+    #
+    # mc smiling "You are right!"
+    #
+    # h "Whatever you decide, I'll be by your side. As always."
+    #
+    # mc "Thanks, honey."
+    #
+    # mcn "Talking to her always reassures me."
 
     scene bg sky night
     with fade
@@ -5381,1286 +5198,151 @@ label snr_132_stop_the_play:
 
     "."
 
-    ##--------------------------------------------------------------------------
-    jump snr_133_good_news
-    ##--------------------------------------------------------------------------
 
 
+# label snr_131:
+#
+#     scene bg sky day
+#     with longfade
+#
+#     play music porch_swing_days
+#
+#     "When I woke up Hana already had my breakfast ready."
+#
+#     "It felt so good to eat a home-cooked meal."
+#
+#     scene bg transfer room day
+#     show hana smiling
+#     with fade
+#
+#     h "Good luck at work, dear."
+#
+#     mc smiling "Thanks. Have a save trip back home."
+#
+#     h "Don't worry, Yuma-chan is there to protect me."
+#
+#     mc nervous "He he."
+#
+#     scene bg transfer office
+#     with longfade
+#
+#     "I arrived to work with a smile on my face."
+#
+#     show riko beaming
+#     with dissolve
+#
+#     r "Good morning, Ishikawa-san!"
+#
+#     mcn smiling "Riko-chan welcomes me as usual."
+#
+#     r worried "By the way, Ishikawa-san. I apologize for my behaviour the night we went out."
+#
+#     r "I shouldn't have drank that much and put you in an unconfrtable position."
+#
+#     mc nervous "It's fine, Riko-chan. Drinking too much with co-workers is common."
+#
+#     mc "You don't have to bring it up it afterwards though."
+#
+#     r "Oh, yeah! Sorry!"
+#
+#     r "I'll go back to work!"
+#
+#     hide riko with dissolve
+#
+#     "She goes past Sasaki-kun. It seems they are still not on speaking terms."
+#
+#     "I get close to him."
+#
+#     play music beauty_flow
+#
+#     mc nervous "Hey, Sasaki-kun. Can I talk to you for a moment?"
+#
+#     a "What's wrong?"
+#
+#     mc "Is there any problem between you and Riko-chan?"
+#
+#     a "Huh?"
+#
+#     mc "I only mention it because I don't want issues that could affect the workplace."
+#
+#     a "We are fine."
+#
+#     mc "It's just... You seemed so close at the beggining."
+#
+#     a "Well... We were..."
+#
+#     a "It's complicated."
+#
+#     "He quickly avoided me."
+#
+#     mc "Whatever happened, I'm sure you can patch things up. She is a kind girl."
+#
+#     a "I'm not that sure..."
+#
+#     a "I'll be proffessional so don't worry about it."
+#
+#     mcn "I wonder what could've happened between them?"
+#
+#     mcn "But whatever it was, it seems over. There's no much I can do."
+#
+#     scene bg sky night
+#     with longfade
+#
+#     play music on_my_way
+#
+#     "Friday came, and as usual, the guys at work decided to go to an Izakaya."
+#
+#     "Riko-chan joined us again."
+#
+#     scene bg izakaya
+#     show riko beaming at closecenter, noon
+#     with fade
+#
+#     mc smiling "Come on guys, order whatever you want."
+#
+#     r "Thanks, Ishikawa-san!"
+#
+#     mcwa "Thanks!"
+#
+#     r surprised "Huh?"
+#
+#     mc worried "What's wrong, Riko-chan?"
+#
+#     mcn surprised "To my surprise, Sasaki-kun was waiting for us there."
+#
+#     mc "Hey, Sasaki-kun! Come join us!"
+#
+#     "He reluctantly aproached our table."
+#
+#     "Riko-chan looked uncomfortable."
+#
+#     scene bg sky night
+#     with fade
+#
+#     "Nonetheless, the party continued."
+#
+#     "Riko-chan was quiet the whole time, but kept on drinking."
+#
+#     "Sasaki-kun talked with the other guys, not paying her much attention."
+#
+#     scene bg izakaya
+#     show riko worried at closecenter, noon
+#     with fade
+#
+#     ""
+
+
+
+
+    if config.developer:
+        $ renpy.pause(hard=True)
 
 
-
-
-
-
-label snr_133_good_news:
-
-    scene bg sky day
-    with longfade
-
-    play music porch_swing_days
-
-    "When I woke up Hana already had my breakfast ready."
-
-    "It felt so good to eat a home-cooked meal."
-
-    scene bg transfer room day
-    show hana smiling
-    with fade
-
-    h "Good luck at work, dear."
-
-    mc smiling "Thanks. Have a save trip back home."
-
-    h "Don't worry, Yuma-chan is there to protect me."
-
-    mc nervous "He he."
-
-    scene bg transfer office
-    with longfade
-
-    "I arrived to work with a smile on my face."
-
-    show riko beaming
-    with dissolve
-
-    r "Good morning, Ishikawa-san!"
-
-    mcn smiling "Riko-chan welcomes me as usual."
-
-    r worried "By the way, Ishikawa-san. I apologize for my behaviour the night we went out."
-
-    r "I shouldn't have drank that much and put you in an unconfrtable position."
-
-    mc nervous "It's fine, Riko-chan. Drinking too much with co-workers is common."
-
-    mc "You don't have to bring it up it afterwards though."
-
-    r "Oh, yeah! Sorry!"
-
-    r "I'll go back to work!"
-
-    hide riko with dissolve
-
-    "She goes past Sasaki-kun. It seems they are still not on speaking terms."
-
-    "I get close to him."
-
-    play music beauty_flow
-
-    mc nervous "Hey, Sasaki-kun. Can I talk to you for a moment?"
-
-    a "What's wrong?"
-
-    mc "Is there any problem between you and Riko-chan?"
-
-    a "Huh?"
-
-    mc "I only mention it because I don't want issues that could affect the workplace."
-
-    mcn "I want to confirm what relationship he has with her."
-
-    a "We are fine."
-
-    mc "It's just... You seemed so close at the beggining."
-
-    a "Well... We were..."
-
-    a "It's complicated."
-
-    "He quickly avoided it."
-
-    mc "Whatever happened, I'm sure you can patch things up. She is a kind girl."
-
-    a "I'm not that sure..."
-
-    a "I'll be proffessional so don't worry about it."
-
-    mcn "I wonder what could've happened between them?"
-
-    mcn "Whatever it was, it seems over. There's not much I can do."
-
-    scene bg sky night
-    with longfade
-
-    play music on_my_way
-
-    "I was so motivated lately that I managed to quickly advance the development of our project."
-
-    "A couple of weeks passed and I finally managed to reach the finish line."
-
-    "It took many months but I'm finally done. Now I wait for the performance report hoping for my raise."
-
-    "Finally, I recieve the decisive call from my boss."
-
-    scene bg transfer office
-    with fade
-
-    b "I have good news for you, Ishikawa-kun."
-
-    b "You successfully managed to increase the Osaka branch profits by a large margin."
-
-    b "Congratulation on your great work."
-
-    mc beaming "Thanks for trusting in me."
-
-    b "Now, regarding your raise. We decided to make you regional manager."
-
-    b "You can now return to the Tokyo headquarters."
-
-    mc "Thanks so much!"
-
-    mc "I can't believe it! I got the raise!"
-
-    mc "The first thing I did was to call Hana."
-
-    mcn worried "However, she didn't responded."
-
-    mcn "I call her again and again."
-
-    mcn "On the fifth time she responded."
-
-    h "Hi, dear. Sorry, I was taking a shower."
-
-    mc beaming "I just wanted to tell you the good news. I got the raise!!!"
-
-    h "Really!? I'm so happy for you! I knew you did it!"
-
-    h "Does it mean you'll be able to come home?"
-
-    mc "Yes, very soon!"
-
-    h "I'm so glad!"
-
-    h "This deserves a celebration!"
-
-    h "I'm going to make you the best meal ever!"
-
-    mc "Thanks, honey."
-
-    h "Also, this could be a good chance to introduce Yuma-kun to the girl you mentionted me."
-
-    h "Go ahead and invite her."
-
-    mc surprised "Oh, sure!"
-
-    play music impact_prelude
-
-    h "Ahn!"
-
-    # TODO: play sound sfx_bump
-
-    "I hear a bump."
-
-    mc worried "What's wrong, honey?"
-
-    "Silence..."
-
-    play sound sfx_heartbeat
-
-    mcn "What's going on? Did she just moaned?"
-
-    mcn "But we already finished the 'play'. She shouldn't be with Yuma-kun now..."
-
-    mcn "Was she with him while I broke the news?"
-
-    mcn nervous "No, no... Come on... I'm letting my imagination run wild again."
-
-    mcn "And I'm even dangerously getting aroused by it."
-
-    mcn "That was exactly why I wanted it to end."
-
-    play music porch_swing_days
-
-    h "Sorry, dear. The floor was so wet I almost slipped. I ended dropping the phone."
-
-    mc worried "Are you okay?"
-
-    h "Yes, me and the phone are fine. Fu fu."
-
-    mc "Sorry, it was my fault for making you exit the bathroom that quickly."
-
-    mcn nervous "What a relief. Of course it was something meaningless."
-
-    mcn "All this 'sharing' really messed up with my head."
-
-    mc "We'll talk later then."
-
-    h "Okay, dear. Come home soon. I miss you."
-
-    "I proceed to give the news to the office."
-
-    "Everybody is happy, this means they get to keep their jobs."
-
-    show riko beaming
-    with dissolve
-
-    r "Congratulations for your raise, Ishikawa-san! Thanks to your hard work we managed to succeed!"
-
-    mc beaming "All of you worked very hard, you deserve all the credit."
-
-    mcwa "This means you are going back to Tokyo, right?"
-
-    mc "Yeah. I'm gonna miss you all."
-
-    mcwb "Then, let's have a big celebration. In honor of Ishikawa-san!"
-
-    mcwa "Yeah. Let's do it!"
-
-    ##--------------------------------------------------------------------------
-    jump snr_134_inviting_riko
-    ##--------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-label snr_134_inviting_riko:
-
-    scene bg sky night
-    with fade
-
-    play music on_my_way
-
-    "The whole office decided to go to an Izakaya."
-
-    "Riko-chan joined, as well as Sasaki-kun."
-
-    scene bg izakaya
-    show riko beaming at closecenter, noon
-    with fade
-
-    mc beaming "Come on guys, order whatever you want."
-
-    r "Thanks, Ishikawa-san!"
-
-    mcwa "Thanks!"
-
-    mcn "Sasaki-kun was sitting far away from everybody."
-
-    mc "Hey, Sasaki-kun! Come join us!"
-
-    "He reluctantly aproached us"
-
-    show riko worried
-    with fg_transition
-
-    "Riko-chan looked uncomfortable."
-
-    scene bg sky night
-    with fade
-
-    "Nonetheless, the party continued."
-
-    "Riko-chan was quiet the whole time, but kept on drinking."
-
-    "Sasaki-kun talked to the other guys, not paying her much attention."
-
-    scene bg izakaya
-    show riko beaming at closecenter, noon
-    with fade
-
-    play music late_night_radio
-
-    r "Ahh! So refreshing!"
-
-    "Exclamed Riko after gobbling up the beer."
-
-    "She is not drunk yet, but a little more easygoing."
-
-    "All the guys are drunk or in the middle of heated arguments about idols."
-
-    "It's the perfect time to set Yuma-kun with Riko-chan."
-
-    mc nervous "Hey, Riko-chan."
-
-    r "Tell me, Director! I mean Ishiksawa-san!"
-
-    mc "We are not going to work together anymore, so relax a bit."
-
-    r worried "Well, about that..."
-
-    r "Since the Osaka department permormed very well, some positions opened for us at Tokyo."
-
-    r smiling "So I decided to take it."
-
-    mc smiling "That's great news! Good for you."
-
-    r "Other guys from here are going there too."
-
-    mcn "That's perfect for me. Now I have an excuse to invite her."
-
-    mcn "Maybe it's because I had a couple of drinks, but I thought it would be a good idea to ask the following..."
-
-    mc "I'm sorry if this is too personal, but are you single?"
-
-    r surprised "Ah? Single? Me? Ehhhmm..."
-
-    mc nervous "You don't have to answer, sorry if I crossed any line."
-
-    r "No, no. It's fine."
-
-    r "It just took me by surprise."
-
-    "She quickly glanced at Sasaki-kun who ignored her all day."
-
-    r smiling "Yes, I am."
-
-    mc "I'm having a celebration back home. Do you want to come?"
-
-    r surprised "Huh? Me? Going to your house? Is that okay?"
-
-    mc "Sure, it's intimate though."  #TODO: tl tip: he means close friends only.
-
-    r "Eh... Eh... Intimate?"  # TODO: tl tip: she thinks is intimate like a date.
-
-    mcn "Is she misunderstading me?"
-
-    r beaming "Yeah! Sure! I'll be there!"
-
-    mcn "So it's fine then."
-
-    mc "Great! We'll be in touch then."
-
-    r "Sure!"
-
-    r worried "Excuse me for a moment."
-
-    hide riko
-
-    "She quickly stood up and went to the bathroom."
-
-    "She looked embarrassed."
-
-    scene bg sky night
-    with fade
-
-    "The night ended on a good note."
-
-    "It was a fun goodbye to Osaka."
-
-    ##--------------------------------------------------------------------------
-    jump snr_135_date_report
-    ##--------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-label snr_135_date_report:
-
-    scene bg sky day
-    with longfade
-
-    play music on_my_way
-
-    "I'm finally returning home for good."
-
-    scene bg home front day
-    with fade
-
-    "I decided to surprise Hana by arriving without notice."
-
-    scene bg home entrance day
-    with fade
-
-    mc beaming "I'm home!"
-
-    play music impact_prelude
-
-    "No response..."
-
-    "This brings me memories..."
-
-    "But the 'Play' already ended."
-
-    scene bg home livingroom day
-    with fade
-
-    "She is not here."
-
-    scene bg home corridor day
-    with fade
-
-    "Is she in the bathroom?"
-
-    scene bg home bathroom
-    with fade
-
-    "Nothing..."
-
-    scene bg home guestroom day
-    with fade
-
-    "Nothing here either..."
-
-    "Only one place left."
-
-    scene bg home bedroom day
-    with longfade
-
-    "Huh... Empty..."
-
-    "So she is not home."
-
-    "She must've gone grocery shopping."
-
-    scene bg home livingroom day
-    with fade
-
-    play music beauty_flow
-
-    "I'm gonna call her."
-
-    "After a while she picks up."
-
-    h "Hello, dear?"
-
-    mc nervous "Honey. Where are you?"
-
-    h "Oh, I went out shopping."
-
-    y "Is that Oji-san?"
-
-    "I hear Yuma-kun in the distance."
-
-    h "By the way, Yuma-kun is here."
-
-    h "You said you were coming home tomorrow, right?"
-
-    "Hana doesn't know I came home a day early."
-
-    h "If that's the case, I'm going to spend the day out with Yuma-chan teaching
-    him how to behave on a date."
-
-    h "I'll keep you posted."
-
-    h "Is that okay?"
-
-    mc nervous "As a matter of fact, I'm alrady here."
-
-    h "Are you home now?"
-
-    mc "I wanted to surprise you."
-
-    h "That's great news!"
-
-    h "I'll go home now."
-
-    mcn nervous "Now I'm curious about Yuma-kun and Hana's date."
-
-    mc "Don't worry about it, honey. Carry on your plans as if I am not here."
-
-    h "Are you sure? It could take a while."
-
-    h "We can do it another time."
-
-    mc "Don't mind me. I'll wait. You know I enjoy waiting too..."
-
-    h "Fu fu. I see..."
-
-    h "Okay the, I'll be home later."
-
-    mc "Have fun, honey."
-
-    h "I will."
-
-    h "Bye, dear."
-
-    "In meantime I'll be making myself at home again."
-
-    scene bg sky noon
-    with fade
-
-    "Hours passed and I have no news about Hana."
-
-    "I was about to text her when I recieve a message."
-
-    scene bg home livingroom noon
-    with fade
-
-    play sound sfx_sms
-
-    h "'Hi, dear. Yuma-chan is slowly learning. I'm glad we decided to do this.
-    It would've been bad if I didn't advice him.'"
-
-    mcn nervous "I wonder what he did."
-
-    mcn "I imagine it's like a parent taking care an hyperactive child."
-
-    play sound sfx_sms
-
-    h "'We are going to see a movie now. Bye, dear.'"
-
-    mcn "This is a new feeling..."
-
-    mcn "They are not having sex as usual."
-
-    mcn "They are on a date."
-
-    mcn "A fake one, but still."
-
-    mcn "I realized, among all the things Yuma-kun did with Hana. Kissing wasn't one of them."
-
-    mcn "I've always seen kissing as something more intimate. Even more than sex itself."
-
-    mcn "Hana never brought it up either."
-
-    play sound sfx_heartbeat
-
-    mcn "Just imagining pains me bit."
-
-    mcn "But we reach a point where I trust Yuma-kun and Hana."
-
-    mcn "So I know there are no ill intentions."
-
-    mcn "Of course he lusts and care for her."
-
-    mcn "But now they are on a date, will it mean she is going to teach him how to kiss?"
-
-    mcn "She didn't mentioned to me."
-
-    mcn "I'm just letting my imagination run wild."
-
-    show bg home livingroom night
-    with dissolve
-
-    "Night ensues."
-
-    mcn worried "The movie must've ended by now."
-
-    play sound sfx_sms
-
-    h "'We finished the movie, dear. It was fun.'"
-
-    mc smiling "'How is he doing?'"
-
-    play sound sfx_sms
-
-    h "'He is quickly getting the gist of it. I think we worried too much.'"
-
-    mc "'That's because you are a great teacher.'"
-
-    play sound sfx_sms
-
-    h "'There's one thing left to teach Yuma-kun. I'm not sure if you will be okay with it.'"
-
-    mc worried "'What it is?'"
-
-    ". . ."
-
-    "She took the time to respond."
-
-    play sound sfx_sms
-
-    h "'I need to teach Yuma-chan how to get a girl to sleep with him at the end of a date.'"
-
-    play sound sfx_heartbeat
-
-    mcn "I feared that..."
-
-    mcn "She is asking this because the 'Play' already ended."
-
-    mcn "They had sex so many times by now. I'm sure one last one isn't going to hurt."
-
-    mcn "Not to mention I decided to end it, depriving Hana of the chance to say goodbye."
-
-    mc "'Okay, go ahead. One last time.'"
-
-    play music impact_prelude
-
-    play sound sfx_sms
-
-    h "'If this is the last time. It's okay if I go all out?'"
-
-    play sound sfx_heartbeat
-
-    mc shocked "'What do you mean with 'all out'?'"
-
-    mcn worried ". . ."
-
-    mcn "I'm left in the dark once again. Even though the 'Play' ended."
-
-    mc "'Go on.'"
-
-    mcn "That's the only thing I could say to her."
-
-    mcn "I wanted her to have the reins of our sex life."
-
-    mcn "I shouldn't be complaining."
-
-    mcn "My penis is hard as a rock."
-
-    mcn "I started masturbating to the anticipation."
-
-    mcn "After a while she texts me."
-
-    play sound sfx_sms
-
-    h "'I'm about to start, dear. Should I carry on?'"
-
-    mc "'Carry on, honey. I love you.'"
-
-    mcn "She doesn't responds me after that."
-
-    mcn "I wonder what they are doing right now."
-
-    mcn "Especially, because she warned me at least two times."
-
-    mcn "She already had sex with him many times. Why is she being so careful now?"
-
-    mcn "Does it has to do with going 'all out'?"
-
-    mcn "What does it means!?"
-
-    mcn "I'm about to cum just by the possibilities."
-
-    with ejaculation_flash
-    play sound sfx_sex_ejaculation
-
-    mcn "My semen was left out on the floor even though Yuma-kun's semen is going inside my wife."
-
-    with ejaculation_flash
-    play sound sfx_sex_ejaculation
-
-    mcn "It doesn't matter I just came, I'm still hard."
-
-    mcn "It's so fun to have this constant erection."
-
-    mcn "It's like having a toy with an unlimited time to play."
-
-    mcn shocked "Then I realized... What if is letting him cum inside without the pill."
-
-    mcn "I can't be!"
-
-    mcn "Did I just gave Hana permission to be impregnated by Yuma-kun?"
-
-    with ejaculation_flash
-    play sound sfx_sex_ejaculation
-
-    mcn worried "I came again!"
-
-    mcn "Dwelling into the fantasy is enough for me to came with so much force."
-
-    with ejaculation_flash
-    play sound sfx_sex_ejaculation
-
-    mcn "Regaining some clarity I recognize Hana getting pregnant by him would be a disaster."
-
-    mcn "Then, why does it feel so good imagining it?"
-
-    mcn "I doubt Hana wants his baby either."
-
-    mcn "She supported me working in another city just to have a child of our own."
-
-    mcn "Then, what is she doing with him?"
-
-    mcn nervous "She is just teasing me... That't it!"
-
-    mcn "Just when I tasted a bit of relief, I got a message from her."
-
-    play sound sfx_sms
-
-    h "'Is okay if I give Yuma-chan a goodbye kiss? Just a tiny one.'"
-
-    play sound sfx_heartbeat
-
-    mcn shocked "Huh? A kiss?"
-
-    mcn "My lovely wife kissing another guy?"
-
-    mcn worried "Why does it feel so wrong? But so good at the same time?"
-
-    mcn "If I say no, is she still going to do it?"
-
-    mcn "Of course not!"
-
-    mcn "But it's the last time. And after all the sex they had, a little kiss won't hurt."
-
-    mcn "They are like a family."
-
-    mcn nervous "Why does the idea of Hana and Yuma-kissing after a date feels so immoral?"
-
-    mcn "Like they are a real couple..."
-
-    mc "'It's okay, honey.'"
-
-    mcn worried "She doesn't respond..."
-
-    mcn "I would kill to see a video or a photo of how it looks like."
-
-    mcn "I got nothing in return."
-
-    mcn "Just this immense pleasure."
-
-    with ejaculation_flash
-    play sound sfx_sex_ejaculation
-
-    mcn "I came thinking of my dear Hana kissing another guy like lovers."
-
-    mcn "It was too much for me to handle."
-
-    with ejaculation_flash
-    play sound sfx_sex_ejaculation
-
-    mcn "I know at this point a kiss is nothing... But it carries so much weight."
-
-    mcn "Since this is the last time they are together, how is she behaving?"
-
-    mcn "Motherly? Like a lover?"
-
-    mcn "They are having such an intimate time. More now than ever!"
-
-    with ejaculation_flash
-    play sound sfx_sex_ejaculation
-
-    mcn "I haven't realized how many hours passed."
-
-    mcn "I bet Hana was creampied many times."
-
-    mcn "Surprisingly, I recieve a call from Hana."
-
-    h "Dear... Ahn... Hmmm..."
-
-    mc nervous "Hi, honey."
-
-    mcn "She is in the middle of sex it seems."
-
-    h "Ahn! Hmmm... Wait Yuma-chan, not now... I'm just talking with your Oji-san!"
-
-    mcn "He is interrupting her by being rougher."
-
-    h "I wanted to ask you if... Anh! Ngn!"
-
-    h "...Ask you if it's okay if I try new things?"
-
-    mc "New things? Like what?"
-
-    h "Ahhhhn! Nggggn! Can't say..."
-
-    h "But I will show you afterwards... Ngn! Hmphh! So rough!"
-
-    mcn "At this point I'm powerless."
-
-    mc "Go ahead, honey. Do whatever you want..."
-
-    mcn "I said leaving all control to her while stroking my dick."
-
-    h "Ngn! Thanks, dear!"
-
-    h "Wait! Yuma-chan! That's..."
-
-    "The call abruptly ended."
-
-    mcn worried "That's what it took to make me cum again."
-
-    with ejaculation_flash
-    play sound sfx_sex_ejaculation
-
-    mcn "I came holding the phone in my hand and my penis on the other."
-
-    with ejaculation_flash
-    play sound sfx_sex_ejaculation
-
-    mcn "What is she referring to?"
-
-    mcn "I want to know so badly."
-
-    mcn "However, after that call, it was the last thing thing I heard from her."
-
-    mcn "All I could do was to masturbate picturing different scenarios in my mind."
-
-    with ejaculation_flash
-    play sound sfx_sex_ejaculation
-
-    mcn "I'm completely hooked at this."
-
-    mcn "I'm masturbating alone in the livingroom while my wife is having rough
-    sex with someone else at a love hotel."
-
-    with ejaculation_flash
-    play sound sfx_sex_ejaculation
-
-    mcn "I'm definetely gonna miss this when Yuma-kun is out of the picture."
-
-    mcn "However, someone else could replace him."
-
-    mcn "I'm now imagining Hana having sex with multiple other guys..."
-
-    with ejaculation_flash
-    play sound sfx_sex_ejaculation
-
-    mcn "I feel bad for doing so..."
-
-    mcn "There's so much things going through my head."
-
-    mcn "I can only focus on the pleasure."
-
-    mcn smiling "Despite everything, I trust Hana."
-
-    mcn "She'll know what to do."
-
-    mcn "She is in charge of my erections from now on."
-
-    mcn nervous "What I'm saying."
-
-    mcn "She always has been..."
-
-    mcn ". . ."
-
-    mcn ". ."
-
-    mcn "."
-
-    ############################################################################
-
-    scene bg sky day
-    with longfade
-
-    play music beauty_flow
-
-    "I spent all night masturbating."
-
-    "Hana didn't come home during that time."
-
-    "She still doesn't know I'm here."
-
-    "I hear the door... She is finally home."
-
-    scene bg home entrance day
-    show hana worried
-    with fade
-
-    h worried "I'm home!"
-
-    mc nervous "Honey, you are finally home. Are you all right?"
-
-    h "I'm so tired..."
-
-    h "Yesterday was rough."
-
-    mc "I figured."
-
-    h smiling "But it was a nice sendoff."
-
-    h worried "I'm going to miss him."
-
-    h beaming "But at least we did tons of fun things to remember."
-
-    mc beaming "I'm glad."
-
-    mcn "I was expecting her report all night."
-
-    h worried "I haven't slept much, so I'm gonna shower and go to bed."
-
-    h smiling "It's great to have you at home again."
-
-    h "After I wake up I'm gonna prepare you a delicious dinner."
-
-    mc "Thanks, honey."
-
-    mcn "I guess I still have to wait for her report."
-
-    scene bg sky night
-    with fade
-
-    "Hana slept all day."
-
-    "I'm dying to hear what happened last night."
-
-    "It was the last 'Play' so I better savour it."
-
-    "I hope she took pictures."
-
-    scene bg home livingroom night
-    show hana smiling
-    with fade
-
-    play music porch_swing_days
-
-    h "Yawn... Hi, dear."
-
-    mc smiling "I hope you slept well."
-
-    h "Yes, I did. I'm going to prepare dinner now."
-
-    mc "By the way... You told me you were going to tell me what happened last night, remember?"
-
-    h "Oh, right. I'm going to do so, but not now."
-
-    mc worried "Not now? Why?"
-
-    h "You promised to set Yuma-kun with a girl, right?"
-
-    h shy "I did my part, now you do yours."
-
-    h beaming "After that, I'll tell you everything."
-
-    mc worried "I guess it's fair."
-
-    mcn nervous "I have to wait more to know..."
-
-    mcn ". . ."
-
-    mcn ". ."
-
-    mcn "."
-
-    ##--------------------------------------------------------------------------
-    $ renpy.end_replay()
-    ##--------------------------------------------------------------------------
-
-    ##--------------------------------------------------------------------------
-    jump snr_136_riko_meets_yuma
-    ##--------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-label snr_136_riko_meets_yuma:
-
-    scene bg sky night
-    with longfade
-
-    play music on_my_way
-
-    "The day of my 'welcome party' finally came."
-
-    "I ended up inviting the guys from Osaka too."
-
-    "I'm surprised some of them came."
-
-    "Riko-chan arrived to the house as promised."
-
-    "Today is the day I'll set them up."
-
-    scene bg home entrance night
-    show riko beaming
-    with fade
-
-    r "Sorry for bargaining in."
-
-    mc smiling "Hi, Riko-chan. Come in."
-
-    r worried "Is it really okay to enter your house, Ishikawa-san?"
-
-    mc "Sure, let me introduce you to my wife."
-
-    show riko smiling at closeleft with move
-    show hana smiling at closeright
-    with dissolve
-
-    h "Nice to meet you, young girl."
-
-    h "Thank you for taking care of my husband."
-
-    r "No, thanks to him our department was saved."
-
-    r "Ah! I'm Fujiwara Riko, sorry!"
-
-    h "Nice to meet you Riko-chan, You can call me Hana."
-
-    r "Of course, Hana-san!"
-
-    h "Come on, some of your co-workers are already here."
-
-    r surprised "Co-workers?"
-
-    scene bg home livingroom night
-    show riko surprised at closeleft
-    show hana smiling at closeright
-    with fade
-
-    mcwa "Hey! Riko-chan! You came! Did you know I applied to Tokyo?"
-
-    mcwb "I applied to Tokyo as well!"
-
-    mcn "For some reason she looked dissapointed."
-
-    h "I'm going to serve some snacks, I'll be right back."
-
-    hide hana with dissolve
-
-    h "Here you are, guys."
-
-    mcwa "Thanks, Hana-san!"
-
-    mcwb "Ishikawa-san is so lucky for having you."
-
-    h "Stop it, you guys."
-
-    mcn "Hana sure is popular."
-
-    mcn "Now is the time..."
-
-    mc smiling "Hey, Riko-chan! Let me introduce you to my... Ehrm..."
-
-    mcn nervous "How do I call him?"
-
-    mc "He is my nephew... Yuma-kun."
-
-    mcn "I lied."
-
-    show yuma shy at closeright with dissolve
-
-    y "Nice to meet you."
-
-    r "Oh! Hi! I'm Fujiwara Riko..."
-
-    mc "Yuma-kun is on college and has his own apartment."
-
-    mc "Riko-chan is a very hardowrker girl."
-
-    mc "I think both of you will get along well."
-
-    mcn "Is it my imagination or Riko-chan looks dissapointed?"
-
-    mcn "She quickly changes her expression."
-
-    r beaming "Nice to meet you too."
-
-    r "Your Oji-san was a true hero in the office."
-
-    y smiling "Oh, really? He is very dependable."
-
-    mcn "I'm going to leave them alone for the time beign."
-
-    hide riko
-    hide yuma
-    with dissolve
-
-    mcn "It's up to you now, Yuma-kun. I made my part."
-
-    mcn "I hope Hana teached him well."
-
-    scene bg sky night
-    with fade
-
-    play music late_night_radio
-
-    "Some hours passed and everybody is now a little drunk."
-
-    "I decided to check how Yuma-kun is doing."
-
-    scene bg home livingroom night
-    show riko beaming at closeleft
-    show yuma beaming at closeright with dissolve
-    with fade
-
-    mcn surprised "I encounter them chatting and laughing."
-
-    mc smiling "I'm glad you are having fun."
-
-    r "Yuma-kun was telling me about his days at college."
-
-    r "It was not long ago I was there, so It brought back good memories."
-
-    r worried "Is it okay if I talk to you for a moment, Ishikawa-san?"
-
-    mc "Sure. Excuse me Yuma-kun."
-
-    y "No problem. I'm going to check on Oba-san. I haven't seen her for a while."
-
-    hide yuma with dissolve
-
-    $ renpy.pause(.4)
-
-    show riko at closecenter with move
-
-    play music sovereign_quarter
-
-    r smiling "Ishikawa-san. I have to apologize."
-
-    mc surprised "For what?"
-
-    r worried "I think I misuderstood everything."
-
-    r "When you invited me, I was going through a rough time."
-
-    r "It had something to do with... Sasaki-kun."
-
-    r "I felt alone and worthless."
-
-    r "But you were there to lift up my spirit."
-
-    mcn "She is very talkative now that she is drunk."
-
-    r "Somehow I started having wierd ideas."
-
-    r "When you invited me, I got the wrong idea."
-
-    r "Yuma-kun told me about you and your family. How hard you work to provide for them."
-
-    r "I think is a very lovely thing you got here, Ishikawa-san."
-
-    r "I feel bad..."
-
-    r "Please forgive me, Ishikawa-san!"
-
-    "She spouted loudly with a bow."
-
-    mc nervous "Everything is Okay. Don't feel bad."
-
-    mcn "I feel for her. She is just a confused young girl with a broken heart.
-    I've been there."
-
-    mcn "Now I feel bad for making her feel even more alone."
-
-    mc "I'm sorry if I led you on."
-
-    r "Not at all! Don't even mention it!"
-
-    r "I've never clicked with the guys at work. They all seemed like horny douches..."
-
-    r smiling "So I'm going back to keep talking to Yuma-kun."
-
-    r "Please excuse me, Ishikawa-san."
-
-    mc smiling "Have fun."
-
-    hide riko with dissolve
-
-    play music porch_swing_days
-
-    mcn "Interesting... Everything is going according to plan."
-
-    scene bg sky night
-    with fade
-
-    "I checked how Riko-chan and Yuma-kun were doing from the distance."
-
-    "They kept chatting and laughing all night."
-
-    "It seems they are doing fine."
-
-    "It's late into the night."
-
-    "Many guys already left. Everybody is very drunk."
-
-    scene bg home livingroom night
-    with fade
-
-    play music beauty_flow
-
-    mcn surprised "When I come out of the bathroom I don't see anyone."
-
-    mcn "Did everybody suddenly leave?"
-
-    mcn "Where's Hana? Riko-chan? Yuma-kun?"
-
-    mcn "Or even the couple of guys from work."
-
-    scene bg home kitchen night
-    with fade
-
-    "Not here..."
-
-    "They are probably upstairs."
-
-    "But why?"
-
-    scene bg home corridor night
-    with fade
-
-    "When I reached upstairs, I noticed the two guys from work standing in the middle."
-
-    mc worried "What are you doing here?"
-
-    mcwa "Ah! We were... Looking for you, Ishikawa-san!"
-
-    mcwb "We were leaving so we wanted to thank you and say goodbye."
-
-    mc smiling "Oh, okay then. Thanks you so much for coming."
-
-    mc "Good luck on your application to Tokyo."
-
-    mcwa "Thanks!"
-
-    "Both of them went downstair and leaved the house."
-
-    mcn worried "I wonder what they were doing here."
-
-    mcn "They were lingering around the guest room."
-
-    mcn "I wonder why."
-
-    mcn "Also, where's Hana?"
-
-    play sound sfx_heartbeat
-
-    mcn "Could it be...?"
-
-    mcn "No way..."
-
-    "I quickly apporached the door."
-
-    "It's barely opened."
-
-    "I take a peek, and..."
-
-    "I can't believe what I see..."
-
-    ##--------------------------------------------------------------------------
-    jump snr_137_riko_yuma_sex
-    ##--------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-label snr_137_riko_yuma_sex:
-
-    scene cg riko yuma sex peek
-    with longfade
-
-    play music past_sadness
-
-    play sound sfx_sex_slow
-
-    mcn shocked "What's going on here!!!"
-
-    mcn "I stumble upon Riko-chan having sex with Yuma-kun on my own house."
-
-    mcn "Was this what the guys from work were looking?"
-
-
-
-
-    ############################################################################
-    if CURRENT_VERSION < (0, 20, 5):
-        $ end_demo()
-    ############################################################################
-
-
-
-    $ dev_pause()
-
-
-    ##--------------------------------------------------------------------------
-    $ renpy.end_replay()
-    ##--------------------------------------------------------------------------
 
 
     ############################################################################
     $ end_demo(20)
     ############################################################################
-
-
-
-
-
 
 
     # scene bg home bathroom closeup at thrust
