@@ -7257,32 +7257,78 @@ label snr_137_onsen_with_riko:
 
     "."
 
+    play music beauty_flow
+
+    r "Ishikawa-san..."
+
     hide black with dissolve
 
     play sound sfx_splash
 
+    "I suddenly woke up to a sweet voice."
+
+    mc surprised "Riko-chan?"
+
+    r "I'm here, on the other side."
+
+    mc "Oh, are you with Hana?"
+
+    r "Your wife is on the room, changing."
+
+    r "I wanted you to be the first to know Yuma-kun confessed to me."
+
+    mc "Really? What was your response."
+
+    r "I still haven't responded..."
+
+    r "I wanted to know what do you think about it."
+
+    mc "I mean, he is a good guy, if you like him, give him a chance."
+
+    r "Are you okay with that?"
+
+    mc "Sure, why wouldn't I?"
+
+    play music sovereign_quarter
+
+    r ". . ."
+
+    r "I understand."
+
+    r "Thanks for always been there for me, Ishikawa-san."
+
+    r "This trip was very fun."
+
+    r "I felt like I had a family for the first time."
+
+    mc nervous "It's almost like Yuma-kun and you were my children. He he."
+
+    r "Like your daughter, huh?"
+
+    r "That's nice..."
+
+    r "I'm going to respond to Yuma-kun now, Ishikawa-san... Take care."
+
+    mc "See you later, Riko-chan."
+
     play music beauty_flow
 
-    "I suddenly woke up."
+    mcn worried "Hhhm... That was weird."
 
-    "I shouldn't sleep here. It's dangerous."
+    ". . ."
 
-    scene bg onsen entrance
-    with fade
+    ". ."
 
-    "It's so late no one is here."
-
-    "I wonder where Yuma-kun and Riko are."
-
-    "Maybe they went to the karaoke."
-
-    scene bg karaoke
-    with fade
-
-    "Nothing..."
+    "."
 
     scene bg onsen entrance
     with fade
+
+    "After a while I got out."
+
+    "It's so late, no one is here."
+
+    "I wonder where Yuma-kun and Riko-chan are."
 
     "Maybe he's on the room."
 
@@ -7293,7 +7339,7 @@ label snr_137_onsen_with_riko:
 
     "That's good, right?"
 
-    "I hope you can declare your feelings properly, Yuma-kun."
+    "I hope she say yes, Yuma-kun."
 
     "I'm going to check out on Hana."
 
@@ -7336,13 +7382,30 @@ label snr_138_riko_yuma_sex:
 
     mcn "I stumble upon Riko-chan having sex with Yuma-kun."
 
-    mcn "This is the girl's room, so where's Hana?"
+    mcn nervous "This means he succeded."
 
+    mcn "Congratulation on having a girlfriend, Yuma-kun."
+
+    mcn worried "Wait, this is the girl's room, so where's Hana?"
 
     ############################################################################
     if CURRENT_VERSION < (0, 20, 5):
         $ end_demo()
     ############################################################################
+
+    mcn "Is she inside?"
+
+    mcn "No way, that's impossible!"
+
+    mcn "I can't see it clearly."
+
+    mcn "I feel bad by spying on my young subordinate in this intimate moment."
+
+    mcn "But I need to know if Hana is inside."
+
+
+
+
 
 
 
