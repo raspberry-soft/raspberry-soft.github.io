@@ -1,5 +1,5 @@
 {
-    "version" : 68,
+    "version" : 69,
     "m" : 3,
     "password_url" : "https://www.patreon.com/posts/79555448",
     "image" : "https://raspberry-soft.github.io/updates/IWH/news-banner_iwh.jpg",
@@ -45,7 +45,7 @@
     "steam_url" : "https://store.steampowered.com/app/2232830/?utm_source=game&utm_campaign=v21",
     "dlsite_url" : "https://www.dlsite.com/maniax/announce/=/product_id/RJ01011883.html",
     "wishlist_goal" : 2000,
-    "current_wishlists" : 1700,
+    "current_wishlists" : 1800,
     "locked_IDs" : [1],
     "banned_pws" : [],
     "switch" : false,
