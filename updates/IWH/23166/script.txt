@@ -5249,13 +5249,13 @@ label snr_144_keep_yuma:
 
     mcn "I trust him and Hana."
 
-    mcn nervous "Althought tonight was a little too much."
+    mcn nervous "Although tonight was a little too much."
 
     mcn worried "He clearly can't help his lust for Hana."
 
     mcn "I don't blame him, but I won't let things get out of hand."
 
-    mc smiling "I think it's best to continue having fun the three of us."
+    mc smiling "I think it's best to continue having fun with the three of us."
 
     h smiling "I'm glad you think that way."
 
@@ -5271,13 +5271,13 @@ label snr_144_keep_yuma:
 
     h smiling "Oh, I see..."
 
-    h "Yuma-chan's late night visit made you feel that way."
+    h "Yuma-chan's late-night visit made you feel that way."
 
     h beaming "I think I outdid it again."
 
     h "You don't have to worry about weird things."
 
-    h smiling "But, if you want to be more involved, I can't see why not."
+    h smiling "But if you want to be more involved, I can't see why not."
 
     mc smiling "Really?"
 
@@ -5291,11 +5291,11 @@ label snr_144_keep_yuma:
 
     mcn worried "Hmmm..."
 
-    mc nervous "You were already having sex when I'm not there, so..."
+    mc nervous "You were already having sex when I wasn't there, so..."
 
     mc "I guess it's fine until I finish my work here. Which is very soon."
 
-    mc smiling "The I'll be able to join you in the fun."
+    mc smiling "I'll be able to join you in the fun."
 
     h "Of course."
 
@@ -5303,14 +5303,14 @@ label snr_144_keep_yuma:
 
     mc nervous "Maybe... He he."
 
-    h smiling "Then, I'll wait eagerly the time you finally move back home."
+    h smiling "Then, I'll wait eagerly for the time you finally move back home."
 
     mc beaming "Me too!"
 
     scene bg sky night
     with fade
 
-    "After Hana took a shower we all went to sleep."
+    "After Hana took a shower, we all went to sleep."
 
     ". . ."
 
@@ -5345,7 +5345,7 @@ label snr_145_not_inviting_riko:
 
     r beaming "Oh, Ishikawa-san! Come join us!"
 
-    mc smiling "Sure I'll join you."
+    mc smiling "Sure, I'll join you."
 
     mc "Hey! Sasaki-kun! Come here!"
 
@@ -5371,7 +5371,7 @@ label snr_145_not_inviting_riko:
 
     a "I guess..."
 
-    mc "Come on, why are you so down on the dumps?"
+    mc "Come on, why are you so down in the dumps?"
 
     mc "It's a party. Let's have fun. Riko-chan agrees with me."
 
@@ -5395,9 +5395,9 @@ label snr_145_not_inviting_riko:
 
     r worried "You don't have to worry about it, Ishikawa-san."
 
-    r "You did an splendid job. You taught me so much."
+    r "You did a splendid job. You taught me so much."
 
-    r "I'm forever in debt with you."
+    r "I'm forever in debt to you."
 
     mc "You are so sweet to mention that."
 
@@ -5415,7 +5415,7 @@ label snr_145_not_inviting_riko:
 
     "I spoke like a concerned father."
 
-    r "Well... Not physically."
+    r "Well... not physically."
 
     mc "I see..."
 
@@ -5425,9 +5425,9 @@ label snr_145_not_inviting_riko:
 
     r "It's okay."
 
-    r "He is only interested in chasing as many pretty girls he find."
+    r "He is only interested in chasing as many pretty girls as he finds."
 
-    r "He was a such a good friend at the beggining."
+    r "He was a such a good friend at the beginning."
 
     r "I thought he was a good guy like you."
 
@@ -5445,22 +5445,22 @@ label snr_145_not_inviting_riko:
 
     mcn "Why is she making that clear?"
 
-    mcn "Nonetheless... It's better I don't get involved anymore."
+    mcn "Nonetheless, it's better I don't get involved anymore."
 
     mcn "Heartbreak is part of being young."
 
-    mcn "I'll be gone by tomorrow so..."
+    mcn "I'll be gone by tomorrow, so..."
 
     scene bg sky night
     with longfade
 
-    "The party ended and everybody went home."
+    "The party ended, and everybody went home."
 
     "Except Riko-chan and Sasaki-kun."
 
     "Riko-chan was sadly looking at her empty glass."
 
-    "Sasaki-kun was sleep on another table."
+    "Sasaki-kun was sleeping on another table."
 
     "I decided to walk her home again."
 
@@ -5474,7 +5474,7 @@ label snr_145_not_inviting_riko:
 
     mc nervous "It's nothing, don't worry."
 
-    "Since is the last time we are gonna see each other I wanted to give her one last advice."
+    "Since this is the last time we are gonna see each other, I wanted to give her one last piece of advice."
 
     "This is the end of this little father-daughter relationship I had."
 
@@ -5502,41 +5502,41 @@ label snr_145_not_inviting_riko:
 
     mcn worried "Is she implying what I think?"
 
-    mcn "It seems like an invitation for... Gulp... Sex..."
+    mcn "It seems like an invitation for... Gulp... sex..."
 
-    mcn "I must be mistaken... Riko-chan would never."
+    mcn "I must be mistaken. Riko-chan would never."
 
     mcn nervous "I'm sure she wants to give me a glass of water or something."
 
     r "I..."
 
-    r "I would keep it a secret..."
+    r "I would keep it a secret."
 
-    r "Just one time..."
+    r "Just one time."
 
     mcn surprised ". . ."
 
     mcn "This is bad."
 
-    mcn "She really is implying sex..."
+    mcn "She really is implying sex."
 
     mcn "She knows I'm married."
 
     mcn "This is not good."
 
-    mcn "The first thing comes to mind is Hana."
+    mcn "The first thing that comes to mind is Hana."
 
     mcn "I love her very much, and I don't want to jeopardize my marriage."
 
     mcn "I see Riko-chan as a daughter or a little sister."
 
-    mcn "Sure she is cute. I even got a look at her underwear."
+    mcn "Sure, she is cute. I even got a look at her underwear."
 
     mcn "It feels so wrong."
 
     mcn "I know Hana had sex with Yuma-kun numerous times, but that's different."
 
-    mcn "I consented it."
+    mcn "I consented to it."
 
     mcn "Not to mention she is very drunk, and heartbroken."
 
@@ -5544,7 +5544,7 @@ label snr_145_not_inviting_riko:
 
     mcn "It's better to just leave and pretend I misheard her."
 
-    mc nervous "Sorry, Riko-chan. I'd like to come inside for a glass of water but it's too late."
+    mc nervous "Sorry, Riko-chan. I'd like to come inside for a glass of water, but it's too late."
 
     mc "I have to wake up early to pack my bags."
 
@@ -5574,7 +5574,7 @@ label snr_145_not_inviting_riko:
 
     play music beauty_flow
 
-    "When I got to my apartment I realized I left my wallet on the izakaya."
+    "When I got to my apartment, I realized I left my wallet at the izakaya."
 
     mc "Crap! I have to go back quickly!"
 
@@ -5583,9 +5583,9 @@ label snr_145_not_inviting_riko:
 
     "Luckily, the bartender noticed it and kept my wallet."
 
-    "However, he mentioned he saw a black haired girl with our work uniform coming back."
+    "However, he mentioned he saw a black haired-girl with our work uniform coming back."
 
-    "He also told me he saw her leaving the place with a good looking young guy."
+    "He also told me he saw her leaving the place with a good-looking young guy."
 
     "He noted he was grabbing her by the wrist."
 
@@ -5597,7 +5597,7 @@ label snr_145_not_inviting_riko:
 
     "A sudden urge to protect Riko-chan arose inside me."
 
-    "I called to her cellphone but she didn't respond."
+    "I called her cellphone, but she didn't respond."
 
     "I quickly went to her house."
 
@@ -5612,7 +5612,7 @@ label snr_145_not_inviting_riko:
 
     "Did he take her to his place?"
 
-    "Before going to his house I must make sure they are not here!"
+    "Before going to his house, I must make sure they are not here!"
 
     "I go to the side of her house and peek through the window."
 
@@ -5675,11 +5675,11 @@ label snr_146_riko_akemi_sex:
 
     r "Don't say that! Ahn!"
 
-    mcn worried "It seems these two were having sex since way before."
+    mcn worried "It seems these two have been having sex since way before."
 
     mcn "So that's why they had this tension between them."
 
-    r "This don't mean anything, got it?"
+    r "This doesn't mean anything, got it?"
 
     a "That's what you say, but you were the one who came to the izakaya to see me."
 
@@ -5702,7 +5702,7 @@ label snr_146_riko_akemi_sex:
 
     mcn "It seems she is seeking comfort in him for her broken heart."
 
-    mcn "I get it, but it feels wierd to witness it."
+    mcn "I get it, but it feels weird to witness it."
 
     mcn "That's how being young is, I guess."
 
@@ -5738,7 +5738,7 @@ label snr_146_riko_akemi_sex:
 
     mcn "This is her intimacy, and I'm spying on her. It's wrong."
 
-    mcn "Now it's clear she had a sexual relation with Sasaki-kun."
+    mcn "Now it's clear she had a sexual relationship with Sasaki-kun."
 
     mcn "Maybe she was trying to get away from him."
 
@@ -5746,7 +5746,7 @@ label snr_146_riko_akemi_sex:
 
     a "Take this!!! Take my semen inside you!"
 
-    r "Ahhhhn! {heart} Please finish outside!"
+    r "Ahhhhn! {heart} Please, finish outside!"
 
     mcn "It seems they are not wearing a condom."
 
@@ -9897,7 +9897,7 @@ label snr_147_farewell_osaka:
 
     "What's happening there is none of my business."
 
-    "A part of me feels troubled by seeing someone I thought like a daughter being embraced by a man."
+    "A part of me feels troubled by seeing someone I thought was like a daughter being embraced by a man."
 
     "However, it seems she already had a fling with this guy."
 
@@ -9930,7 +9930,7 @@ label snr_147_farewell_osaka:
 
     r worried "Ehrm... I want to apologize for all the trouble I caused yesterday. I drank too much."
 
-    mc "It's nothing. It was a farewell party after all. I'm glad everyone had fun."
+    mc "It's nothing. After all, it was a farewell party. I'm glad everyone had fun."
 
     mcn "It seems these two had the most fun of all of us."
 
@@ -9940,37 +9940,37 @@ label snr_147_farewell_osaka:
 
     a "But it's true."
 
-    r "Hum! I'm gonna get back at you!"
+    r "Hum! I'm going to get back at you!"
 
     mc smiling "It seems you are getting along again."
 
     r "We are not!"
 
-    a "Come on, how many times I have to apologize? We weren't even dating."
+    a "Come on, how many times do I have to apologize? We weren't even dating."
 
     r "Not enough times!"
 
     r "Also... Shhhh... Not here!"
 
-    mcn "Whatever he did, it seems Riko-chan haven't fully forgiven him."
+    mcn "Whatever he did, it seems Riko-chan hasn't fully forgiven him."
 
     mcn "She'll be fine."
 
     mc "Please, Sasaki-kun, take good care of Riko-chan for me."
 
-    mc "A man's duty is to look after of the people he care about."
+    mc "A man's duty is to look after the people he cares about."
 
     a ". . ."
 
     a "Sure! I will!"
 
-    r surprised "What's gotten into you out of a sudden?"
+    r surprised "What's gotten into you all of a sudden?"
 
     a "Shut up!"
 
     mcn nervous "Was he a tsundere all along?"
 
-    mc "I have to get going. Take care you too."
+    mc "I have to get going. Take care of you too."
 
     r smiling "Goodbye, Ishikawa-san! It was a great experience working with you."
 
@@ -9998,21 +9998,21 @@ label snr_147_farewell_osaka:
     scene bg station noon
     with fade
 
-    mcn beaming "I finally arrive at Tokyo."
+    mcn beaming "I finally arrive in Tokyo."
 
     mcn smiling "I told Hana I was going to arrive at night, but I skipped lunch in order to get back earlier."
 
-    mcn beaming "I just can't wait to get back at my old life."
+    mcn beaming "I just can't wait to get back to my old life."
 
     mcn smiling "With the raise, we can finally start a family."
 
     play music beauty_flow
 
-    mcn worried "Also, I want to be more involved on our 'play'."
+    mcn worried "Also, I want to be more involved in our 'play'."
 
     mcn "Last time I got a feeling Yuma-kun was asserting his dominance over me."
 
-    mcn @ nervous "It's exciting to know Hana has a secret sex life with him on my house."
+    mcn @ nervous "It's exciting to know Hana has a secret sex life with him at my house."
 
     mcn "But I fear I left them alone for too long."
 
@@ -10059,7 +10059,7 @@ label snr_148_surprise_party_sex:
 
     h ". . ."
 
-    mcn "It comes from the livingroom."
+    mcn "It comes from the living room."
 
     mcn "The door is closed."
 
@@ -10079,7 +10079,7 @@ label snr_148_surprise_party_sex:
 
     y "Maybe..."
 
-    h "What a naught boy. Fu fu."
+    h "What a naughty boy. Fu fu."
 
     h "I have to punish you."
 
@@ -10095,7 +10095,7 @@ label snr_148_surprise_party_sex:
 
     mcn "She is always one step ahead of me. Maybe this time she isn't."
 
-    mcn "Am I going to catch a glimpse of what she does when I'm not home!?"
+    mcn "Am I going to catch a glimpse of what she does when I'm not home?"
 
     mcn "However, the moment I open this door, she'll notice."
 
@@ -10130,9 +10130,9 @@ label snr_148_surprise_party_sex:
 
     mcn shocked "Just what I thought!"
 
-    mcn worried "Hana is indeed having sex with Yuma-kun in my abscense."
+    mcn worried "Hana is indeed having sex with Yuma-kun in my absence."
 
-    mcn "This doesn't seem to be part of Hana's plan as far as I can tell."
+    mcn "This doesn't seem to be part of Hana's plan, as far as I can tell."
 
     mcn "Were they so horny they couldn't stop the very day I came home?"
 
@@ -10157,7 +10157,7 @@ label snr_148_surprise_party_sex:
 
     h "Aww. You look so embarrassed. How cute."
 
-    y "But I do want to be with you forever..."
+    y "But I do want to be with you forever."
 
     h "Oh! How sweet!"
 
@@ -10167,25 +10167,25 @@ label snr_148_surprise_party_sex:
 
     mcn "But I bet Yuma-kun is developing strong feelings for Hana."
 
-    mcn "I didn't gave much thought about it, but it's the most obvious outcome."
+    mcn "I didn't give much thought to it, but it's the most obvious outcome."
 
     mcn "How can you have your first sexual experience with an incredibly sexy woman, who watched you grow."
 
-    mcn "Not to mention, he had had sex with her basically everyday for months."
+    mcn "Not to mention, he had had sex with her basically every day for months."
 
-    mcn "He has been filling the role of the husband while I was abscent."
+    mcn "He has been filling the role of husband while I was absent."
 
     mcn "The regret came like a bucket of frozen water."
 
     mcn "I really risked a lot pursuing my fetish."
 
-    mcn "If it weren't for my profound trust of Hana, this could've never worked out."
+    mcn "If it weren't for my profound trust in Hana, this could've never worked out."
 
     mcn "I'm lucky to have Hana by my side."
 
-    mcn "She sees Yuma-kun as innoffensive. And so did I."
+    mcn "She sees Yuma-kun as inoffensive. And so did I."
 
-    mcn "But I can't glance over the fact he is indeed a guy."
+    mcn "But I can't glance over the fact that he is indeed a guy."
 
     mcn "I can't let him keep monopolizing Hana for himself."
 
@@ -10193,9 +10193,9 @@ label snr_148_surprise_party_sex:
 
     h "You know you will always be precious to me."
 
-    h "But now that your Oji-san will be home, you can't just take me whenever and everywhere you want anymore."
+    h "But now that your Oji-san will be home, you can't just take me whenever and wherever you want anymore."
 
-    y "I know... I'm going to miss that."
+    y "I know. I'm going to miss that."
 
     h "Me too, sweetie. It was fun."
 
@@ -10209,19 +10209,19 @@ label snr_148_surprise_party_sex:
 
     mcn nervous "Also, hearing that sentence was very arousing."
 
-    mcn surprised "Yuma-kun is going ot have the forbidden fruit in front of him but cannot touch it."
+    mcn surprised "Yuma-kun is going to have the forbidden fruit in front of him but cannot touch it."
 
-    mcn worried "I wonder if he and Hana will be able to supress their urges while I'm not home."
+    mcn worried "I wonder if he and Hana will be able to suppress their urges while I'm not home."
 
-    mcn "They are used to so much sex, now they will struggle."
+    mcn "They are used to so much sex; now they will struggle."
 
     mcn shocked "What if they succumb to the temptation!?"
 
     mcn nervous "What am I thinking!?"
 
-    mcn worried "Again, my imagination is running wild with hurtful thoughts..."
+    mcn worried "Again, my imagination is running wild with hurtful thoughts."
 
-    mcn nervous "But I can't help to getting aroused by that."
+    mcn nervous "But I can't help getting aroused by that."
 
     y "If I can't have you anymore, then..."
 
@@ -10240,7 +10240,7 @@ label snr_148_surprise_party_sex:
 
     play sound sfx_sex_fast
 
-    y "If you can't be mine then at least have my baby, Oba-chan!"
+    y "If you can't be mine, then at least have my baby, Oba-chan!"
 
     h "Ahhhn! What are you saying, Yuma-chan!?"
 
@@ -10250,7 +10250,7 @@ label snr_148_surprise_party_sex:
 
     mcn "Is he for real!?"
 
-    mcn "Is he trying to get my wife pregnant!?"
+    mcn "Is he trying to get my wife pregnant?"
 
     mcn "I know they've been doing it raw, but Hana told me she was on the pill."
 
@@ -10268,7 +10268,7 @@ label snr_148_surprise_party_sex:
 
     mcn "Hearing them talk about pregnancy makes my penis rock hard!"
 
-    mcn "However, the pain and opression I feel in my chest has never been so intense!"
+    mcn "However, the pain and pressure I feel in my chest have never been so intense!"
 
     mcn "It's almost as if I could have a heart attack!"
 
@@ -10278,7 +10278,7 @@ label snr_148_surprise_party_sex:
 
     play sound sfx_sex_fast
 
-    h "Ahhhn! Yuma-chan! I can't get pregnant by you!"
+    h "Ahhhn! Yuma-chan! I can't get pregnant with you!"
 
     h "I can only give birth to my husband's child!"
 
@@ -10296,7 +10296,7 @@ label snr_148_surprise_party_sex:
 
     h "Ahhhnnn! Hmmm! Yuma-chan! So rough!"
 
-    h "How am I going to tell your Oji-san if you make me pregnant?!"
+    h "How am I going to tell your Oji-san if you make me pregnant?"
 
     mcn "This is going too far!"
 
@@ -10305,7 +10305,7 @@ label snr_148_surprise_party_sex:
 
     mc "Hana!?"
 
-    mcn "I couldn't help to scream her name and opening the door further more."
+    mcn "I couldn't help but scream her name, opening the door further."
 
     show cg opening surprised
     with cg_transition
@@ -10314,16 +10314,16 @@ label snr_148_surprise_party_sex:
 
     mcn shocked "I'm caught!"
 
-    mcn worried "Hana is staring directly at my eyes."
+    mcn worried "Hana is staring directly into my eyes."
 
     mcn "Since I can't hide it anymore, I decide to completely open the door!"
 
-    mcn "I'm apalled by what I see..."
+    mcn "I'm amazed by what I see."
 
     show cg visible surprised
     with longdissolve
 
-    mcn shocked "Hana is leaning on the living room couch with her leg up being visibly penetrated by Yuma-kun."
+    mcn shocked "Hana is leaning on the living room couch with her leg up, being visibly penetrated by Yuma-kun."
 
     mcn "I can clearly see her pink and tender pussy connected to Yuma-kun's erect penis."
 
@@ -10344,7 +10344,7 @@ label snr_148_surprise_party_sex:
     show cg visible celebrating
     with dissolve
 
-    h "Congratulations on your raise, Dear!"
+    h "Congratulations on your raise, dear!"
 
     y "C-congratulations, Oji-san!"
 
@@ -10365,7 +10365,7 @@ label snr_148_surprise_party_sex:
 
     mcn "She is unusually ashamed."
 
-    mcn "Seeing Hana like that is such a rare occurence!"
+    mcn "Seeing Hana like that is such a rare occurrence!"
 
     mcn "She looks so lovely like that."
 
@@ -10376,7 +10376,7 @@ label snr_148_surprise_party_sex:
 
     mc nervous "W-well... I... did."
 
-    h "Yuma-chan was only joking, right Yuma-chan?"
+    h "Yuma-chan was only joking, right, Yuma-chan?"
 
     y "I... Well..."
 
@@ -10404,7 +10404,7 @@ label snr_148_surprise_party_sex:
 
     mcn "He is showing off that Hana is in his possession."
 
-    mcn "My chest hurts and my erection is so hard it's about to explode inside my pants."
+    mcn "My chest hurts, and my erection is so hard it's about to explode inside my pants."
 
     play sound sfx_sex_fast
 
@@ -10414,7 +10414,7 @@ label snr_148_surprise_party_sex:
 
     mcn "Should I do something?"
 
-    mcn "Even though it hurts like hell, this is was I allowed."
+    mcn "Even though it hurts like hell, this is what I allowed."
 
     play sound sfx_sex_fast
 
@@ -10441,13 +10441,13 @@ label snr_148_surprise_party_sex:
 
     h "But seeing the tent in your pants, it seems you are not mad."
 
-    mc "It truly is an incredible sight to see..."
+    mc "It truly is an incredible sight to see."
 
     h "It's embarrassing for me, though."
 
     h "I can't believe you are seeing me like this."
 
-    mcn "She is used to be in control all the time, so it's fun to see her being in a pinch for a change."
+    mcn "She is used to being in control all the time, so it's fun to see her in a pinch for a change."
 
     show cg visible moaning
     with dissolve
@@ -10458,7 +10458,7 @@ label snr_148_surprise_party_sex:
 
     mcn "Yuma-kun interrupted us again by increasing his pace."
 
-    mcn "Hana took out her hand from her crotch and placed it on Yuma-kun's cheek."
+    mcn "Hana took her hand from her crotch and placed it on Yuma-kun's cheek."
 
     mcn "Did she get so caught up on the sex that she is no longer embarrassed?"
 
@@ -10483,9 +10483,9 @@ label snr_148_surprise_party_sex:
 
     y "Ngn! Really?"
 
-    mcn smiling "It seems she just want to console him."
+    mcn smiling "It seems she just wants to console him."
 
-    mcn nervous "In a twisted way, this is endeering..."
+    mcn nervous "In a twisted way, this is endearing."
 
     mcn "And hurtful at the same time."
 
@@ -10493,7 +10493,7 @@ label snr_148_surprise_party_sex:
 
     mcn beaming "Hana has so much love, it's only natural to share it."
 
-    mcn smiling "Especiallly, since the love she has for him is different."
+    mcn smiling "Especially since the love she has for him is different."
 
     show cg visible staring tatsuki
     with cg_transition
@@ -10511,17 +10511,17 @@ label snr_148_surprise_party_sex:
     show cg visible beaming
     with cg_transition
 
-    h "I may have gotten caught up and said some embarrassing things to him and now he is too infatuated with me."
+    h "I may have gotten caught up and said some embarrassing things to him, and now he is too infatuated with me."
 
     h "So, I hope you forgive that too."
 
-    mcn worried "I wonder what she have been saying to him."
+    mcn worried "I wonder what she has been saying to him."
 
     mc nervous "I-it's fine... Go all out."
 
-    h "You are not allowed to participate, though..."
+    h "You are not allowed to participate, though."
 
-    h "But you can sit in the dinner table and masturbate."
+    h "But you can sit at the dinner table and masturbate."
 
     mc "O-ok, then."
 
@@ -10547,7 +10547,7 @@ label snr_148_surprise_party_sex:
     show cg visible staring yuma
     with cg_transition
 
-    h "Oh, sweetie! Yor are so sweet... Ahn!"
+    h "Oh, sweetie! You are so sweet. Ahn!"
 
     h "Sorry, Yuma-chan! You'll have to share me with your Oji-san."
 
@@ -10575,9 +10575,9 @@ label snr_148_surprise_party_sex:
 
     mcn "So that was it..."
 
-    mcn "If I had decided to end the 'play' would he been fine by that?"
+    mcn "If I had decided to end the 'play' would he be fine with that?"
 
-    mcn "I would think so, but I feel deep inside he would still be secretely in love with her."
+    mcn "I would think so, but I feel deep inside that he would still be secretly in love with her."
 
     show cg visible apologetic
     with cg_transition
@@ -10590,7 +10590,7 @@ label snr_148_surprise_party_sex:
 
     h "I hope you don't mind me comforting him."
 
-    h "I can't help but to give him whatever he wants."
+    h "I can't help but give him whatever he wants."
 
     show cg visible teasing
     with cg_transition
@@ -10664,7 +10664,7 @@ label snr_148_surprise_party_sex:
     with ejaculation_flash
     play sound sfx_sex_ejaculation
 
-    mcn "I came with so much force my mind went blank!"
+    mcn "I came with so much force that my mind went blank!"
 
     show cg visible cumming clenching
     with cg_transition
@@ -10693,14 +10693,14 @@ label snr_148_surprise_party_sex:
 
     h "It's so much, it's pouring out of my vagina."
 
-    mcn "I can clearly see Yuma-kun's semen leak out my precious wife's pussy."
+    mcn "I can clearly see Yuma-kun's semen leak out of my precious wife's pussy."
 
-    mcn "My semen is on the floor while his is inside my wife."
+    mcn "My semen is on the floor, while his is inside my wife."
 
     show cg visible afterglow staring yuma
     with cg_transition
 
-    h "You were very frustated, right, sweetie?"
+    h "You were very frustrated, right, sweetie?"
 
     y "Haaa... Haa... Sorry, Oba-chan..."
 
@@ -10708,13 +10708,13 @@ label snr_148_surprise_party_sex:
 
     h "It's okay, sweetie. Your semen is always welcome in my womb."
 
-    y "It's just... I love you so much... I was afraid of losing you."
+    y "It's just... I love you so much. I was afraid of losing you."
 
     h "Aw... I know, sweetie."
 
-    h "That's not gonna happen. Rest sure."
+    h "That's not going to happen. Rest sure."
 
-    mcn "It's like they are on their own world."
+    mcn "It's like they are in their own world."
 
     show cg visible afterglow teasing
     with cg_transition
@@ -10744,17 +10744,17 @@ label snr_148_surprise_party_sex:
 
     h "Congratulations on your raise, dear!"
 
-    h "I'm looking forward to start a family with you."
+    h "I'm looking forward to starting a family with you."
 
     mc "T-thanks..."
 
     mcn "This was a wild ride of emotions."
 
-    mcn "For a second I thought Yuma-kun was trying to steal Hana way from me."
+    mcn "For a second, I thought Yuma-kun was trying to steal Hana away from me."
 
     mcn "But it seems he is just afraid of losing her."
 
-    mcn "What a surprise party..."
+    mcn "What a surprise party!"
 
     ##--------------------------------------------------------------------------
     $ renpy.end_replay()
@@ -10780,7 +10780,7 @@ label snr_149_yuma_confesses:
 
     play music late_night_radio
 
-    h "Oh my! I can't believe you finally catched me doing lewd things with Yuma-chan."
+    h "Oh my! I can't believe you finally caught me doing lewd things with Yuma-chan."
 
     h decided "I guess I got too confident."
 
@@ -10806,21 +10806,21 @@ label snr_149_yuma_confesses:
 
     mc smiling "You can be honest with us, Yuma-kun."
 
-    y worried "Well... The thing is..."
+    y worried "Well... the thing is..."
 
     y "When we visited Oji-san in Osaka, the two of you had a conversation."
 
-    y "I thought Oji-san was talking about ending this so I got sad."
+    y "I thought Oji-san was talking about ending this, so I got sad."
 
     y "I thought to myself, if that were the case, I would accept it. But..."
 
-    h "Deep inside that's not what you wanted."
+    h "Deep inside, that's not what you wanted."
 
     y "It doesn't matter what I want. You are a married couple."
 
     y smiling "When the time comes, I know we have to part ways."
 
-    y worried "But just thinking about it, hurts a lot."
+    y worried "But just thinking about it hurts a lot."
 
     mcn worried "He is pouring his heart out."
 
@@ -10830,21 +10830,21 @@ label snr_149_yuma_confesses:
 
     mcn "It must be difficult being in love with a woman you can't have."
 
-    mcn "I need to fix this..."
+    mcn "I need to fix this."
 
-    mc "Yuma-kun. You are like family for us. There's no need of proving yourself."
+    mc "Yuma-kun. You are like family to us. There's no need to prove yourself."
 
-    mc smiling "I don't know what the future have in store for the three of us, but..."
+    mc smiling "I don't know what the future has in store for the three of us, but..."
 
-    mc "...As for the foreseeable future, we'd like you to keep being on our lives."
+    mc "As for the foreseeable future, we'd like you to keep being in our lives."
 
-    mc "My mistake was letting you all alone with Hana, making you take the role of a husband."
+    mc "My mistake was letting you all alone with Hana and making you take on the role of a husband."
 
-    mc "I'm Hana's husband. I'll provide and take care of her and our future child."
+    mc "I'm Hana's husband. I'll provide for and take care of her and our future child."
 
     mc "You are free to live your life however you like. Someday you'll have a family of your own."
 
-    mc "But meanwhile, you are more than welcome to join Hana and me on our sex life."
+    mc "But meanwhile, you are more than welcome to join Hana and me in our sex life."
 
     h smiling "Oh, dear. So sweet."
 
@@ -10852,9 +10852,9 @@ label snr_149_yuma_confesses:
 
     y worried "And I apologize for all the things I said."
 
-    y ashamed "I don't want to impregnate, Oba-chan!"
+    y ashamed "I don't want to impregnate you, Oba-chan!"
 
-    mc nervous "It's nothing. When having sex it's fun to make dirty talk."
+    mc nervous "It's nothing. When having sex, it's fun to make dirty talk."
 
     y smiling "It was fun, yeah."
 
@@ -10872,7 +10872,7 @@ label snr_149_yuma_confesses:
 
     h "Fu fu. Both of you looked pale."
 
-    h smiling "As your Oji-san said. You are more than welcome to stay on our lives and our bedroom as long as you want."
+    h smiling "As your Oji-san said, you are more than welcome to stay in our lives and our bedroom as long as you want."
 
     y beaming "Thanks, Oba-chan, Oji-san!"
 
@@ -10885,11 +10885,11 @@ label snr_149_yuma_confesses:
 
     "Then, the three of us bathe together."
 
-    "While it wasn't anything sexual involved, it was heartwarming."
+    "While there wasn't anything sexual involved, it was heartwarming."
 
     "After we went to bed, I had intense sex with Hana."
 
-    "I remebered what just happened and it made me hard ever."
+    "I remembered what just happened, and it made me the hardest ever."
 
     "It was a great homecoming party."
 
@@ -10915,18 +10915,18 @@ label snr_150_onsen_fun:
 
     play music on_my_way
 
-    "The weekend came and I decided to take the family to a hot spring."
+    "The weekend came, and I decided to take the family to a hot spring."
 
-    "I neglected Hana for so long. I'm gonna make up to her since now."
+    "I neglected Hana for so long. I'm going to make up to her now."
 
     scene bg onsen front day
     with longfade
 
     "After a nice trip, we finally arrive."
 
-    "It's a nice looking traditional town."
+    "It's a nice-looking traditional town."
 
-    "It takes my mind away from all the work and stress I've build up in these past months."
+    "It takes my mind away from all the work and stress I've built up in these past months."
 
     show hana smiling at right
     show yuma smiling at left
@@ -10944,7 +10944,7 @@ label snr_150_onsen_fun:
 
     hide hana with dissolve
 
-    mcn nervous "As usual Hana goes after him."
+    mcn nervous "As usual, Hana goes after him."
 
     scene bg onsen entrance
     with fade
@@ -10976,9 +10976,9 @@ label snr_150_onsen_fun:
     scene bg sky day
     with fade
 
-    "The three of us changed into our yukatas in front of each other and head to the hot spring."
+    "The three of us changed into our yukatas in front of each other and headed to the hot spring."
 
-    "First we ate a delicous meal."
+    "First we ate a delicious meal."
 
     "Then, we went sightseeing around the town for a while."
 
@@ -10989,18 +10989,18 @@ label snr_150_onsen_fun:
 
     "We finally decided to bathe."
 
-    mcn smiling "Yuma-kun and I entered the men side, while Hana went in the woman side."
+    mcn smiling "Yuma-kun and I entered the men's side, while Hana went in the woman's side."
 
     mcn "It's a shame we can't be together right now. But we can talk between the bamboo wall."
 
     show yuma towel beaming at center, noon
     with dissolve
 
-    y "Ah! Nothing beats a hot bathe!"
+    y "Ah! Nothing beats a hot bath!"
 
     mc nervous "You sound like an old man, Yuma-kun."
 
-    y smiling "Say, Oji-san... Don't you miss Oba-chan, right now?"
+    y smiling "Say, Oji-san. Don't you miss Oba-chan right now?"
 
     mc smiling "I sure do."
 
@@ -11008,7 +11008,7 @@ label snr_150_onsen_fun:
 
     y "It seems like it."
 
-    y beaming "I can't stop thinking about her, and I want to be at her side all the time."
+    y beaming "I can't stop thinking about her, and I want to be by her side all the time."
 
     mcn "It's cute in a way."
 
@@ -11016,15 +11016,15 @@ label snr_150_onsen_fun:
 
     "Hana talked through the other side of the bamboo wall."
 
-    h "It's a shame I can't with you boys."
+    h "It's a shame I can't be with you boys."
 
     y "I already miss you, Oba-chan!"
 
     h "Aw. I miss you too, sweetie."
 
-    h "Hmmm... I wonder if I should go to the other side with you."
+    h "Hmmm. I wonder if I should go to the other side with you."
 
-    mc shocked "No, no... There are people in here!"
+    mc shocked "No, no. There are people in here!"
 
     h "Fu fu. I was joking."
 
@@ -11049,7 +11049,7 @@ label snr_150_onsen_fun:
 
     y "I think I'm getting dizzy."
 
-    mc smiling "I guess it's time to go the rooms. What do you think, Hana?"
+    mc smiling "I guess it's time to go to the rooms. What do you think, Hana?"
 
     "No response..."
 
@@ -11093,7 +11093,7 @@ label snr_150_onsen_fun:
 
     "Said Hana while caressing both of our cheeks."
 
-    h lusting "I guessed I've been neglecting you for so long, dear."
+    h lusting "I guess I've been neglecting you for so long, dear."
 
     h "It's time for you to have some hands-on fun."
 
@@ -11139,7 +11139,7 @@ label snr_150_onsen_fun:
 
     "Suddenly, Hana grabbed our wrists and jumped off the water."
 
-    "The three of us run straight to the door while Hana held our arms tight."
+    "The three of us ran straight to the door while Hana held our arms tight."
 
     show hana nude at right
     show yuma nude at left
@@ -11151,24 +11151,24 @@ label snr_150_onsen_fun:
 
     unknown "She is so gorgeous!"
 
-    "The two stragers that just came in were able to see my wife's gorgeous naked body."
+    "The two strangers that just came in were able to see my wife's gorgeous naked body."
 
     "Not to mention, Yuma-kun and I were naked too."
 
     "It was a weird experience, but somehow it felt really exciting."
 
-    "I'm proud of my wife's body, so I guess it's okay of other men can appreciate it."
+    "I'm proud of my wife's body, so I guess it's okay if other men can appreciate it."
 
     scene bg onsen corridor dark
     show hana decided nude at right, dark
     show yuma ashamed erect at left, dark
     with fade
 
-    h "Come on boys, let's go! Over here!"
+    h "Come on, boys, let's go! Over here!"
 
     mcn worried "We ran to our room."
 
-    mcn "Luckily no one saw us."
+    mcn "Luckily, no one saw us."
 
     mcn "My heart is beating very fast."
 
@@ -11187,13 +11187,13 @@ label snr_150_onsen_fun:
 
     h smiling "Come on, Yuma-chan. We are having fun as a family."
 
-    h lusting "And even if both of you are not being honest. At least your penises are."
+    h lusting "And even if both of you are not being honest, at least your penises are."
 
     y surprised "Huh?"
 
     mcn "We really are erect!"
 
-    h "Fu fu. Come here you two..."
+    h "Fu fu. Come here, you two."
 
     ############################################################################
     ############################################################################
@@ -11205,7 +11205,7 @@ label snr_150_onsen_fun:
 
     play music past_sadness
 
-    "Hana got close to the two us and started carressing both of our penis at the same time."
+    "Hana got close to the two of us and started caressing both of our penises at the same time."
 
     "She took each penis on each hand and stroked them."
 
@@ -11227,11 +11227,11 @@ label snr_150_onsen_fun:
 
     h "And both of them have ejaculated inside me many times."
 
-    h "I just wonder... Which one is the most fertile."
+    h "I just wonder... which one is the most fertile?"
 
     mc shocked "Huh?"
 
-    h "I mean, if I put them one against each other... Which one would win?"
+    h "I mean, if I put them one against the other, which one would win?"
 
     mc "What are you talking about?"
 
@@ -11241,13 +11241,13 @@ label snr_150_onsen_fun:
 
     h "I'm not lying..."
 
-    h "So... Who want to try their luck today?"
+    h "So... who wants to try their luck today?"
 
     play sound sfx_heartbeat
 
     ". . ."
 
-    "There was silence for a moment..."
+    "There was silence for a moment."
 
     "Until..."
 
@@ -11263,7 +11263,7 @@ label snr_150_onsen_fun:
 
     h "Ahn! A finger slipped in."
 
-    mcn "As always I'm been left behind."
+    mcn "As always, I've been left behind."
 
     mcn "So I start to fondle Hana's breasts."
 
@@ -11273,15 +11273,17 @@ label snr_150_onsen_fun:
 
     "Yuma-kun starts masturbating Hana more intensely."
 
-    h "Hmmm... So good!"
+    h "Hmmm. So good!"
 
     mcn "All of that while Hana is still stroking both of our dicks."
 
-    mcn "Hana bends on all of her fours and spread his asscheek towards Yuma-kun."
+    mcn "Hana bends on all fours and spreads his asscheek towards Yuma-kun."
 
-    h "Come on, Yuma-chan... I'm ready."
+    h "Come on, Yuma-chan. I'm ready."
 
+    ##--------------------------------------------------------------------------
     jump snr_153_holding_hands_sex
+    ##--------------------------------------------------------------------------
 
 
 
@@ -11303,7 +11305,7 @@ label snr_153_holding_hands_sex:
 
     "Yuma-kun eagerly inserted his penis inside Hana from behind with such a force that Hana lost balance."
 
-    "Luckily I catch her with my hands."
+    "Luckily, I caught her with my hands."
 
     h "Ahh! Yuma-chan! Impatient as always."
 
@@ -11318,7 +11320,7 @@ label snr_153_holding_hands_sex:
 
     h "Thanks for catching me, dear."
 
-    h "Forgive Yuma-kun. He probably is pent up because we haven't had as much sex as we used too."
+    h "Forgive Yuma-kun. He probably is pent up because we haven't had as much sex as we used to."
 
     h "Now that he can't only have sex with me with you present, it has become tough for him."
 
@@ -11331,17 +11333,17 @@ label snr_153_holding_hands_sex:
 
     mcn worried "Witnessing my wife being pounded so close makes my heart race."
 
-    mcn "However, it's not enough... I want to participate too."
+    mcn "However, it's not enough. I want to participate too."
 
     mcn "I'm afraid she will reject me as usual."
 
-    mcn "Is the idea of a threesome too far fetched for her?"
+    mcn "Is the idea of a threesome too far-fetched for her?"
 
     mcn nervous "Lately, the three of us have grown very close."
 
     mcn "I think it's time for me to join in the fun."
 
-    mc nervous "Honey... Is it okay if I...?"
+    mc nervous "Honey, is it okay if I...?"
 
     show cg holding hands clenching
     with cg_transition
@@ -11372,13 +11374,13 @@ label snr_153_holding_hands_sex:
 
     h "I think about your penis all the time too, sweetie!"
 
-    h "It's so cute, pink and smooth. Truly beautiful."
+    h "It's so cute, pink, and smooth. Truly beautiful."
 
     h "Not to mention it's always rock-hard."
 
     mcn "They are in their own world again."
 
-    mcn "I know Hana does this to arouse me, but I wonder how much truth are on those words."
+    mcn "I know Hana does this to arouse me, but I wonder how much truth is in those words."
 
     show cg smiling
     with cg_transition
@@ -11391,13 +11393,13 @@ label snr_153_holding_hands_sex:
 
     mc "Ehrm..."
 
-    mcn beaming "I can't get over the fact how lovely and beautiful she looks."
+    mcn beaming "I can't get over how lovely and beautiful she looks."
 
-    mcn "The expression she makes could warm any men's heart."
+    mcn "The expression she makes could warm any man's heart."
 
     mcn "There's no one who could not fall in love with her."
 
-    mc nervous "Would it be okay if I join you guys?"
+    mc nervous "Would it be okay if I joined you guys?"
 
     show cg pouting
     with cg_transition
@@ -11408,11 +11410,11 @@ label snr_153_holding_hands_sex:
 
     h "We haven't been intimate for a while, so it's fair to let him have his way with me first."
 
-    mcn "Why does it feel so good being rejected by the woman I love!?"
+    mcn "Why does it feel so good to be rejected by the woman I love?"
 
     mcn "I'm beyond salvation at this point."
 
-    mcn "I can't even masturbate bacause I'm holding Hana's hand."
+    mcn "I can't even masturbate because I'm holding Hana's hand."
 
     h "Just wait patiently for your turn, dear."
 
@@ -11438,7 +11440,7 @@ label snr_153_holding_hands_sex:
 
     h "It's okay, just let out all your seed inside my womb."
 
-    h "I'll recieve it happily."
+    h "I'll receive it happily."
 
     mc "Hana!?"
 
@@ -11446,7 +11448,7 @@ label snr_153_holding_hands_sex:
 
     y "Take it all, Oba-chan!!!"
 
-    h "Give it ot me!!!"
+    h "Give it to me!!!"
 
     show cg cumming yuma
     with dissolve
@@ -11478,7 +11480,7 @@ label snr_153_holding_hands_sex:
 
     mc "Ngn! Ah!"
 
-    mcn "By accident, all my semen was shot straight to Hana's face."
+    mcn "By accident, all my semen was shot straight into Hana's face."
 
     mcn "It was a lot!"
 
@@ -11511,7 +11513,7 @@ label snr_153_holding_hands_sex:
 
     h "Don't worry, dear. Your semen is always welcomed."
 
-    mcn "Watching my semen on Hana's cute face, reignited a flame inside me."
+    mcn "Watching my semen on Hana's cute face reignited a flame inside me."
 
     mcn "She is my wife. I want to make that clear!"
 
