@@ -5,6 +5,8 @@ init 10000 python:
 
     if CURRENT_VERSION == (0, 23, 0):
 
+        config.label_callback = group_label_callbacks
+
         def get_lock_labels():
 
             scenes = list(SAVE_LABELS_AND_DESCRIPTIONS)
