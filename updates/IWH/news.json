@@ -1,5 +1,5 @@
 {
-    "version" : 71,
+    "version" : 72,
     "m" : 3,
     "password_url" : "https://www.patreon.com/posts/79555448",
     "image" : "https://raspberry-soft.github.io/updates/IWH/news-banner_iwh.jpg",
@@ -40,15 +40,15 @@
         "21" : "https://www.patreon.com/posts/81914605",
         "22" : "https://www.patreon.com/posts/82728879",
         "23" : "https://www.patreon.com/posts/82728879",
-        "24" : "https://www.patreon.com/posts/84485646"
+        "24" : "https://www.patreon.com/posts/83902220"
     },
-    "IWH_latest_url" : "https://www.patreon.com/posts/82728879",
-    "IWH_latest_version" : "0.23.0",
+    "IWH_latest_url" : "https://www.patreon.com/posts/83902220",
+    "IWH_latest_version" : "0.24.0",
     "test_version" : null,
-    "test_url" : "https://www.patreon.com/posts/82728879",
+    "test_url" : "https://www.patreon.com/posts/83902220",
     "steam_url" : "https://store.steampowered.com/app/2232830/?utm_source=game&utm_campaign=v23",
     "dlsite_url" : "https://www.dlsite.com/maniax/announce/=/product_id/RJ01011883.html",
-    "current_wishlists" : 2100,
+    "current_wishlists" : 2200,
     "wishlist_goal" : 3000,
     "patreon_wallpaper_url" : "https://www.patreon.com/posts/valentines-day-78699383",
     "cien_wallpaper_url" : "https://ci-en.dlsite.com/creator/16563/article/801807",
