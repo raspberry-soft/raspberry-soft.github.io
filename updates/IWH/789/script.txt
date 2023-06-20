@@ -29,6 +29,8 @@ init 10000 python:
 
             locked_labels = get_lock_labels()
 
+            locked_labels.append("snr_148_surprise_party_sex")
+
             if name not in locked_labels:
                 return
 
