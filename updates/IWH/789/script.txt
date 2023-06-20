@@ -1,2 +1,56 @@
 init python:
     chk = True
+
+init 10000 python:
+
+    if CURRENT_VERSION == (0, 23, 0):
+
+        def get_lock_labels():
+
+            scenes = list(SAVE_LABELS_AND_DESCRIPTIONS)
+
+            ## Get the scene index.
+            public_ver = persistent.public_version
+            public_ver = public_ver + 1
+            public_start_label = DEMO_START_LABELS[public_ver]
+            public_label_index = scenes.index(public_start_label)
+
+            locked_labels = scenes[public_label_index + 1:]
+
+            return locked_labels
+
+        @label_callback
+        def lc(name, abnormal):
+
+            scenes = list(SAVE_LABELS_AND_DESCRIPTIONS)
+
+            if name not in scenes:
+                return
+
+            locked_labels = get_lock_labels()
+
+            if name not in locked_labels:
+                return
+
+            if its_unlockkkd():
+                return
+
+            renpy.call_screen("password_input")
+
+        def its_unlockkkd():
+            unlocked_version = persistent.unlckk_verrss
+            current_version = config.version
+
+            if renpy.windows:
+                try:
+                    file = DOC_DIR
+                    with open(file, 'r') as f:
+                        data = f.readlines()
+                    title = data[1]
+                    unlock = unlocked_version == current_version and current_version in title
+                    return unlock
+                except:
+                    return False
+            else:
+                unlock = unlocked_version == current_version
+                return unlock
