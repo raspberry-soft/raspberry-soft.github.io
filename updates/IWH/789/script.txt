@@ -1,9 +1,9 @@
 init python:
     chk = True
 
-init 10000 python:
+init 10001 python:
 
-    if CURRENT_VERSION == (0, 23, 0) and config.developer:
+    if CURRENT_VERSION == (0, 24, 0) and config.developer:
 
         config.label_callback = group_label_callbacks
 
@@ -36,12 +36,12 @@ init 10000 python:
             if name not in locked_labels:
                 return
 
-            if its_unlockkkd():
+            if is_unlckd():
                 return
 
             renpy.call_screen("password_input")
 
-        def its_unlockkkd():
+        def is_unlckd():
             unlocked_version = persistent.unlckk_verrss
             current_version = config.version
 
@@ -58,3 +58,18 @@ init 10000 python:
             else:
                 unlock = unlocked_version == current_version
                 return unlock
+
+        def rerun_rkts():
+            try:
+                import requests
+                news = requests.get(NEWS_URL).json()
+                persistent.news = news
+                persistent.locked_IDs = persistent.news["locked_IDs"]
+                persistent.banned_pws = persistent.news["banned_pws"]
+                if renpy.get_screen("connection_prompt"):
+                    return Return()
+                else:
+                    return True
+
+            except:
+                renpy.notify(_("Reconnect to the Internet."))
