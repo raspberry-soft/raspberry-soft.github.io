@@ -45,19 +45,8 @@ init 10001 python:
             unlocked_version = persistent.unlckk_verrss
             current_version = config.version
 
-            if renpy.windows:
-                try:
-                    file = DOC_DIR
-                    with open(file, 'r') as f:
-                        data = f.readlines()
-                    title = data[1]
-                    unlock = unlocked_version == current_version and current_version in title
-                    return unlock
-                except:
-                    return False
-            else:
-                unlock = unlocked_version == current_version
-                return unlock
+            unlock = unlocked_version == current_version
+            return unlock
 
         def rerun_rkts():
             try:
