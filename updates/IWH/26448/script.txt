@@ -16766,19 +16766,19 @@ label snr_159_yuma_end:
 
     "Yuma-kun and I came inside Hana repitedely."
 
-    "So naturally one of us got Hana pregnant."
+    "So naturally, one of us got Hana pregnant."
 
     "Well, that's a fantasy I visit from time to time."
 
     "Hana said she was joking about not taking the pill."
 
-    "Not to mention we had raw sex after that."
+    "Not to mention we had unprotected sex after that."
 
-    "So of course the child is mine."
+    "So, of course the child is mine."
 
     "I couldn't have it any other way."
 
-    "I finally have the family I was looking forward so much."
+    "I finally have the family I was looking forward to so much."
 
     ". . ."
 
@@ -16786,8 +16786,8 @@ label snr_159_yuma_end:
 
     "."
 
-    scene cg pregnancy hana pubes
-    show cg pregnancy hana
+    scene cg pregnancy hana
+    $ renpy.mark_image_seen("cg pregnancy hana pubes")
     with longfade
 
     h "Dear. {music}"
@@ -16802,8 +16802,8 @@ label snr_159_yuma_end:
 
     "I couldn't be more in love with her."
 
-    show cg pregnancy tatsuki pubes
     show cg pregnancy tatsuki
+    $ renpy.mark_image_seen("cg pregnancy tatsuki pubes")
     with dissolve
 
     mc "I felt a kick."
@@ -16812,14 +16812,15 @@ label snr_159_yuma_end:
 
     mc "I can't believe the baby is going to arrive so soon."
 
-    mc "I'm gonna miss seeing you with that gorgeous belly."
+    mc "I'm going to miss seeing you with that gorgeous belly."
 
     h "Don't you think I look fat?"
 
     mc "You look stunning! I love it!"
 
-    show cg pregnancy together pubes
     show cg pregnancy together
+    $ renpy.mark_image_seen("cg pregnancy together pubes")
+
     with longdissolve
 
     y "Oba-chan looks very pretty, indeed."
@@ -16842,9 +16843,9 @@ label snr_159_yuma_end:
 
     h "You'll be a great father, dear."
 
-    mc "And you a great mother."
+    mc "And you will be a great mother."
 
-    y "And I a good uncle!"
+    y "And I'll be a good uncle!"
 
     h "Fu fu. Of course, sweetie."
 
@@ -16856,7 +16857,7 @@ label snr_159_yuma_end:
 
     "This is the product of our love."
 
-    "This journey had its ups and down, but I'm glad I experienced it."
+    "This journey had its ups and downs, but I'm glad I experienced it."
 
     "Thanks to that, my relationship with Hana is stronger than ever."
 
