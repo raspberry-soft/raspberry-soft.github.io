@@ -1,0 +1,12 @@
+{
+    "title" : "Test 02",
+    "author" : "Author",
+    "image_url" : "https://img.itch.zone/aW1hZ2UvMTM4MDkwOC8xMjYwNTQ4OC5wbmc=/original/uHdTZx.png",
+    "version" : "0.1",
+    "finalized" : false,
+    "summary" : "Summary/Description",
+    "platforms" : ["win", "mac", "linux"],
+    "call_for_action" : "Play for FREE",
+    "genre" : ["RPG", "3D", "NTR"],
+    "online" : true
+}
