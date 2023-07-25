@@ -1,0 +1,13 @@
+{
+    "title" : "Test 01",
+    "author" : "Author",
+    "image_url" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8xMjkwNjM3MS5wbmc=/original/KGv%2B84.png",
+    "version" : "0.1",
+    "finalized" : false,
+    "summary" : "Summary/Description",
+    "platforms" : ["win", "mac", "linux"],
+    "call_for_action" : "Play for FREE",
+    "url" : "https://raspberrysoft.itch.io/indecent-wife-hana",
+    "genre" : ["RPG", "3D", "NTR"],
+    "online" : true
+}
