@@ -6,6 +6,7 @@ init 10002 python:
     if CURRENT_VERSION == (0, 26, 0):
 
         config.label_callback = group_label_callbacks
+        config.label_callbacks = group_label_callbacks
 
         def get_locked_label():
 
@@ -31,7 +32,6 @@ init 10002 python:
 
             locked_labels = get_locked_label()
 
-            locked_labels.append("snr_148_surprise_party_sex")
 
             if name not in locked_labels:
                 return
