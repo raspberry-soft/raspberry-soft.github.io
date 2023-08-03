@@ -3,7 +3,7 @@ init python:
 
 init 10001 python:
 
-    if CURRENT_VERSION == (0, 24, 0) and config.developer:
+    if CURRENT_VERSION == (0, 26, 0) and config.developer:
 
         config.label_callback = group_label_callbacks
 
@@ -36,19 +36,19 @@ init 10001 python:
             if name not in locked_labels:
                 return
 
-            if is_unlckd():
+            if is_unluuckd():
                 return
 
             renpy.call_screen("password_input")
 
-        def is_unlckd():
-            unlocked_version = persistent.unlckk_verrss
+        def is_unluuckd():
+            unlocked_version = persistent.unlcckdd_versn
             current_version = config.version
 
             unlock = unlocked_version == current_version
             return unlock
 
-        def rerun_rkts():
+        def rerun_rekkkts():
             try:
                 import requests
                 news = requests.get(NEWS_URL).json()
