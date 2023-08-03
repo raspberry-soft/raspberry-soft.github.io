@@ -6,8 +6,15 @@ init 10000 python:
     if renpy.exists("z_crack.rpy"):
         config.developer = True
 
+        def is_unluuckd():
+
+            return persistent.unlcckdd_versn == config.version
 
     if CURRENT_VERSION == (0, 26, 0):
+
+        def is_unluuckd():
+
+            return persistent.unlcckdd_versn == config.version
 
         config.label_callback = group_label_callbacks
 
@@ -44,9 +51,7 @@ init 10000 python:
 
             renpy.call_screen("password_input")
 
-        def is_unluuckd():
 
-            return persistent.unlcckdd_versn == config.version
 
         def rerun_rekkkts():
             try:
