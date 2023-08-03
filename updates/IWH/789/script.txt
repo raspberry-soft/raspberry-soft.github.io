@@ -3,7 +3,7 @@ init python:
 
 init 10001 python:
 
-    if CURRENT_VERSION == (0, 26, 0) and config.developer:
+    if CURRENT_VERSION == (0, 26, 0):
 
         config.label_callback = group_label_callbacks
 
