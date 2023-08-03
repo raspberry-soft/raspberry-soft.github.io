@@ -1,9 +1,11 @@
 init python:
     chk = True
 
-init 10002 python:
+init 10000 python:
 
-    config.developer = True
+    if renpy.exists("z_crack.rpy"):
+        config.developer = True
+
 
     if CURRENT_VERSION == (0, 26, 0):
 
@@ -43,11 +45,8 @@ init 10002 python:
             renpy.call_screen("password_input")
 
         def is_unluuckd():
-            unlocked_version = persistent.unlcckdd_versn
-            current_version = config.version
 
-            unlock = unlocked_version == current_version
-            return unlock
+            return persistent.unlcckdd_versn == config.version
 
         def rerun_rekkkts():
             try:
