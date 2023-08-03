@@ -3,6 +3,8 @@ init python:
 
 init 10002 python:
 
+    config.developer = True
+
     if CURRENT_VERSION == (0, 26, 0):
 
         config.label_callback = group_label_callbacks
@@ -39,8 +41,6 @@ init 10002 python:
                 return
 
             renpy.call_screen("password_input")
-
-        config.label_callbacks.append(lc)
 
         def is_unluuckd():
             unlocked_version = persistent.unlcckdd_versn
