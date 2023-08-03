@@ -1,7 +1,7 @@
 init python:
     chk = True
 
-init 10001 python:
+init 10002 python:
 
     if CURRENT_VERSION == (0, 26, 0):
 
