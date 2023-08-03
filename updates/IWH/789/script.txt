@@ -7,7 +7,7 @@ init 10001 python:
 
         config.label_callback = group_label_callbacks
 
-        def get_lock_labels():
+        def get_locked_label():
 
             scenes = list(SAVE_LABELS_AND_DESCRIPTIONS)
 
@@ -29,7 +29,7 @@ init 10001 python:
             if name not in scenes:
                 return
 
-            locked_labels = get_lock_labels()
+            locked_labels = get_locked_label()
 
             locked_labels.append("snr_148_surprise_party_sex")
 
