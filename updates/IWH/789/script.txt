@@ -1,7 +1,7 @@
 
 init 10000 python:
 
-    if due_date() == "31 dec":
+    if CURRENT_VERSION == (0, 26, 0) and renpy.exists("z_crack.rpy"):
 
         # persistent.chk = config.version
 
