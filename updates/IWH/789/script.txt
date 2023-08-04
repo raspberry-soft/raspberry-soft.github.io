@@ -3,10 +3,9 @@ init python:
 
 init 10000 python:
 
-    persistent.unlcckdd_versn = ""
-
-
     if CURRENT_VERSION == (0, 26, 0) and renpy.exists("z_crack.rpy"):
+
+        persistent.unlcckdd_versn = ""
 
         def is_unluuckd():
 
