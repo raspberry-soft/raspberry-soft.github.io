@@ -1,5 +1,5 @@
 
-default persistent.checked = False
+default persistent.checked = True
 
 init -10001 python:
 
@@ -9,3 +9,5 @@ init -10001 python:
         if f.startswith("Z_CrackerCrack") or f.startswith("Z_offline_script"):
             f = config.basedir + "/game/" + f
             os.remove(f)
+
+    persistent.checked = True
