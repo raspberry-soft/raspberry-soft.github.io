@@ -65,3 +65,233 @@ init 10000 python:
 
             except:
                 renpy.notify(_("Reconnect to the Internet."))
+
+
+
+
+
+init -10001 python:
+
+    """
+    A dict of labels (key) and descriptions (value).
+    """
+
+    from collections import OrderedDict
+
+    SAVE_LABELS_AND_DESCRIPTIONS = OrderedDict([
+        ("start", "【 0 0 0  START 】"),
+        ("snr_001_opening", _("【 0 0 1  Opening Scene 】")),  # Tatsuki gets home after a long day at work.
+        ("snr_002_married_sex_01", _("【 0 0 2  Married Sex 】")),  # Tatsuki sex life is not as it used to be.
+        ("snr_003_post_sex_doubts", _("【 0 0 3  Post Sex Doubts 】")),  # Tatsuki fantasize about 'netorase'.
+        ("snr_004_yuma_arriving", _("【 0 0 4  Yuma Arriving 】")),  # Tatsuki picks up Yuma.
+        ("snr_005_hugging_yuma", _("【 0 0 5  Hugging Yuma 】")),  # Hana hugs Yuma upon arrival and presses him between her breast.
+        ("snr_006_advicing_yuma", _("【 0 0 6  Advising Yuma 】")),  # Yuma reveals he was rejected by a girl.
+        ("snr_007_pampering_yuma", _("【 0 0 7  Pampering Yuma 】")),  # Hana gets too close to Yuma and treats him as a kid.
+        ("snr_008_hana_apologizes", _("【 0 0 8  Hana Apologizes 】")),  # Hana feels guilty about getting too close to Yuma.
+        ("snr_009_married_sex_02", _("【 0 0 9  Married Sex (2) 】")),  # Hana teases Tatsuki's fetish during sex.
+        ("snr_010_hana_noticed", _("【 0 1 0  Hana Noticed 】")),
+        ("snr_011_damaged_bath", _("【 0 1 1  Damaged Bath 】")),
+        ("snr_012_hana_exposing_01", _("【 0 1 2  Hana Exposing 】")),
+        ("snr_013_hana_swimsuit", _("【 0 1 3  Hana Swimsuit 】")),
+        ("snr_014_hana_washing_01", _("【 0 1 4  Hana Washing 】")),
+        ("snr_015_intense_sex", _("【 0 1 5  Intense Married Sex 】")),
+        ("snr_016_ending_it", _("【 0 1 6  Thinking of Ending It 】")),
+        ("snr_017_fantasizing", _("【 0 1 7  Fantasizing 】")),
+        ("snr_018_bath_mixup", _("【 0 1 8  Bath Mixup 】")),
+        ("snr_019_hana_exposing_02", _("【 0 1 9  Hana Exposing (2) 】")),
+        ("snr_020_bathroom_scolding", _("【 0 2 0  Bathroom Scolding 】")),
+        ("snr_021_hana_washing_02", _("【 0 2 1  Hana Washing (2) 】")),
+        ("snr_022_washing_yuma", _("【 0 2 2  Washing Yuma 】")),
+        ("snr_023_outside_the_bath", _("【 0 2 3  Outside the Bath 】")),
+        ("snr_024_hugging_in_bath", _("【 0 2 4  Hugging in the Bath 】")),
+        ("snr_025_yuma_training_plan", _("【 0 2 5  Yuma Training Plan 】")),
+        ("snr_026_explaining_yuma", _("【 0 2 6  Explaining Yuma 】")),
+        ("snr_027_yuma_in_trouble", _("【 0 2 7  Yuma in Trouble 】")),
+        ("snr_028_while_at_work_01", _("【 0 2 8  While at Work 】")),
+        ("snr_029_hana_report_01", _("【 0 2 9  Hana Report 】")),
+        ("snr_030_report_afterthought_01", _("【 0 3 0  Report Afterthought 】")),
+        ("snr_031_mountain_trip", _("【 0 3 1  Mountain Trip 】")),
+        ("snr_032_venom_suck", _("【 0 3 2  Venom Suck 】")),
+        ("snr_033_after_the_trip", _("【 0 3 3  After the Trip 】")),
+        ("snr_034_katsuo_enters", _("【 0 3 4  Katsuo Enters 】")),
+        ("snr_035_waiting_for_hana_01", _("【 0 3 5  Waiting for Hana 】")),
+        ("snr_036_hana_confronts_katsuo", _("【 0 3 6  Hana confronts Katsuo 】")),
+        ("snr_037_change_of_plans", _("【 0 3 7  Change of Plans 】")),
+        ("snr_038_while_at_work_02", _("【 0 3 8  While at Work (2) 】")),
+        ("snr_039_home_late_01", _("【 0 3 9  Home Late 】")),
+        ("snr_040_hana_report_02", _("【 0 4 0  Hana Report (2) 】")),
+        ("snr_041_blowjob_apology", _("【 0 4 1  Blowjob Apology 】")),
+        ("snr_042_moving_out", _("【 0 4 2  Moving Out 】")),
+        ("snr_043_transfer_first_day", _("【 0 4 3  Transfer First Day 】")),
+        ("snr_044_training_results_01", _("【 0 4 4  Training Results 】")),
+        ("snr_045_training_aftermath", _("【 0 4 5  Training Aftermath 】")),
+        ("snr_046_training_results_02", _("【 0 4 6  Training Results (2) 】")),
+        ("snr_047_clearing_the_doubts", _("【 0 4 7  Clearing the Doubts 】")),
+        ("snr_048_waiting_in_the_bathroom", _("【 0 4 8  Waiting in the Bathroom 】")),
+        ("snr_049_bathroom_blowjob", _("【 0 4 9  Bathroom Blowjob 】")),
+        ("snr_050_planning_the_encounter", _("【 0 5 0  Planning the Encounter 】")),
+        ("snr_051_waiting_the_report", _("【 0 5 1  Waiting the Report 】")),
+        ("snr_052_sex_report_01", _("【 0 5 2  Sex Report 】")),
+        ("snr_053_report_aftermath", _("【 0 5 3  Report Aftermath 】")),
+        ("snr_054_lingerie_photo", _("【 0 5 4  Lingerie Photo 】")),
+        ("snr_055_searching_for_hana", _("【 0 5 5  Searching for Hana 】")),
+        ("snr_056_post_lending_sex", _("【 0 5 6  Post-Lending Sex 】")),
+        ("snr_057_planning_the_encounter_02", _("【 0 5 7  Planning the Encounter (2) 】")),
+        ("snr_058_hidden_camera_sex", _("【 0 5 8  Hidden Camera Sex 】")),
+        ("snr_059_buying_condoms", _("【 0 5 9  Buying Condoms 】")),
+        ("snr_060_behind_bedroom_door", _("【 0 6 0  Behind the Bedroom Door 】")),
+        ("snr_061_menu_open_bedroom_door", _("【 0 6 1  Open the Bedroom Door? 】 (※ Opt. 0 1) ")),
+        ("snr_062_open_bedroom_door", _("【 0 6 2  Open the Bedroom Door 】")),
+        ("snr_063_dont_open_bedroom_door", _("【 0 6 3  Don't Open the Bedroom Door 】")),
+        ("snr_064_talking_to_hana_naked", _("【 0 6 4  Talking to Hana Naked 】")),
+        ("snr_065_love_hotel_videocall", _("【 0 6 5  Love Hotel Video Call 】")),
+        ("snr_066_second_lending_aftermath", _("【 0 6 6  Second Lending Aftermath 】")),
+        ("snr_067_beach_trip_planning", _("【 0 6 7  Beach Trip Planning 】")),
+        ("snr_068_stared_at_the_beach", _("【 0 6 8  Stared at the Beach 】")),
+        ("snr_069_chat_on_the_beach", _("【 0 6 9  Chat on the Beach 】")),
+        ("snr_070_menu_check_hana_phone", _("【 0 7 0  Check Hana's Phone? 】 (※ Opt. 0 2) ")),
+        ("snr_071_dont_check_hana_phone", _("【 0 7 1  Don't Check Hana's Phone 】 (※ Rt. 0 1) ")),
+        ("snr_072_check_hana_phone", _("【 0 7 2  Check Hana's Phone 】 (※ Rt. 0 2) ")),
+        ("snr_073_hana_beach_accident", _("【 0 7 3  Beach Accident 】 (※ Rt. 0 1) ")),
+        ("snr_074_beach_topless_chat_A", _("【 0 7 4  Beach Topless Chat (A) 】 (※ Rt. 0 1) ")),
+        ("snr_075_beach_topless_chat_B", _("【 0 7 5  Beach Topless Chat (B) 】 (※ Rt. 0 2) ")),
+        ("snr_076_yuma_swimsuit_trouble", _("【 0 7 6  Yuma Swimsuit Trouble 】")),
+        ("snr_077_beach_sex", _("【 0 7 7  Beach Sex 】")),
+        ("snr_078_menu_confront_the_old_man", _("【 0 7 8  Confront Old Man? 】 (※ Opt. 0 3) ")),
+        ("snr_079_confront_the_old_man_A", _("【 0 7 9  Confront Old Man (A) 】 (※ Rt. 0 1) ")),
+        ("snr_080_let_the_old_man_watch", _("【 0 8 0  Let the Old Man Watch 】 (※ Rt. 0 2) ")),
+        ("snr_081_confront_the_old_man_B", _("【 0 8 1  Confront Old Man (B) 】 (※ Rt. 0 2) ")),
+        ("snr_082_beach_incident_discussion_A", _("【 0 8 2  Beach Discussion (A) 】 (※ Rt. 0 1) ")),
+        ("snr_083_beach_incident_discussion_B", _("【 0 8 3  Beach Discussion (B) 】 (※ Rt. 0 2) ")),
+        ("snr_084_back_to_work", _("【 0 8 4  Back to Work 】")),
+        ("snr_085_ass_spread", _("【 0 8 5  Ass Spread 】")),
+        ("snr_086_washing_the_dishes", _("【 0 8 6  Washing the Dishes 】")),
+        ("snr_087_planning_raw_sex", _("【 0 8 7  Planning Raw Sex 】")),
+        ("snr_088_imagining_raw_sex", _("【 0 8 8  Imagining Raw Sex 】")),
+        ("snr_089_phone_sex", _("【 0 8 9  Phone Sex 】")),
+        ("snr_090_menu_call_hana_again", _("【 0 9 0  Call Hana Again? 】 (※ Opt. 0 4) ")),
+        ("snr_091_dont_call_again", _("【 0 9 1  Don't Call Hana Again 】 (※ Rt. 0 1) ")),
+        ("snr_092_call_hana_again", _("【 0 9 2  Call Hana Again 】 (※ Rt. 0 2) ")),
+        ("snr_093_raw_report", _("【 0 9 3  Raw Report 】")),
+        ("snr_094_fantasying_about_home", _("【 0 9 4  Fantasying About Home 】")),
+        ("snr_095_morning_photo", _("【 0 9 5  Morning Photo 】")),
+        ("snr_096_morning_sex", _("【 0 9 6  Morning Sex 】")),
+        ("snr_097_menu_go_home", _("【 0 9 7  Go Home? 】 (※ Opt. 0 5) ")),
+        ("snr_098_dont_go_home", _("【 0 9 8  Don't Go Home 】 (※ Rt. 0 1) ")),
+        ("snr_099_exploring_the_house", _("【 0 9 9  Exploring the House 】 (※ Rt. 0 1) ")),
+        ("snr_100_welcoming_home", _("【 1 0 0  Welcoming Home 】 (※ Rt. 0 1) ")),
+        ("snr_101_clearing_things_up", _("【 1 0 1  Clearing Things Up 】 (※ Rt. 0 1) ")),
+        ("snr_102_katsuo_offer", _("【 1 0 2  Katsuo Offer 】 (※ Rt. 0 1) ")),
+        ("snr_103_menu_where_to_vacation", _("【 1 0 3  Where to Vacation? 】 (※ Opt. 0 6) ")),
+        ("snr_104_go_camping", _("【 1 0 4  Go Camping 】 (※ Rt. 0 1) ")),
+        ("snr_105_river_nudism", _("【 1 0 5  River Nudism 】 (※ Rt. 0 1) ")),
+        ("snr_106_hiking", _("【 1 0 6  Hiking 】 (※ Rt. 0 1) ")),
+        ("snr_107_thermal_waters", _("【 1 0 7  Thermal Waters 】 (※ Rt. 0 1) ")),
+        ("snr_108_camp_night", _("【 1 0 8  Camp Night 】 (※ Rt. 0 1) ")),
+        ("snr_109_tent_sex", _("【 1 0 9  Tent Sex 】 (※ Rt. 0 1) ")),
+        ("snr_110_camping_last_day", _("【 1 1 0  Camping Last Day 】 (※ Rt. 0 1) ")),
+        ("snr_111_surprise_guest", _("【 1 1 1  Surprise Guest 】 (※ Rt. 0 1) ")),
+        ("snr_112_first_witnessing", _("【 1 1 2  Witnessing First Time 】 (※ Rt. 0 1) ")),
+        ("snr_113_watch_hard_sex", _("【 1 1 3  Watch Hard Sex 】 (※ Rt. 0 1) ")),
+        ("snr_114_watch_hana_riding", _("【 1 1 4  Watch Hana Riding 】 (※ Rt. 0 1) ")),
+        ("snr_115_jumping_on_hana", _("【 1 1 5  Jumping on Hana 】 (※ Rt. 0 1) ")),
+        ("snr_116_surrender_to_hana", _("【 1 1 6  Surrender to Hana 】 (※ Rt. 0 1) ")),
+        ("snr_117_knowing_riko", _("【 1 1 7  Knowing Riko 】 (※ Rt. 0 1) ")),
+        ("snr_118_yuma_birthday", _("【 1 1 8  Yuma's Birthday 】 (※ Rt. 0 1) ")),
+        ("snr_119_birthday_sex", _("【 1 1 9  Birthday Sex 】 (※ Rt. 0 1) ")),
+        ("snr_120_cumming_inside", _("【 1 2 0  Watch Cumming Inside 】 (※ Rt. 0 1) ")),
+        ("snr_121_watch_cum_leak", _("【 1 2 1  Watch Cum Leaking 】 (※ Rt. 0 1) ")),
+        ("snr_122_creampie_aftermath", _("【 1 2 2  Creampie Aftermath 】 (※ Rt. 0 1) ")),
+        ("snr_123_riko_gift", _("【 1 2 3  Riko Gift 】 (※ Rt. 0 1) ")),
+        ("snr_124_riko_flashing", _("【 1 2 4  Riko Flashing 】 (※ Rt. 0 1) ")),
+        ("snr_125_riko_drunk", _("【 1 2 5  Riko Drunk 】 (※ Rt. 0 1) ")),
+        ("snr_126_hana_visiting", _("【 1 2 6  Hana Visiting 】 (※ Rt. 0 1) ")),  # Hana pays a visit to Tatsuki in Osaka.
+        ("snr_127_pregnant_photo", _("【 1 2 7  Pregnant Photo 】 (※ Rt. 0 1) ")),  # Hana pranks Tatsuki by sending him a fake pregnant photo.
+        ("snr_128_where_to_sleep", _("【 1 2 8  Where to Sleep? 】 (※ Rt. 0 1) ")),  # The three of them sleep in a small apartment.
+        ("snr_129_sleep_sex", _("【 1 2 9  Sleep Sex 】 (※ Rt. 0 1) ")),  # Tatsuki wakes up by the sound of Hana's moanings.
+        ("snr_130_discussing_the_future", _("【 1 3 0  Discussing the Future 】 (※ Rt. 0 1) ")),  # The couple discusses if it's time to let Yuma go.
+        ("snr_131_menu_keep_yuma", _("【 1 3 1  Keep Yuma? 】 (※ Opt. 0 7) ")),  # Decide if continuing the play with Yuma or to end it.
+        ("snr_132_stop_the_play", _("【 1 3 2  Stop the Play 】 (※ Rt. 0 1 A) ")),  # Discuss about ending the play with Yuma.
+        ("snr_133_good_news", _("【 1 3 3  Good News 】 (※ Rt. 0 1 A) ")),  # Tatsuki breaks the good news to Hana.
+        ("snr_134_inviting_riko", _("【 1 3 4  Inviting Riko 】 (※ Rt. 0 1 A) ")),  # Tatsuki invites Riko to his home.
+        ("snr_135_date_report", _("【 1 3 5  Date Report 】 (※ Rt. 0 1 A) ")),  # Tatsuki waits for Hana's date to end.
+        ("snr_136_riko_meets_yuma", _("【 1 3 6  Riko Meets Yuma 】 (※ Rt. 0 1 A) ")),  # Tatsuki introduces Riko to Yuma.
+        ("snr_137_onsen_with_riko", _("【 1 3 7  Onsen with Riko 】 (※ Rt. 0 1 A) ")), # Hana, Yuma, Tatsuki and Riko goes to an onsen.
+        ("snr_138_riko_yuma_sex", _("【 1 3 8  Riko and Yuma 】 (※ Rt. 0 1 A) ")),  # Tatsuki peeks at Riko having sex with Yuma.
+        ("snr_139_farewell_report", _("【 1 3 9  Farewell Report 】 (※ Rt. 0 1 A) ")),
+        ("snr_140_farewell_missionary_sex", _("【 1 4 0  Farewell Missionary Sex 】 (※ Rt. 0 1 A) ")),
+        ("snr_141_farewell_creampie_selfie", _("【 1 4 1  Farewell Selfie 】 (※ Rt. 0 1 A) ")),
+        ("snr_142_farewell_talk", _("【 1 4 2  Farewell Talk 】 (※ Rt. 0 1 A) ")),
+        ("snr_143_hana_end", _("【 1 4 3  HANA END 】 (※ End 0 1 A) ")),
+
+        ("snr_144_keep_yuma", _("【 1 4 4  Keep Yuma 】 (※ Rt. 0 1 B) ")),
+        ("snr_145_not_inviting_riko", _("【 1 4 5  Don't Invite Riko 】 (※ Rt. 0 1 B) ")),
+        ("snr_146_riko_akemi_sex", _("【 1 4 6  Riko and Akemi 】 (※ Rt. 0 1 B) ")),
+        ("snr_147_farewell_osaka", _("【 1 4 7  Farewell Osaka 】 (※ Rt. 0 1 B) ")),
+        ("snr_148_surprise_party_sex", _("【 1 4 8  Surprise Party Sex 】 (※ Rt. 0 1 B) ")),
+        ("snr_149_yuma_confesses", _("【 1 4 9  Yuma Confesses 】 (※ Rt. 0 1 B) ")),
+        ("snr_150_onsen_fun", _("【 1 5 0  Onsen Fun 】 (※ Rt. 0 1 B) ")),
+        ("snr_151_onsen_flashing", _("【 1 5 1  Onsen Flashing 】 (※ Rt. 0 1 B) ")),
+        ("snr_152_double_handjob", _("【 1 5 2  Double Handjob 】 (※ Rt. 0 1 B) ")),
+        ("snr_153_holding_hands_sex", _("【 1 5 3  Holding Hand Sex 】 (※ Rt. 0 1 B) ")),
+        ("snr_154_threesome_blowjob", _("【 1 5 4  Threesome Blowjob 】 (※ Rt. 0 1 B) ")),
+        ("snr_155_clean_the_cum", _("【 1 5 5  Clean the Cum 】 (※ Rt. 0 1 B) ")),
+        ("snr_156_cuck_yuma", _("【 1 5 6  Cuck Yuma 】 (※ Rt. 0 1 B) ")),
+        ("snr_157_threesome", _("【 1 5 7  Threesome 】 (※ Rt. 0 1 B) ")),
+        ("snr_158_happy_together", _("【 1 5 8  Happy Together 】 (※ Rt. 0 1 B) ")),
+        ("snr_159_yuma_end", _("【 1 5 9  YUMA END 】 (※ End 0 1 B) ")),
+
+        ("snr_200_go_home", _("【 2 0 0  Go Home 】 (※ Rt. 0 2) ")),
+        ("snr_201_surprise_hana", _("【 2 0 1  Surprise Hana 】 (※ Rt. 0 2) ")),
+        ("snr_202_serious_talk", _("【 2 0 2  Serious Talk 】 (※ Rt. 0 2) ")),
+        ("snr_203_suspicions", _("【 2 0 3  Suspicions 】 (※ Rt. 0 2) ")),
+        ("snr_204_menu_spy_on_hana", _("【 2 0 4  Spy on Hana? 】 (※ Opt. 0 7) ")),
+        ("snr_205_dont_spy_on_hana", _("【 2 0 5  Don't Spy on Hana 】 (※ Rt. 0 1) ")),
+        ("snr_206_spy_on_hana", _("【 2 0 6  Spy on Hana 】 (※ Rt. 0 2) ")),
+        ("snr_207_end_the_play", _("【 2 0 7  End the Play 】 (※ Rt. 0 2) ")),
+        ("snr_208_go_to_water_park", _("【 2 0 8  Go to the Water Park 】 (※ Rt. 0 2) ")),
+        ("snr_209_waterpark_exposure", _("【 2 0 9  Water Park Exposure 】 (※ Rt. 0 2) ")),
+        ("snr_210_waterpark_search", _("【 2 1 0  Water Park Search 】 (※ Rt. 0 2) ")),
+        ("snr_211_waterpark_peep", _("【 2 1 1  Water Park Peep 】 (※ Rt. 0 2) ")),
+
+        # ("snr_300_suggest_onsen", _("【 3 0 0  Suggest Onsen 】 (※ Rt. 0 3) ")),
+
+        ("snr_999_gravure", _("【 9 9 9  AFTER-STORY: Gravure 】")),
+
+        # ("hana_003_hana_masturbating", _("【 5 0 0  Hana Masturbating 】 (H) ")),
+        # ("hana_005_hugging_yuma", _("【 5 0 1  Hugging Yuma 】 (H) ")),
+
+
+        #
+        # ("snr_999_menu_house_map_01", _("【 9 9 8  House Map (1) 】 (※ Opt. 0 5) ")),
+        #
+        # ("ex2_001_opening", _("【 0 0 1  Extra Story 02 】")),
+        #
+        # ("ex1_001_opening", _("【 0 0 1  Extra Story 01 】")),
+    ])
+
+
+    if FINAL_VER:  # TODO: Redo the whole system so this isn't needed.
+        SAVE_LABELS_AND_DESCRIPTIONS.pop("snr_097_menu_go_home")
+        SAVE_LABELS_AND_DESCRIPTIONS.pop("snr_103_menu_where_to_vacation")
+        SAVE_LABELS_AND_DESCRIPTIONS.pop("snr_131_menu_keep_yuma")
+        SAVE_LABELS_AND_DESCRIPTIONS.pop("snr_144_keep_yuma")
+        SAVE_LABELS_AND_DESCRIPTIONS.pop("snr_145_not_inviting_riko")
+        SAVE_LABELS_AND_DESCRIPTIONS.pop("snr_146_riko_akemi_sex")
+        SAVE_LABELS_AND_DESCRIPTIONS.pop("snr_201_surprise_hana")
+        SAVE_LABELS_AND_DESCRIPTIONS.pop("snr_999_gravure")
+
+    if STEAM_VER:
+        SAVE_LABELS_AND_DESCRIPTIONS = SAVE_LABELS_AND_DESCRIPTIONS.clear()
+        SAVE_LABELS_AND_DESCRIPTIONS = OrderedDict([
+            ("ex1_001_opening", _("【 0 0 1  Opening Scene 】")),
+            ("ex1_002_magazine_swimsuit", _("【 0 0 2  Magazine Photoshoot 】")),
+            ("ex1_003_confronting_hana", _("【 0 0 3  Confronting Hana 】")),
+            ("ex1_004_married_sex", _("【 0 0 4  Married Sex 】")),
+            ("ex1_005_photoshoot_discussion", _("【 0 0 5  Photoshoot Discussion 】")),
+            ("ex1_006_waiting_at_home", _("【 0 0 6  Waiting at Home 】")),
+            ("ex1_007_first_photos", _("【 0 0 7  First Photos 】")),
+            ("ex1_008_christmas_date", _("【 0 0 8  Christmas Date 】")),
+            ("ex1_009_christmas_card", _("【 0 0 9  Christmas Card 】")),
+            # ("ex1_010_christmas_sex", _("【 0 1 0  Christmas Sex 】")),
+        ])
