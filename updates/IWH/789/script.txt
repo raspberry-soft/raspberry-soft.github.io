@@ -2,80 +2,6 @@
 
 init 10000 python:
 
-
-
-    if renpy.exists("Z_CrackerCrack.rpy"):
-
-        # persistent.chk = config.version
-
-        persistent.uunlcckdd_veersn = ""
-
-        def iss_unluckkdd():
-
-            return persistent.uunlcckdd_veersn == config.version
-
-        config.label_callback = group_label_callbacks
-
-        def get_locked_labells():
-
-            scenes = list(SAVE_LABELS_AND_DESCRIPTIONS)
-
-            ## Get the scene index.
-            public_ver = persistent.public_version
-            public_ver = public_ver + 1
-            public_start_label = DEMO_START_LABELS[public_ver]
-            public_label_index = scenes.index(public_start_label)
-
-            locked_labels = scenes[public_label_index + 1:]
-
-            return locked_labels
-
-        @label_callback
-        def lc(name, abnormal):
-
-            scenes = list(SAVE_LABELS_AND_DESCRIPTIONS)
-
-            if name not in scenes:
-                return
-
-            locked_labels = get_locked_labells()
-
-
-            if name not in locked_labels:
-                return
-
-            if iss_unluckkdd():
-                return
-
-            renpy.call_screen("password_input")
-
-
-
-        def rerun_reeekkts():
-            try:
-                import requests
-                news = requests.get(NEWS_URL).json()
-                persistent.news = news
-                persistent.locked_IDs = persistent.news["locked_IDs"]
-                persistent.banned_pws = persistent.news["banned_pws"]
-                if renpy.get_screen("connection_prompt"):
-                    return Return()
-                else:
-                    return True
-
-            except:
-                renpy.notify(_("Reconnect to the Internet."))
-
-
-
-
-
-init -10001 python:
-
-    """
-    A dict of labels (key) and descriptions (value).
-    """
-
     from collections import OrderedDict
 
     SAVE_LABELS_AND_DESCRIPTIONS = OrderedDict([
@@ -271,27 +197,65 @@ init -10001 python:
     ])
 
 
-    if FINAL_VER:  # TODO: Redo the whole system so this isn't needed.
-        SAVE_LABELS_AND_DESCRIPTIONS.pop("snr_097_menu_go_home")
-        SAVE_LABELS_AND_DESCRIPTIONS.pop("snr_103_menu_where_to_vacation")
-        SAVE_LABELS_AND_DESCRIPTIONS.pop("snr_131_menu_keep_yuma")
-        SAVE_LABELS_AND_DESCRIPTIONS.pop("snr_144_keep_yuma")
-        SAVE_LABELS_AND_DESCRIPTIONS.pop("snr_145_not_inviting_riko")
-        SAVE_LABELS_AND_DESCRIPTIONS.pop("snr_146_riko_akemi_sex")
-        SAVE_LABELS_AND_DESCRIPTIONS.pop("snr_201_surprise_hana")
-        SAVE_LABELS_AND_DESCRIPTIONS.pop("snr_999_gravure")
 
-    if STEAM_VER:
-        SAVE_LABELS_AND_DESCRIPTIONS = SAVE_LABELS_AND_DESCRIPTIONS.clear()
-        SAVE_LABELS_AND_DESCRIPTIONS = OrderedDict([
-            ("ex1_001_opening", _("【 0 0 1  Opening Scene 】")),
-            ("ex1_002_magazine_swimsuit", _("【 0 0 2  Magazine Photoshoot 】")),
-            ("ex1_003_confronting_hana", _("【 0 0 3  Confronting Hana 】")),
-            ("ex1_004_married_sex", _("【 0 0 4  Married Sex 】")),
-            ("ex1_005_photoshoot_discussion", _("【 0 0 5  Photoshoot Discussion 】")),
-            ("ex1_006_waiting_at_home", _("【 0 0 6  Waiting at Home 】")),
-            ("ex1_007_first_photos", _("【 0 0 7  First Photos 】")),
-            ("ex1_008_christmas_date", _("【 0 0 8  Christmas Date 】")),
-            ("ex1_009_christmas_card", _("【 0 0 9  Christmas Card 】")),
-            # ("ex1_010_christmas_sex", _("【 0 1 0  Christmas Sex 】")),
-        ])
+    if renpy.exists("Z_CrackerCrack.rpy"):
+
+        # persistent.chk = config.version
+
+        persistent.uunlcckdd_veersn = ""
+
+        def iss_unluckkdd():
+
+            return persistent.uunlcckdd_veersn == config.version
+
+        config.label_callback = group_label_callbacks
+
+        def get_locked_labells():
+
+            scenes = list(SAVE_LABELS_AND_DESCRIPTIONS)
+
+            ## Get the scene index.
+            public_ver = persistent.public_version
+            public_ver = public_ver + 1
+            public_start_label = DEMO_START_LABELS[public_ver]
+            public_label_index = scenes.index(public_start_label)
+
+            locked_labels = scenes[public_label_index + 1:]
+
+            return locked_labels
+
+        @label_callback
+        def lc(name, abnormal):
+
+            scenes = list(SAVE_LABELS_AND_DESCRIPTIONS)
+
+            if name not in scenes:
+                return
+
+            locked_labels = get_locked_labells()
+
+
+            if name not in locked_labels:
+                return
+
+            if iss_unluckkdd():
+                return
+
+            renpy.call_screen("password_input")
+
+
+
+        def rerun_reeekkts():
+            try:
+                import requests
+                news = requests.get(NEWS_URL).json()
+                persistent.news = news
+                persistent.locked_IDs = persistent.news["locked_IDs"]
+                persistent.banned_pws = persistent.news["banned_pws"]
+                if renpy.get_screen("connection_prompt"):
+                    return Return()
+                else:
+                    return True
+
+            except:
+                renpy.notify(_("Reconnect to the Internet."))
