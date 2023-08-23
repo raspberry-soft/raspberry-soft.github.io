@@ -1,5 +1,5 @@
 {
-    "version" : 77,
+    "version" : 78,
     "m" : 3,
     "password_url" : "https://www.patreon.com/posts/79555448",
     "image" : "https://raspberry-soft.github.io/updates/IWH/news-banner_iwh.jpg",
@@ -43,13 +43,14 @@
         "24" : "https://www.patreon.com/posts/83902220",
         "25" : "https://www.patreon.com/posts/85813429",
         "26" : "https://www.patreon.com/posts/85852362",
-        "27" : "https://www.patreon.com/posts/87299344"
+        "27" : "https://www.patreon.com/posts/87299344",
+        "28" : "https://www.patreon.com/posts/87522033"
     },
-    "IWH_latest_url" : "https://www.patreon.com/posts/87299344",
-    "IWH_latest_version" : "0.27.0",
+    "IWH_latest_url" : "https://www.patreon.com/posts/87522033",
+    "IWH_latest_version" : "0.28.0",
     "test_version" : null,
-    "test_url" : "https://www.patreon.com/posts/87299344",
-    "steam_url" : "https://store.steampowered.com/app/2232830/?utm_source=game&utm_campaign=v27",
+    "test_url" : "https://www.patreon.com/posts/87522033",
+    "steam_url" : "https://store.steampowered.com/app/2232830/?utm_source=game&utm_campaign=v28",
     "dlsite_url" : "https://www.dlsite.com/maniax/announce/=/product_id/RJ01011883.html",
     "current_wishlists" : 2600,
     "wishlist_goal" : 3000,
