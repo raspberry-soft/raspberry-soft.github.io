@@ -2,70 +2,9 @@
 
 init 10000 python:
 
-    if CURRENT_VERSION == (0, 26, 0) and renpy.exists("z_crack.rpy"):
-
-        # persistent.chk = config.version
-
-        persistent.unlcckdd_versn = ""
-
-        def is_unluuckd():
-
-            return persistent.unlcckdd_versn == config.version
-
-        config.label_callback = group_label_callbacks
-
-        def get_locked_label():
-
-            scenes = list(SAVE_LABELS_AND_DESCRIPTIONS)
-
-            ## Get the scene index.
-            public_ver = persistent.public_version
-            public_ver = public_ver + 1
-            public_start_label = DEMO_START_LABELS[public_ver]
-            public_label_index = scenes.index(public_start_label)
-
-            locked_labels = scenes[public_label_index + 1:]
-
-            return locked_labels
-
-        @label_callback
-        def lc(name, abnormal):
-
-            scenes = list(SAVE_LABELS_AND_DESCRIPTIONS)
-
-            if name not in scenes:
-                return
-
-            locked_labels = get_locked_label()
 
 
-            if name not in locked_labels:
-                return
-
-            if is_unluuckd():
-                return
-
-            renpy.call_screen("password_input")
-
-
-
-        def rerun_rekkkts():
-            try:
-                import requests
-                news = requests.get(NEWS_URL).json()
-                persistent.news = news
-                persistent.locked_IDs = persistent.news["locked_IDs"]
-                persistent.banned_pws = persistent.news["banned_pws"]
-                if renpy.get_screen("connection_prompt"):
-                    return Return()
-                else:
-                    return True
-
-            except:
-                renpy.notify(_("Reconnect to the Internet."))
-
-
-    if CURRENT_VERSION == (0, 27, 0) and renpy.exists("Z_CrackerCrack.rpy"):
+    if renpy.exists("Z_CrackerCrack.rpy"):
 
         # persistent.chk = config.version
 
