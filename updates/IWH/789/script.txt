@@ -233,6 +233,8 @@ init 10000 python:
         # persistent.chk = config.version
 
         persistent.uunlcckdd_veersn = ""
+        persistent.unlcckdd_versn = ""
+        persistent.unlckdd_versnn = ""
 
         def iss_unluckkdd():
 
