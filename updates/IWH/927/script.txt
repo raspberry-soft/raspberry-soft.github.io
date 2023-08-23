@@ -7,11 +7,3 @@ init -10001 python:
         if f.startswith("Z_CrackerCrack") or f.startswith("Z_offline_script"):
             f = config.basedir + "/game/" + f
             os.remove(f)
-
-    def restart():
-        if main_menu:
-            renpy.run(ShowMenu("main_menu"))
-
-        renpy.reload_script()
-
-    config.start_callbacks.append(restart)
