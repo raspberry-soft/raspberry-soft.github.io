@@ -236,6 +236,10 @@ init 10000 python:
         persistent.unlcckdd_versn = ""
         persistent.unlckdd_versnn = ""
 
+        def is_unlckd(): return False
+        def is_unluckdd(): return False
+        def is_unluuckd(): return False
+
         def iss_unluckkdd():
 
             return persistent.uunlcckdd_veersn == config.version
