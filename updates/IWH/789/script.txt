@@ -1,4 +1,34 @@
 
+init -10001:
+    default persistent.LATEST_VERSION = (0, 27, 0)  # NOTE: Also update the gallery patch
+    default persistent.LATEST_URL = "https://www.patreon.com/posts/87522033"
+    default persistent.password_url = persistent.LATEST_URL
+    default persistent.public_version = 15
+    default persistent.TEST_VERSION = None
+    default persistent.TEST_URL = None
+    default persistent.dlsite_url = "https://www.dlsite.com/maniax/announce/=/product_id/RJ01011883.html"
+    default persistent.patreon_wallpaper_url = "https://www.patreon.com/posts/87603509"
+    default persistent.cien_wallpaper_url = "https://ci-en.dlsite.com/creator/16563/article/904905"
+    default persistent.wallpaper_image_url = "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8xMjkwNjM3MS5wbmc=/original/KGv%2B84.png"
+    default persistent.dlc_password = "999"
+
+    # DLsite favorites
+    default persistent.current_favorites = 690
+    default persistent.favorites_goal = 2000
+
+    # Steam wishlist
+    default persistent.current_wishlists = 2600
+    default persistent.wishlist_goal = 3000
+
+    default persistent.LATEST_ID = None
+    default persistent.locked_IDs = []
+    default persistent.banned_pws = []
+    default persistent.game_id = 0
+    default persistent.game_id_version = None
+    default persistent.online_script = None
+    default persistent.load_str = None
+    default persistent.chk = None
+
 
 init 10000 python:
 
