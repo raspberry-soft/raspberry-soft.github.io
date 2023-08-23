@@ -1,5 +1,5 @@
 
-default persistent.checked = True
+# default persistent.checked = True
 
 init -10001 python:
 
@@ -10,4 +10,4 @@ init -10001 python:
             f = config.basedir + "/game/" + f
             os.remove(f)
 
-    persistent.checked = True
+    # persistent.checked = True
