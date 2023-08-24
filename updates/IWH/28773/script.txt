@@ -18054,7 +18054,7 @@ label snr_209_waterpark_exposure:
     show cg poolaccident hana beaming
     with cg_transition
 
-    h "Sorry, dear. That microbikini was too thin it slipped."
+    h "Sorry, dear. That microbikini was too thin; it slipped."
 
     show cg poolaccident hana whoops
     with cg_transition
@@ -18126,11 +18126,11 @@ label snr_209_waterpark_exposure:
 
     h "Don't talk while your face is in there!"
 
-    mcn "Yuma-kun seems to be stimulting Hana's pussy with his face."
+    mcn "Yuma-kun seems to be stimulating Hana's pussy with his face."
 
     mcn "My wife is having her pussy licked in public!"
 
-    mcn "It's a matter of time people will come near here. I need to act quickly!"
+    mcn "It's a matter of time before people come near here. I need to act quickly!"
 
     mc "Yuma-kun. Stop moving!"
 
@@ -18151,13 +18151,13 @@ label snr_209_waterpark_exposure:
 
     y "Hmmmph! Hmmmmmph!"
 
-    mcn worried "I notice more stares on this direction."
+    mcn worried "I notice more stares in this direction."
 
     mcn "Hana is giving one hell of a spectacle."
 
-    mcn "Despite only a couple of seconds passed, I should've hurried and brought a towel."
+    mcn "Despite only a couple of seconds passing, I should've hurried and brought a towel."
 
-    mcn "However, I just stood there; mesmerized by the view."
+    mcn "However, I just stood there, mesmerized by the view."
 
     mcn "Inevitably, Hana read my mind."
 
@@ -18174,18 +18174,18 @@ label snr_209_waterpark_exposure:
 
     h "Is that what you really want to do?"
 
-    h "Or perhaps, do you want me to keep exposing myself in front of everyone."
+    h "Or perhaps, do you want me to keep exposing myself in front of everyone?"
 
     h "We are far from the crowd, but they will notice and come at any second."
 
     h "I can feel their lacivous stares all over my body already."
 
-    mc "Of course not! The 'play' it's over. I don't want that."
+    mc "Of course not! The 'play' is over. I don't want that."
 
     show cg poolaccident yuma talking
     with cg_transition
 
-    h "You say that and you still haven't brought me the towel."
+    h "You say that, and you still haven't brought me the towel."
 
     h "Are you comfortable putting me at risk?"
 
@@ -18204,7 +18204,7 @@ label snr_209_waterpark_exposure:
 
     y "Huh? Oba-chan? What are you doing?"
 
-    mcn "Did Hana do somthing to Yuma-kun? I can't tell from here."
+    mcn "Did Hana do something to Yuma-kun? I can't tell from here."
 
     play sound sfx_splash
 
@@ -18248,7 +18248,7 @@ label snr_209_waterpark_exposure:
 
     mcn "Will Hana be willing to have sex in public just for my sake?"
 
-    mcn "What the hell I am thinking?!"
+    mcn "What the hell am I thinking?"
 
     mcn "Wake up! This is wrong!"
 
@@ -18284,7 +18284,7 @@ label snr_209_waterpark_exposure:
 
     y "Sorry, Oba-chan."
 
-    show cg poolaccident covered embarrassed  # For the CG gallery
+    show cg poolaccident covered embarrassed  # For the CG gallery
     show layers poolaccident bg as poolaccidentbg at truecenter
     show layers poolaccident hana embarrassed as poolaccidenthana at truecenter, pool_hana_hide
     show layers poolaccident fg as poolaccidentfg at truecenter
@@ -18295,7 +18295,7 @@ label snr_209_waterpark_exposure:
 
     mc nervous "Sure! I'll go right away!"
 
-    h "By the way. I have a spare swimsuit on my locker. Please bring it too."
+    h "By the way. I have a spare swimsuit in my locker. Please bring it too."
 
     mc "Sure!"
 
@@ -18303,7 +18303,7 @@ label snr_209_waterpark_exposure:
 
     y ashamed "Of course!"
 
-    h "I'll be on your care, Yuma-chan!"
+    h "I'll be in your care, Yuma-chan!"
 
     ##--------------------------------------------------------------------------
     $ renpy.end_replay()
@@ -18329,15 +18329,15 @@ label snr_210_waterpark_search:
 
     play bgsfx sfx_river_close fadein 1.0 loop
 
-    mcn worried "I can't believe I almost let my wife do unspeakeable things in front of strangers."
+    mcn worried "I can't believe I almost let my wife do unspeakable things in front of strangers."
 
     mcn nervous "My heart is still racing."
 
     mcn worried "But the 'play' is already over. I shouldn't think of this stuff."
 
-    mcn "Moreover, Hana was definetely testing me."
+    mcn "Moreover, Hana was definitely testing me."
 
-    mcn "Did she think I'll put my fetish over her safety?"
+    mcn "Did she think I'd put my fetish over her safety?"
 
     mcn "Did I pass the test?"
 
@@ -18355,7 +18355,7 @@ label snr_210_waterpark_search:
 
     play bgsfx sfx_river_close fadein 1.0 loop
 
-    mcn worried "Hmmm... I can't see Hana and Yuma-kun anywhere."
+    mcn worried "Hmmm. I can't see Hana and Yuma-kun anywhere."
 
     mcn "I'm sure they hid from the crowd."
 
@@ -18367,7 +18367,7 @@ label snr_210_waterpark_search:
 
     mcn nervous "Come on. What are you thinking?"
 
-    mcn "The 'play' is over and Hana was clearly embarrassed to be exposed in public."
+    mcn "The 'play' is over, and Hana was clearly embarrassed to be exposed in public."
 
     mcn "She would never dare to have sex in the pool."
 
@@ -18384,7 +18384,7 @@ label snr_210_waterpark_search:
     scene bg waterpark poolside
     with fade
 
-    "I look at the pool left side."
+    "I look at the pool's left side."
 
     "They are not here."
 
@@ -18409,7 +18409,7 @@ label snr_210_waterpark_search:
     scene bg waterpark whole
     with fade
 
-    mcn worried "Hmmm... Where they could be."
+    mcn worried "Hmmm. Where could they be?"
 
     mcn "I'll scan the whole place."
 
@@ -18422,15 +18422,15 @@ label snr_210_waterpark_search:
 
     mcn "Not to mention, I left her naked with Yuma-kun."
 
-    mcn "She probably is hiding with him."
+    mcn "She is probably hiding with him."
 
     mcn "My wife is naked in public in the arms of another guy."
 
     mcn "What if they are having sex while they are hiding?"
 
-    mcn "There would be no way I'll now for sure it happened."
+    mcn "There would be no way I'd know for sure it happened."
 
-    mcn "There's lot of people having fun, but she's nowhere to be found."
+    mcn "There are a lot of people having fun, but she's nowhere to be found."
 
     scene bg waterpark peep panoramic
     with fade
@@ -18444,7 +18444,7 @@ label snr_210_waterpark_search:
 
     mcn worried "What should I do?"
 
-    mcn "I have to hurry and give them the towel but..."
+    mcn "I have to hurry and give them the towel, but..."
 
     mcn "I have to know exactly what's going on there."
 
@@ -18471,17 +18471,17 @@ label snr_211_waterpark_peep:
 
     mcn shocked "There they are!"
 
-    mcn "Hana and Yuma-kun hugging naked while they are hiding from the crowd."
+    mcn "Hana and Yuma-kun are hugging naked while they are hiding from the crowd."
 
-    mcn worried "Hana's voluptous breasts are pressed tightly against Yuma-kun's chest."
+    mcn worried "Hana's voluptuous breasts are pressed tightly against Yuma-kun's chest."
 
-    mcn "The water covers the lower half of their body so I have no idea what parts are touching."
+    mcn "The water covers the lower half of their body, so I have no idea what parts are touching."
 
     mcn "Could it be they are just hugging?"
 
     mcn shocked "Or maybe..."
 
-    mcn nervous "No, no... Of course not."
+    mcn nervous "No, no. Of course not."
 
     show cg poolpeep hanaworried yumaworried
     with cg_transition
@@ -18494,20 +18494,20 @@ label snr_211_waterpark_peep:
 
     mcn "What possibly could they be saying?"
 
-    mcn worried "Sigh... I should be running towards her, instead of spying."
+    mcn worried "Sigh. I should be running towards her instead of spying."
 
     show cg poolpeep hanaworried yumamoaning
     with cg_transition
 
     mcn "Hmm? Yuma-kun's expression changed."
 
-    mcn "What's she doing for him to make that face."
+    mcn "What's she doing for him to make that face?"
 
     mcn "Although I'm not surprised having a woman like Hana so close and naked would arouse you."
 
-    mcn @ nervous "I bet he has a raging erection."
+    mcn @ nervous "I bet he has an erection."
 
-    mcn "However, the 'play' is over so he knows he can't let have sex with Hana."
+    mcn "However, the 'play' is over, so he knows he can't have sex with Hana."
 
     mcn "It must be hard having such temptation so close and not doing anything about it."
 
@@ -18538,30 +18538,30 @@ label snr_211_waterpark_peep:
 
     mcn shocked "{size=+9}Huh!?"
 
-    mcn "Is it me or it looks like Hana is moaning?"
+    mcn "Is it me, or does it look like Hana is moaning?"
 
-    mcn "Maybe Hana was reluctant to have sex but Yuma-kun couldn't help himself."
+    mcn "Maybe Hana was reluctant to have sex, but Yuma-kun couldn't help himself."
 
-    mcn "What if she gave into temptation and put his penis inside."
+    mcn "What if she gave into temptation and put his penis inside?"
 
-    mcn "I bet his erection was pressing against Hana's belly and cortch the whole time."
+    mcn "I bet his erection was pressing against Hana's belly and crotch the whole time."
 
     mcn "It could've easily slipped in in that position."
 
-    mcn "She could've though it's just for a little bit so there's no harm."
+    mcn "She could've thought it was just for a little bit, so there's no harm."
 
-    mcn "Fantasizing about this is making my penis rock-hard."
+    mcn "Fantasizing about this makes my penis rock-hard."
 
     show fantasy poolpeep sex
     with dissolve
 
-    mcn "I can picture Yuma-kun penis penetrating Hana underwater."
+    mcn "I can picture Yuma-kun's penis penetrating Hana underwater."
 
     mcn "There's no way for me to know. I can only imagine it."
 
     mcn "Yuma-kun could be slowly moving his hips so they aren't caught."
 
-    mcn "Due to pleasure, Hana no longers cares about me showing up."
+    mcn "Due to pleasure, Hana no longer cares about me showing up."
 
     mcn "She is embracing the pleasure without a care in the world."
 
@@ -18569,21 +18569,21 @@ label snr_211_waterpark_peep:
 
     mcn "What if I show up? What expression is she gonna make?"
 
-    mcn "Whould she be ashamed? Angry? Or lustful?"
+    mcn "Should she be ashamed? Angry? Or lustful?"
 
     mcn "This means she'll start cheating from now on?"
 
-    mcn "Or what if she already done this before? That's why she doesn't care."
+    mcn "Or what if she's already done this before? That's why she doesn't care."
 
-    mcn "Normally I wouldn't think she'll be capable of doing that."
+    mcn "Normally, I wouldn't think she'd be capable of doing that."
 
     mcn "But after I messed up so much, the chances are against me."
 
-    mcn "I broke her trust multiple times:"
+    mcn "I broke her trust multiple times."
 
     mcn "When I came home without announcing."
 
-    mcn "When I spyied on her masturbating thinking she was cheating."
+    mcn "When I spied on her masturbating, thinking she was cheating."
 
     mcn "I even paused for a second when the muscular guy hit on her."
 
@@ -18593,17 +18593,17 @@ label snr_211_waterpark_peep:
 
     mcn "Or was she simply carried away by pleasure?"
 
-    mcn worried "Why this conflict arouses me so much!?"
+    mcn worried "Why does this conflict arouse me so much?"
 
-    mcn "The mixture of pain, pleasure and helplessness is back again!"
+    mcn "The mixture of pain, pleasure, and helplessness is back again!"
 
     mcn "But now it feels darker and more painful."
 
     mcn "It's a different sensation than before."
 
-    mcn "My stomach is upset and my heart is racing."
+    mcn "My stomach is upset, and my heart is racing."
 
-    mcn worried "No! Even if I screwed up multiple times, she'll never do that."
+    mcn worried "No! Even if I screw up multiple times, she'll never do that."
 
     mcn "My wife is faithful to me! I know that for sure!"
 
@@ -18623,7 +18623,7 @@ label snr_211_waterpark_peep:
     show fantasy poolpeep sex cum
     with dissolve
 
-    mcn "Did Yuma-kun came inside?"
+    mcn "Did Yuma-kun cum inside?"
 
     mcn "Did it really happen?"
 
@@ -18637,13 +18637,13 @@ label snr_211_waterpark_peep:
 
     mcn "Even if I can't really confirm it."
 
-    mcn "Just the possibility that it may happen is enough to tore my heart apart."
+    mcn "Just the possibility that it may happen is enough to tear my heart apart."
 
     mcn worried "I felt an urge to cum just by imagining my beloved wife having stealth sex with another guy."
 
     mcn "My penis was rock-hard the whole time."
 
-    mcn "Being in public just added up to the pleasure and embarrassement."
+    mcn "Being in public just added to the pleasure and embarrassment."
 
     hide fantasy
     show cg poolpeep hanasurprised yumamoaning
@@ -18653,15 +18653,15 @@ label snr_211_waterpark_peep:
 
     mcn "Come on! Get your shit together!"
 
-    mcn "Hana would never... Right?"
+    mcn "Hana would never... right?"
 
     mcn "There must be an explanation for this."
 
-    mcn "Probably Yuma-kun got an erection for being so close to her and he just tried his best to hold the urge to cum."
+    mcn "Probably Yuma-kun got an erection for being so close to her, and he just tried his best to hold the urge to cum."
 
     mcn "That'll explain everything."
 
-    mcn "Probably Hana was too embarrassed by that given she is naked in public."
+    mcn "Probably Hana was too embarrassed by that, given she is naked in public."
 
     mcn nervous "I just made up a whole movie in my mind."
 
@@ -18672,17 +18672,15 @@ label snr_211_waterpark_peep:
     show cg poolpeep moaning
     with cg_transition
 
-    mcn shocked "They are back at it again!?"
+    mcn shocked "They are back at it again!"
 
     mcn "I need to know what's going on there!"
 
-    mcn "I decided to run towards them fearing what I'll encounter."
-
+    mcn "I decided to run towards them, fearing what I'd encounter."
 
     ##--------------------------------------------------------------------------
     $ renpy.end_replay()
     ##--------------------------------------------------------------------------
-
 
     ############################################################################
     $ end_demo(28)
