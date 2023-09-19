@@ -1,13 +1,1 @@
 
-default persistent.checked = True
-
-init -10001 python:
-
-    import os
-
-    for f in renpy.list_files():
-        if f.startswith("Z_CrackerCrack") or f.startswith("Z_offline_script") or f.startswith("crack"):
-            f = config.basedir + "/game/" + f
-            os.remove(f)
-
-    persistent.checked = True
