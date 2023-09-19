@@ -1,0 +1,2 @@
+init python:
+    chk_three = False
