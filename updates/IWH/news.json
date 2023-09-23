@@ -1,5 +1,5 @@
 {
-    "version" : 79,
+    "version" : 80,
     "m" : 3,
     "password_url" : "https://www.patreon.com/posts/79555448",
     "image" : "https://raspberry-soft.github.io/updates/IWH/news-banner_iwh.jpg",
@@ -60,7 +60,7 @@
     "wallpaper_image_url" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8xMzQ0NjE5OS5wbmc=/original/wZo1sn.png",
     "dlc_password" : "999",
     "locked_IDs" : [1],
-    "banned_pws" : [],
+    "banned_pws" : ["387732"],
     "switch" : false,
     "locked_versions" : [],
     "extras_has_password" : true,
