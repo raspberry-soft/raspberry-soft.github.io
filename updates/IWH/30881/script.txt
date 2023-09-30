@@ -16920,8 +16920,6 @@ label snr_203_suspicions:
 
 label snr_204_menu_spy_on_hana:
 
-    $ go_home = True
-
     show bg home corridor day close # TODO bg home corridor night close
 
     play music impact_prelude if_changed
@@ -16930,9 +16928,13 @@ label snr_204_menu_spy_on_hana:
 
         "Spy on Hana":
 
+            $ go_home = True
+
             jump snr_206_spy_on_hana
 
         "Don't Spy on Hana":
+
+            $ go_home = False
 
             jump snr_205_dont_spy_on_hana
 
@@ -16945,9 +16947,7 @@ label snr_204_menu_spy_on_hana:
 
 label snr_205_dont_spy_on_hana:
 
-    $ go_home = True
-
-    # dont_spy_on_hana = True
+    $ go_home = False
 
     show bg home corridor day close
     with longdissolve
