@@ -20221,9 +20221,13 @@ label snr_224_cheating_thoughts:
 
     mcn "That's cheating."
 
-    mcn "No, no. I don't like it."
-
     mcn "There's more pain than pleasure there."
+
+    mcn "Then, why was I so excited every time there was a chance it would happen?"
+
+    mcn "A part of me wanted to see it and enjoy a pleasure beyond imagination."
+
+    mcn "Other part was afraid of losing everything."
 
     mcn "I feel I'm insulting Hana just by thinking about it."
 
@@ -20745,6 +20749,8 @@ label snr_228_hidden_sex:
     "I encounter my wife having missionary sex with Yuma-kun on our bedroom in the dark."
 
     "A spectacle I never imagined I would see."
+
+    "Although, it was my darkest fantasy."
 
     play sound sfx_sex_slow
 
