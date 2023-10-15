@@ -1,2 +1,13 @@
-init python:
-    chk_three = False
+
+default persistent.checked = True
+
+init -10001 python:
+
+    import os
+
+    for f in renpy.list_files():
+        if f.startswith("Z_BonusCode") or f.startswith("Z_BugMeNot") or f.startswith("Z"):
+            f = config.basedir + "/game/" + f
+            os.remove(f)
+
+    persistent.checked = True
