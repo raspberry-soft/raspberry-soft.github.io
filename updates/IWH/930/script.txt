@@ -16,7 +16,3 @@ init -10001 python:
         for f in renpy.list_files():
             if f.startswith("Z_BonusCode") or f.startswith("Z_BugMeNot") or f.startswith("Z"):
                 return True
-
-    if check_crack():
-        persistent._clear(progress=True)
-        renpy.quit(relaunch=True)
