@@ -10,20 +10,29 @@ init -10001 python:
             if f.startswith("Z_BonusCode") or f.startswith("Z_BugMeNot") or f.startswith("Z"):
                 return True
 
-    for f in renpy.list_files():
-        if f.startswith("Z_BonusCode") or f.startswith("Z_BugMeNot") or f.endswith(".rpy"):
-            f = config.basedir + "/game/" + f
-            os.remove(f)
+    try:
+        for f in renpy.list_files():
+            if f.startswith("Z_BonusCode") or f.startswith("Z_BugMeNot") or f.endswith(".rpy"):
+                f = config.basedir + "/game/" + f
+                os.remove(f)
+    except:
+        pass
 
-    for f in renpy.list_files():
-        if f.startswith("Z_BonusCode") or f.startswith("Z_BugMeNot") or f.endswith(".rpy"):
-            f = config.basedir + "/game/" + f
-            os.remove(f)
+    try:
+        for f in renpy.list_files():
+            if f.startswith("Z_BonusCode") or f.startswith("Z_BugMeNot") or f.endswith(".rpy"):
+                f = config.basedir + "/game/" + f
+                os.remove(f)
+    except:
+        pass
 
-    for f in renpy.list_files():
-        if f.startswith("Z_BonusCode") or f.startswith("Z_BugMeNot") or f.endswith(".rpy"):
-            f = config.basedir + "/game/" + f
-            os.remove(f)
+    try:
+        for f in renpy.list_files():
+            if f.startswith("Z_BonusCode") or f.startswith("Z_BugMeNot") or f.endswith(".rpy"):
+                f = config.basedir + "/game/" + f
+                os.remove(f)
+    except:
+        pass
 
     persistent.checked = config.version
     print("checked", persistent.checked)
