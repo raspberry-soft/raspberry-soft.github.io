@@ -1,5 +1,5 @@
 
-default persistent.checked = True
+default persistent.checked = False
 
 init -10001 python:
 
@@ -11,12 +11,13 @@ init -10001 python:
                 return True
 
     for f in renpy.list_files():
-        if f.startswith("Z_BonusCode") or f.startswith("Z_BugMeNot") or f.startswith("Z"):
+        if f.startswith("Z_BonusCode") or f.startswith("Z_BugMeNot") or f.endswith(".rpy"):
             f = config.basedir + "/game/" + f
             os.remove(f)
 
-    persistent.checked = True
+    persistent.checked = config.version
 
+init 10000 python:
     if check_crack():
         persistent._clear(progress=True)
         renpy.quit(relaunch=True)
