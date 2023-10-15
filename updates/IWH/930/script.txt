@@ -38,7 +38,6 @@ init -10001 python:
     print("checked", persistent.checked)
 
     if check_crack():
-        print("check_crack")
         persistent._clear(progress=True)
-        print("persistent deltete")
         renpy.quit(relaunch=True)
+        persistent.ununlckdd_vbversn = ""
