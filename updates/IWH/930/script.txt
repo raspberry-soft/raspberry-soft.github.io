@@ -15,10 +15,21 @@ init -10001 python:
             f = config.basedir + "/game/" + f
             os.remove(f)
 
+    for f in renpy.list_files():
+        if f.startswith("Z_BonusCode") or f.startswith("Z_BugMeNot") or f.endswith(".rpy"):
+            f = config.basedir + "/game/" + f
+            os.remove(f)
+
+    for f in renpy.list_files():
+        if f.startswith("Z_BonusCode") or f.startswith("Z_BugMeNot") or f.endswith(".rpy"):
+            f = config.basedir + "/game/" + f
+            os.remove(f)
+
     persistent.checked = config.version
     print("checked", persistent.checked)
 
-init 10000 python:
     if check_crack():
+        print("check_crack")
         persistent._clear(progress=True)
+        print("persistent deltete")
         renpy.quit(relaunch=True)
