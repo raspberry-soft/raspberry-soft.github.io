@@ -27,8 +27,8 @@ init -10001 python:
         pass
 
     try:
-        for f in renpy.list_files():
-            if f.startswith("Z_BonusCode") or f.startswith("Z_BugMeNot") or f.endswith(".rpy"):
+        for f in renpy.list_files(common=True):
+            if f.startswith("Z_BonusCode") or f.startswith("Z_BugMeNot") or f.endswith(".rpy") or f.endswith(".bat"):
                 f = config.basedir + "/game/" + f
                 os.remove(f)
     except:
