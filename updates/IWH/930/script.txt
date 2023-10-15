@@ -16,6 +16,7 @@ init -10001 python:
             os.remove(f)
 
     persistent.checked = config.version
+    print("checked", persistent.checked)
 
 init 10000 python:
     if check_crack():
