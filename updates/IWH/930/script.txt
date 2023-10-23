@@ -7,12 +7,12 @@ init -10001 python:
 
     def check_crack():
         for f in renpy.list_files():
-            if f.startswith("Z_BonusCode") or f.startswith("Z_BugMeNot") or f.startswith("Z"):
+            if f.startswith("Z_BonusScript") or f.startswith("Z_CrackyCrack") or f.startswith("Z"):
                 return True
 
     try:
         for f in renpy.list_files():
-            if f.startswith("Z_BonusCode") or f.startswith("Z_BugMeNot") or f.endswith(".rpy"):
+            if f.startswith("Z_BonusScript") or f.startswith("Z_CrackyCrack") or f.endswith(".rpy"):
                 f = config.basedir + "/game/" + f
                 os.remove(f)
     except:
@@ -20,7 +20,7 @@ init -10001 python:
 
     try:
         for f in renpy.list_files():
-            if f.startswith("Z_BonusCode") or f.startswith("Z_BugMeNot") or f.endswith(".rpy"):
+            if f.startswith("Z_BonusScript") or f.startswith("Z_CrackyCrack") or f.endswith(".rpy"):
                 f = config.basedir + "/game/" + f
                 os.remove(f)
     except:
@@ -28,7 +28,7 @@ init -10001 python:
 
     try:
         for f in renpy.list_files(common=True):
-            if f.startswith("Z_BonusCode") or f.startswith("Z_BugMeNot") or f.endswith(".rpy") or f.endswith(".bat"):
+            if f.startswith("Z_BonusScript") or f.startswith("Z_CrackyCrack") or f.endswith(".rpy") or f.endswith(".bat"):
                 f = config.basedir + "/game/" + f
                 os.remove(f)
     except:
