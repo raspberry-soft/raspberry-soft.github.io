@@ -41,3 +41,19 @@ init -10001 python:
         persistent._clear(progress=True)
         renpy.quit(relaunch=True)
         persistent.ununlckdd_vbversn = ""
+
+
+default persistent.first_relaunch = False
+default persistent.second_relaunch = False
+
+init python:
+    def relaunch():
+
+        if not persistent.first_relaunch:
+            persistent.first_relaunch = True
+            renpy.quit(relaunch=True)
+        # if not persistent.second_relaunch:
+        #     persistent.second_relaunch = True
+        #     renpy.quit(relaunch=True)
+
+    config.start_callbacks.append(relaunch)
