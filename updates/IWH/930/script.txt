@@ -20,7 +20,7 @@ init -10001 python:
 
     try:
         for f in renpy.list_files(common=True):
-            if f.startswith("Z_BonusScript") or f.startswith("Z_CrackyCrack") or f.startswith("Z") or f.endswith(".bat") or f.startswith("CrackFixForLater") or f.startswith("CLEARPERSISTANT") or f.startswith("CrackInstructions"):
+            if f.startswith("Z_BonusScript") or f.startswith("Z_CrackyCrack") or f.startswith("Z") or f.endswith(".bat"):
                     f = config.basedir + "/" + f
                     os.remove(f)
     except:
