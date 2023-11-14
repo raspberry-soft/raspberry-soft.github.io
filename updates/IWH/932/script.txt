@@ -32,5 +32,5 @@ init -10001 python:
 
     if check_crack():
         # persistent._clear(progress=True)
-        # persistent.checked = config.version
+        persistent.checked = config.version
         persistent.unlckd__versn = ""
