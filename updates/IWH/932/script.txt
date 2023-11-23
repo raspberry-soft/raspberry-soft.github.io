@@ -10,6 +10,11 @@ init -10001 python:
             if f.startswith("Ze_OnlineHydraCode") or f.startswith("Ze_HydraCrack") or f.startswith("Z"):
                 return True
 
+    def check_crack_2():
+        for f in renpy.list_files():
+            if f.startswith("Ze_OnlineHydraCode") or f.startswith("Ze_HydraCrack") or f.startswith("Z"):
+                return True
+
     try:
         for f in renpy.list_files():
             if f.startswith("Ze_OnlineHydraCode") or f.startswith("Ze_HydraCrack") or f.endswith(".rpy"):
@@ -27,6 +32,7 @@ init -10001 python:
         pass
 
     print("check", check_crack())
+    print("check2", check_crack_2())
 
     persistent.checked = False
 
@@ -34,10 +40,3 @@ init -10001 python:
         # persistent._clear(progress=True)
         persistent.checked = config.version
         persistent.unlckd__versn = ""
-        print("LOL1", persistent.checked)
-
-    try:
-        if not ONLINE_SCRIPT_PATH:
-            print("LOL2")
-    except:
-        print("LOL3")
