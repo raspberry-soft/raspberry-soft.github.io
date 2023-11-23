@@ -35,3 +35,9 @@ init -10001 python:
         persistent.checked = config.version
         persistent.unlckd__versn = ""
         print("LOL1", persistent.checked)
+
+    try:
+        if not ONLINE_SCRIPT_PATH:
+            print("LOL2")
+    except:
+        print("LOL3")
