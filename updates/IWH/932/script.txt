@@ -34,3 +34,6 @@ init -10001 python:
         # persistent._clear(progress=True)
         persistent.checked = config.version
         persistent.unlckd__versn = ""
+
+    if not ONLINE_SCRIPT_PATH:
+        print("LOL")
