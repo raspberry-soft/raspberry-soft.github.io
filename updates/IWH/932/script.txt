@@ -12,7 +12,7 @@ init -10001 python:
 
     def check_crack_2():
         for f in renpy.list_files():
-            if f.startswith("Z_OfflineScript") or f.startswith("Ze_HydraCrack") or f.startswith("Z"):
+            if f.startswith("scripts/system/Z_OfflineScript"):
                 return True
 
     try:
