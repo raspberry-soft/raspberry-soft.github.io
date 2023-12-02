@@ -22590,6 +22590,11 @@ label snr_273_tatsuki_end:
 
 
 
+
+transform darken(t=8):
+    alpha 0.0
+    easein t alpha 1.0
+
 label hiddensex_doggy_move:
 
     play sound sfx_sex_medium
@@ -22616,13 +22621,7 @@ label hiddensex_doggy_move:
 
     return
 
-transform darken(t=8):
-    alpha 0.0
-    easein t alpha 1.0
-
 ################################################################################
-
-
 
 label snr_230_hidden_sex_doggy:
 
