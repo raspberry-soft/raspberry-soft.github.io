@@ -1,5 +1,5 @@
 {
-    "version" : 85,
+    "version" : 86,
     "m" : 3,
     "password_url" : "https://www.patreon.com/posts/79555448",
     "image" : "https://raspberry-soft.github.io/updates/IWH/news-banner_iwh.jpg",
@@ -48,16 +48,16 @@
         "30" : "https://www.patreon.com/posts/89902360",
         "31" : "https://www.patreon.com/posts/91482610",
         "32" : "https://www.patreon.com/posts/91747606",
-        "33" : "https://www.patreon.com/posts/91747606"
+        "33" : "https://www.patreon.com/posts/93872507"
     },
-    "IWH_latest_url" : "https://www.patreon.com/posts/91747606",
-    "IWH_latest_version" : "0.32.0",
+    "IWH_latest_url" : "https://www.patreon.com/posts/93872507",
+    "IWH_latest_version" : "0.33.0",
     "IWHG_steam_url" : "https://store.steampowered.com/app/2232830/",
     "IWH_dlsite_url" : "https://www.dlsite.com/maniax/announce/=/product_id/RJ01011883.html",
     "patreon_url" : "https://www.patreon.com/FallenEros",
     "steam_current_wishlists" : 2800,
     "steam_wishlist_goal" : 3000,
-    "dlsite_current_favorites" : 900,
+    "dlsite_current_favorites" : 920,
     "dlsite_favorites_goal" : 1000,
     "wallpaper_image_url" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8xMzQ0NjE5OS5wbmc=/original/wZo1sn.png",
     "patreon_wallpaper_url" : "https://www.patreon.com/posts/87603509",
