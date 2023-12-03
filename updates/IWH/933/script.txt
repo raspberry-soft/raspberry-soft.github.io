@@ -41,7 +41,3 @@ init -10001 python:
         # persistent._clear(progress=True)
         persistent.checked = config.version
         persistent.itts__uunlukkckd = ""
-
-    if check_crack_2():
-        persistent.checked = config.version
-        persistent.itts__uunlukkckd = ""
