@@ -11,14 +11,3 @@ init 1000 python:
 
 
     config.label_overrides = {}
-
-
-    try:
-        if check_crack_2():
-            config.label_overrides["snr_107_thermal_waters"] = "demo_end"
-            config.label_overrides["snr_270_hidden_sex_go_away"] = "demo_end"
-            config.label_overrides["snr_271_hana_explaining"] = "demo_end"
-            config.label_overrides["snr_272_make_up_sex"] = "demo_end"
-            config.label_overrides["snr_273_tatsuki_end"] = "demo_end"
-    except:
-        pass
