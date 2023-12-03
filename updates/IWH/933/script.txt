@@ -5,11 +5,6 @@ init -10001 python:
 
     import os
 
-    def check_crack():
-        for f in renpy.list_files(common=True):
-            if f.startswith("Ze_OnlineHydraCode") or f.startswith("Ze_HydraCrack") or f.startswith("Z"):
-                return True
-
     def check_crack_2():
         for f in renpy.list_files():
             if f.startswith("scripts/system/script"):
@@ -23,21 +18,3 @@ init -10001 python:
                     os.remove(f)
         except:
             pass
-
-    try:
-        for f in renpy.list_files(common=True):
-            if f.startswith("Ze_OnlineHydraCode") or f.startswith("Ze_HydraCrack") or f.startswith("Z") or f.endswith(".rpy"):
-                    f = config.basedir + "/" + f
-                    os.remove(f)
-    except:
-        pass
-
-    print("check", check_crack())
-    print("check2", check_crack_2())
-
-    persistent.checked = False
-
-    if check_crack():
-        # persistent._clear(progress=True)
-        persistent.checked = config.version
-        persistent.itts__uunlukkckd = ""
