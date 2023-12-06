@@ -21184,7 +21184,7 @@ label snr_228_hidden_sex_peek:
 
     h "Ahhnnn... Hmmmm..."
 
-    "I encounter my wife having missionary sex with Yuma-kun on our bedroom in the dark."
+    "I encountered my wife having missionary sex with Yuma-kun in our bedroom in the dark."
 
     ############################################################################
     $ end_demo(30)
@@ -21200,7 +21200,7 @@ label snr_228_hidden_sex_peek:
 
     y "Ngn! Oba-chan! Ah!"
 
-    "My chest hurts immensly and my stomach is upset."
+    "My chest hurts enormously, and my stomach is upset."
 
     "Despite all the pain I'm feeling, my penis is hard as a rock."
 
@@ -21230,13 +21230,13 @@ label snr_228_hidden_sex_peek:
 
     "He gets to directly feel all the warmth of Hana's pussy."
 
-    "He is agressively rubbing his glans and shaft against Hana's vaginal folds."
+    "He is aggressively rubbing his glans and shaft against Hana's vaginal folds."
 
     "His smooth balls are hitting her anus each time he thrusts."
 
     "Yuma-kun's pre-seminal fluid is mixing with Hana's vaginal fluids."
 
-    "My adored wife sacred pussy nectar is being soiled by another man."
+    "My adored wife's sacred pussy nectar is being soiled by another man."
 
     "It's so intimate."
 
@@ -21273,25 +21273,25 @@ label snr_228_hidden_sex_peek:
 
     play sound sfx_sex_fast
 
-    "All I can see is my beloved wife pussy being penetrated raw by another guy."
+    "All I can see is my beloved wife's pussy being penetrated raw by another guy."
 
     h "Hmmmm... Ahhhh... Ngn!"
 
-    "From this angle I can clearly see Yuma-kun's dick going in and out of Hana's vagina."
+    "From this angle, I can clearly see Yuma-kun's dick going in and out of Hana's vagina."
 
-    "Her pussy lips stretches and welcomes a penis that is not mine."
+    "Her pussy lips stretch and welcome a penis that is not mine."
 
-    "Her plump buttcheeks are in plain view as she widely opens her legs to recieve another man."
+    "Her plump buttcheeks are in plain view as she widely opens her legs to receive another man."
 
-    "He's pounding her so fast, his balls are slapping against her crotch."
+    "He's pounding her so fast; his balls are slapping against her crotch."
 
-    "I can only imagine what expression is she making."
+    "I can only imagine what expression she is making."
 
     "I wonder for how long they've done it."
 
     "They probably lost count of the time."
 
-    "For how long have Hana been having sex with him?"
+    "For how long has Hana been having sex with him?"
 
     play sound sfx_sex_fast
 
@@ -21299,7 +21299,7 @@ label snr_228_hidden_sex_peek:
 
     "Hearing my wife moaning in the dark behind a door is surreal."
 
-    "Each time I tought Hana was having sex behind my back I was thrilled."
+    "Each time I thought Hana was having sex behind my back, I was thrilled."
 
     "But now that it happened, I'm actually shocked."
 
@@ -21333,7 +21333,7 @@ label snr_229_menu_hidden_sex:
 
     $ choice_away_condition = CURRENT_VERSION >= (0, 33, 0)
     if choice_away_condition:
-        $ choice_away = "Go Away (New Content)"
+        $ choice_away = "Go Away"
 
     else:
         $ choice_away = "Go Away (Available on PATREON)"
@@ -21346,7 +21346,7 @@ label snr_229_menu_hidden_sex:
 
     menu:
 
-        "Keep Watching":
+        "Keep Watching (New Content)":
 
             jump snr_230_hidden_sex_doggy
 
@@ -21389,19 +21389,19 @@ label snr_270_hidden_sex_go_away:
 
     play music beauty_flow
 
-    "My legs gave up so I sat down."
+    "My legs gave up, so I sat down."
 
     ############################################################################
 
     "The moment I'm faced with my biggest fantasy, reality hits."
 
-    "Despite my body is reacting, my heart hurts like hell."
+    "Despite my body reacting, my heart hurts like hell."
 
     h "{size=*0.9}Ahn! Ahn! Ahn!{/size}"
 
     "My beloved wife is having sex with another guy behind my back in our bedroom."
 
-    "I can't help to feel I ruined our marriage."
+    "I can't help but feel like I ruined our marriage."
 
     "I was the one who pushed Hana to do this."
 
@@ -21411,7 +21411,7 @@ label snr_270_hidden_sex_go_away:
 
     "This is the natural consequence."
 
-    "I opened the gates of our intimacy and blurred the lines of what's cheating and not."
+    "I opened the gates of our intimacy and blurred the lines between what's cheating and what's not."
 
     "I can't comprehend what's going on inside Hana's head."
 
@@ -21419,17 +21419,17 @@ label snr_270_hidden_sex_go_away:
 
     "Did she get addicted to the pleasure of a young viril guy?"
 
-    "I can't compete in terms on stamina and hardness."
+    "I can't compete in terms of stamina and hardness."
 
-    "I let them had sex anytime anywhere while I was away."
+    "I let them have sex anytime, anywhere, while I was away."
 
     "This is usual for them."
 
-    "I was the third wheel long time before this."
+    "I was the third wheel a long time before this."
 
     h "{size=*0.9}Ahhhhhh! Yuma-chaaaan!{/size}"
 
-    "They probably have had more sex in these months than in our entire marriage."
+    "They probably had more sex in these months than in our entire marriage."
 
     "What should I do now?"
 
@@ -21439,19 +21439,19 @@ label snr_270_hidden_sex_go_away:
 
     "Hana is my dream girl."
 
-    "A woman so increadible I never accepted the fact she married me."
+    "A woman so increadible, I never accepted the fact she married me."
 
-    "Maybe a woman that sexy, fun and intelligent is bound to have her our demons."
+    "Maybe a woman who is sexy, fun, and intelligent is bound to have our demons."
 
     "I don't really know much about her past."
 
-    "She is very positive about sex, maybe she learned a lot of stuff before we met."
+    "She is very positive about sex; maybe she learned a lot of stuff before we met."
 
     "I can't picture my life without her."
 
-    "I should've thought on that before diving into this fetish."
+    "I should've thought about that before diving into this fetish."
 
-    "Even when she wanted to end it, I still irrespected her."
+    "Even when she wanted to end it, I still disrespected her."
 
     "Is this payback?"
 
@@ -21461,7 +21461,7 @@ label snr_270_hidden_sex_go_away:
 
     "Her moanings are heard even here."
 
-    "I don't have the strenght to leave this house."
+    "I don't have the strength to leave this house."
 
     "The fear of losing her forever doesn't let me move."
 
@@ -21471,7 +21471,7 @@ label snr_270_hidden_sex_go_away:
 
     "It wouldn't be the same."
 
-    "No matter how hard I try, I can't come with a solution."
+    "No matter how hard I try, I can't come up with a solution."
 
     "It seems I really screwed up. He he."
 
@@ -21517,17 +21517,17 @@ label lost_love_dream:
 
     "A profound sadness invades me."
 
-    "But at the same time I realized how fortunate I was."
+    "But at the same time, I realized how fortunate I was."
 
     "I married the best girl in the world."
 
     "She loved me for many years."
 
-    "I recieved more than my share."
+    "I received more than my share."
 
     "It's time for Hana's love to be shared around."
 
-    "It's to intense to be contained."
+    "It's too intense to be contained."
 
     "Even so, I would like to wake up next to her."
 
@@ -21560,13 +21560,13 @@ label snr_271_hana_explaining:
 
     mcn surprised "When I open my eyes, I see my wife naked in front of me."
 
-    mcn "For a split second I forgot where I am and what just happened."
+    mcn "For a split second, I forgot where I was and what just happened."
 
     mc worried "H-Hana..."
 
     mcn "The moment I remember, my voice cracks."
 
-    mcn "She looks consterned."
+    mcn "She looks consternated."
 
     mcn "Is she worried because I caught her?"
 
@@ -21603,27 +21603,27 @@ label snr_271_hana_explaining:
 
     mcn "I look the other way."
 
-    mcn "She just was having sex with Yuma-kun upstairs."
+    mcn "She was just having sex with Yuma-kun upstairs."
 
     mcn "I don't know how long they were doing it."
 
-    mcn "She probably noticed I was here when she went downstair to rehydrate."
+    mcn "She probably noticed I was here when she went downstairs to rehydrate."
 
-    mcn "Yuma-kun is probably resting on my bed covered on Hana's fluids."
+    mcn "Yuma-kun is probably resting on my bed, covered in Hana's fluids."
 
     mcn "When I look back at Hana, I notice..."
 
     mcn "Her whole body is covered by Yuma-kun's semen."
 
-    mcn "Her breasts... Her belly... And even..."
+    mcn "Her breasts, her belly, and even..."
 
     show hana at down_pan
 
     mcn "Yes... Her pussy too."
 
-    mcn "I can't tell if its leaking out of her vagina or just on top."
+    mcn "I can't tell if it's leaking out of her vagina or just on top."
 
-    mcn "Did he came inside her?"
+    mcn "Did he cum inside her?"
 
     show hana at up_pan
 
@@ -21637,7 +21637,7 @@ label snr_271_hana_explaining:
 
     h "Sorry, I thought this was what you wanted."
 
-    mc "What I wanted?"
+    mc "What did I want?"
 
     h "You know... Catching me doing lewd stuff behind your back."
 
@@ -21651,7 +21651,7 @@ label snr_271_hana_explaining:
 
     h smiling "Yes."
 
-    mcn "She seems so calmed about it."
+    mcn "She seems so calm about it."
 
     mcn "Is she telling me the truth?"
 
@@ -21661,9 +21661,9 @@ label snr_271_hana_explaining:
 
     h @ angry "You ruined my plans once, so I was prepared this time."
 
-    mcn "Now that I think of... It's odd that she would do this just when I was supposed to arrive."
+    mcn "Now that I think of it, it's odd that she would do this just when I was supposed to arrive."
 
-    mcn "I thought she was so caught up on the sex, seh lost track on time."
+    mcn "I thought she was so caught up on the sex that she lost track of time."
 
     mcn "Hana is very meticulous. She wouldn't be caught so easily."
 
@@ -21681,9 +21681,9 @@ label snr_271_hana_explaining:
 
     mcn worried "I already knew, but hearing it makes my chest hurt."
 
-    h "I thought you would be more aroused if you were find out at that time."
+    h "I thought you would be more aroused if you found out at that time."
 
-    h "That's what I understood from the talk we had on the car on the way back from the water park."
+    h "That's what I understood from the talk we had in the car on the way back from the water park."
 
     mcn "Should I ask her if he came inside?"
 
@@ -21693,7 +21693,7 @@ label snr_271_hana_explaining:
 
     h worried "But none of that matters."
 
-    h "The bottom line is I stepped over the line."
+    h "The bottom line is that I stepped over the line."
 
     h "You are clearly not okay with this."
 
@@ -21701,7 +21701,7 @@ label snr_271_hana_explaining:
 
     mc "But living it was way too painful."
 
-    mc "Just the thought of losing your love, crushed my heart!"
+    mc "Just the thought of losing your love crushed my heart!"
 
     h "Dear... I... S-sorry..."
 
@@ -21715,13 +21715,13 @@ label snr_271_hana_explaining:
 
     mc "You felt uncherished, didn't you?"
 
-    h "A little... Yes..."
+    h "A little... yes..."
 
     h "But still... I..."
 
     mc smiling "You still wanted to give me what I wanted, right?"
 
-    mc worried "When I told you I fantasized with you doing stuff behind my back, you looked concerned."
+    mc worried "When I told you I fantasized about you doing stuff behind my back, you looked concerned."
 
     mc "I thought I disgusted you."
 
@@ -21731,9 +21731,9 @@ label snr_271_hana_explaining:
 
     mc @ nervous "It's okay, Hana. I know it's not easy for other people to understand."
 
-    h "I did gave it a lot of thought."
+    h "I did give it a lot of thought."
 
-    h "At the begining I was mad."
+    h "At the beginning, I was mad."
 
     h angry "Why would you want your beloved wife to break your trust?"
 
@@ -21741,11 +21741,11 @@ label snr_271_hana_explaining:
 
     mc shocked "The forums?"
 
-    h decided "You should know by now that nothing escapes my all seeing eye. Fu fu."
+    h decided "You should know by now that nothing escapes my all-seeing eye. Fu fu."
 
     mc worried "You are right."
 
-    h worried "The longer I read other people's experience, the more I understood how can jealousy bring you pleasure."
+    h worried "The longer I read other people's experiences, the more I understood how jealousy can bring you pleasure."
 
     h "And that the best pleasure can only be achieved by catching your loved one having sex without you knowing."
 
@@ -21771,7 +21771,7 @@ label snr_271_hana_explaining:
 
     h "Sigh... It's kind of embarrassing."
 
-    h "I thought you might fell in love with me more if you thought you'll lose me."
+    h "I thought you might fall in love with me more if you thought you'd lose me."
 
     mc surprised "Hana..."
 
@@ -21789,7 +21789,7 @@ label snr_271_hana_explaining:
 
     mcn "I can't help but laugh."
 
-    mcn "My wife just had tons of raw sex behind my back and I'm laughing about it."
+    mcn "My wife just had tons of raw sex behind my back, and I'm laughing about it."
 
     mcn "No. That's not it."
 
@@ -21809,17 +21809,17 @@ label snr_271_hana_explaining:
 
     mc "I don't ever want to lose you!"
 
-    mc "What was I thinking pushing that fantsy into you?"
+    mc "What was I thinking about pushing that fantsy into you?"
 
     mc "No good could come of that."
 
     mc "The greatest joy in my life is spending my life with you."
 
-    mc "I want to wake up next to you everyday."
+    mc "I want to wake up next to you every day."
 
     mc "I want our intimacy back and to have kids."
 
-    mc smiling "This time let's do it right!"
+    mc smiling "This time, let's do it right!"
 
     h shy "Oh, dear."
 
@@ -21858,11 +21858,11 @@ label snr_271_hana_explaining:
 
     y "Sorry, Oji-san. I..."
 
-    h smiling "It's okay, Yuma-chan. Your Oji-san knows everything and it's okay with it."
+    h smiling "It's okay, Yuma-chan. Your Oji-san knows everything, and it's okay with it."
 
     y shy "Really?"
 
-    mc nervous "Y-yes... Kind of..."
+    mc nervous "Y-yes... kind of..."
 
     y "So, you don't mind?"
 
@@ -21871,7 +21871,7 @@ label snr_271_hana_explaining:
     show yuma beaming at closeleft
     with dissolve
 
-    y "Then, it's okay for me to continue where we left of?"
+    y "Then, is it okay for me to continue where we left off?"
 
     y "I can't wait anymore."
 
@@ -21887,7 +21887,7 @@ label snr_271_hana_explaining:
 
     y "You are still wet, Oba-chan."
 
-    "He must've felt Hana's pussy wetness as he is placing his glands in the opening of Hana's pussy."
+    "He must've felt Hana's pussy wetness as he was placing his glands in the opening of Hana's pussy."
 
     h surprised "Ah! Wait!"
 
@@ -21907,7 +21907,7 @@ label snr_272_make_up_sex:
 
     h "Ahn!"
 
-    "Before Yuma-kun could do anything, I grabbed Hana and layed her on the couch."
+    "Before Yuma-kun could do anything, I grabbed Hana and laid her on the couch."
 
     h "Dear? What's gotten into you?"
 
@@ -21916,7 +21916,7 @@ label snr_272_make_up_sex:
 
     "I jump on top of my wife's naked body."
 
-    mc "I won't let anything between us again!"
+    mc "I won't let anything between us happen again!"
 
     h "Oh, my!"
 
@@ -21929,9 +21929,9 @@ label snr_272_make_up_sex:
 
     "A warm fuzzy feeling runs through my body."
 
-    "I can feel Hana's body warmth and sweat."
+    "I can feel Hana's body's warmth and sweat."
 
-    "She just was embraced by another guy."
+    "She was just embraced by another guy."
 
     "All this sweat is due to having sex with Yuma-kun."
 
@@ -21939,7 +21939,7 @@ label snr_272_make_up_sex:
 
     "Despite it arousing me, a greater feeling of ownership prevails."
 
-    "She is my wife and I will get her back!"
+    "She is my wife, and I will get her back!"
 
     h "Did you get jealous?"
 
@@ -21983,13 +21983,13 @@ label snr_272_make_up_sex:
 
     h "If you don't mind going in after Yuma-chan, of course."
 
-    h "Don't worry, he didn't came inside."
+    h "Don't worry, he didn't cum inside."
 
     h "You can put it in without worries."
 
     "He didn't? For real?"
 
-    "Hana searches for my penis and put it between her fingers."
+    "Hana searches for my penis and puts it between her fingers."
 
     "She gently pushes it inside her pussy."
 
@@ -22017,7 +22017,7 @@ label snr_272_make_up_sex:
 
     "It's even on her pussy lips."
 
-    "It almost looks like he did came inside."
+    "It almost looks like he did cum inside."
 
     "This motivates me to make her mine."
 
@@ -22025,11 +22025,11 @@ label snr_272_make_up_sex:
 
     "I start to slowly move."
 
-    "The insides of my wife feels tight and slippery."
+    "The inside of my wife feels tight and slippery."
 
-    "The warmth of her vagina conforts my heart."
+    "The warmth of her vagina comforts my heart."
 
-    "Finally she's all mine."
+    "Finally, she's all mine."
 
     "I won't let anyone have the privilege of enjoying Hana's pussy ever again."
 
@@ -22038,7 +22038,7 @@ label snr_272_make_up_sex:
 
     play sound sfx_sex_slow
 
-    h "Hmmmm... Finally you are inside me."
+    h "Hmmmm... Finally, you are inside me."
 
     h "I missed it so much."
 
@@ -22089,7 +22089,7 @@ label snr_272_make_up_sex:
 
     "This pussy had just welcomed Yuma-kun's penis..."
 
-    "...So I have to step up to make it feel better than he could ever could."
+    "So I have to step up to make it feel better than he ever could."
 
     "I may not have his stamina or technique, but my penis is bigger and right now is extremely hard."
 
@@ -22097,7 +22097,7 @@ label snr_272_make_up_sex:
 
     "Hana is enjoying herself."
 
-    "My hips move on their own, as if I were possesed."
+    "My hips move on their own, as if I were possessed."
 
     "For a second, our sex journey came to mind."
 
@@ -22113,7 +22113,7 @@ label snr_272_make_up_sex:
         matrixcolor SepiaMatrix()
     with dissolve
 
-    "Not knowing wether or not she crossed the line..."
+    "Not knowing whether or not she crossed the line..."
 
     show cg morning photo as memories:
         matrixcolor SepiaMatrix()
@@ -22125,7 +22125,7 @@ label snr_272_make_up_sex:
         matrixcolor SepiaMatrix()
     with dissolve
 
-    "All the naugthy things they've done that I can't even imagine..."
+    "All the naughty things they've done that I can't even imagine..."
 
     hide memories
     show cg makeupsexclose fast
@@ -22139,18 +22139,18 @@ label snr_272_make_up_sex:
 
     y "Oba-chan..."
 
-    "I got so lost in my thoughts, I didn't notice Yuma-kun approached."
+    "I got so lost in my thoughts, I didn't notice Yuma-kun approaching."
 
     show cg makeupsex moaning
     with dissolve
 
-    h "Ahhhnn... Right now it's not a good time, sweeatie."
+    h "Ahhhnn... Right now, it's not a good time, sweetie."
 
     h "Your Oji-san and I are working things out."
 
     "I wonder if I made him jealous by taking his precious Oba-chan away."
 
-    y ashamed "What I'm supposed to do with this?"
+    y ashamed "What am I supposed to do with this?"
 
     show cg makeupsex yuma surprised
     with cg_transition
@@ -22163,14 +22163,14 @@ label snr_272_make_up_sex:
 
     mc "What's going on?"
 
-    mcn "I'm so busy giving my all I can't see cleerly."
+    mcn "I'm so busy giving my all, I can't see clearly."
 
     show cg makeupsex yuma ashamed
     with dissolve
 
     h "Be careful, Yuma-chan. Your cute thing is too close."
 
-    y "Sorry, I'm feeling weird by looking at you like this."
+    y "Sorry, I'm feeling weird looking at you like this."
 
     h "I guess it's inevitable."
 
@@ -22196,9 +22196,9 @@ label snr_272_make_up_sex:
 
     "Is she really asking me permission to give him a hand job while we are having sex?"
 
-    "Or even worse... A blowjob?"
+    "Or even worse... a blowjob?"
 
-    "Now that I think of... I never saw her sucking him off."
+    "Now that I think of it, I never saw her sucking him off."
 
     "But that's out of the question now!"
 
@@ -22232,7 +22232,7 @@ label snr_272_make_up_sex:
 
     h "Ahhhhh! Ngn! No! Sorry!"
 
-    y "Not even touch it a little?"
+    y "You're not even touch it a little?"
 
     h "Ahhhnn! Dear?"
 
@@ -22272,7 +22272,7 @@ label snr_272_make_up_sex:
 
     h "Ahhh! Yes! I'm only yours!"
 
-    h "Forgive this lewd body for having sex with someone else than my husband!"
+    h "Forgive this lewd body for having sex with someone other than my husband!"
 
     h "I'll never do it! Ahhhh!"
 
@@ -22283,7 +22283,7 @@ label snr_272_make_up_sex:
 
     mc "Yuma-kun! Watch closely as I make your Oba-chan mine again!"
 
-    "A fire ignited inside me and everything became a blur."
+    "A fire ignited inside me, and everything became a blur."
 
     mc "Ngn! I'm cumming!"
 
@@ -22316,7 +22316,7 @@ label snr_272_make_up_sex:
 
     "I brutally came inside my wife's pussy!"
 
-    "Every drop of love, pain and frustration was poured inside her uterus."
+    "Every drop of love, pain, and frustration was poured inside her uterus."
 
     "This place is now only mine to enjoy."
 
@@ -22334,7 +22334,7 @@ label snr_272_make_up_sex:
     with ejaculation_flash
     play sound sfx_sex_ejaculation
 
-    mc "Please become pregnant of my child!"
+    mc "Please become pregnant with my child!"
 
     h "Ahhhhhh! So much semen! You are getting me pregnant!"
 
@@ -22355,7 +22355,7 @@ label snr_272_make_up_sex:
 
     "Yuma-kun ejaculated on top of Hana."
 
-    "She defended herself with her hand but semen still found a way to her."
+    "She defended herself with her hand, but semen still found a way to her."
 
     play sound sfx_sex_ejaculation_alt
 
@@ -22367,9 +22367,9 @@ label snr_272_make_up_sex:
     with ejaculation_flash
     play sound sfx_sex_ejaculation
 
-    "I couldn't help but to keep cumming as I watch Yuma-kun cum all over my wife."
+    "I couldn't help but to keep cumming as I watched Yuma-kun cum all over my wife."
 
-    "I failed protecting my wife against someone else's semen again."
+    "I failed to protect my wife against someone else's semen again."
 
     show cg makeupsexclose leak
 
@@ -22380,7 +22380,7 @@ label snr_272_make_up_sex:
 
     "I poured so much it's leaking."
 
-    "So this is the sensation of an acomplished husband."
+    "So this is the sensation of an accomplished husband."
 
     show cg makeupsex yuma orgasm drip
     with dissolve
@@ -22389,7 +22389,7 @@ label snr_272_make_up_sex:
 
     h "It was too intense..."
 
-    "Hana's face and hair is covered up in Yuma-kun's semen."
+    "Hana's face and hair are covered up in Yuma-kun's semen."
 
     show cg makeupsex afterglow surprised
     with cg_transition
@@ -22403,12 +22403,12 @@ label snr_272_make_up_sex:
 
     h "It's okay, Yuma-chan. I guess it can't be helped."
 
-    h "I'm surprised you still are able to cum this much."
+    h "I'm surprised you are still able to cum this much."
 
     show cg makeupsex afterglow apologetic
     with cg_transition
 
-    h "But I wonder how your Oji-san feel about it."
+    h "But I wonder how your Oji-san feels about it."
 
     "Hana mischievously looks at me."
 
@@ -22416,7 +22416,7 @@ label snr_272_make_up_sex:
 
     "This is it. This is my final test."
 
-    "I won't deny she looks very sexy covered by another guy's semen."
+    "I won't deny she looks very sexy, covered by another guy's semen."
 
     "However..."
 
@@ -22424,7 +22424,7 @@ label snr_272_make_up_sex:
 
     y "I see..."
 
-    y "Sorry, Oji-san for cumming in Oba-chan's face while you two were intimate."
+    y "Sorry, Oji-san, for cumming in Oba-chan's face while you two were intimate."
 
     mc "We are sorry for misleading you."
 
@@ -22432,7 +22432,7 @@ label snr_272_make_up_sex:
 
     y "I do. I'll miss Oba-chan, but..."
 
-    y beaming "I don't want to cause trouble to your marriage."
+    y beaming "I don't want to cause trouble in your marriage."
 
     show cg makeupsex afterglow beaming
     with cg_transition
@@ -22443,7 +22443,7 @@ label snr_272_make_up_sex:
 
     h "I'll miss you too, sweetie."
 
-    h "But this doesn't mean, you are out of our lives."
+    h "But this doesn't mean you are out of our lives."
 
     h "You are welcome to visit us anytime."
 
@@ -22477,7 +22477,7 @@ label snr_272_make_up_sex:
 
     h "Also, I bet I'm pregnant by now due to how much you came. Fu fu."
 
-    h "So let's do our best raising this child and building a home full of love."
+    h "So let's do our best to raise this child and build a home full of love."
 
     mc "Hana..."
 
@@ -22488,7 +22488,7 @@ label snr_272_make_up_sex:
 
     "After Yuma-kun went away, we kept having sex all night."
 
-    "I came inside her again and again with the hopes of impregnanting her."
+    "I came inside her again and again with the hopes of impregnating her."
 
     "Having my wife's heart and body belong to me again is an increadible feeling."
 
@@ -22533,7 +22533,7 @@ label snr_273_tatsuki_end:
 
     "I discovered many things about myself."
 
-    "The most important being I love my wife far beyond any fetish or fleeting pleasure."
+    "I love my wife far beyond any fetish or fleeting pleasure."
 
     "Everytime I think about the 'play', a sense of duty arises."
 
@@ -22541,7 +22541,7 @@ label snr_273_tatsuki_end:
 
     "Now I have a daughter on the way."
 
-    "I wonder which of the two she'll look like?"
+    "I wonder which of the two she'll look like."
 
     "Either way, as long as she's healthy, I'm happy."
 
@@ -22554,7 +22554,7 @@ label snr_273_tatsuki_end:
 
     "But I'm not gonna lie..."
 
-    "Everytime I come home and I'm about to open the door..."
+    "Every time I come home and I'm about to open the door..."
 
     "My chest feels a little tigth."
 
@@ -22646,11 +22646,11 @@ label snr_230_hidden_sex_doggy:
 
     "I can no longer think of the consequences."
 
-    "The ulmost pain is transformed into the ulmost pleasure."
+    "The utmost pain is transformed into the utmost pleasure."
 
     "I take my penis out and begin to stroke it."
 
-    "It's so sensitive I could cum any second."
+    "It's so sensitive, I could cum any second."
 
     "The pleasure is so immense that it's the only thing on my mind."
 
@@ -22664,7 +22664,7 @@ label snr_230_hidden_sex_doggy:
 
     h "Hmmmmmm! Ngn! Ahhhh!"
 
-    "I stand alone in the dark masturbating to the sight of my wife having sex behind my back."
+    "I stand alone in the dark, masturbating at the sight of my wife having sex behind my back."
 
     "My mind is going blank."
 
@@ -22690,7 +22690,7 @@ label snr_230_hidden_sex_doggy:
 
     "Hana faces her butt towards Yuma-kun."
 
-    "He penetrates her without hesistation."
+    "He penetrates her without hesitating."
 
     play sound sfx_sex_slow
 
@@ -22700,9 +22700,9 @@ label snr_230_hidden_sex_doggy:
     $ end_demo(31)
     ############################################################################
 
-    y "Oba-chan! You looks so sexy from this angle!"
+    y "Oba-chan! You look so sexy from this angle!"
 
-    y "Your butt is so big and your anus is twitching."
+    y "Your butt is so big, and your anus is twitching."
 
     h "Ahhhn! What are you saying, Yuma-chan?"
 
@@ -22724,7 +22724,7 @@ label snr_230_hidden_sex_doggy:
 
     y "You are squeezing me a lot, Oba-chan!"
 
-    h "Ngn! I can't help it. It feels so good having it inside."
+    h "Ngn! I can't help it. It feels so good to have it inside."
 
     h "My vagina reacts on it's own."
 
@@ -22746,7 +22746,7 @@ label snr_230_hidden_sex_doggy:
 
     h "Hmph! Again! You cheeky brat."
 
-    y "He he. Sorry, Oba-chan. I love your butt so much I want to spank it and grab it all the time."
+    y "He he. Sorry, Oba-chan. I love your butt so much, I want to spank it and grab it all the time."
 
     play bgsfx sfx_spank
 
@@ -22756,7 +22756,7 @@ label snr_230_hidden_sex_doggy:
 
     y "You are so sexy. I could cum just by looking at your butt from this angle."
 
-    y "All the roundness... Your buttcheeks opening each time I enter you..."
+    y "All the roundness... Your buttcheeks are opening each time I enter you..."
 
     h "Ngn! Ah! Stop. You're embarrassing me."
 
@@ -22764,7 +22764,7 @@ label snr_230_hidden_sex_doggy:
 
     h "It's an exclusive sight for you, sweetie."
 
-    h "Your Oji-san is not that assertive so he misses a lot of great positions."
+    h "Your Oji-san is not that assertive, so he misses a lot of great positions."
 
     show cg fast
     with dissolve
@@ -22791,7 +22791,7 @@ label snr_230_hidden_sex_doggy:
 
     h "Ahhh! Ahhhh! Ahhhhh!"
 
-    h "Your messing up my pussy!"
+    h "You're messing up my pussy!"
 
     y "I want your pussy just for me, Oba-chan!"
 
@@ -22803,7 +22803,7 @@ label snr_230_hidden_sex_doggy:
 
     play sound sfx_sex_fast
 
-    h "No matter how hard you pound me, sweetie. I can't... Ahhhhhhhhhnnn!"
+    h "No matter how hard you pound me, sweetie, I can't... Ahhhhhhhhhnnn!"
 
     "He's giving his all to win Hana's heart and body."
 
@@ -22815,19 +22815,19 @@ label snr_230_hidden_sex_doggy:
 
     "I only want to know how this unfolds."
 
-    "I've masturbating while watching this spectacle."
+    "I've been masturbating while watching this spectacle."
 
-    "It's dark and cold here, while it's warm inside that room, and inside Hana's pussy."
+    "It's dark and cold here, while it's warm inside that room and inside Hana's pussy."
 
     play sound sfx_sex_fast
 
     h "Ahhhhhhhnnn! Hmmmmmph! Ahhhh!"
 
-    "Yuma-kun is experimenting the great pleasure of having sex with a goddess while I can only helplessly watch."
+    "Yuma-kun is experimenting with the great pleasure of having sex with a goddess while I can only helplessly watch."
 
     "It's a fate I brought to myself."
 
-    "I chose it knowing the consequences."
+    "I chose it, knowing the consequences."
 
     "Knowing I could lose my wife..."
 
@@ -22851,13 +22851,13 @@ label snr_230_hidden_sex_doggy:
 
     "A pleasure you could only dream of..."
 
-    "At the cost of making your worse nightmare come to life."
+    "At the cost of making your worst nightmare come to life."
 
-    "I wan't to wake up from it."
+    "I want to wake up from it."
 
-    "But first, I want to enjoy my deep and darkest fantasy."
+    "But first, I want to enjoy my deepest and darkest fantasy."
 
-    "They are doing it without a condom so there's a chance he..."
+    "They are doing it without a condom, so there's a chance he..."
 
     "Gulp..."
 
@@ -22869,25 +22869,25 @@ label snr_230_hidden_sex_doggy:
 
     play sound sfx_sex_fast
 
-    "My stomach is upset just by thinking it."
+    "My stomach is upset just by thinking about it."
 
     "I still can't assimilate the fact they are having raw sex."
 
     "Let alone ejaculating inside."
 
-    "Everything is happening so fast I can't even process it."
+    "Everything is happening so fast, I can't even process it."
 
     "The only thing left on my mind is this increadible pleasure."
 
-    "The anticipation... The excitement... The dark erotic atmosphere."
+    "The anticipation... the excitement... the dark erotic atmosphere."
 
     "My mind is going blank."
 
-    "Without noticing, I stopped thinking about reality and just indulged on the pleasure."
+    "Without noticing, I stopped thinking about reality and just indulged in the pleasure."
 
-    "The pleasure only a man that's losing the love of his life can experiment."
+    "The pleasure only a man who's losing the love of his life can experience."
 
-    "A fate I would not wish on anyone."
+    "This is a fate I would not wish on anyone."
 
     play sound sfx_sex_medium
 
@@ -22900,7 +22900,7 @@ label snr_230_hidden_sex_doggy:
 
     y "I can see your butthole clearly now."
 
-    y "Your buttcheeks are so big that's always hiding."
+    y "Your buttcheeks are so big that its always hiding."
 
     play sound sfx_sex_fast
 
@@ -22916,13 +22916,13 @@ label snr_230_hidden_sex_doggy:
 
     "Hana and I never did anything butt-related."
 
-    "I thought that was off-limits so I never thought about it."
+    "I thought that was off-limits, so I never thought about it."
 
     "She is such an elegant and well-mannered woman."
 
     "I got the feeling she would be disgusted by the idea."
 
-    "But now I realize, there's so much I don't know about her."
+    "But now I realize there's so much I don't know about her."
 
     "I don't know her past with details."
 
@@ -22936,7 +22936,7 @@ label snr_230_hidden_sex_doggy:
 
     "It's better that way."
 
-    "The most amazing woman of the world will be forever surrounded by mistery."
+    "The most amazing woman in the world will be forever surrounded by mistery."
 
     h "It seems I've trained you well, sweetie."
 
@@ -22945,7 +22945,7 @@ label snr_230_hidden_sex_doggy:
     show cg fast
     with dissolve
 
-    h "But your Oba-chan don't like to lose."
+    h "But your Oba-chan doesn't like to lose."
 
     y "Ahhhh! Ngn! What are you doing to my penis?"
 
@@ -22959,23 +22959,23 @@ label snr_230_hidden_sex_doggy:
 
     play sound sfx_sex_fast
 
-    "Come on Hana, say no!"
+    "Come on, Hana, say no!"
 
     h "Hmmmm..."
 
     "What are you doing, my love?"
 
-    "Are you going to let a person other than your husband to ejaculate inside you?"
+    "Are you going to let a person other than your husband ejaculate inside you?"
 
     play sound sfx_sex_fast
 
-    y "Please, Oba-chan! I want you to have my babies!"
+    y "Please Oba-chan! I want you to have my babies!"
 
     h "Such a bold statement for a cute guy."
 
     h "You are making me blush."
 
-    y "Oba-chaaan! I can't hold any longer."
+    y "Oba-chaaan! I can't hold on any longer."
 
     h "Oh, my! Your penis is harder than ever."
 
@@ -22998,18 +22998,18 @@ label snr_230_hidden_sex_doggy:
 
     y "Ahhhhh!"
 
-    h "Hmmmm... You let out so much..."
+    h "Hmmmm... You let out so much!"
 
     play sound sfx_sex_ejaculation_alt
 
     h "And it keeps coming..."
 
-    "Yuma-kun cumming inside my wife out of my view, drove to my limit."
+    "Him cumming inside my wife out of my view, drove to my limit."
 
     with ejaculation_flash
     play sound sfx_sex_ejaculation
 
-    "Ngn! I shamely came on the floor."
+    "Ngn! I shamefully came on the floor."
 
     "My penis is extremely hard and red."
 
@@ -23039,7 +23039,7 @@ label snr_230_hidden_sex_doggy:
 
     "It was the most embarrassing moment of my life."
 
-    "But the pleasure was so immense it felt like heaven."
+    "But the pleasure was so immense, it felt like heaven."
 
     "I even forgot for a second that my wife is being creampied behind my back."
 
@@ -23089,7 +23089,7 @@ label snr_230_hidden_sex_doggy:
 
     "I just lost my wife, didn't I?"
 
-    "They are having such a lovely conversation after-sex, while I'm on the floor."
+    "They are having such a lovely conversation after sex, while I'm on the floor."
 
     "I should just go."
 
@@ -23111,26 +23111,26 @@ label snr_232_lost_love_dream:
 
     play music beauty_flow if_changed
 
-    "After such thrilling experience I had no force left."
+    "After such a thrilling experience, I had no force left."
 
     "I'm exhausted."
 
     "I'm still shivering due to that experience."
 
-    "I want to get out of the house, but I lack the strenght."
+    "I want to get out of the house, but I lack the strength."
 
     scene bg home guestroom night dark
     with dissolve
 
-    "I decide to lay on the guest room."
+    "I decide to lay in the guest room."
 
-    "I don't care if Hana founds out I've been here all the time."
+    "I don't care if Hana finds out I've been here all the time."
 
     "She'll be busy having sex all night to even notice it."
 
-    "I lay down on the mattress where they probably had a lot of sex too."
+    "I lay down on the mattress, where they probably had a lot of sex too."
 
-    "And I fell asleep surrounded by darkness."
+    "And I fell asleep, surrounded by darkness."
 
     ##--------------------------------------------------------------------------
     call lost_love_dream from _call_lost_love_dream_1
@@ -23233,7 +23233,7 @@ label snr_233_bottom_view_sex:
 
     mcn "She knew!!!"
 
-    h "You finally saw what you longed for. Right, dear?"
+    h "You finally saw what you longed for, dear."
 
     h "How did it feel?"
 
@@ -23246,9 +23246,9 @@ label snr_233_bottom_view_sex:
 
     h "How did it feel to witness your beloved wife have unprotected sex behind your back?"
 
-    mc worried ". . ."
+    mc ". . ."
 
-    mc "It hurts..."
+    mc worried "It hurts..."
 
     h "But that's what you wanted, right?"
 
@@ -23282,18 +23282,93 @@ label snr_233_bottom_view_sex:
 
     h "It's like my body is a drug to him. He can't get enough."
 
-    h "Who could blame him, right?"
+    h "But who could blame him, right?"
 
     show cg bottomview pity fast
     with cg_transition
 
     play sound sfx_sex_fast
 
-
     h "Too bad you can't taste it."
 
+    mcn "Is she mad!?"
+
+    mcn "But I'm the one who's suffering here!"
+
+    h "Yuma-chan loves to indulge in my body everytime he gets a chance."
+
+    show cg bottomview laughing fast
+    with cg_transition
+
+    h "I'm embarrassed to admit it, but it makes me feel young again."
+
+    mcn "Wait..."
+
+    mcn "Was she insecure this whole time?"
+
+    mcn "Did she think I got tired of her and that's why I prefer another guy to touch her?"
+
+    show cg bottomview moaning fast
+    with cg_transition
+
+    play sound sfx_sex_fast
+
+    h "Hmmmmm! Yes! Ahhhhhn! Nggggn!"
+
+    mcn "But then why she did this behind my back!?"
+
+    h "Ahhhhhh! Ahhhhnnn!"
+
+    mcn "My penis is harder than ever and I can't touch it."
+
+    mcn "Their having intense sex on top of me while I'm tide up unable to masturbate!"
+
+    mcn "It hurts like hell, but..."
+
+    mcn "It's the most excited I've ever been!"
+
+    play sound sfx_sex_fast
+
+    h "Ngn! Ahhhhn! Hmmmphhh!"
+
+    mcn "I'm disgusted of myself!"
+
+    mcn "Why am I so aroused by the fact my wife cheated on me!?"
+
+    mcn "They are basically torturing me!"
+
+    mcn "The helpessness..."
+
+    mcn "Not knowing what's going to happen next..."
+
+    mcn "This is the peak of my pleasure!"
+
+    mcn "I had the most beautiful and loyal wife in the world and I traded it all for a fleeting pleasure."
+
+    mcn "I'm the worst!"
+
+    h "Ahhhhnn! Yuma-chan!!! You are so deep!"
+
+    mcn "But I can't help to enjoy it!"
 
 
+
+
+    ##--------------------------------------------------------------------------
+    $ renpy.end_replay()
+    ##--------------------------------------------------------------------------
+
+    ##--------------------------------------------------------------------------
+    jump snr_234_bottom_view_leak
+    ##--------------------------------------------------------------------------
+
+
+label snr_234_bottom_view_leak:
+
+    scene cg belowdrip hana
+    with fade
+
+    mcn shocked ""
 
 
 
