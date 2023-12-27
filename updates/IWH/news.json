@@ -64,7 +64,10 @@
     "wallpaper_image_url" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8xMzQ0NjE5OS5wbmc=/original/wZo1sn.png",
     "patreon_wallpaper_url" : "https://www.patreon.com/posts/87603509",
     "cien_wallpaper_url" : "https://ci-en.dlsite.com/creator/16563/article/970264",
-    "news_message" : [["#00ffff", "Hi", "Hello"], ["#00ff00", "2", "3"]],
+    "news_message" : [
+        ["#00ffff", "A BRAND NEW HEROINE", "{b}Meet Aiko{/b}, the star of my upcoming new game.\n\nShe will be {b}joining on 2024{/b}, and yes, it will be {b}NTR{/b} themed.\n\nYou can find more information {a=https://www.patreon.com/FallenEros?utm_source=iwh&utm_term=news_banner}here{/a}."],
+        ["#00ff00", "MERRY CHRISTMAS & HAPPY NEW YEAR", "I wish you all the best for 2024 and thank you for the support all this time.\n\nHana also wishes you a Merry Christmas with this 4K Wallpaper {a=https://www.patreon.com/posts/hana-christmas-93163685?utm_source=iwh&utm_term=news_banner}here{/a}."]
+    ],
     "gravure_password" : "999",
     "locked_IDs" : [1],
     "banned_pws" : ["387732", "501196"],
