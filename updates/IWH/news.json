@@ -65,11 +65,11 @@
     "wallpaper_image_url" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8xMzQ0NjE5OS5wbmc=/original/wZo1sn.png",
     "patreon_wallpaper_url" : "https://www.patreon.com/posts/87603509",
     "cien_wallpaper_url" : "https://ci-en.dlsite.com/creator/16563/article/970264",
-    "has_news" : true,
+    "has_news" : false,
     "news_latest_date" : "December 31, 2023",
     "news_message" : [
-        ["#12FFFF", "A BRAND NEW HEROINE", "{font=ggsans-ExtraBold.ttf}Meet Aiko{/font}, the star of my upcoming new game. She will be {font=ggsans-ExtraBold.ttf}joining on 2024{/font}, and yes, it will be {b}NTR{/b} themed. You can find out more {a=https://www.patreon.com/FallenEros?utm_source=iwh&utm_term=news_banner}here{/a}."],
-        ["#2dc770", "HAPPY NEW YEAR", "Thank you for your support during this year! I wish you all the best for 2024. Hana also wishes you a Merry Christmas with this {a=https://www.patreon.com/posts/hana-christmas-93163685?utm_source=iwh&utm_term=news_banner}4K Wallpaper{/a}."]
+        ["#12FFFF", "A BRAND NEW HEROINE", "{b}Meet Aiko, the star of my upcoming game{/b}.\nShe will be {b}joining on 2024{/b}, and yes, it will be {b}NTR{/b} themed. You can find out more {a=https://www.patreon.com/FallenEros?utm_source=iwh&utm_term=news_banner}here{/a}."],
+        ["#2dc770", "HAPPY NEW YEAR", "{b}Thank you for the support during the year!{/b}\nI wish you all the best for 2024. Hana also wishes you a Merry Christmas with this {a=https://www.patreon.com/posts/hana-christmas-93163685?utm_source=iwh&utm_term=news_banner}4K Wallpaper{/a}."]
     ],
     "gravure_password" : "999",
     "locked_IDs" : [1],
