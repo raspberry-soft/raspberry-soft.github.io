@@ -3,22 +3,28 @@
 ## General Notes
 
 - Lines of dialogue are placed inside `""` quotations. If you want to use quotations inside the dialogue use `''`.
+
 ```renpy
 "Dialogue line."
 
 "Dialogue line with a 'quotation'"
 ```
+
 - Each line of text should be limited to approximately 75 characters long. You can do longer lines if there's no other option, but note that readers usually skip long lines of text.
 - You can make comments for me in the script by prefacing it with `# TODO`:
+
 ```renpy
 "Dialogue line" # TODO Please revise this line.
 ```
+
 - You can use the following symbols: `{heart}`, `{music}`.
+
 ```renpy
 "Bye, dear. {heart}"  # Note: An image of a heart (❤️) appears.
 
 "What a good day, la la la. {music}." # Note: An image of a music note (🎵) appears.
 ```
+
 - Everything is case-sensitive. `Aiko` and `aiko` are not the same.
 - Use honorifics, for example: `Aiko-chan`
 
@@ -65,19 +71,18 @@ Each time a character appears on a new scene, write: `show <character> <outfit> 
 
 The list of characters available as sprites are: `aiko` and `ryou`.
 The list of available outfits and expressions are on the respetive character folders.
-> Note: The main character has no full-body sprite image. It has a side image that don't need to be scripted when entering the scene.
+> Note: The main character has no full-body sprite image. It has a side image that don't need to be scripted to be shown. To make it appear, he have to talk or think using an expression.
 
 ```renpy
-show aiko uniform smiling  # Note: This makes the Aiko sprite appear.
+show aiko indoor smiling  # Note: Makes Aiko appear wearing the "indoor" outfit and making the "smiling" expression.
 ```
 ```renpy
-show aiko nude playful
+show ryou uniform angry  # Note: Makes Ryou appear wearing the "uniform" outfit and making the "angry" expression.
 ```
 ```renpy
-show ryou uniform angry  # Note: This makes the Ryou sprite appear.
-```
-```renpy
-mc smiling "Hi guys! I'm just a side image so you don't need to 'show' me."  # Note: This makes the main character side image appear.
+mc smiling "Hi guys! I'm just a side image!"  # Note: Makes the main character side image appear.
+
+mct smiling "Thinking makes me appear too!"  # Note: Also makes the main character side image appear.
 ```
 
 ## Character speaking WITHOUT changing expressions
@@ -135,16 +140,21 @@ A CG illustration event is a special case. The differences are:
 - Sprite images don't appear. All characters and expressions comes from the illustration and thus vary.
 - The CG events are planned and agreed ahead of time. If available, you'll have the actual image files. If not, I'll describe it to you.
 - When writing an event, the main character should describe the image presented to him.
-- Use `show cg <event name> <expression>` to switch:
+- Use `scene cg <event name> <variation>` to begin the scene:
+- Use `show cg <variation>` to switch between expressions or any other variation. Note that the `event name` is no longer needed.
 
 ```renpy
-show cg sexwithaiko moaning
+scene cg s3xwithaiko screaming
 
 a "Ahhh!"
+
+show cg smiling
+
+a "I'm smiling."
+
 ```
 
-
-# Script Example (Taken from your test)
+# Script Examples
 
 ## Normal Scene
 
@@ -185,15 +195,15 @@ a lusting "Ehehe. Honey..."
 
 ```renpy
 
-# Married Sex
+# Married s3x
 
-# Aiko and Hitoshi have loving sex but something feels off.
+# Aiko and Hitoshi have s3x but something feels off.
 
-show cg sexwithaiko moaning
+scene cg s3xwithaiko screaming
 
-a "Ahhhh!"
+a "Ahhh!"
 
-show cg sexwithaiko cumming
+show cg smiling
 
-a "I'm cumming!!!"
+a "I'm smiling."
 ```
