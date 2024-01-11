@@ -61,7 +61,7 @@ scene bg office boss night  # Note: "office boss" is the location and "night" is
 
 ## Character entering the scene
 
-Each time a character appears on a new scene, write: `show <name> <outfit> <expression>`.
+Each time a character appears on a new scene, write: `show <character> <outfit> <expression>`.
 
 The list of characters available as sprites are: `aiko` and `ryou`.
 The list of available outfits and expressions are on the respetive character folders.
@@ -129,7 +129,24 @@ The novel is first-person. If you want the main character to narrate events with
 "I'll always remember her..."
 ```
 
-## Script Example (Taken from your test)
+## Event CG illustration
+
+A CG illustration event is a special case. The differences are:
+- Sprite images don't appear. All characters and expressions comes from the illustration and thus vary.
+- The CG events are planned and agreed ahead of time. If available, you'll have the actual image files. If not, I'll describe it to you.
+- When writing an event, the main character should describe the image presented to him.
+- Use `show cg <event name> <expression>` to switch:
+
+```renpy
+show cg sexwithaiko moaning
+
+a "Ahhh!"
+```
+
+
+# Script Example (Taken from your test)
+
+## Normal Scene
 
 ```renpy
 
@@ -149,7 +166,7 @@ mc surprised "A-Aiko-chan..."
 
 a smiling "Hmmm? Yes?"
 
-mc "I-I was just thinking, I know nowadays I have been held up with unexpected overtime from work, never really having the time to pay attention to you... and today being one of the only few days where I get an off..."  # This sentence is way too long. Divide it in two lines."
+mc worried "I-I was just thinking, I know nowadays I have been held up with unexpected overtime from work, never really having the time to pay attention to you... and today being one of the only few days where I get an off..."  # This sentence is way too long. Divide it in two lines."
 
 mc nervous "I was thinking! P-perhaps there's something you'd like to do today...?"
 
@@ -164,7 +181,14 @@ mc sad "A-ah... I see... Alright... (sigh)"
 a lusting "Ehehe. Honey..."
 ```
 
+## Event Scene
+
 ```renpy
+
+# Married Sex
+
+# Aiko and Hitoshi have loving sex but something feels off.
+
 show cg sexwithaiko moaning
 
 a "Ahhhh!"
