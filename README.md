@@ -143,11 +143,11 @@ A CG illustration event is a special case. The differences are:
 - Use `show cg <variation>` to switch between expressions or any other variation. Note that the `event name` is no longer needed.
 
 ```renpy
-scene cg s3xwithaiko screaming
+scene cg s3xwithaiko screaming  # Note: "s3xwithaiko" is the event name and "screaming" is the variation.
 
 a "Ahhh!"
 
-show cg smiling
+show cg smiling  # Note: "smiling" is the variation. The event name is optional from this point. 
 
 a "I'm smiling."
 
