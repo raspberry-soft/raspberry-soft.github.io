@@ -29,8 +29,7 @@
 
 ## Scene Title / Organization
 
-For easy script navigation for us and the readers, each scene must begin with a title and a short description of what is about.
-That should be placed at the very top of the scene as a comment (using `#`), like this:
+For easy script navigation for us and the readers, each scene must begin with a title and a short description of what is about. It should be placed at the very top of the scene as a comment (using `#`), like this:
 
 ```renpy
 # Title (Use Title Case)
@@ -45,6 +44,15 @@ Example:
 
 # Aiko and Hitoshi have a pleasant conversation.
 ```
+
+Each scene correspond to one file, using the following nomenclature and file extension:
+`snr_001_scene_title.rpy`
+
+Example:
+
+`snr_001_married_talk.rpy`
+`snr_002_to_the_office.rpy`
+`snr_003_back_home.rpy`
 
 ## Location / Time
 
