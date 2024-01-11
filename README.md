@@ -139,7 +139,6 @@ The novel is first-person. If you want the main character to narrate events with
 A CG illustration event is a special case. The differences are:
 - Sprite images don't appear. All characters and expressions comes from the illustration and thus vary.
 - The CG events are planned and agreed ahead of time. If available, you'll have the actual image files. If not, I'll describe it to you.
-- When writing an event, the main character should describe the image presented to him.
 - Use `scene cg <event name> <variation>` to begin the scene:
 - Use `show cg <variation>` to switch between expressions or any other variation. Note that the `event name` is no longer needed.
 
