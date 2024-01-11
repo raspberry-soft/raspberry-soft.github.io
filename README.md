@@ -26,7 +26,6 @@
 ```
 
 - Everything is case-sensitive. `Aiko` and `aiko` are not the same.
-- Use honorifics, for example: `Aiko-chan`
 
 ## Scene Title / Organization
 
