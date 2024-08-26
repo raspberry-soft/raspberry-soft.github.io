@@ -84,7 +84,7 @@
     ],
     "gravure_password" : "999",
     "locked_IDs" : [1],
-    "banned_pws" : [706781, 796781, 716781],
+    "banned_pws" : [706781, 796781, 716781, 726783],
     "switch" : false,
     "locked_versions" : [],
     "extras_has_password" : true,
