@@ -2,8 +2,9 @@
     "version" : 92,
     "patreon_url" : "https://www.patreon.com/FallenEros",
 
-
-
+    "iwhor_password_url_dict" : {
+        "1" : "https://www.patreon.com/posts/109597406"
+    },
 
     "password_url_dict" : {
         "1" : "https://www.patreon.com/posts/84485646",
@@ -62,7 +63,6 @@
     "dlsite_favorites_goal" : 1000,
     "wallpaper_image_url" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8xMzQ0NjE5OS5wbmc=/original/wZo1sn.png",
     "patreon_wallpaper_url" : "https://www.patreon.com/posts/87603509",
-    "cien_wallpaper_url" : "https://ci-en.dlsite.com/creator/16563/article/970264",
 
     "news_version" : 2,
     "news_image_url" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8xNzU3NDE5Ny5wbmc=/original/JWgt0n.png",
@@ -73,7 +73,6 @@
         ["#12FFFF", "I MADE A COMIC!", "I made a {b}NTR comic{/b} about two guys confessing to a girl at the same time. How would she decide? You can check it out {a=visit_open_news_url:https://www.patreon.com/posts/ntr-comic-size-110805397}here{/a}."]
     ],
     
-    "gravure_password" : "999",
     "banned_pws" : [706781, 796781, 716781, 726783],
     "locked_IDs" : [1],
     "switch" : false,
@@ -87,5 +86,6 @@
     "test_url" : "https://www.patreon.com/posts/94269415",
     "dlc_password" : "999",
     "dlsite_url" : "https://www.dlsite.com/maniax/announce/=/product_id/RJ01011883.html",
+    "cien_wallpaper_url" : "https://ci-en.dlsite.com/creator/16563/article/970264",
     "news_url" : null
 }
