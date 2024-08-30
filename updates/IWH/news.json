@@ -2,7 +2,7 @@
     "version" : 92,
     "patreon_url" : "https://www.patreon.com/FallenEros",
 
-    "iwhor_password_url_dict" : {
+    "IWHOR_password_url_dict" : {
         "1" : "https://www.patreon.com/posts/109597406"
     },
 
@@ -45,24 +45,29 @@
         "41" : "https://www.patreon.com/posts/108682447",
         "42" : "https://www.patreon.com/posts/109597406"
     },
-    "IWH_latest_url" : "https://www.patreon.com/posts/109597406",
+    
     "IWH_latest_version" : "0.42.0",
+    "IWH_latest_url" : "https://www.patreon.com/posts/109597406",
+
+    "IWHOR_latest_version" : "0.1.0",
     "IWHOR_latest_url" : "https://www.patreon.com/posts/110316036",
     "IWH_onsen_dlc_url" : "https://www.patreon.com/posts/110316036",
-    "IWHOR_latest_version" : "0.1.0",
 
-    "IWHG_steam_url" : "https://store.steampowered.com/app/2232830/",
+    "IWHG_latest_version" : "0.1.0",
+    "IWHG_latest_url" : "https://store.steampowered.com/app/2232830/",
+
     "IWH_dlsite_url" : "https://www.dlsite.com/maniax/announce/=/product_id/RJ01011883.html",
+    "IWHG_steam_url" : "https://store.steampowered.com/app/2232830/",
     "IWH_walkthrough_url" : "https://www.patreon.com/posts/92190342",
     "IWH_animations_url" : "https://www.patreon.com/posts/95441345",
     "IWH_previews_url" : "https://www.patreon.com/posts/102053433",
     "IWH_gallery_url" : "https://www.patreon.com/posts/65529903",
+    "patreon_wallpaper_url" : "https://www.patreon.com/posts/87603509",
+    
     "steam_current_wishlists" : 4900,
     "steam_wishlist_goal" : 5000,
     "dlsite_current_favorites" : 990,
     "dlsite_favorites_goal" : 1000,
-    "wallpaper_image_url" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8xMzQ0NjE5OS5wbmc=/original/wZo1sn.png",
-    "patreon_wallpaper_url" : "https://www.patreon.com/posts/87603509",
 
     "news_version" : 2,
     "news_image_url" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8xNzU3NDE5Ny5wbmc=/original/JWgt0n.png",
@@ -77,6 +82,7 @@
     "locked_IDs" : [1],
     "switch" : false,
     "locked_versions" : [],
+
     "extras_has_password" : true,
     "public_version" : 8,
     "downgraded_versions" : [],
