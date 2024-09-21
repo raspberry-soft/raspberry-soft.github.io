@@ -3,7 +3,7 @@
     "patreon_url" : "https://www.patreon.com/FallenEros",
 
     "IWHOR_password_url_dict" : {
-        "1" : "https://www.patreon.com/posts/109597406"
+        "1" : "https://www.patreon.com/posts/110316036"
     },
 
     "password_url_dict" : {
@@ -65,19 +65,19 @@
     "patreon_wallpaper_url" : "https://www.patreon.com/posts/87603509",
     
     "steam_current_wishlists" : 4900,
-    "steam_wishlist_goal" : 5000,
+    "steam_wishlist_goal" : 7000,
     "dlsite_current_favorites" : 990,
     "dlsite_favorites_goal" : 1000,
 
     "news_version" : 2,
     "news_image_url" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8xNzU3NDE5Ny5wbmc=/original/JWgt0n.png",
-    "news_date" : "September 6, 2024",
+    "news_date" : "September 24, 2024",
     "news_text" : [
         ["#3ef954", "A SPICY NEW ADVENTURE", "{b}I'm excited to announce{/b} {indecent_wife_hana=onsen_revenge}!\nHana and Tatsuki go to a sinful hot springs resort and meet new characters! {b}Let the fun begin!{/b} You can find out more {a=visit_open_news_url:https://www.patreon.com/posts/110316036}here{/a}."],
         ["#d58bff", "A BRAND NEW HEROINE", "{b}Meet Aiko, the star of my upcoming game{/b}.\nShe will be {b}joining soon{/b}, and yes, it will be {b}NTRS{/b}. You can find out more {a=visit_open_news_url:https://www.patreon.com/posts/95678372}here{/a}."],
         ["#12FFFF", "I MADE A COMIC!", "I made a {b}NTR comic{/b} about two guys confessing to a girl at the same time. How would she decide? You can check it out {a=visit_open_news_url:https://www.patreon.com/posts/ntr-comic-size-110805397}here{/a}."]
     ],
-    
+
     "banned_pws" : [706781, 796781, 716781, 726783],
     "locked_IDs" : [1],
     "switch" : false,
@@ -86,8 +86,8 @@
     "extras_has_password" : true,
     "public_version" : 8,
     "downgraded_versions" : [],
-    "current_wishlists" : 2900,
-    "wishlist_goal" : 3000,
+    "current_wishlists" : 4900,
+    "wishlist_goal" : 7000,
     "test_version" : null,
     "test_url" : "https://www.patreon.com/posts/94269415",
     "dlc_password" : "999",
