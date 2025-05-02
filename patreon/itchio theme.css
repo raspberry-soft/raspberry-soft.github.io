@@ -1,0 +1,450 @@
+.wrapper{
+    --itchio_font_family:'Atma';
+    --itchio_bg_color:#ffffff;
+    --itchio_bg2_color:rgba(255, 255, 255, 1);
+    --itchio_bg2_sub:#e5e5e5;
+    --itchio_text_color:#333;
+    --itchio_link_color:#6633cc;
+    --itchio_border_color:#d8d8d8;
+    --itchio_button_color:#6633cc;
+    --itchio_button_fg_color:#ffffff;
+    --itchio_button_shadow_color:#7f4ce5;
+    background-color:#ffffff;
+}
+
+/******************************************************************************/
+
+
+/* WHOLE PAGE: default width 960px */
+
+.inner_column{
+    color:#333;
+    /* font-family:'Open Sans',Lato,LatoExtended,sans-serif; */
+    background-color:rgba(255, 255, 255, 1);
+}
+.inner_column ::selection{
+    color:#ffffff;
+    background:#6633cc;
+}
+.inner_column ::-moz-selection{
+    color:#ffffff;
+    background:#6633cc;
+}
+.inner_column h1,.inner_column h2{
+    /* font-family:'Open Sans'; */
+    font-weight:bold;
+    color:#fff;
+}
+.inner_column a,.inner_column .footer a{
+    color:#6633cc;
+}
+.inner_column .button,.inner_column .button:hover,.inner_column .button:active{
+    background-color:#6633cc;
+    color:#ffffff;
+    text-shadow:0 1px 0px #7f4ce5;
+}
+.inner_column table{
+    border-color:#d8d8d8;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    font-size: medium;
+    border-spacing: 2px;
+    border-color: grey;
+    width: 400px;
+}
+@media only screen and (max-width: 999px){
+    .inner_column table{width: 95%;}
+}
+.inner_column td {
+    line-height: 22px;
+    /* font-family: "ＭＳ Ｐゴシック","ヒラギノ角ゴ Pro W3",Osaka; */
+    color: #ffffff;
+}
+
+/******************************************************************************/
+
+/* COLUMN WO THE BG */
+
+/* BG img */
+.view_game_page{
+    background-image:url(https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8xMjYwNjMwOC5wbmc=/original/ZobAuH.png);
+    background-attachment:fixed;
+    background-position:center center;
+    background-size:cover;
+    text-align:center;
+}
+
+.view_game_page .game_info_panel_widget{
+    background:rgba(229, 229, 229, 1);
+}
+.view_game_page .star_value .star_fill{
+    color:#6633cc;
+}
+.view_game_page .right_col{
+    display:block;
+}
+
+/******************************************************************************/
+
+.game_community_preview_widget .community_topic_row .topic_tag{
+    background-color:#e5e5e5;
+}
+
+.footer .svgicon,.view_game_page .more_information_toggle .svgicon{
+    fill:#333!important;
+}
+
+
+.left_col #demo{
+    visibility:hidden;position:relative;
+}
+.left_col #demo:after{
+    visibility:visible;
+    content:"Download Free Version";
+    background:rgba(0,0,0,0.85)!important;
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    padding-top:2em;
+    box-sizing:border-box;
+}
+.responsive .wrapper{padding:0!important;}
+
+.header h1{display:none;}
+
+.game_community_preview_widget .community_topic_row{padding:0.5em 1em;}
+
+.game_community_preview_widget .community_topic_row .primary_data{
+    text-align:left;
+    padding:0 1em;
+}
+.game_community_preview_widget .community_topic_row .avatar_container .post_avatar{
+    width:40px;
+    height:40px;
+}
+.responsive .inner_column{max-width:100%;}
+
+.responsive .inner_column h1,.responsive .inner_column h2,.responsive .inner_column h3,.responsive .inner_column h4{
+    color:#d595ff;
+}
+
+/******************************************************************************/
+
+/* PURCHASE HEADER */
+
+/* Main img */
+.header_buy_row{
+    text-align:left;
+    width:100%;
+    max-width:1280px;
+    box-sizing:border-box;
+    padding:7em 2em;
+    display:inline-block!important;
+    color:#fff;
+    background-image:url(https://img.itch.zone/aW1hZ2UvMTQzMjc3NS84NzYxMDg1LnBuZw==/original/R80Jbt.png);
+    background-position:right center;
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+.header_buy_row::before{
+    display:inline-block;
+    content:'Indecent Wife Hana';
+    font-size:3.5em;
+    font-weight:bold;
+    line-height:0.95em;
+    margin:0 20px;
+    max-width:300px;
+    position:relative;
+    left:-3px;
+    letter-spacing:-0.1em;
+    text-align:center;
+}
+.header_buy_row::after{
+    display:inline-block;
+    /* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Delete below in free version ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+    content:'or download the free version below ↓';
+    margin:0 20px;
+    max-width:300px;
+    font-size:0.9em;
+    opacity:0.65;
+}
+.header_buy_row p{max-width:300px;}
+
+.header_buy_row p::before{content:'';}
+
+@media only screen and (max-width: 1280px){
+    .header_buy_row{background-image:none;text-align:center;}
+    .header_buy_row p{margin:20px auto!important;}
+}
+
+/******************************************************************************/
+
+/* BUY NOW BUTTON */
+
+.left_col .buy_row .button_message,.header_buy_row .buy_row .button_message{
+    background:#111111;
+    border:1px solid #323232;
+    padding-right:0.5em;
+    box-shadow:0 0 10px 0 rgba(0,0,0,0.5);
+}
+.left_col .buy_row .button_message:hover,.header_buy_row .buy_row .button_message:hover{
+    border-color:#6633cc;
+}
+.left_col .buy_row .button_message a,.header_buy_row .buy_row .button_message a{
+    background:#242424;
+    border-radius:0;
+    color:#fff;
+    border:none;
+    text-shadow:none;
+}
+.left_col .buy_row .button_message a:hover,.header_buy_row .buy_row .button_message a:hover{
+    background:#6633cc;
+    border-radius:0;
+    color:#fff;
+    border:none;
+    text-shadow:none;
+}
+
+/******************************************************************************/
+
+.columns{
+    flex-direction:column;
+    margin-top:0;
+}
+.columns .left_col{
+    order:2;
+    width:100%;
+    padding:0;
+}
+.columns .left_col>h2,.columns .left_col .buy_row,.columns .left_col .uploads,.columns .left_col .community_summary{
+    background:rgba(0,0,0,0.85)!important;
+    color:#fff;
+}
+.columns .left_col .community_summary .post_links{
+    margin-bottom:0!important;
+    padding-bottom:3em;
+}
+
+/******************************************************************************/
+
+/* SCREENSHOTS */
+
+.columns .right_col{
+    order:1;
+    width:100%;
+    overflow-x:auto;
+    overflow-y:hidden;
+    padding:1em 0.5em;
+    box-sizing:border-box;
+    text-align:center;
+    background:rgba(255,255,255,0.25);
+}
+.view_game_page .screenshot_list{white-space:nowrap;text-align:center;}
+.responsive .view_game_page .screenshot_list{font-size:1em;text-overflow:clip;overflow:visible;}
+.responsive .view_game_page .screenshot_list a:last-child{margin-right:0.5em;}
+.responsive .view_game_page .screenshot_list img.screenshot{
+    display:inline-block;
+    max-height:6em;
+    margin:0.5em;
+    vertical-align: middle
+    box-shadow:0 5px 10px 0 rgba(0,0,0,0.25);
+}
+
+/******************************************************************************/
+
+/* USER PRODUCT DESCRIPTION */
+
+.view_game_page .formatted_description{margin:0;}
+.custom-product-description{
+    display:block;
+    background:#000;
+    color:#d595ff;
+    text-align:center;
+}
+.custom-product-description div{max-width:1000px;padding:2em 0;margin:0 auto;}
+.custom-product-description h2{
+    color:#d595ff;
+    font-weight:600;
+    font-size:1.85em;
+    padding:0 1em;
+    margin:0.75em 0 1.5em 0;
+}
+.custom-product-description div+h2{padding:1em 1em 0em 1em;}
+.custom-product-description p{color:#fff;padding:0 1em;}
+.custom-product-description p a{color:#d595ff;}
+.custom-product-description table a{color:#d595ff;}
+.custom-product-description img{max-height:480px;margin:0 auto;}
+
+.custom-product-description div.custom-grid-container{padding:0;margin:-2em 0 0 0;}
+
+div.custom-grid-column{width:100%;box-sizing:border-box;display:inline-block;color:#fff;padding:1em;width:100%;}
+@media only screen and (min-width: 599px){
+    div.custom-grid-column{width:50%;}
+}
+@media only screen and (min-width: 999px){
+    div.custom-grid-column{width:33%;}
+}
+
+/******************************************************************************/
+
+/* MORE INFO */
+
+.view_game_page .more_information_toggle{
+    background:#fff;
+    margin:0;
+    padding:0;
+    color:#6633cc;
+    text-align:center;
+    padding-bottom:2em;
+}
+.view_game_page .more_information_toggle a{
+    color:#6633cc;
+    text-decoration:none;
+}
+.view_game_page .more_information_toggle .svgicon{
+    fill:#6633cc!important;
+}
+.view_game_page .info_panel_wrapper,.view_game_page .game_info_panel_widget{
+    background:#fff;
+    max-width:700px;
+    margin:0 auto;
+}
+.view_game_page .game_info_panel_widget table{
+    width:100%;
+    margin-top:0;
+}
+.view_game_page .game_info_panel_widget td{
+    padding:0.5em;
+    border-bottom:1px solid #e5e5e5;
+    color:#333;
+}
+
+/******************************************************************************/
+
+/* PURCHASE TEXT AND BUY NOW BUTTON */
+
+#purchase,#demo{margin:0;padding:2em 1em 1em 1em;text-align:center;font-weight:600;font-size:1.85em;}
+#purchase+.buy_row{padding:1em;margin:0;text-align:center;}
+#purchase{background:linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.15));}
+
+#download,#demo{margin:0;padding:2em 1em 1em 1em;text-align:center;font-weight:600;font-size:1.85em;}
+#download+.buy_row{padding:1em;margin:0;text-align:center;}
+#download{background:linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.15));}
+
+/******************************************************************************/
+
+/* UPLOADS */
+
+.uploads{margin:0;padding:0;}
+.view_game_page .uploads p{
+    max-width:1000px;
+    box-sizing:border-box;
+    padding:1em 1em 2em 1em;
+    margin:0 auto;
+    display:block;
+    text-align:center;
+}
+.view_game_page .uploads .upload_list_widget{
+    max-width:1200px;
+    padding:0;
+    margin:0 auto;
+    /* ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Delete below in paid version ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ */
+    border-bottom:3em solid rgba(0,0,0,0);
+    box-sizing:border-box;
+}
+.view_game_page .uploads .upload_list_widget .upload{
+    padding:1em;
+    background:margin: 0;
+    background:transparent;
+    border:0.5em solid rgba(0,0,0,0);
+    margin-bottom:-0.5em;
+}
+@media only screen and (min-width: 999px){
+    .view_game_page .uploads .upload_list_widget .upload{
+        display:inline-block;
+        padding:1em;
+        width:33%;
+        box-sizing:border-box;
+        margin:0;
+    }
+}
+.view_game_page .uploads .upload_list_widget .upload .download_btn{width:100%;margin-bottom:1em;}
+.uploads.for_demo{
+    padding-bottom:5.5em;
+    background:linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.15));
+}
+
+/******************************************************************************/
+
+/* COMMENTS */
+
+.game_comments_widget {
+    background:#fff;
+    padding-bottom: 0.5em;
+}
+.responsive .inner_column .game_comments_widget h2 {
+    color: #6633cc;
+}
+.community_post_list_widget {
+    text-align: left;
+}
+.community_post .post_header a{
+    /* color:#d595ff; */
+}
+
+/******************************************************************************/
+
+/* DEVLOG */
+
+#devlog{margin:0;}
+.community_summary{
+    padding:4em 0 0 0;
+    background:linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.15));
+}
+#devlog{background-color:#fff;color:#333;}
+#devlog h2,.community_summary h2{
+    text-align:center;
+    padding:1.85em 1em 1em 1em;
+    margin:0;
+    display:block;
+    color:#6633cc;
+    max-width:1000px;
+    box-sizing:border-box;
+    margin:0 auto;
+    font-weight:600;
+    font-size:1.85em;
+}
+.community_summary h2{color:#fff!important;padding:0 1em 2em 1em;}
+#devlog ul{margin:0 auto;padding:1em;max-width:1000px;box-sizing:border-box;}
+#devlog ul li{padding:0.75em 0;margin:0;}
+#devlog ul li+li{border-top:1px solid #e5e5e5;}
+#devlog a{color:#6633cc;text-decoration:none;}
+#devlog p{text-align:center;margin:0 auto;padding:1em 1em 4em 1em;max-width:1000px;box-sizing:border-box;}
+.community_summary .game_community_preview_widget{padding:0;margin:0;max-width:1000px;box-sizing:border-box;margin:0 auto;}
+.community_summary .game_community_preview_widget .community_topics{margin:0;}
+.community_summary .game_community_preview_widget a{color:#fff;text-decoration:none;font-weight:600;opacity:1;}
+.community_summary .game_community_preview_widget .post_links{text-align:center;padding-top:1em;}
+.community_summary .game_community_preview_widget .sticky_flag{background:#6633cc;}
+
+
+@media only screen and (min-width: 599px){
+    .custom-what-is-mannequin h2{padding:0 2em;}
+    .custom-what-is-mannequin div+h2{padding:1em 2em 0em 2em;}
+    .custom-what-is-mannequin p{padding:0 2em;}
+    .custom-what-is-mannequin div.custom-grid-container{padding:2em 1em 0 1em;}
+    .view_game_page .game_info_panel_widget{padding:0 2em;}
+    .view_game_page .uploads p{padding:1em 2em 2em 2em;}
+    .view_game_page .uploads .upload_list_widget{padding:0 2em;}
+    #devlog ul{padding:1em 2em;}
+    .community_summary .game_community_preview_widget{padding:0 1em;}
+    .columns .right_col{padding:1em;}
+    .responsive .view_game_page .screenshot_list img.screenshot{margin:1em;}
+    .responsive .view_game_page .screenshot_list a:last-child{margin-right:1em;}
+    .view_game_page .uploads .upload_list_widget .upload{margin-bottom:0;}
+}
+
+
+.custom-grid-column img{max-height:12em;display:block;margin:1em auto 2em auto;}
