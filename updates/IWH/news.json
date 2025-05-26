@@ -1,8 +1,8 @@
 {
-    "version" : 94,
+    "version" : 95,
     "patreon_url" : "https://www.patreon.com/FallenEros",
 
-    "IWH_franchise_latest_url" : "https://www.patreon.com/posts/116107482",
+    "IWH_franchise_latest_url" : "https://www.patreon.com/posts/128870429",
 
     "IWHOR_password_url_dict" : {
         "1" : "https://www.patreon.com/posts/112519805",
@@ -49,8 +49,8 @@
         "42" : "https://www.patreon.com/posts/109597406"
     },
     
-    "IWH_latest_version" : "0.42.0",
-    "IWH_latest_url" : "https://www.patreon.com/posts/109597406",
+    "IWH_latest_version" : "0.43.0",
+    "IWH_latest_url" : "https://www.patreon.com/posts/128870429",
 
     "IWHOR_latest_version" : "0.2.0",
     "IWHOR_latest_url" : "https://www.patreon.com/posts/116107482",
