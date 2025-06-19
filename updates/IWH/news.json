@@ -85,7 +85,28 @@
         ["#12FFFF", "THANK YOU FOR 5000 STEAM WISHLISTS!", "Thanks to you {indecent_wife_hana=gravure} reched this big milestone! As a developer it helps a lot! If you haven't already, add it to your wishlist {a=open_news_url:https://store.steampowered.com/app/2232830/}here{/a}."]
     ],
 
-    "news_carousel" : null,
+    "news_carousel" : {
+        "iwh" : [
+            {
+            "image" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8xMjYyNjQxMy5wbmc=/original/HDiMxm.png",
+            "url" : "https://www.patreon.com/FallenEros"
+            },
+            {
+            "image" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8xODE1MjQ1My5wbmc=/original/YATqUb.png",
+            "url" : "https://www.patreon.com/falleneros/membership"
+            },
+            {
+            "image" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8yMTEzMjMzNy5wbmc=/original/3AK7Ea.png",
+            "url" : "https://www.patreon.com/falleneros/about"
+            }
+        ],
+        "iwhor" : [
+            {
+            "image" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8xMjYyNjQxMy5wbmc=/original/HDiMxm.png",
+            "url" : "https://www.patreon.com/FallenEros"
+            }
+        ]
+    },
 
     "banned_pws" : [706781, 796781, 716781, 726783],
     "locked_IDs" : [1],
