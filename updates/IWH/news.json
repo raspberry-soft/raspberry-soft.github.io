@@ -91,13 +91,29 @@
             "image" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8yMTc1MzYwMi5wbmc=/original/YqpWao.png",
             "url" : "https://store.steampowered.com/app/2232830/"
             },
-
+            {
+            "image" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8yMTc1Mzg3My5wbmc=/original/JX1lAU.png",
+            "url" : "https://www.patreon.com/posts/121627424"
+            },
+            {
+            "image" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8yMTc1Mzc3MS5wbmc=/original/U4rB6C.png",
+            "url" : "https://www.patreon.com/posts/130907276"
+            }
+        ],
+        "iwhor" : [
+            {
+            "image" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8yMTc1MzYwMi5wbmc=/original/YqpWao.png",
+            "url" : "https://store.steampowered.com/app/2232830/"
+            },
+            {
+            "image" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8yMTc1Mzg3My5wbmc=/original/JX1lAU.png",
+            "url" : "https://www.patreon.com/posts/121627424"
+            },
             {
             "image" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8yMTc1Mzc3MS5wbmc=/original/U4rB6C.png",
             "url" : "https://www.patreon.com/posts/130907276"
             }
         ]
-
     },
 
     "banned_pws" : [706781, 796781, 716781, 726783],
