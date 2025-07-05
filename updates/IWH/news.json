@@ -117,7 +117,7 @@
         ]
     },
 
-    "banned_pws" : [706781, 796781, 716781, 726783],
+    "banned_pws" : [717221, 706781, 796781, 716781, 726783],
     "locked_IDs" : [1],
     "switch" : false,
     "locked_versions" : [],
