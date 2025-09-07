@@ -87,7 +87,18 @@
         ["#12FFFF", "THANK YOU FOR 5000 STEAM WISHLISTS!", "Thanks to you {indecent_wife_hana=gravure} reched this big milestone! As a developer it helps a lot! If you haven't already, add it to your wishlist {a=open_news_url:https://store.steampowered.com/app/2232830/}here{/a}."]
     ],
 
-    "news_ab_test" : null,
+    "news_ab_test" : {
+        "iwh" : [
+            {
+            "image" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8yMjE4MTUzNi5wbmc=/original/HzZDKg.png",
+            "url" : "https://bit.ly/3GH0ARM"
+            },
+            {
+            "image" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8yMjE4MDg5OS5wbmc=/original/2nwfVX.png",
+            "url" : "https://bit.ly/44BblhF"
+            }
+        ]
+    },
 
     "news_carousel" : {
         "iwh" : [
