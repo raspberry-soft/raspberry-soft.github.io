@@ -103,13 +103,13 @@
     "news_carousel" : {
         "iwh" : [
             {
-            "image" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8yMjE4MTUzNi5wbmc=/original/HzZDKg.png",
-            "url" : "https://bit.ly/3GH0ARM"
-            },
-            {
             "image" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8yMjE4MDg5OS5wbmc=/original/2nwfVX.png",
             "url" : "https://bit.ly/44BblhF"
-            }
+            },
+            {
+            "image" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8yMjE4MTUzNi5wbmc=/original/HzZDKg.png",
+            "url" : "https://bit.ly/3GH0ARM"
+            }          
         ],
         "iwhor" : [
             {
