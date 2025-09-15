@@ -1,8 +1,8 @@
 {
-    "version" : 97,
+    "version" : 98,
     "patreon_url" : "https://www.patreon.com/FallenEros",
 
-    "IWH_franchise_latest_url" : "https://www.patreon.com/posts/132070847",
+    "IWH_franchise_latest_url" : "https://www.patreon.com/posts/134231574",
 
     "IWHOR_password_url_dict" : {
         "1" : "https://www.patreon.com/posts/112519805",
@@ -53,8 +53,8 @@
         "46" : "https://www.patreon.com/posts/134231574"
     },
     
-    "IWH_latest_version" : "0.45.0",
-    "IWH_latest_url" : "https://www.patreon.com/posts/132070847",
+    "IWH_latest_version" : "0.46.0",
+    "IWH_latest_url" : "https://www.patreon.com/posts/134231574",
 
     "IWHOR_latest_version" : "0.2.0",
     "IWHOR_latest_url" : "https://www.patreon.com/posts/116107482",
@@ -78,7 +78,7 @@
     "dlsite_current_favorites" : 990,
     "dlsite_favorites_goal" : 1000,
 
-    "news_version" : 5,
+    "news_version" : 6,
     "news_image_url" : "https://img.itch.zone/aW1hZ2UvMTQzMjc3NS8yMTEzMjMzNy5wbmc=/original/3AK7Ea.png",
     "news_date" : "May 11, 2025",
     "news_text" : [
