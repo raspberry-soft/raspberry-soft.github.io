@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Game Download</title>
+    <!-- <link rel="icon" href="favicon.ico"> -->
+
+  <style>
+    :root{
+      /* 🌸 Pink cute card */
+      --bg-top: #ffb6d5;
+      --bg-mid: #ff8fc3;
+      --bg-bot: #c56aa6;
+
+      --text: rgba(255,255,255,.95);
+      --muted: rgba(255,255,255,.85);
+
+      --btn-bg: rgba(255,255,255,.96);
+      --btn-text: #a13a72;
+
+      --btn-shadow: 0 12px 30px rgba(161,58,114,.35);
+      --radius: 42px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body{
+      margin: 0;
+      min-height: 100svh;
+      display: grid;
+      place-items: center;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+
+      /* 💙 Cute blue background */
+      background:
+        radial-gradient(60% 40% at 20% 10%, #cfe9ff, transparent 60%),
+        radial-gradient(60% 40% at 80% 90%, #b9ddff, transparent 65%),
+        linear-gradient(180deg, #e9f5ff 0%, #cfe7ff 100%);
+
+      padding: 24px;
+    }
+
+    .phone{
+      width: min(420px, 92vw);
+      min-height: 720px;
+      border-radius: var(--radius);
+      padding: 44px 26px 28px;
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(
+        180deg,
+        var(--bg-top) 0%,
+        var(--bg-mid) 45%,
+        var(--bg-bot) 100%
+      );
+      box-shadow:
+        0 30px 90px rgba(197,106,166,.45),
+        inset 0 0 0 1px rgba(255,255,255,.25);
+    }
+
+    .phone::after{
+      content:"";
+      position:absolute;
+      inset:-40px;
+      background:
+        radial-gradient(70% 45% at 50% 10%, rgba(255,255,255,.45), transparent 60%),
+        radial-gradient(80% 60% at 50% 90%, rgba(160,50,120,.35), transparent 65%);
+      pointer-events:none;
+    }
+
+    .content{
+      position: relative;
+      z-index: 1;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 10px;
+    }
+
+    /* 🔵 Avatar */
+    .avatar{
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-top: 6px;
+
+      background: linear-gradient(135deg,#ffd6ea,#ff9fca);
+      box-shadow:
+        0 14px 32px rgba(197,106,166,.55),
+        inset 0 0 0 3px rgba(255,255,255,.65);
+
+      display: grid;
+      place-items: center;
+      position: relative;
+    }
+
+    .avatar img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .avatar .initials{
+      position: absolute;
+      font-weight: 800;
+      font-size: 24px;
+      color: #a13a72;
+      letter-spacing: .06em;
+      user-select: none;
+      pointer-events: none;
+    }
+
+    h1{
+      margin: 12px 0 0;
+      color: var(--text);
+      font-size: 23px;
+      font-weight: 800;
+      text-shadow: 0 3px 16px rgba(161,58,114,.35);
+    }
+
+    .subtitle{
+      margin: 4px 0 20px;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .links{
+      width: 100%;
+      display: grid;
+      gap: 16px;
+    }
+
+    .btn{
+      height: 58px;
+      width: 100%;
+      border-radius: 999px;
+      background: var(--btn-bg);
+      color: var(--btn-text);
+      text-decoration: none;
+      font-weight: 800;
+      letter-spacing: .25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: var(--btn-shadow);
+      transition: transform .14s ease, box-shadow .14s ease;
+    }
+
+    .btn:hover{
+      transform: translateY(-2px);
+      box-shadow: 0 18px 38px rgba(161,58,114,.45);
+    }
+
+    .spacer{
+      flex: 1;
+      min-height: 28px;
+    }
+
+    footer{
+      color: rgba(255,255,255,.9);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    footer .company{
+      display:block;
+      margin-top: 6px;
+      font-weight: 800;
+      letter-spacing: .03em;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="phone">
+    <img src="https://swjfv.bemobtrcks.com/conversion.gif?cid=OPTIONAL&payout=OPTIONAL&txid=OPTIONAL&status=OPTIONAL" width="1" height="1" border="0" alt="" />
+    <div class="content">
+
+      <!-- 🟣 Profile picture (square image auto-cropped to circle) -->
+      <div class="avatar">
+        <img src="IMG/profile.png" alt="Game cover or profile image"
+             onerror="this.style.display='none'">
+        <!-- <span class="initials">GT</span> -->
+      </div>
+
+      <h1>Indecent Wife Hana</h1>
+      <div class="subtitle">by Fallen Eros</div>
+
+      <div class="links">
+        <a class="btn" target="_blank" href="https://raspberrysoft.itch.io/indecent-wife-hana">Play on Web Browser</a>
+        <a class="btn" target="_blank" href="#">PC Download</a>
+        <a class="btn" target="_blank" href="#">Android Download</a>
+      </div>
+
+      <div class="spacer"></div>
+
+      <footer>
+        <span class="company">Thank You for Playing!</span>
+      </footer>
+
+    </div>
+  </main>
+</body>
+</html>
