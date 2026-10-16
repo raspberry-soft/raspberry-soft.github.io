@@ -65,9 +65,9 @@
       <p>The games page lets you log in with Patreon to get the downloads your membership includes.</p>
       <ul>
         <li>When you click <strong>Login with Patreon</strong>, you go to Patreon's own site, which asks whether you allow our website to see your account. We never see your Patreon password.</li>
-        <li>If you allow it, Patreon tells our login server who you are and which of our membership tiers you currently have.</li>
-        <li>From that, we keep only <strong>your Patreon name, your tier name and your tier price</strong>. Our server puts them in a signed login pass and sends it back to your browser. The server does not save it or any other information about you.</li>
-        <li>Your browser keeps the login pass for up to 7 days, so you don't have to log in on every visit. <strong>Log out</strong> on the games page deletes it.</li>
+        <li>If you allow it, Patreon sends our login server your basic Patreon profile (your name, profile picture link, account creation date, like count and whether your email is verified) and your Patreon memberships, including those with other creators.</li>
+        <li>From that, we keep only <strong>your Patreon name, your tier name and your tier price</strong>. Our server puts them in a signed login pass and sends it back to your browser, and throws the rest away. The server does not save the pass or any other information about you.</li>
+        <li>Your browser keeps the login pass so you don't have to log in on every visit. It works for 7 days; after that our server refuses it, and the games page deletes it on your next visit. <strong>Log out</strong> on the games page, or clearing this site's data, deletes it right away.</li>
       </ul>
       <p>You can also remove our website's access at any time in your Patreon account settings, under the apps you've connected.</p>
 
@@ -85,7 +85,6 @@
         <li><strong>Render</strong> hosts our login server and keeps short-term request logs.</li>
         <li><strong>Patreon</strong> handles the login and your membership.</li>
         <li><strong>Steam, itch.io and X (Twitter)</strong> content is embedded on some pages and may set its own cookies when it loads.</li>
-        <li>The download page loads an advertising conversion pixel from <strong>bemobtrcks.com</strong>, which counts visits from ads.</li>
       </ul>
 
       <h2>Cookies and browser storage</h2>
