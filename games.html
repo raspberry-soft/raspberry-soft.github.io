@@ -68,6 +68,13 @@
 
     .account .who strong { color: var(--text); }
 
+    .account-actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+
     .notice {
       min-height: 22px;
       text-align: center;
@@ -400,6 +407,7 @@
         pledgeLine(card),
         el("p", { class: "hint" }, "Your current tier doesn't include this game yet."),
         upgrade,
+        el("a", { class: "hint", href: `${API}/api/web/login` }, "Already upgraded? Refresh your tier"),
       );
     }
 
@@ -444,6 +452,9 @@
       who.append(el("strong", {}, data.name || "Patreon user"));
       who.append(data.tier ? ` · ${data.tier}` : " · no active pledge");
 
+      // The server keeps the tier from the last login, so after an upgrade the patron logs in again.
+      const refresh = el("a", { class: "btn btn-small", href: `${API}/api/web/login` }, "Refresh tier");
+
       const logout = el("button", { class: "btn btn-small", type: "button" }, "Log out");
       logout.addEventListener("click", () => {
         savePass(null);
@@ -452,7 +463,9 @@
         render();
       });
 
-      accountBox.replaceChildren(who, logout);
+      const actions = el("div", { class: "account-actions" });
+      actions.append(refresh, logout);
+      accountBox.replaceChildren(who, actions);
     }
 
     // ── talking to the server ──
