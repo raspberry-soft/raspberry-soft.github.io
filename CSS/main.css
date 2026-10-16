@@ -692,3 +692,24 @@ font-weight: 700;
 font-family:monospace;
 
 }
+
+/* games page button, same size as the image buttons in the side menu */
+a.games_button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 250px;
+	height: 80px;
+	background: #1b0811;
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	text-decoration: none;
+}
+
+a.games_button:hover {
+	background: #430e24;
+	color: #ffffff;
+}
