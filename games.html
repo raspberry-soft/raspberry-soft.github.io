@@ -416,7 +416,7 @@
     }
 
     function pledgeLine(card) {
-      const line = el("p", { class: "pledge" }, `Pledge $${card.dataset.pledge} to unlock`);
+      const line = el("p", { class: "pledge" }, `Pledge $${card.dataset.pledge} to Unlock`);
       line.append(el("small", {}, `${card.dataset.tier} tier or higher`));
       return line;
     }
