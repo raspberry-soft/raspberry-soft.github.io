@@ -241,6 +241,32 @@
       font-size: 13px;
     }
 
+    footer .legal { margin-bottom: 6px; font-size: 14px; }
+
+    /* bottom notice, like the one on most sites */
+    .cookie-notice {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      padding: 12px 16px;
+      background: var(--card);
+      border-top: 1px solid var(--card-edge);
+      color: var(--muted);
+      font-size: 14px;
+      z-index: 10;
+    }
+
+    .cookie-notice[hidden] { display: none; }
+
+    .cookie-notice .btn-small { color: var(--text); flex: none; }
+
+    body.has-notice { padding-bottom: 96px; }
+
     @media (max-width: 480px) {
       .game h2 { font-size: 19px; }
       .btn-download { flex-basis: 100%; }
@@ -313,8 +339,14 @@
     </main>
 
     <footer>
+      <p class="legal"><a href="privacy-policy.html">Privacy Policy</a> · <a href="cookie-policy.html">Cookie Policy</a></p>
       Copyright © 2026 <a href="https://www.patreon.com/FallenEros" target="_blank" rel="noopener">RaspberrySoft / Fallen Eros</a>. All Rights Reserved.
     </footer>
+  </div>
+
+  <div class="cookie-notice" id="cookie-notice" hidden>
+    <p>We only store what the Patreon login needs. Embedded Steam content may set its own cookies. <a href="cookie-policy.html">Cookie Policy</a></p>
+    <button class="btn btn-small" type="button" id="cookie-ok">OK</button>
   </div>
 
   <script>
@@ -323,6 +355,7 @@
     const API = "https://falleneros-auth.onrender.com";
     const PATREON_JOIN = "https://www.patreon.com/checkout/FallenEros";
     const PASS_KEY = "raspberrysoft-web-pass";
+    const NOTICE_KEY = "raspberrysoft-notice-ok";
 
     const PLATFORM_LABELS = { pc: "PC", mac: "Mac", android: "Android" };
     const PLATFORM_ICONS = {
@@ -541,6 +574,26 @@
     }
 
     render();
+
+    // ── cookie notice ──
+
+    function showCookieNotice() {
+      try {
+        if (localStorage.getItem(NOTICE_KEY)) return;
+      } catch (e) { /* storage blocked: show it every visit */ }
+
+      const bar = document.getElementById("cookie-notice");
+      bar.hidden = false;
+      document.body.classList.add("has-notice");
+
+      document.getElementById("cookie-ok").addEventListener("click", () => {
+        bar.hidden = true;
+        document.body.classList.remove("has-notice");
+        try { localStorage.setItem(NOTICE_KEY, "1"); } catch (e) { /* closes for this visit only */ }
+      });
+    }
+
+    showCookieNotice();
   </script>
 </body>
 </html>
