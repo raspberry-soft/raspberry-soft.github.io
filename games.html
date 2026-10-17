@@ -114,6 +114,10 @@
 
     .btn-download { background: var(--accent); color: #fff; flex: 1 1 0; min-width: 120px; padding: 0 16px; }
 
+    .btn-free { background: #fe2c6e; color: #fff; }
+
+    .btn-free:hover { background: #e40d5d; filter: none; }
+
     .btn-small {
       min-height: 34px;
       padding: 0 14px;
@@ -192,7 +196,8 @@
 
     .platforms svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; }
 
-    .unlock {
+    .unlock,
+    .play {
       padding: 18px 20px 22px;
       text-align: center;
       display: grid;
@@ -345,6 +350,23 @@
           <li data-platform="android">Android</li>
         </ul>
         <div class="unlock"></div>
+      </article>
+
+      <!-- Free versions: no data-game, so the Patreon script leaves them alone. -->
+      <article class="game">
+        <h2>Lustful Wife Aiko <span class="version">[EP1]</span></h2>
+        <img class="capsule" src="IMG/LWA/capsule_free.png" width="1024" height="576" alt="Lustful Wife Aiko" loading="lazy">
+        <div class="play">
+          <a class="btn btn-free" href="https://raspberrysoft.itch.io/lustful-wife-aiko" target="_blank" rel="noopener">Play for FREE</a>
+        </div>
+      </article>
+
+      <article class="game">
+        <h2>Indecent Wife Hana <span class="version">[v0.5]</span></h2>
+        <img class="capsule" src="IMG/IWH/capsule_free.png" width="1024" height="576" alt="Indecent Wife Hana" loading="lazy">
+        <div class="play">
+          <a class="btn btn-free" href="https://raspberrysoft.itch.io/indecent-wife-hana" target="_blank" rel="noopener">Play for FREE</a>
+        </div>
       </article>
 
     </main>
@@ -532,7 +554,7 @@
     }
 
     async function render() {
-      const cards = [...document.querySelectorAll(".game")];
+      const cards = [...document.querySelectorAll(".game[data-game]")];
 
       for (const card of cards) {
         for (const chip of card.querySelectorAll(".platforms li")) {
