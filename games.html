@@ -363,6 +363,11 @@
       <article class="game">
         <h2>Lustful Wife Aiko <span class="version">[EP1]</span></h2>
         <img class="capsule" src="IMG/LWA/capsule_free.png" width="1024" height="576" alt="Lustful Wife Aiko" loading="lazy">
+        <ul class="platforms">
+          <li data-platform="pc">PC</li>
+          <li data-platform="mac">Mac</li>
+          <li data-platform="android">Android</li>
+        </ul>
         <div class="play">
           <a class="btn btn-free" href="https://raspberrysoft.itch.io/lustful-wife-aiko" target="_blank" rel="noopener">Play for FREE</a>
         </div>
@@ -371,6 +376,11 @@
       <article class="game">
         <h2>Indecent Wife Hana <span class="version">[v0.5]</span></h2>
         <img class="capsule" src="IMG/IWH/capsule_free.png" width="1024" height="576" alt="Indecent Wife Hana" loading="lazy">
+        <ul class="platforms">
+          <li data-platform="pc">PC</li>
+          <li data-platform="mac">Mac</li>
+          <li data-platform="android">Android</li>
+        </ul>
         <div class="play">
           <a class="btn btn-free" href="https://raspberrysoft.itch.io/indecent-wife-hana" target="_blank" rel="noopener">Play for FREE</a>
         </div>
@@ -563,10 +573,8 @@
     async function render() {
       const cards = [...document.querySelectorAll(".game[data-game]")];
 
-      for (const card of cards) {
-        for (const chip of card.querySelectorAll(".platforms li")) {
-          if (!chip.querySelector("svg")) chip.insertAdjacentHTML("afterbegin", PLATFORM_ICONS[chip.dataset.platform] || "");
-        }
+      for (const chip of document.querySelectorAll(".platforms li")) {
+        if (!chip.querySelector("svg")) chip.insertAdjacentHTML("afterbegin", PLATFORM_ICONS[chip.dataset.platform] || "");
       }
 
       if (!currentPass) {
