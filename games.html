@@ -139,7 +139,9 @@
     }
 
     .steam h2 {
-      font-size: 38px;
+      /* 38px, shrinking with the screen so it stays on one line (the text is ~15.3em wide) */
+      font-size: min(38px, calc((100vw - 32px) / 16.3));
+      white-space: nowrap;
       line-height: 1.2;
       margin-bottom: 16px;
     }
@@ -310,7 +312,6 @@
     body.has-notice { padding-bottom: 96px; }
 
     @media (max-width: 480px) {
-      .steam h2 { font-size: 29px; }
       .game h2 { font-size: 19px; }
       .btn-download { flex-basis: 100%; }
       .account > .btn-patreon { min-height: 66px; padding: 0 30px; font-size: 21px; }
