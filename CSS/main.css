@@ -175,8 +175,9 @@ div#header {
 	width: 800px;
 	height: 116px;
 	clear: both;
-	background-image: url(../image/base/header.gif);
-	background-repeat: no-repeat;
+	background:
+		radial-gradient(70% 100% at 50% 0%, #430e24, transparent 70%),
+		#1b0811;
 	display: block;
 }
 
@@ -185,6 +186,7 @@ div#header {
 div#logo {
 	float: center;
 	margin: 0px 0px 0px 0px;
+	padding-top: 18px;
 }
 
 /*contentsarea*/
