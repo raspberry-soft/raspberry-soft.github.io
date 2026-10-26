@@ -135,7 +135,7 @@
     /* steam */
     .steam {
       text-align: center;
-      margin: 8px 0 28px;
+      margin: 8px 0;
     }
 
     .steam h2 {
@@ -338,11 +338,6 @@
       <p class="notice" id="notice" role="status"></p>
     </header>
 
-    <section class="steam">
-      <h2>Coming to Steam! Wishlist now!</h2>
-      <iframe src="https://store.steampowered.com/widget/2232830/?utm_source=raspberrysoft_website&utm_medium=embed" title="Indecent Wife Hana on Steam" loading="lazy"></iframe>
-    </section>
-
     <!--
       One <article> per game.
       data-game must match the game's key in WEB_GAMES in server.py (that's where the links live).
@@ -372,6 +367,11 @@
         </ul>
         <div class="unlock"></div>
       </article>
+
+      <section class="steam">
+        <h2>Coming to Steam! Wishlist now!</h2>
+        <iframe src="https://store.steampowered.com/widget/2232830/?utm_source=raspberrysoft_website&utm_medium=embed" title="Indecent Wife Hana on Steam" loading="lazy"></iframe>
+      </section>
 
       <article class="game" data-game="IWH" data-pledge="9.99" data-tier="Man of Culture" data-rid="8262904">
         <h2>Indecent Wife Hana <span class="version">[v0.46]</span></h2>
