@@ -352,7 +352,7 @@
     <main class="games">
 
       <article class="game" data-game="LWA" data-pledge="4.99" data-tier="Fan" data-rid="8229883">
-        <h2>Lustful Wife Aiko <span class="version">[EP8]</span></h2>
+        <h2>Lustful Wife Aiko <span class="version">[EP9]</span></h2>
         <img class="capsule" src="IMG/LWA/capsule.png" width="1024" height="576" alt="Lustful Wife Aiko">
         <ul class="platforms">
           <li data-platform="pc">PC</li>
@@ -637,6 +637,9 @@
       showAccountLoggedIn(result.data);
       for (const card of cards) {
         const game = (result.data.games || {})[card.dataset.game];
+        // Tiers below early access get an older build, so show the version they actually download.
+        const version = card.querySelector(".version");
+        if (game && game.version && version) version.textContent = `[${game.version}]`;
         if (game && game.unlocked) showUnlocked(card, game);
         else showLocked(card);
       }
