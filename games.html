@@ -536,7 +536,7 @@
         downloads.append(el("a", { class: "btn btn-download", href: url, target: "_blank", rel: "noopener noreferrer" }, `${PLATFORM_LABELS[platform]} Download`));
       }
 
-      const parts = [el("p", { class: "unlocked" }, "✓ Unlocked"), downloads];
+      const parts = [el("p", { class: "unlocked" }, "✓ Unlocked")];
 
       if (game.password) {
         const row = el("p", { class: "password" }, "Password: ");
@@ -554,6 +554,7 @@
         parts.push(row);
       }
 
+      parts.push(downloads);
       box.replaceChildren(...parts);
     }
 
